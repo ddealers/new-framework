@@ -1,0 +1,152 @@
+div#U4A
+	script.
+		unitans.U4A = {
+			q1a:'d',
+			q1b:'e',
+			q1c:'h',
+			q1d:'g',
+			q1e:'b',
+			q1f:'a',
+			q1g:'c',
+			q1h:'f',
+			q2a:'go sightseeing',
+			q2b:'go cycling',
+			q2c:'go skiing',
+			q2d:'go walking',
+			q2e:'go skating',
+			q2f:'go climbing',
+			q2g:'go swimming',
+			q2h:'go hiking'
+		}
+	form#t1
+		img.logo1(src='img/t-u4.jpg')
+		p.titulo
+			span Go + -ing
+		p
+			b.instrucciones 1. Verbs with go + ...ing. Match these verbs to the pictures.
+		p
+			table.cuadro(cellpadding='2', cellspacing='0')
+				tr
+					td
+					td(width='40')
+					td
+					td(width='40')
+					td(rowspan='9')
+						img(src='img/u4-a.jpg')
+				tr
+					td go for a walk
+					td
+					td
+						input(type='text', name='q1a', size='3')
+					td
+				tr
+					td go hiking
+					td
+					td
+						input(type='text', name='q1b', size='3')
+					td
+				tr
+					td go climbing
+					td
+					td
+						input(type='text', name='q1c', size='3')
+					td
+				tr
+					td go sightseeing
+					td
+					td
+						input(type='text', name='q1d', size='3')
+					td
+				tr
+					td go skiing
+					td
+					td
+						input(type='text', name='q1e', size='3')
+					td
+				tr
+					td go swimming
+					td
+					td
+						input(type='text', name='q1f', size='3')
+					td
+				tr
+					td go cycling
+					td
+					td
+						input(type='text', name='q1g', size='3')
+					td
+				tr
+					td go skating
+					td
+					td
+						input(type='text', name='q1h', size='3')
+					td
+		p
+			center
+				button.eval(data-target='t1', data-draw='z1') Check answers
+	form#t2
+		p
+			b.instrucciones 2. Type a verb from exercise 1 into each sentence.
+		p
+			table.cuadro(cellpadding='2', cellspacing='0')
+				tr
+					td 1.
+					td
+						| When we go to Berlin next month we plan to
+						input(type='text', name='q2a', size='12')
+						| every daywe hope to
+				tr
+					td
+					td
+						| visit the Brandenburg Gate, Checkpoint Charlie and lots of other famous monuments.
+				tr
+					td 2.
+					td
+						| I can't
+						input(type='text', name='q2b', size='12')
+						| with you tomorrow because my bicycle is broken.
+				tr
+					td 3.
+					td
+						| Jack and Jill usually
+						input(type='text', name='q2c', size='12')
+						| in the Swiss Alps because there is snow all year
+				tr
+					td
+					td there.
+				tr
+					td 4.
+					td
+						| She needed some fresh air, so she decided to
+						input(type='text', name='q2d', size='12')
+						| in the park.
+				tr
+					td 5.
+					td
+						| People in Norway often
+						input(type='text', name='q2e', size='12')
+						| on frozen rivers in the winter.
+				tr
+					td 6.
+					td
+						| We couldn't
+						input(type='text', name='q2f', size='12')
+						| in the Himalayas last vacation because it was too
+				tr
+					td
+					td dangerous.
+				tr
+					td 7.
+					td
+						| I never
+						input(type='text', name='q2g', size='12')
+						| in the winter because the water is too cold.
+				tr
+					td 8.
+					td
+						| Once a week Sue and her friends
+						input(type='text', name='q2h', size='12')
+						| in the woods for a day.
+		button.eval(data-target='t2', data-draw='z2') Check answers
+	#z1
+	#z2

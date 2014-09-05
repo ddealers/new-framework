@@ -1,0 +1,282 @@
+div#U5A
+	script.
+		unitans.U5A = {
+			q1a:'can\'t',
+			q1b:'can',
+			q1c:'can',
+			q1d:'can\'t',
+			q1e:'can\'t',
+			q1f:'can',
+			q1g:'can\'t',
+			q1h:'can',
+			q1i:'can',
+			q1j:'can\'t',
+			q1k:'can',
+			q1l:'can',
+			q1m:'can\'t',
+			q1n:'can',
+			q1o:'can\'t',
+			q1p:'can',
+			q1q:'can',
+			q1r:'can\'t',
+			q2a:'Can kiwis fly',
+			q2b:'Can frogs lay eggs',
+			q2c:'Can bats swim',
+			q2d:'Can computers fall in love',
+			q2e:'Can the kakapo climb trees',
+			q2f:'Can most dogs swim',
+			q2g:'Can some animals lay eggs',
+			q2h:'Can the seal run fast',
+			q3a:'No, they can\'t',
+			q3b:'Yes, it can',
+			q3c:'No, they can\'t',
+			q3d:'No, they can\'t',
+			q3e:'Yes, it can',
+			q3f:'Yes, they can',
+			q3g:'Yes, they can',
+			q3h:'No, it can\'t'
+		}
+	form#t1
+		img.logo1(src='img/t-u5.jpg')
+		p.titdorado
+			span Can / Can't
+		p
+			table.rojo(cellpadding='2', cellspacing='1')
+				tr
+					td(width='30')
+					td
+						img(src='img/bullet.gif')
+					td
+						span
+							| The kakapo
+							b can't
+							| fly, but it
+							b can
+							| climb trees.
+		p
+			b.instrucciones 1. Complete these sentences by writing can or can't in the correct place. 
+		p.letra
+			b 1
+			| Penguins
+			sub 1
+			input(type='text', name='q1a', size='6')
+			| fly, but they
+			sub 2
+			input(type='text', name='q1b', size='6')
+			| swim.
+			br
+			br
+			b 2
+			| Ostriches
+			sub 3
+			input(type='text', name='q1c', size='6')
+			| run fast, but they
+			sub 4
+			input(type='text', name='q1d', size='6')
+			| fly.
+			br
+			br
+			b 3
+			| Seals
+			sub 5
+			input(type='text', name='q1e', size='6')
+			| run fast, but they
+			sub 6
+			input(type='text', name='q1f', size='6')
+			| swim.
+			br
+			br
+			b 4
+			| Bats
+			sub 7
+			input(type='text', name='q1g', size='6')
+			| see, but they
+			sub 8
+			input(type='text', name='q1h', size='6')
+			| hear.
+			br
+			br
+			b 5
+			| Bats
+			sub 9
+			input(type='text', name='q1i', size='6')
+			| fly, but they
+			sub 10
+			input(type='text', name='q1j', size='6')
+			| swim.
+			br
+			br
+			b 6
+			| Most frogs
+			sub 11
+			input(type='text', name='q1k', size='6')
+			| jump and they
+			sub 12
+			input(type='text', name='q1l', size='6')
+			| swim, but they
+			sub 13
+			input(type='text', name='q1m', size='6')
+			| fly.
+			br
+			br
+			b 7
+			| Some parrots
+			sub 14
+			input(type='text', name='q1n', size='6')
+			| talk, but they
+			sub 15
+			input(type='text', name='q1o', size='6')
+			| write.
+			br
+			br
+			b 8
+			| Computers
+			sub 16
+			input(type='text', name='q1p', size='6')
+			| talk, write, and they
+			sub 17
+			input(type='text', name='q1q', size='6')
+			| play chess, but they
+			sub 18
+			input(type='text', name='q1r', size='6')
+			| fall in love.
+			br
+			br
+		p
+			center
+				button.eval(data-target='t1', data='draw') Check answers
+	form#t2
+		p
+			b.instrucciones 2. Write in the correct order the sentences to make questions.
+		p
+			table.cuadro(cellpadding='2', cellspacing='1')
+				tr.letra
+					td(width='15') 1.
+					td kiwis Can fly?
+					td
+						input(type='text', name='q2a', size='28')
+						| ?
+				tr.letra
+					td(width='15') 2.
+					td frogs lay Can eggs?
+					td
+						input(type='text', name='q2b', size='28')
+						| ?
+				tr.letra
+					td(width='15') 3.
+					td bats Can swim?
+					td
+						input(type='text', name='q2c', size='28')
+						| ?
+				tr.letra
+					td(width='15') 4.
+					td in Can computers love fall?
+					td
+						input(type='text', name='q2d', size='28')
+						| ?
+				tr.letra
+					td(width='15') 5.
+					td trees kakapo Can climb the?
+					td
+						input(type='text', name='q2e', size='28')
+						| ?
+				tr.letra
+					td(width='15') 6.
+					td most Can dogs swim?
+					td
+						input(type='text', name='q2f', size='28')
+						| ?
+				tr.letra
+					td(width='15') 7.
+					td Can animals eggs some lay?
+					td
+						input(type='text', name='q2g', size='28')
+						| ?
+				tr.letra
+					td(width='15') 8.
+					td seal fast Can run the?
+					td
+						input(type='text', name='q2h', size='28')
+						| ?
+		p
+			center
+				button.eval(data-target='t2', data='draw') Check answers
+	form#t3
+		p
+			b.instrucciones 3. Write answers to the questions in exercise 2.
+		p
+			table(cellpadding='2', cellspacing='1')
+				tr.rojo
+					td(width='30')
+					td
+						img(src='img/bullet.gif')
+					td
+						span#rd
+							b Can
+							| kakapos fly? No, they
+							b can't
+							| .
+				tr.rojo
+					td(width='30')
+					td
+						img(src='img/bullet.gif')
+					td
+						span#rd
+							b Can
+							| they climb trees? Yes, they
+							b can
+							| .
+		p
+			table.cuadro(cellpadding='2', cellspacing='1')
+				tr
+					td(width='15') 1
+					td Can kiwis fly?
+					td
+						input(type='text', name='q3a', size='13')
+						| .
+				tr
+					td(width='15') 2
+					td Can the frog lay eggs?
+					td
+						input(type='text', name='q3b', size='13')
+						| .
+				tr
+					td(width='15') 3
+					td Can bats swim?
+					td
+						input(type='text', name='q3c', size='13')
+						| .
+				tr
+					td(width='15') 4
+					td Can computers fall in love?
+					td
+						input(type='text', name='q3d', size='13')
+						| .
+				tr
+					td(width='15') 5
+					td Can the kakapo climb trees?
+					td
+						input(type='text', name='q3e', size='13')
+						| .
+				tr
+					td(width='15') 6
+					td Can most dogs swim?
+					td
+						input(type='text', name='q3f', size='13')
+						| .
+				tr
+					td(width='15') 7
+					td Can some animals lay eggs?
+					td
+						input(type='text', name='q3g', size='13')
+						| .
+				tr
+					td(width='15') 8
+					td Can the seal run fast?
+					td
+						input(type='text', name='q3h', size='13')
+						| .
+		button.eval(data-target='t3', data='draw') Check answers
+	#z1
+	#z2
+	#z3

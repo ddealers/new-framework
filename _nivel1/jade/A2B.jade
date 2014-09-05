@@ -1,0 +1,177 @@
+div#A2B
+	script.
+		unitans.A2B = {
+			q1a:2,
+			q1b:1,
+			q1c:1,
+			q1d:2,
+			q1e:2,
+			q1f:2,
+			q1g:1,
+			q1h:2,
+			q1i:2,
+			q1j:1,
+			q2a:'Teacher',
+			q2b:'Doctor',
+			q2c:'Taxi Driver',
+			q2d:'Salesperson',
+			q2e:'Pilot',
+			q2f:'Waiter'
+		}
+	form#t1
+		img.logo1(src='img/t-u2.jpg')
+		p.titulo
+			span Jobs and occupations 
+		b.instrucciones 1. What are these jobs? Put the letters in order.
+		p
+			table.cuadro(cellpadding='0', cellspacing='4')
+			tr
+				td
+					img(src='img/u2-b1.jpg')
+				td
+					img(src='img/u2-b2.jpg')
+				td
+					img(src='img/u2-b3.jpg')
+				td
+					img(src='img/u2-b4.jpg')
+			tr
+				td
+					select(name='q1a')
+						option(value='0')
+							| Choose Answer
+						option(value='1')
+							| Doctor
+						option(value='2')
+							| Teacher
+			td
+			select(name='q1b')
+				option(value='0')
+				| Choose Answer
+				option(value='1')
+					| Pilot
+					option(value='2')
+					| Police officer
+			td
+			select(name='q1c')
+				option(value='0')
+				| Choose Answer
+				option(value='1')
+					| Doctor
+					option(value='2')
+					| Salesperson
+			td
+			select(name='q1d')
+				option(value='0')
+				| Choose Answer
+				option(value='1')
+					| Doctor
+					option(value='2')
+					| Secretary
+			td
+	table.cuadro(cellpadding='0', cellspacing='4')
+		tr
+		td
+			img(src='img/u2-b5.jpg')
+		td
+			img(src='img/u2-b6.jpg')
+		td
+			img(src='img/u2-b7.jpg')
+		td
+			img(src='img/u2-b8.jpg')
+		tr
+		td
+			select(name='q1e')
+			option(value='0')
+				| Choose Answer
+				option(value='1')
+				| Secretary
+				option(value='2')
+					| Salesperson
+		td
+			select(name='q1f')
+			option(value='0')
+				| Choose Answer
+				option(value='1')
+				| Taxi driver
+				option(value='2')
+					| Police officer
+		td
+			select(name='q1g')
+			option(value='0')
+				| Choose Answer
+				option(value='1')
+				| Taxi driver
+				option(value='2')
+					| Businessman
+		td
+			select(name='q1h')
+			option(value='0')
+				| Choose Answer
+				option(value='1')
+				| Doctor
+				option(value='2')
+					| Astronaut
+		td
+	p
+		center
+		table.cuadro(cellpadding='0', cellspacing='4')
+			tr
+			td
+				img(src='img/u2-b9.jpg')
+			td
+				img(src='img/u2-b10.jpg')
+			tr
+			td
+				select(name='q1i')
+				option(value='0')
+					| Choose Answer
+					option(value='1')
+					| Astronaut
+					option(value='2')
+						| Businessman
+			td
+				select(name='q1j')
+				option(value='0')
+					| Choose Answer
+					option(value='1')
+					| Waiter
+					option(value='2')
+						| Taxi driver
+			td
+	button.eval(data-target='t1', data-draw='z1') Check answers
+	form#t2
+	p
+		b.instrucciones 2. Read the description. What is the job?
+	table.cuadro(cellpadding='2', cellspacing='0')
+		tr
+		td(bgcolor='#ffcc99', width='340', align='center')
+			b Description
+		td(bgcolor='#ffcc99', align='center')
+			b Your Answer
+		tr
+		td(bgcolor='#ffcc99') 1. This person works in a school.
+		td(bgcolor='#ffcc99', width='130', align='center')
+			input(type='text', name='q2a', size='12')
+		tr
+		td(bgcolor='#ffcc99') 2. In this job you help people who are ill.
+		td(bgcolor='#ffcc99', width='130', align='center')
+			input(type='text', name='q2b', size='12')
+		tr
+		td(bgcolor='#ffcc99') 3. To do this job you need to have a car.
+		td(bgcolor='#ffcc99', width='130', align='center')
+			input(type='text', name='q2c', size='12')
+		tr
+		td(bgcolor='#ffcc99') 4. In this job you sell things to people.
+		td(bgcolor='#ffcc99', width='130', align='center')
+			input(type='text', name='q2d', size='12')
+		tr
+		td(bgcolor='#ffcc99') 5. If you do this job you spend a lot of time on a plane.
+		td(bgcolor='#ffcc99', width='130', align='center')
+			input(type='text', name='q2e', size='12')
+		tr
+		td(bgcolor='#ffcc99') 6. In this job you work in a cafe or restaurant.
+		td(bgcolor='#ffcc99', width='130', align='center')
+			input(type='text', name='q2f', size='12')
+	button.eval(data-target='t2', data-draw='z2') Check answers
+	#z1
+	#z2

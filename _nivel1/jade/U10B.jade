@@ -1,0 +1,221 @@
+div#U10B
+	script.
+		unitans.U10B = {
+			q1a:'2',
+			q2a:'3',
+			q3a:'1',
+			q3b:'1',
+			q3c:'0',
+			q3d:'0',
+			q3e:'1',
+			q3f:'1',
+			q3g:'1',
+			q3h:'0'
+		}
+	form#t1.letra
+		img.logo(src='img/t-u10.jpg')
+		p.titulo
+			span Reading: Sydney
+		b.instrucciones 1. Read the description of Sydney. Then choose the best poster of Sydney.
+		p
+			center
+				table.letra(cellpadding='0', cellspacing='0')
+					tr
+						td.enca
+							span Sydney - Waves and immigrants
+						td
+		b.letra Introduction
+		br
+		| Sydney is Australia's most famous city and although many people think it is the capital of Australia, it is only the capital of the state
+		| of New South Wales. It is, however, the biggest and oldest city in Australia.
+		p.letra
+			b History
+			br
+			| In little more than two hundred years Sydney has grown to become the most multicultural city in Australia with a population of more
+			| than four million. The first
+			a(href='#', onclick='window.open(\'templates/U10B-T2.html\',\'_blank\',\'width=400,height=530\');') wave
+			| of
+			a(href='#', onclick='window.open(\'templates/U10B-T1.html\',\'_blank\',\'width=400,height=530\');') immigrants
+			| came to Australia from
+			| Europe, then in the
+			a(href='#', onclick='window.open(\'templates/U10B-T2.html\',\'_blank\',\'width=400,height=530\');') seventies 
+			| immigration was mostly from Asia. Now Australia has a mixed culture with one thing in common: its children are all one hundred
+			| percent Australian. Sydney has absorbed this mixture of cultures and Thai, Japanese, Korean, Chinese, Greek, Italian or Mexican
+			| food is on the menu.
+		b.letra Lifestyle
+		br
+		| The climate, with almost eight months of good weather, makes Sydney the perfect city for an
+		a(href='#', onclick='window.open(\'templates/U10B-T2.html\',\'_blank\',\'width=400,height=530\');') outdoor
+		| life. What's more, the city
+		| has more than thirty beaches along the sixty kilometers of its coast. In Sydney
+		a(href='#', onclick='window.open(\'templates/U10B-T1.html\',\'_blank\',\'width=400,height=530\');') harbor
+		| , one of the world's most
+		| spectacular
+		a(href='#', onclick='window.open(\'templates/U10B-T1.html\',\'_blank\',\'width=400,height=530\');') bays
+		| , you can find
+		| The Sydney Opera House, Australia's most
+		a(href='#', onclick='window.open(\'templates/U10B-T2.html\',\'_blank\',\'width=400,height=530\');') well known
+		| building. Passing by the
+		| Opera House is a constant
+		a(href='#', onclick='window.open(\'templates/U10B-T2.html\',\'_blank\',\'width=400,height=530\');') parade
+		| of small boats,
+		a(href='#', onclick='window.open(\'templates/U10B-T2.html\',\'_blank\',\'width=400,height=530\');') yachts
+		| ,
+		a(href='#', onclick='window.open(\'templates/U10B-T1.html\',\'_blank\',\'width=400,height=530\');') ferries
+		| and enormous cruise ships.
+		p.letra
+			a(href='#', onclick='window.open(\'templates/U10B-T2.html\',\'_blank\',\'width=400,height=530\');') Shorts
+			| and sandals are the most
+			| popular clothes to wear for Sydney's
+			a(href='#', onclick='window.open(\'templates/U10B-T1.html\',\'_blank\',\'width=400,height=530\');')
+				| inhabitants
+			| , and beer, of course, is the most popular drink. Christmas is celebrated in the sun, with a swim and a
+			a(href='#', onclick='window.open(\'templates/U10B-T1.html\',\'_blank\',\'width=400,height=530\');') barbecue
+			| . In Sydney a Californian
+			| lifestyle has been combined with European influences in its cafés, movie theaters, theaters and concerts.
+		b.letra Future
+		br
+		| In a short time Sydney has come a long way. The 2000 Olympic Games has put Sydney even more in the
+		a(href='#', onclick='window.open(\'templates/U10B-T2.html\',\'_blank\',\'width=400,height=530\');') spotlight
+		| . Sydney is a city
+		| looking toward the future.
+		p
+			br
+			b(lass='letra') Now choose the best poster of Sydney.
+		table.cuadro(cellpadding='2', cellspacing='0')
+			tr
+				td(align='center')
+					input(type='radio', name='q1a', value='1')
+					b this one
+				td(align='center')
+					input(type='radio', name='q1a', value='2')
+					b this one
+				td(align='center')
+					input(type='radio', name='q1a', value='3')
+					b this one
+			tr
+				td
+					img(src='img/u10-a.jpg')
+				td
+					img(src='img/u10-b.jpg')
+				td
+					img(src='img/u10-c.jpg')
+		p
+			center
+				button.eval(data-target='t1', data-draw='z1') Check answers
+	form#t2
+		b.instrucciones 2. Where did the description in the text come from?
+		p
+			table.cuadro(cellpadding='2', cellspacing='0')
+				tr
+					td(width='50')
+					td
+						input(type='radio', name='q2a', value='1')
+					td an encyclopeadia
+				tr
+					td
+					td
+						input(type='radio', name='q2a', value='2')
+					td a scientific magazine
+				tr
+					td
+					td
+						input(type='radio', name='q2a', value='3')
+					td a travel guide
+				tr
+					td
+					td
+						input(type='radio', name='q2a', value='4')
+					td a news report
+			p
+				center
+					button.eval(data-target='t2', data-draw='z2') Check answers
+	form#t3.letra
+		b.instrucciones 3. Are these sentences true or false? 
+		p
+			table(cellpadding='2', cellspacing='0')
+				tr
+					td 1
+					td Sydney is a state capital but not the national capital.
+				tr
+					td
+					td
+						input(type='radio', name='q3a', value='1')
+						| true
+						input(type='radio', name='q3a', value='0')
+						| false
+				tr
+					td 2
+					td Sydney is the oldest city in Australia.
+				tr
+					td
+					td
+						input(type='radio', name='q3b', value='1')
+						| true
+						input(type='radio', name='q3b', value='0')
+						| false
+				tr
+					td 3
+					td Canberra, the national capital, is bigger than Sydney.
+				tr
+					td
+					td
+						input(type='radio', name='q3c', value='1')
+						| true
+						input(type='radio', name='q3c', value='0')
+						| false
+				tr
+					td 4
+					td There are exactly four million people living in Sydney.
+				tr
+					td
+					td
+						input(type='radio', name='q3d', value='1')
+						| true
+						input(type='radio', name='q3d', value='0')
+						| false
+				tr
+					td 5
+					td Sydney is on the coast.
+				tr
+					td
+					td
+						input(type='radio', name='q3e', value='1')
+						| true
+						input(type='radio', name='q3e', value='0')
+						| false
+				tr
+					td 6
+					td Sydney has a warm climate.
+				tr
+					td
+					td
+						input(type='radio', name='q3f', value='1')
+						| true
+						input(type='radio', name='q3f', value='0')
+						| false
+				tr
+					td 7
+					td At Christmas it is hot in Sydney.
+				tr
+					td
+					td
+						input(type='radio', name='q3g', value='1')
+						| true
+						input(type='radio', name='q3g', value='0')
+						| false
+				tr
+					td 8
+					td The lifestyle in Sydney is Californian, not European.
+				tr
+					td
+					td
+						input(type='radio', name='q3h', value='1')
+						| true
+						input(type='radio', name='q3h', value='0')
+						| false
+		center
+			button.eval(data-target='t3', data-draw='z3') Check answers
+	#z1
+	#z2
+	#z3

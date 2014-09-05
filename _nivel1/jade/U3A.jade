@@ -1,0 +1,190 @@
+div#U3A
+	script.
+		unitans.U3A = {
+			q2a:'Living Room',
+			q2b:'Armchair',
+			q2c:'Bookcase',
+			q2d:'Coffee Table',
+			q2e:'Sofa',
+			q2f:'Fireplace',
+			q3a:'Bedroom',
+			q3b:'Bed',
+			q3c:'Bedside Table',
+			q3d:'Chair',
+			q3e:'Desk',
+			q3f:'Closet',
+			q4a:'Kitchen',
+			q4b:'Sink',
+			q4c:'Cupboard',
+			q4d:'Fridge',
+			q4e:'Oven',
+			q5a:'Bathroom',
+			q5b:'Bath',
+			q5c:'Toilet',
+			q5d:'Shower',
+		}
+	img.logo1(src='img/t-u3.jpg')
+	p.titdorado
+		span Rooms and furniture
+	p.instrucciones
+		b
+			| 1. How much do you know? Write down different rooms and items of furniture in a house.
+		br
+		table(cellpadding='0', cellspacing='0')
+			tr
+				td(width='50')
+				td
+					img.hoja(src='img/u3-a.jpg')
+	p.instrucciones
+		b
+			| Compare your list with some suggested answers. How many of these words do you have on your list?
+	p
+		center
+			table.cuadro(cellpadding='0', cellspacing='0')
+				tr
+					td
+						a(href='#', onclick='window.open(\'./templates/U3At.html\',\'_blank\',\'width=500,height=300\');')
+							b see answers
+	form#t2.zero
+		p.instrucciones
+			b
+				| 2. Can you label these pictures of a house? For each picture, write the words to the correct place number.
+		p
+			table.cuadro(cellpadding='0', cellspacing='0')
+				tr
+					td(bgcolor='98c4dd') ROOM:
+					td(bgcolor='98c4dd')
+						input(type='text', name='q2a', size='15')
+					td(width='50', bgcolor='98c4dd')
+					td(rowspan='6', bgcolor='98c4dd')
+						img(src='img/u3-a1.jpg')
+				tr
+					td(bgcolor='98c4dd', align='right') 1
+					td(bgcolor='98c4dd')
+						input(type='text', name='q2b', size='15')
+					td(bgcolor='98c4dd')
+				tr
+					td(bgcolor='98c4dd', align='right') 2
+					td(bgcolor='98c4dd')
+						input(type='text', name='q2c', size='15')
+					td(bgcolor='98c4dd')
+				tr
+					td(bgcolor='98c4dd', align='right') 3
+					td(bgcolor='98c4dd')
+						input(type='text', name='q2d', size='15')
+					td(bgcolor='98c4dd')
+				tr
+					td(bgcolor='98c4dd', align='right') 4
+					td(bgcolor='98c4dd')
+						input(type='text', name='q2e', size='15')
+					td(bgcolor='98c4dd')
+				tr
+					td(bgcolor='98c4dd', align='right') 5
+					td(bgcolor='98c4dd')
+						input(type='text', name='q2f', size='15')
+					td(bgcolor='98c4dd')
+		p
+			center
+				button.eval(data-target='t2', data-draw='z2') Check answers
+	form#t3.zero
+		p
+			table.cuadro(cellpadding='0', cellspacing='0')
+				tr
+					td(bgcolor='98c4dd') ROOM:
+					td(bgcolor='98c4dd')
+						input(type='text', name='q3a', size='15')
+					td(width='50', bgcolor='98c4dd')
+					td(rowspan='6', bgcolor='98c4dd')
+						img(src='img/u3-a2.jpg')
+				tr
+					td(bgcolor='98c4dd', align='right') 1
+					td(bgcolor='98c4dd')
+						input(type='text', name='q3b', size='15')
+					td(bgcolor='98c4dd')
+				tr
+					td(bgcolor='98c4dd', align='right') 2
+					td(bgcolor='98c4dd')
+						input(type='text', name='q3c', size='15')
+					td(bgcolor='98c4dd')
+				tr
+					td(bgcolor='98c4dd', align='right') 3
+					td(bgcolor='98c4dd')
+						input(type='text', name='q3d', size='15')
+					td(bgcolor='98c4dd')
+				tr
+					td(bgcolor='98c4dd', align='right') 4
+					td(bgcolor='98c4dd')
+						input(type='text', name='q3e', size='15')
+					td(bgcolor='98c4dd')
+				tr
+					td(bgcolor='98c4dd', align='right') 5
+					td(bgcolor='98c4dd')
+						input(type='text', name='q3f', size='15')
+					td(bgcolor='98c4dd')
+		p
+			center
+				button.eval(data-target='t3', data-draw='z3') Check answers
+	form#t4.zero
+		p
+			table.cuadro(cellpadding='0', cellspacing='0')
+				tr
+					td(bgcolor='98c4dd') ROOM:
+					td(bgcolor='98c4dd')
+						input(type='text', name='q4a', size='15')
+					td(width='50', bgcolor='98c4dd')
+					td(rowspan='6', bgcolor='98c4dd')
+						img(src='img/u3-a3.jpg')
+				tr
+					td(bgcolor='98c4dd', align='right') 1
+					td(bgcolor='98c4dd')
+						input(type='text', name='q4b', size='15')
+					td(bgcolor='98c4dd')
+				tr
+					td(bgcolor='98c4dd', align='right') 2
+					td(bgcolor='98c4dd')
+						input(type='text', name='q4c', size='15')
+					td(bgcolor='98c4dd')
+				tr
+					td(bgcolor='98c4dd', align='right') 3
+					td(bgcolor='98c4dd')
+						input(type='text', name='q4d', size='15')
+					td(bgcolor='98c4dd')
+				tr
+					td(bgcolor='98c4dd', align='right') 4
+					td(bgcolor='98c4dd')
+						input(type='text', name='q4e', size='15')
+					td(bgcolor='98c4dd')
+		p
+			center
+				button.eval(data-target='t4', data-draw='z4') Check answers
+	form#t5.zero
+		p
+			table.cuadro(cellpadding='0', cellspacing='0')
+				tr
+					td(bgcolor='98c4dd') ROOM:
+					td(bgcolor='98c4dd')
+						input(type='text', name='q5a', size='15')
+					td(width='50', bgcolor='98c4dd')
+					td(rowspan='6', bgcolor='98c4dd')
+						img(src='img/u3-a4.jpg')
+				tr
+					td(bgcolor='98c4dd', align='right') 1
+					td(bgcolor='98c4dd')
+						input(type='text', name='q5b', size='15')
+					td(bgcolor='98c4dd')
+				tr
+					td(bgcolor='98c4dd', align='right') 2
+					td(bgcolor='98c4dd')
+						input(type='text', name='q5c', size='15')
+					td(bgcolor='98c4dd')
+				tr
+					td(bgcolor='98c4dd', align='right') 3
+					td(bgcolor='98c4dd')
+						input(type='text', name='q5d', size='15')
+					td(bgcolor='98c4dd')
+		button.eval(data-target='t5', data-draw='z5') Check answers
+	#z1
+	#z2
+	#z3
+	#z4
+	#z5

@@ -1,0 +1,184 @@
+div#U4C
+	script.
+		unitans.U4C = {
+			q1a:'b',
+			q1b:'j',
+			q1c:'g',
+			q1d:'f',
+			q1e:'h',
+			q1f:'e',
+			q1g:'a',
+			q1h:'d',
+			q1i:'i',
+			q1j:'c',
+			q2a:'go sightseeing',
+			q2b:'sunbathe',
+			q2c:'go swimming',
+			q2d:'go shopping',
+			q2e:'play cards',
+			q2f:'sleep in',
+			q2g:'eat out',
+			q2h:'go out',
+			q2i:'go hiking',
+			q2j:'play tennis'
+		}
+	form#t1
+		img.logo1(src='img/t-u4.jpg')
+		p.titulo
+			span Vacation activities 
+		p
+			b.instrucciones 1. Match the activities to the correct pictures below.
+		p
+			table.cuadro(cellpadding='0', cellspacing='4')
+				tr
+					td
+					td(width='40')
+					td
+					td(width='40')
+					td(rowspan='11')
+						img(src='img/u4-c1.jpg')
+						img(src='img/u4-c2.jpg')
+				tr.letra
+					td go sightseeing
+					td
+					td
+						input(type='text', name='q1a', size='3')
+					td
+				tr.letra
+					td sunbathe
+					td
+					td
+						input(type='text', name='q1b', size='3')
+					td
+				tr.letra
+					td go swimming
+					td
+					td
+						input(type='text', name='q1c', size='3')
+					td
+				tr.letra
+					td go shopping
+					td
+					td
+						input(type='text', name='q1d', size='3')
+					td
+				tr.letra
+					td play cards
+					td
+					td
+						input(type='text', name='q1e', size='3')
+					td
+				tr.letra
+					td sleep in
+					td
+					td
+						input(type='text', name='q1f', size='3')
+					td
+				tr.letra
+					td eat out
+					td
+					td
+						input(type='text', name='q1g', size='3')
+					td
+				tr.letra
+					td go out
+					td
+					td
+						input(type='text', name='q1h', size='3')
+					td
+				tr.letra
+					td go hiking
+					td
+					td
+						input(type='text', name='q1i', size='3')
+					td
+				tr.letra
+					td play tennis
+					td
+					td
+						input(type='text', name='q1j', size='3')
+					td
+		p
+			center
+				button.eval(data-target='t1', data-draw='z1') Check answers
+	form#t2
+		p
+			b.instrucciones
+				| 2. Now look again at the pictures. Can you write the name of the activity in the box?
+		p
+			table.cuadro(cellpadding='0', cellspacing='4')
+				tr.letra
+					td(align='center')
+						b Picture
+					td(width='10')
+					td(align='center')
+						b Name of Activity
+					td(width='10')
+					td(align='center')
+						b Picture
+					td(width='20')
+					td(align='center')
+						b Name of Activity
+				tr.letra
+					td
+						img(src='img/u4-c3.jpg')
+					td
+					td
+						input(type='text', name='q2a', size='20')
+					td(width='30')
+					td
+						img(src='img/u4-c8.jpg')
+					td
+					td
+						input(type='text', name='q2f', size='20')
+				tr.letra
+					td
+						img(src='img/u4-c4.jpg')
+					td
+					td
+						input(type='text', name='q2b', size='20')
+					td
+					td
+						img(src='img/u4-c9.jpg')
+					td
+					td
+						input(type='text', name='q2g', size='20')
+				tr.letra
+					td
+						img(src='img/u4-c5.jpg')
+					td
+					td
+						input(type='text', name='q2c', size='20')
+					td
+					td
+						img(src='img/u4-c10.jpg')
+					td
+					td
+						input(type='text', name='q2h', size='20')
+				tr.letra
+					td
+						img(src='img/u4-c6.jpg')
+					td
+					td
+						input(type='text', name='q2d', size='20')
+					td
+					td
+						img(src='img/u4-c11.jpg')
+					td
+					td
+						input(type='text', name='q2i', size='20')
+				tr.letra
+					td
+						img(src='img/u4-c7.jpg')
+					td
+					td
+						input(type='text', name='q2e', size='20')
+					td
+					td
+						img(src='img/u4-c12.jpg')
+					td
+					td
+						input(type='text', name='q2j', size='20')
+		button.eval(data-target='t2', data-draw='z2') Check answers
+	#z1
+	#z2

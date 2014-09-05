@@ -1,0 +1,250 @@
+div#U7A
+	script.
+		unitans.U7A = {
+			q1a:'4',
+			q1b:'2',
+			q1c:'1',
+			q1d:'3',
+			q2a:'2',
+			q3a:'1',
+			q3b:'3',
+			q3c:'2',
+			q3d:'1',
+			q3e:'3',
+			q3f:'1',
+			q3g:'2',
+			q3h:'1'
+		}
+	form#t1
+		img.logo(src='img/t-u7.jpg')
+		p.titdorado
+			span Adverbs of frequency
+		p
+			b.instrucciones 1. Look at these two sentences.
+		p
+			table.cuadro(cellpadding='0', cellspacing='4')
+				tr
+					td(width='30')
+					td
+						//
+							<img src="img/bullet.gif">
+					td
+						span.rojo
+							| We
+							b usually
+							| wear loose, casual clothes like T-shirts and shorts.
+				tr
+					td(width='30')
+					td
+						//
+							<img src="img/bullet.gif"></td>
+						td
+							span.rojo
+								| We
+								b never
+								| take a shower because there isn't a shower on the space craft.
+		p.letra
+			span.rojo Usually
+			| and
+			span.rojo never
+			| are adverbs of frequency. They tell us how often an action happens.
+		p.letra
+			| Click and choose the adverbs of frequency to the correct place on the line below.
+			span.rojo Never
+			| and
+			span.rojo usually
+			| have been done for you as examples.
+		p
+			center
+				table.cuadro(cellpadding='0', cellspacing='4')
+					tr
+						td
+							| 0%
+							img(src='img/ln.jpg', width='250', height='1')
+							| 100%
+		p
+			table.cuadro(cellpadding='0', cellspacing='4')
+				tr.letra
+					td
+						span#bl
+							| never
+							select(name='q1a')
+								option(value='0')
+									| Choose
+									option(value='1')
+										| often
+										option(value='2')
+											| sometimes
+											option(value='3')
+												| always
+												option(value='4') hardly ever
+					td
+						select(name='q1b')
+							option(value='0')
+								| Choose
+								option(value='1')
+									| often
+									option(value='2')
+										| sometimes
+										option(value='3')
+											| always
+											option(value='4') hardly ever
+					td
+						select(name='q1c')
+							option(value='0')
+								| Choose
+								option(value='1')
+									| often
+									option(value='2')
+										| sometimes
+										option(value='3')
+											| always
+											option(value='4') hardly ever
+					td
+						| usually
+						select(name='q1d')
+							option(value='0')
+								| Choose
+								option(value='1')
+									| often
+									option(value='2')
+										| sometimes
+										option(value='3')
+											| always
+											option(value='4') hardly ever
+		p
+			center
+				button.eval(data-target='t1', data-draw='z1') Check answers
+	form#t2
+		p
+			b.instrucciones 2. Where do we usually put adverbs of frequency? Choose the correct explanation.
+		p
+			table.cuadro(cellpadding='0', cellspacing='4')
+				tr
+					td
+						input(type='radio', name='q2a', value='1')
+					td after the verb in the sentence
+				tr
+					td
+						input(type='radio', name='q2a', value='2')
+					td between the subject and the verb
+				tr
+					td
+						input(type='radio', name='q2a', value='3')
+					td at the start of the sentence
+		p
+			center
+				button.eval(data-target='t2', data-draw='z2') Check answers
+	form#t3
+		p
+			b.instrucciones 3. Choose the correct adverb of frequency to make the sentences correct.
+		p
+			table.cuadro(cellpadding='0', cellspacing='4')
+				tr
+					td.letra
+						| 1. It
+						select(name='q3a')
+							option.letra(value='0')
+								| Choose answers
+								option(value='1')
+									| hardly ever
+									option(value='2')
+										| sometimes
+										option(value='3') often
+					td.letra  rains in the Sahara desert.
+			table.cuadro(cellpadding='0', cellspacing='4')
+				tr
+					td.letra
+						| 2. It
+						select(name='q3b')
+							option.letra(value='0')
+								| Choose answers
+								option(value='1')
+									| hardly ever
+									option(value='2')
+										| sometimes
+										option(value='3') always
+					td.letra  gets cold in the Antarctic.
+			table.cuadro(cellpadding='0', cellspacing='4')
+				tr
+					td.letra
+						| 3. Police
+						select(name='q3c')
+							option(value='0')
+								| Choose answers
+								option(value='1')
+									| sometimes
+									option(value='2')
+										| usually
+										option(value='3') hardly ever
+					td.letra  wear a uniform.
+			table.cuadro(cellpadding='0', cellspacing='4')
+				tr
+					td.letra
+						| 4. It
+						select(name='q3d')
+							option(value='0')
+								| Choose answers
+								option(value='1')
+									| often
+									option(value='2')
+										| never
+										option(value='3') hardly ever
+					td.letra  rains in England in the summer.
+			table.cuadro(cellpadding='0', cellspacing='4')
+				tr
+					td.letra
+						| 5. The sun
+						select(name='q3e')
+							option(value='0')
+								| Choose answers
+								option(value='1')
+									| usually
+									option(value='2')
+										| never
+										option(value='3') always
+					td.letra  rises in the east.
+			table.cuadro(cellpadding='0', cellspacing='4')
+				tr
+					td.letra
+						| 6. People
+						select(name='q3f')
+							option(value='0')
+								| Choose answers
+								option(value='1')
+									| usually
+									option(value='2')
+										| always
+										option(value='3') sometimes
+					td.letra  take a vacation in the summer.
+			table.cuadro(cellpadding='0', cellspacing='4')
+				tr
+					td.letra
+						| 7. Strict vegetarians
+						select(name='q3g')
+							option(value='0')
+								| Choose answers
+								option(value='1')
+									| hardly ever
+									option(value='2')
+										| never
+										option(value='3') sometimes
+					td.letra  eat meat.
+			table.cuadro(cellpadding='0', cellspacing='4')
+				tr
+					td.letra
+						| 8. In England people
+						select(name='q3h')
+							option(value='0')
+								| Choose answers
+								option(value='1')
+									| always
+									option(value='2')
+										| never
+										option(value='3') often
+					td.letra  drive on the left.
+		button.eval(data-target='t3', data-draw='z3') Check answers
+	#z1
+	#z2
+	#z3
+	#z4

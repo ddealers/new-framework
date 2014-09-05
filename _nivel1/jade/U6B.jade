@@ -1,0 +1,802 @@
+div#U6B
+	script.
+		unitans.U6B = {
+			q1a:'3',
+			q1b:'1',
+			q1c:'1',
+			q1d:'2',
+			q1e:'3',
+			q1f:'1',
+			q1g:'1',
+			q1h:'2',
+			q2a:'1',
+			q2b:'1',
+			q2c:'0',
+			q2d:'1',
+			q2e:'0',
+			q2f:'1',
+			q2g:'1',
+			q2h:'0',
+			q3a:'more',
+			q3b:'than',
+			q3c:'most',
+			q3d:'is',
+			q3e:'the',
+			q3f:'than',
+			q3g:'happier',
+			q3h:'best',
+			q4a:'Rabbits are smaller than dogs',
+			q4b:'Whales are the biggest animals in the world',
+			q4c:'Sydney is bigger than Moon Rock',
+			q4d:'Sydney is the most modern city',
+			q4e:'Travel is more expensive in the summer',
+			q4f:'Saturday is the best day of the week',
+			q4g:'Planes are faster than buses',
+			q4h:'This restaurant is the most expensive in the city',
+			q5a:'biggest',
+			q5b:'hotter',
+			q5c:'smaller',
+			q5d:'cheap',
+			q5e:'cheapest',
+			q5f:'happiest',
+			q5g:'dirtier',
+			q5h:'healthy',
+			q5i:'healthiest',
+			q5j:'most modern',
+			q5k:'more expensive',
+			q5l:'dangerous',
+			q5m:'most dangerous',
+			q5n:'best',
+			q5o:'bad',
+			q6a:'2',
+			q6b:'1',
+			q6c:'2',
+			q6d:'2',
+			q6e:'1',
+			q6f:'2',
+			q6g:'2',
+			q6h:'1',
+			q8a:'more relaxing',
+			q8b:'faster',
+			q8c:'fastest',
+			q8d:'than',
+			q8e:'better',
+			q8f:'the most',
+			q8g:'safer',
+			q8h:'slowest'
+		}
+	form#t1
+		img.logo(src='img/t-u6.jpg')
+		p.titulo
+			span Comparatives and superlatives
+		p
+			b.instrucciones 1. Look at the information on three cities.
+		p
+			img.imcuadro(src='img/u6-b1.jpg')
+		p
+			b.letra Then choose the correct option to complete the sentences.
+		p
+			table.letra(cellpadding='0', cellspacing='4')
+				tr
+					td.cuadro
+						| 1.
+					td.cuadro
+						select(name='q1a')
+							option(value='0')
+								| Choose Answer
+								option(value='1')
+									| Sydney
+									option(value='2')
+										| Pittsville
+										option(value='3')
+											| Moon Rock
+					td is the smallest city.
+				tr
+					td
+						| 2.
+					td
+						select(name='q1b')
+							option(value='0')
+								| Choose Answer
+								option.letra(value='1')
+									| Sydney
+									option.letra(value='2')
+										| Pittsville
+										option.letra(value='3')
+											| Moon Rock
+					td is the biggest city.
+				tr
+					td
+						| 3.
+					td
+						select(name='q1c')
+							option(value='0')
+								| Choose Answer
+								option.letra(value='1')
+									| Moon Rock
+									option.letra(value='2')
+										| Sydney
+					td is smaller than Pittsville.
+				tr
+					td
+						| 4.
+					td
+						select(name='q1d')
+							option(value='0')
+								| Choose Answer
+								option.letra(value='1')
+									| Moon Rock
+									option.letra(value='2')
+										| Sydney
+					td is bigger than Pittsville.
+				tr
+					td
+						| 5.
+					td
+						select(name='q1e')
+							option(value='0')
+								| Choose Answer
+								option.letra(value='1')
+									| Sydney
+									option.letra(value='2')
+										| Pittsville
+										option.letra(value='3')
+											| Moon Rock
+					td is the most beautiful city.
+				tr
+					td
+						| 6.
+					td
+						select(name='q1f')
+							option(value='0')
+								| Choose Answer
+								option.letra(value='1')
+									| Moon Rock
+									option.letra(value='2')
+										| Pittsville
+					td is more beautiful than Sydney.
+				tr
+					td
+						| 7.
+					td
+						select(name='q1g')
+							option(value='0')
+								| Choose Answer
+								option.letra(value='1')
+									| Sydney
+									option.letra(value='2')
+										| Pittsville
+										option.letra(value='3')
+											| Moon Rock
+					td is the best city for a vacation.
+			table.letra(cellpadding='2', cellspacing='0')
+				tr
+					td.letra
+						| 8.
+					td.letra Moon Rock is a better city for a vacation than
+					td
+						select(name='q1h')
+							option(value='0')
+								| Choose Answer
+								option.letra(value='1')
+									| Sydney
+									option.letra(value='2')
+										| Pittsville
+						| .
+		p
+			center
+				button.eval(data-target='t1', data-draw='z1') Check answers
+	form#t2
+		p
+			b.instrucciones 2. Comparative and superlative sentences
+		p.letra
+			| Comparative sentences compare 2 things;
+		p
+			//
+				 <img src="img/bullet.gif">
+			span.rojo
+				| Moon Rock is
+				b smaller
+				| than Pittsville.
+		p.letra
+			| Superlative sentences compare more than 2 things;
+		p
+			//
+				<img src="img/bullet.gif">
+			span.rojo
+				| Sydney is the
+				b biggest city
+				| . = (of all the other cities)
+		p
+			b.letra Are these comparative or superlative sentences?
+		p
+			table.cuadro(cellpadding='0', cellspacing='0')
+				tr
+					td.letra(width='15', bgcolor='ffffcc') 1.
+					td.letra(bgcolor='ffffcc') Moon Rock is more beautiful than Sydney.
+				tr
+					td
+					td
+						input(type='radio', name='q2a', value='1')
+						| Comparative
+						input(type='radio', name='q2a', value='0')
+						| Superlative
+				tr
+					td(width='15', bgcolor='ffffcc') 2.
+					td(bgcolor='ffffcc') Sydney is hotter than Moon Rock.
+				tr
+					td
+					td
+						input(type='radio', name='q2b', value='1')
+						| Comparative
+						input(type='radio', name='q2b', value='0')
+						| Superlative
+				tr
+					td(width='15', bgcolor='ffffcc') 3.
+					td(bgcolor='ffffcc') Sydney is the most modern city.
+				tr
+					td
+					td
+						input(type='radio', name='q2c', value='1')
+						| Comparative
+						input(type='radio', name='q2c', value='0')
+						| Superlative
+				tr
+					td(width='15', bgcolor='ffffcc') 4.
+					td(bgcolor='ffffcc') The train is better than the bus.
+				tr
+					td
+					td
+						input(type='radio', name='q2d', value='1')
+						| Comparative
+						input(type='radio', name='q2d', value='0')
+						| Superlative
+				tr
+					td(width='15', bgcolor='ffffcc') 5.
+					td(bgcolor='ffffcc') Ana is the tallest in the class.
+				tr
+					td
+					td
+						input(type='radio', name='q2e', value='1')
+						| Comparative
+						input(type='radio', name='q2e', value='0')
+						| Superlative
+				tr
+					td(width='15', bgcolor='ffffcc') 6.
+					td(bgcolor='ffffcc') Jill is prettier than Ana.
+				tr
+					td
+					td
+						input(type='radio', name='q2f', value='1')
+						| Comparative
+						input(type='radio', name='q2f', value='0')
+						| Superlative
+				tr
+					td(width='15', bgcolor='ffffcc') 7.
+					td(bgcolor='ffffcc') Michael is happier than he was last year.
+				tr
+					td
+					td
+						input(type='radio', name='q2g', value='1')
+						| Comparative
+						input(type='radio', name='q2g', value='0')
+						| Superlative
+				tr
+					td(width='15', bgcolor='ffffcc') 8.
+					td(bgcolor='ffffcc') This is the best meal I have ever eaten.
+				tr
+					td
+					td
+						input(type='radio', name='q2h', value='1')
+						| Comparative
+						input(type='radio', name='q2h', value='0')
+						| Superlative
+		p
+			center
+				button.eval(data-target='t2', data-draw='z2') Check answers
+	form#t3
+		p
+			b.instrucciones
+				| 3. Can you remember the sentences from the last exercise? Type in the word to complete the sentences.
+		p.letra
+			| 1 Moon Rock is
+			input(type='text', name='q3a', size='18')
+			| beautiful than Sydney.
+			br
+			| 2 Sydney is hotter
+			input(type='text', name='q3b', size='18')
+			| Moon Rock.
+			br
+			| 3 Sydney is the
+			input(type='text', name='q3c', size='18')
+			| modern city.
+			br
+			| 4 The train
+			input(type='text', name='q3d', size='18')
+			| better than the bus.
+			br
+			| 5 Ana is
+			input(type='text', name='q3e', size='18')
+			| tallest in the class.
+			br
+			| 6 Jill is prettier
+			input(type='text', name='q3f', size='18')
+			| Ana.
+			br
+			| 7 Michael is
+			input(type='text', name='q3g', size='18')
+			| than he was last year.
+			br
+			| 8 This is the
+			input(type='text', name='q3h', size='18')
+			| meal I have ever eaten.
+		center
+			button.eval(data-target='t3', data-draw='z3') Check answers
+	form#t4
+		p
+			b.instrucciones 4. Write in the fields in correct order the words to make a sentences.
+		p
+			table.cuadro(cellpadding='0', cellspacing='0')
+				tr.letra
+					td 1.
+					td.letra  smaller Rabbits are dogs than.
+					td(width='20')
+					td
+						input(type='text', name='q4a', size='44')
+						| .
+				tr.letra
+					td 2.
+					td.letra  are the animals biggest world in Whales the.
+					td
+					td
+						input(type='text', name='q4b', size='44')
+						| .
+				tr.letra
+					td 3.
+					td.letra  bigger is Sydney than Moon Rock.
+					td
+					td
+						input(type='text', name='q4c', size='44')
+						| .
+				tr.letra
+					td 4.
+					td.letra  city most the Sydney is modern.
+					td
+					td
+						input(type='text', name='q4d', size='44')
+						| .
+				tr.letra
+					td 5.
+					td.letra  is in more summer expensive the Travel.
+					td
+					td
+						input(type='text', name='q4e', size='44')
+						| .
+				tr.letra
+					td 6.
+					td.letra  the Saturday of is the day week best.
+					td
+					td
+						input(type='text', name='q4f', size='44')
+						| .
+				tr.letra
+					td 7.
+					td.letra  Planes than are buses faster.
+					td
+					td
+						input(type='text', name='q4g', size='44')
+						| .
+				tr.letra
+					td 8.
+					td.letra  This the city restaurant is in the most
+					td
+					td
+						input(type='text', name='q4h', size='44')
+						| .
+				tr.letra
+					td
+					td.letra expensive.
+					td
+					td
+		p
+			center
+				button.eval(data-target='t4', data-draw='z4') Check answers
+	form#t5
+		p
+			b.instrucciones
+				| 5. Complete this chart of adjective, comparative and superlative forms. There are 4 different types.
+		p.letra
+			table.cuadro(cellpadding='0', cellspacing='0')
+				tr.letra
+					td(colspan='3', bgcolor='#ccccff')
+						b Short Adjectives (1 syllable)
+				tr.letra
+					td(width='150')
+						b adjective
+					td(width='150')
+						b comparative
+					td(width='150')
+						b superlative
+				tr.letra
+					td big
+					td bigger than
+					td
+						| the
+						input(type='text', name='q5a', size='5')
+						| (1)
+				tr.letra
+					td hot
+					td
+						input(type='text', name='q5b', size='5')
+						| (2) than
+					td the hottest
+				tr.letra
+					td small
+					td
+						input(type='text', name='q5c', size='5')
+						| (3) than
+					td the smallest
+				tr.letra
+					td
+						input(type='text', name='q5d', size='5')
+						| (4)
+					td cheaper than
+					td
+						| the
+						input(type='text', name='q5e', size='5')
+						| (5)
+			table.cuadro(cellpadding='0', cellspacing='0')
+				tr.letra
+					td(colspan='3', bgcolor='#ccccff')
+						b 2 Syllable Adjectives that end with "y"
+				tr.letra
+					td(width='150')
+						b adjective
+					td(width='150')
+						b comparative
+					td(width='150')
+						b superlative
+				tr.letra
+					td pretty
+					td prettier than
+					td the prettiest
+				tr.letra
+					td happy
+					td happier than
+					td
+						| the
+						input(type='text', name='q5f', size='5')
+						| (6)
+				tr.letra
+					td dirty
+					td
+						input(type='text', name='q5g', size='5')
+						| (7) than
+					td the dirtiest 
+				tr
+					td
+						input(type='text', name='q5h', size='5')
+						| (8)
+					td healthier than
+					td
+						| the
+						input(type='text', name='q5i', size='5')
+						| (9)
+			table.cuadro(cellpadding='0', cellspacing='0')
+				tr.letra
+					td(colspan='3', bgcolor='#ccccff')
+						b Long Adjectives (2 syllables or more)
+				tr.letra
+					td(width='150')
+						b adjective
+					td(width='150')
+						b comparative
+					td(width='150')
+						b superlative
+				tr.letra
+					td beautiful
+					td more beautiful than
+					td the most beautiful
+				tr.letra
+					td modern
+					td more modern than
+					td
+						| the
+						input(type='text', name='q5j', size='5')
+						| (10)
+				tr.letra
+					td expensive
+					td
+						input(type='text', name='q5k', size='5')
+						| (11) than
+					td the most expensive
+				tr.letra
+					td
+						input(type='text', name='q5l', size='5')
+						| (12)
+					td more dangerous than
+					td
+						| the
+						input(type='text', name='q5m', size='5')
+						| (13)
+			table.cuadro(cellpadding='0', cellspacing='0')
+				tr.letra
+					td(colspan='3', bgcolor='#ccccff')
+						b Irregular Adjectives
+				tr.letra
+					td(width='150')
+						b adjective
+					td(width='150')
+						b comparative
+					td(width='150')
+						b superlative
+				tr.letra
+					td good
+					td better than
+					td
+						| the
+						input(type='text', name='q5n', size='5')
+						| (14)
+				tr.letra
+					td
+						input(type='text', name='q5o', size='5')
+						| (15)
+					td worse than
+					td the worst
+				tr.letra
+					td far
+					td farther than
+					td the farthest
+		p
+			center
+				button.eval(data-target='t5', data-draw='z5') Check answers
+	form#t6
+		p
+			b.instrucciones 6. Choose the correct option to complete the sentences.
+		p
+			table.cuadro(cellpadding='0', cellspacing='4')
+				tr
+					td.letra
+						| 1. In Spain August is
+					td
+						select(name='q6a')
+							option(value='0')
+								| Choose Answer
+								option.letra(value='1')
+									| more hot
+									option.letra(value='2')
+										| hotter
+					td.letra than September.
+			table.cuadro(cellpadding='0', cellspacing='4')
+				tr
+					td.letra
+						| 2. Speaking is
+					td
+						select(name='q6b')
+							option(value='0')
+								| Choose Answer
+								option.letra(value='1')
+									| more difficult
+									option.letra(value='2')
+										| difficulter
+					td.letra than reading.
+			table.cuadro(cellpadding='0', cellspacing='4')
+				tr
+					td.letra
+						| 3. The weather is
+					td
+						select(name='q6c')
+							option(value='0')
+								| Choose Answer
+								option.letra(value='1')
+									| more bad
+									option.letra(value='2')
+										| worse
+					td.letra than it was yesterday.
+			table.cuadro(cellpadding='0', cellspacing='4')
+				tr
+					td.letra
+						| 4. Pittsville is
+					td
+						select(name='q6d')
+							option(value='0')
+								| Choose Answer
+								option.letra(value='1')
+									| more near
+									option.letra(value='2')
+										| nearer
+					td.letra to the coast than Moon Rock.
+			table.cuadro(cellpadding='0', cellspacing='4')
+				tr
+					td.letra
+						| 5. Dogs can be more
+					td
+						select(name='q6e')
+							option(value='0')
+								| Choose Answer
+								option.letra(value='1')
+									| dangerous
+									option.letra(value='2')
+										| dangerouser
+					td.letra than cats.
+			table.cuadro(cellpadding='0', cellspacing='4')
+				tr
+					td.letra
+						| 6. Agnes is
+					td
+						select(name='q6f')
+							option(value='0')
+								| Choose Answer
+								option.letra(value='1')
+									| happyer
+									option.letra(value='2')
+										| happier
+					td.letra than Clara.
+			table.cuadro(cellpadding='0', cellspacing='4')
+				tr
+					td.letra
+						| 7. Friday is
+					td
+						select(name='q6g')
+							option(value='0')
+								| Choose Answer
+								option.letra(value='1')
+									| more good
+									option.letra(value='2')
+										| better
+					td.letra than Monday.
+			table.cuadro(cellpadding='0', cellspacing='4')
+				tr
+					td.letra
+						| 8. Australia is
+					td
+						select(name='q6h')
+							option(value='0')
+								| Choose Answer
+								option.letra(value='1')
+									| bigger
+									option.letra(value='2')
+										| biger
+					td.letra than Spain.
+		p
+			center
+				button.eval(data-target='t6', data-draw='z6') Check answers
+	//
+		<form id="t7">
+		<p>
+		<b class="instrucciones">7. Identify the mistakes of comparative and superlative forms in this text. There are 8.</b>
+		</p>
+		<p>
+		<embed src="u6-b.swf" width=465 height=270>
+		</p>
+		</form>
+	form#t8
+		p
+			b.instrucciones 8. Correct the mistakes of comparative and superlative forms in this text.
+		p
+			table.cuadro(cellpadding='0', cellspacing='4')
+				tr
+					td.letra 1.
+					td.letra(bgcolor='#ffcc99')
+						| ... because it's
+						span.rojo relaxing
+						| than the bus, ...
+					td.letra(width='60', bgcolor='#ffcc99')
+					td.letra(bgcolor='#ffcc99')
+						input(type='text', name='q8a', size='5')
+				tr
+					td.letra 2.
+					td.letra(bgcolor='#ffcc99')
+						| ... but the bus is
+						span.rojo more fast
+						| .
+					td(bgcolor='#ffcc99')
+					td(bgcolor='#ffcc99')
+						input(type='text', name='q8b', size='5')
+				tr
+					td.letra 3.
+					td.letra(bgcolor='#ffcc99')
+						| The
+						span.rojo most fast
+						| is the subway...
+					td(bgcolor='#ffcc99')
+					td(bgcolor='#ffcc99')
+						input(type='text', name='q8c', size='5')
+				tr
+					td.letra 4.
+					td.letra(bgcolor='#ffcc99')
+						| ... the metro is cheaper
+						span.rojo that
+						| the bus ...
+					td(bgcolor='#ffcc99')
+					td(bgcolor='#ffcc99')
+						input(type='text', name='q8d', size='5')
+				tr
+					td.letra 5.
+					td.letra(bgcolor='#ffcc99')
+						| ... the view is
+						span.rojo gooder
+						| from the bus.
+					td(bgcolor='#ffcc99')
+					td(bgcolor='#ffcc99')
+						input(type='text', name='q8e', size='5')
+				tr
+					td.letra 6.
+					td.letra(bgcolor='#ffcc99')
+						| ... it's
+						span.rojo most
+						| dangerous transportation.
+					td(bgcolor='#ffcc99')
+					td(bgcolor='#ffcc99')
+						input(type='text', name='q8f', size='5')
+				tr
+					td.letra 7.
+					td.letra(bgcolor='#ffcc99')
+						| ... it's
+						span.rojo safest
+						| than the bicycle ...
+					td(bgcolor='#ffcc99')
+					td(bgcolor='#ffcc99')
+						input(type='text', name='q8g', size='5')
+				tr
+					td.letra 8.
+					td(bgcolor='#ffcc99')
+						| ... but it's also the
+						span.rojo most slow
+						| way ...
+					td(bgcolor='#ffcc99')
+					td(bgcolor='#ffcc99')
+						input(type='text', name='q8h', size='5')
+		p
+			center
+				button.eval(data-target='t8', data-draw='z8') Check answers
+	form#t9
+		p
+			b.instrucciones 9. Look at the information from exercise 1 again. 
+		p
+			img.imcuadro(src='img/u6-b1.jpg')
+		p
+			b.letra Write down sentences comparing the cities.
+		p
+			img.hoja(src='img/pin.jpg')
+		p.letra
+			| Use the words given. You will have to use the correct form of the adjective. For example
+		p
+			table.cuadro(cellpadding='0', cellspacing='4')
+				tr
+					td(width='30')
+					td
+						img(src='img/bullet.gif')
+					td.letra
+						| Moon Rock/Sydney (beautiful) =
+						span.rojo Moon Rock is more beautiful than Sydney.
+				tr
+					td(width='30')
+					td
+						img(src='img/bullet.gif')
+					td.letra
+						| Sydney/Pittsville/Moon Rock (small) =
+						span.rojo Moon Rock is the smallest city.
+		.cuadro
+			p.letra
+				| 1. Pittsville/Sydney (small)
+				br
+				| 2. Pittsville/Moon Rock (big)
+				br
+				| 3. Moon Rock/Pittsville (beautiful)
+				br
+				| 4. Sydney/Pittsville/Moon Rock (beautiful city)
+				br
+				| 5. Sydney/Pittsville (good city for a vacation)
+				br
+				| 6. Sydney/Pittsville/Moon Rock (good city for a vacation)
+				br
+		a(href='#', onclick='window.open(\'templates/U6B-T1.html\',\'_blank\',\'width=320,height=150\');')
+			b.cuadro see answers
+	#z1
+	#z2
+	#z3
+	#z4
+	#z5
+	#z6
+	#z8

@@ -1,0 +1,448 @@
+div#U10A
+	script.
+		unitans.U10A = {
+			q1a:'1',
+			q1b:'0',
+			q1c:'1',
+			q1d:'0',
+			q1e:'1',
+			q1f:'0',
+			q1g:'1',
+			q1h:'0',
+			q1i:'1',
+			q1j:'0',
+			q2a:'Where does John live',
+			q2b:'What does she have for breakfast',
+			q2c:'Can you swim',
+			q2d:'How does he get to work',
+			q2e:'Does Anna live in Singapore',
+			q3a:'3',
+			q3b:'1',
+			q3c:'1',
+			q3d:'3',
+			q3e:'2',
+			q3f:'3',
+			q3g:'1',
+			q3h:'1',
+			q4a:'2',
+			q4b:'1',
+			q4c:'3',
+			q4d:'2',
+			q4e:'1',
+			q4f:'2',
+			q4g:'2',
+			q4h:'2'
+		}
+	form#t1
+		img.logo1(src='img/t-u10.jpg')
+	p.titulo
+		span Questions
+	b.instrucciones 1. Are the questions below grammatically correct?
+	p
+		table.cuadro(cellpadding='0', cellspacing='4')
+			tr
+				td
+				td
+				td(width='50')
+				td.letra Grammatically... 
+			tr
+				td(width='20') 1
+				td.letra  Where do you come from?
+				td
+				td.letra
+					input(type='radio', name='q1a', value='1', checked='checked')
+					| ... correct
+					input(type='radio', name='q1a', value='0')
+					| ... incorrect
+			tr
+				td.letra 2
+				td.letra  Where John lives?
+				td
+				td.letra
+					input(type='radio', name='q1b', value='1', checked='checked')
+					| ... correct
+					input(type='radio', name='q1b', value='0')
+					| ... incorrect
+			tr
+				td.letra 3
+				td.letra  What is your name?
+				td
+				td.letra
+					input(type='radio', name='q1c', value='1', checked='checked')
+					| ... correct
+					input(type='radio', name='q1c', value='0')
+					| ... incorrect
+			tr
+				td.letra 4
+				td.letra  What do she have for breakfast?
+				td
+				td.letra
+					input(type='radio', name='q1d', value='1', checked='checked')
+					| ... correct
+					input(type='radio', name='q1d', value='0')
+					| ... incorrect
+			tr
+				td.letra 5
+				td.letra  Do you like London?
+				td
+				td.letra
+					input(type='radio', name='q1e', value='1', checked='checked')
+					| ... correct
+					input(type='radio', name='q1e', value='0')
+					| ... incorrect
+			tr
+				td.letra 6
+				td.letra  Do you can swim?
+				td
+				td.letra
+					input(type='radio', name='q1f', value='1', checked='checked')
+					| ... correct
+					input(type='radio', name='q1f', value='0')
+					| ... incorrect
+			tr
+				td.letra 7
+				td.letra  How do you travel to work?
+				td
+				td.letra
+					input(type='radio', name='q1g', value='1', checked='checked')
+					| ... correct
+					input(type='radio', name='q1g', value='0')
+					| ... incorrect
+			tr
+				td.letra 8
+				td.letra  How does he gets to work?
+				td
+				td.letra
+					input(type='radio', name='q1h', value='1', checked='checked')
+					| ... correct
+					input(type='radio', name='q1h', value='0')
+					| ... incorrect
+			tr
+				td.letra 9
+				td.letra  What can you see in space?
+				td
+				td.letra
+					input(type='radio', name='q1i', value='1', checked='checked')
+					| ... correct
+					input(type='radio', name='q1i', value='0')
+					| ... incorrect
+			tr
+				td.letra 10
+				td.letra  Do Anna live in Singapore?
+				td
+				td.letra
+					input(type='radio', name='q1j', value='1', checked='checked')
+					| ... correct
+					input(type='radio', name='q1j', value='0')
+					| ... incorrect
+	center
+		button.eval(data-target='t1', data-draw='z1') Check answers
+	form#t2
+	p
+		b.instrucciones 2. Now correct the incorrect sentences from exercise 1.
+	table.cuadro(cellpadding='0', cellspacing='0')
+		tr
+			td(bgcolor='#ffcc99', width='15')  
+			td(bgcolor='#ffcc99')  
+			td(width='80', bgcolor='#ffcc99')  
+			td(bgcolor='#ffcc99')  
+			td(bgcolor='#ffcc99')  
+		tr
+			td(bgcolor='#ffcc99')  
+			td.letra(bgcolor='#ffcc99') Where John lives?
+			td(bgcolor='#ffcc99')
+			td(bgcolor='#ffcc99')
+				input(type='text', name='q2a', size='33')
+			td.letra(bgcolor='#ffcc99') ?
+		tr
+			td(bgcolor='#ffcc99')  
+			td.letra(bgcolor='#ffcc99') What do she have for breakfast?
+			td(bgcolor='#ffcc99')
+			td(bgcolor='#ffcc99')
+				input(type='text', name='q2b', size='33')
+			td.letra(bgcolor='#ffcc99') ?
+		tr
+			td(bgcolor='#ffcc99')  
+			td.letra(bgcolor='#ffcc99') Do you can swim?
+			td(bgcolor='#ffcc99')
+			td(bgcolor='#ffcc99')
+				input(type='text', name='q2c', size='33')
+			td.letra(bgcolor='#ffcc99') ?
+		tr
+			td(bgcolor='#ffcc99')  
+			td.letra(bgcolor='#ffcc99') How does he gets to work?
+			td(bgcolor='#ffcc99')
+			td(bgcolor='#ffcc99')
+				input(type='text', name='q2d', size='33')
+			td.letra(bgcolor='#ffcc99') ?
+		tr
+			td(bgcolor='#ffcc99')  
+			td.letra(bgcolor='#ffcc99') Do Anna live in Singapore?
+			td(bgcolor='#ffcc99')
+			td(bgcolor='#ffcc99')
+				input(type='text', name='q2e', size='33')
+			td.letra(bgcolor='#ffcc99') ?
+		tr
+			td(bgcolor='#ffcc99')  
+			td(bgcolor='#ffcc99')  
+			td(width='80', bgcolor='#ffcc99')  
+			td(bgcolor='#ffcc99')  
+			td(bgcolor='#ffcc99')  
+	p
+		center
+			button.eval(data-target='t2', data-draw='z2') Check answers
+	form#t3
+	p
+		b.instrucciones 3. Choose the correct answer to the list
+	table.letra(cellpadding='0', cellspacing='10')
+		tr
+			td
+				| 1. What do
+				select(name='q3a')
+					option(value='0')
+						| Choose Answer
+						option(value='1')
+							| do
+							option(value='2')
+								| drink
+								option(value='3')
+									| you
+				| do in the evening?
+		tr
+			td
+				| 2. How many hours
+				select(name='q3b')
+					option(value='0')
+						| Choose Answer
+						option(value='1')
+							| do
+							option(value='2')
+								| you
+								option(value='3')
+									| move
+				| you sleep?
+		tr
+			td
+				| 3. How do you
+				select(name='q3c')
+					option(value='0')
+						| Choose Answer
+						option(value='1')
+							| move
+							option(value='2')
+								| you
+								option(value='3')
+									| speak
+				| in the space craft.
+		tr
+			td
+				| 4. Can you
+				select(name='q3d')
+					option(value='0')
+						| Choose Answer
+						option(value='1')
+							| start
+							option(value='2')
+								| to
+								option(value='3')
+									| drink
+				| alcohol?
+		tr
+			td
+				| 5. When do you return
+				select(name='q3e')
+					option(value='0')
+						| Choose Answer
+						option(value='1')
+							| you
+							option(value='2')
+								| to
+								option(value='3')
+									| speak
+				| Earth?
+		tr
+			td
+				| 6. Where does space
+				select(name='q3f')
+					option(value='0')
+						| Choose Answer
+						option(value='1')
+							| speak
+							option(value='2')
+								| you
+								option(value='3')
+									| start
+				| ?
+		tr
+			td
+				| 7. Do
+				select(name='q3g')
+					option(value='0')
+						| Choose Answer
+						option(value='1')
+							| you
+							option(value='2')
+								| to
+								option(value='3')
+									| do
+				| listen to the radio?
+		tr
+			td
+				| 8. Can you
+				select(name='q3h')
+					option(value='0')
+						| Choose Answer
+						option(value='1')
+							| speak
+							option(value='2')
+								| star
+								option(value='3')
+									| move
+				| to your family?
+	center
+		button.eval(data-target='t3', data-draw='z3') Check answers
+	form#t4
+	p
+		b.instrucciones 4. Match the questions in exercise 6 to the correct answers.
+	table.letra(cellpadding='0', cellspacing='6')
+		tr
+			td(colspan='2') What do you do in the evening?
+		tr
+			td(width='30')
+			td
+				input(type='radio', name='q4a', value='1')
+				| In two weeks.
+		tr
+			td
+			td
+				input(type='radio', name='q4a', value='2')
+				| We talk and look out of the windows at the stars.
+		tr
+			td
+			td
+				input(type='radio', name='q4a', value='3')
+				| No, but they can send messages to us.
+		tr
+			td(colspan='2') How many hours do you sleep?
+		tr
+			td
+			td
+				input(type='radio', name='q4b', value='1')
+				| About six. Generally people sleep less in space.
+		tr
+			td
+			td
+				input(type='radio', name='q4b', value='2')
+				| No, we can't.
+		tr
+			td
+			td
+				input(type='radio', name='q4b', value='3')
+				| About five miles high.
+		tr
+			td(colspan='2') How do you move arround in space?
+		tr
+			td
+			td
+				input(type='radio', name='q4c', value='1')
+				| No, but they can send messages to us.
+		tr
+			td
+			td
+				input(type='radio', name='q4c', value='2')
+				| No, but we can listen to cassettes on a Walkman.
+		tr
+			td
+			td
+				input(type='radio', name='q4c', value='3')
+				| We float from one place to another.
+		tr
+			td(colspan='2') Can you drink alcohol?
+		tr
+			td
+			td
+				input(type='radio', name='q4d', value='1')
+				| About six. Generally people sleep less in space.
+		tr
+			td
+			td
+				input(type='radio', name='q4d', value='2')
+				| No, we can't.
+		tr
+			td
+			td
+				input(type='radio', name='q4d', value='3')
+				| In two weeks.
+		tr
+			td(colspan='2') When do you return to Earth?
+		tr
+			td
+			td
+				input(type='radio', name='q4e', value='1')
+				| In two weeks.
+		tr
+			td
+			td
+				input(type='radio', name='q4e', value='2')
+				| About five miles high.
+		tr
+			td
+			td
+				input(type='radio', name='q4e', value='3')
+				| No, but we can listen to cassettes on a Walkman.
+		tr
+			td(colspan='2') Where does space start?
+		tr
+			td
+			td
+				input(type='radio', name='q4f', value='1')
+				| We float from one place to another.
+		tr
+			td
+			td
+				input(type='radio', name='q4f', value='2')
+				| About five miles high.
+		tr
+			td
+			td
+				input(type='radio', name='q4f', value='3')
+				| In two weeks.
+		tr
+			td(colspan='2') Do you listen to the radio?
+		tr
+			td
+			td
+				input(type='radio', name='q4g', value='1')
+				| No, we can't.
+		tr
+			td
+			td
+				input(type='radio', name='q4g', value='2')
+				| No, but we can listen to cassettes on a Walkman.
+		tr
+			td
+			td
+				input(type='radio', name='q4g', value='3')
+				| About five miles high.
+		tr
+			td(colspan='2') Can you speak to your family?
+		tr
+			td
+			td
+				input(type='radio', name='q4h', value='1')
+				| About five miles high.
+		tr
+			td
+			td
+				input(type='radio', name='q4h', value='2')
+				| No, but they can send messages to us.
+		tr
+			td
+			td
+				input(type='radio', name='q4h', value='3')
+				| We float from one place to another.
+	button.eval(data-target='t4', data-draw='z4') Check answers
+	#z1
+	#z2
+	#z3
+	#z4

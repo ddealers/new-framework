@@ -1,0 +1,102 @@
+div#A1A
+    script.
+        unitans.A1A = {
+        q1a:2,
+        q1b:1,
+        q1c:2,
+        q1d:1,
+        q1e:3,
+        q1f:3,
+        q1g:1,
+        q1h:2
+        }
+    form#t1
+        img.logo(src='img/t-u1.jpg')
+        p.titdorado
+            span Question words
+        p#read
+            strong
+            | 1. Read the questions and answers. Choose the correct question word to complete the questions.
+        #tabla
+            table(cellpadding='0', cellspacing='10')
+                tr.preg
+                    td
+                        | 1
+                        select.q(name='q1a')
+                            option(value='0') Choose Answer
+                            option(value='1') Who
+                            option(value='2') What
+                            option(value='3') How
+                        | do you do?
+                    td.resp  I'm a teacher.
+                tr.preg
+                    td
+                        | 2
+                        select.q(name='q1b')
+                            option(value='0') Choose Answer
+                            option(value='1') Where
+                            option(value='2') When
+                            option(value='3') What
+                        | does she live?
+                    td.resp  In an apartment in San Francisco.
+                tr.preg
+                    td
+                        | 3
+                        select.q(name='q1c')
+                            option(value='0') Choose Answer
+                            option(value='1') What
+                            option(value='2') When
+                            option(value='3') How
+                        | is your birthday?
+                    td.resp It's on June 11th.
+                tr.preg
+                    td
+                        | 4
+                        select.q(name='q1d')
+                            option(value='0') Choose Answer
+                            option(value='1') How
+                            option(value='2') When
+                            option(value='3') Why
+                        | do you go to work?
+                    td.resp  I go by bus.
+                tr.preg
+                    td
+                        | 5
+                        select.q(name='q1e')
+                            option(value='0') Choose Answer
+                            option(value='1') Where
+                            option(value='2') How
+                            option(value='3') Who
+                        | is that man?
+                    td.resp I think it's John's brother.
+                tr.preg
+                    td
+                        | 6
+                        select.q(name='q1f')
+                            option(value='0') Choose Answer
+                            option(value='1') Who
+                            option(value='2') Where
+                            option(value='3') How
+                        | are you?
+                    td.resp Fine, thanks.
+                tr.preg
+                    td
+                        | 7
+                        select.q(name='q1g')
+                            option(value='0') Choose Answer
+                            option(value='1') Why
+                            option(value='2') Where
+                            option(value='3') How
+                        | do you live in Chicago?
+                    td.resp Because I work there.
+                tr.preg
+                    td
+                        | 8
+                        select.q(name='q1h')
+                            option(value='0') Choose Answer
+                            option(value='1') Who
+                            option(value='2') What
+                            option(value='3') How
+                        | is your name?
+                    td.resp  Kate.
+            button.eval(data-target='t1', data-draw='z1') Check answers

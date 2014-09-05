@@ -1,0 +1,40 @@
+img(src='')
+p Languages /Adjectives of Place
+p(class='boldita') 1. Adjectives of Place
+
+p(class='red') Mexican food is on the menu.
+p(class='red') Mexican = from Mexico
+
+p There are different types of Adjectives of Place;
+
+p(style='white-space:pre;')
+	| ones that end with -an Mexican (from Mexico)
+	| ones that end with -ish Spanish (from Spain)
+	| ones that end with -ese Japanese (from Japan)
+	| irregular ones Thai (from Thailand)
+
+p Complete the table of <strong>Place</strong> and <strong>Adjective</strong>.
+
+table
+	tr
+		th Place
+		th Adjective
+	+td_input('Australia','')
+	+td_input('Brazil','')
+	+td_input('America','')
+	+td_input('','European')
+	+td_input('','Canadian')
+
+button Check answers
+
+p 2.Now read this words. Are they places or adjectives?
+
+table
+	tr
+		+td_radius('Brazilian',['place','adjective'])
+		+td_radius('Italy',['place','adjective'])
+		+td_radius('Australia',['place','adjective'])
+		+td_radius('Italian',['place','adjective'])
+		+td_radius('Irish',['place','adjective'])
+
+button Check answers

@@ -1,0 +1,36 @@
+mixin item (link, text)
+	li: a(href=link)= text
+
+mixin choose_answer (options, sentence1, sentence2)
+	div.row
+		div(class=['large-6','columns'])
+			select(class=['small-6','columns'])
+				each val in options
+					option= val
+			p(class=['small-6','columns'])= sentence1
+		div(class=['large-6','columns'])
+			p= sentence2
+
+mixin td_input (option1, option2)
+	tr
+		if(option1)
+			td= option1
+		else
+			td: input
+		if(!option2)
+			td: input
+		else
+			td= option2
+
+mixin td_radius (noun, options)
+	tr
+		td= noun
+		each val, index in options
+			td
+				label= val
+				input(type='checkbox')
+
+mixin custom_select (options)
+	select
+		each val in options
+			option= val

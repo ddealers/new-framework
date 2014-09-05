@@ -1,0 +1,663 @@
+div#U11C
+	script.
+		unitans.U11C = {
+			q1a:'0',
+			q1b:'1',
+			q2a:'1',
+			q2b:'2',
+			q2c:'1',
+			q2d:'3',
+			q2e:'1',
+			q3a:'3',
+			q3b:'1',
+			q3c:'2',
+			q3d:'3',
+			q3e:'2',
+			q3f:'3',
+			q4a:'5',
+			q4b:'7',
+			q4c:'6',
+			q4d:'3',
+			q4e:'2',
+			q4f:'4',
+			q4g:'1',
+			q5a:'1',
+			q5b:'1',
+			q5c:'2',
+			q5d:'2',
+			q5e:'1',
+			q5f:'2',
+			q5g:'2',
+			q5h:'1'
+		}
+	form#t1
+		img.logo1(src='img/t-u11.jpg')
+		p
+			span.titdorado Shopping
+		p
+			b.instrucciones 1. Read each dialog then answer the question below.
+		p
+			b.letra Dialog 1
+		p.letra
+			b A:
+			| Can I help you?
+			br
+			b B:
+			| Yes, I'd like one of those sweatshirts in the window.
+			br
+			b A:
+			| What size?
+			br
+			b B:
+			| Small.
+		p.letra
+			b A:
+			| I don't think it fits.
+			br
+			b B:
+			| It's fine. I like my sweatshirts to be tight.
+			br
+			b A:
+			| Oh, OK.
+			br
+			b B:
+			| I'll take it.
+		p.letra
+			| The salesperson (
+			b A
+			| ) thinks the sweatshirt is
+		p.letra
+			input(type='radio', name='q1a', value='1')
+			| too big
+			input(type='radio', name='q1a', value='0')
+			| too small
+		br
+		p
+			b.letra Dialog 2
+		p.letra
+			b A:
+			| Can I help you?
+			br
+			b B:
+			| Yes please. I'd like to buy a pair of faded blue jeans.
+			br
+			b A:
+			| What about these Levis?
+			br
+			b B:
+			| OK. Can I try them on?
+			br
+			b A:
+			| Of course.
+		p.letra
+			b A:
+			| They look great. They really suit you.
+			br
+			b B:
+			| Yes, but they're a little baggy. Do you have a smaller size?
+			br
+			b A:
+			| No, sorry.
+			br
+			b B:
+			| Oh. OK, well, I'll take them. Can I pay by credit card?
+			br
+			b A:
+			| Sure.
+		p.letra
+			| The customer (
+			b B
+			| ) thinks the jeans are
+		p.letra
+			input(type='radio', name='q1b', value='1')
+			| too big
+			input(type='radio', name='q1b', value='0')
+			| too small
+		p
+			center
+				button.eval(data-target='t1', data-draw='z1') Check answers
+	form#t2
+		p
+			b.instrucciones
+				| 2. Without reading dialog 1 again, see if you can choose the missing expressions.
+		table(cellpadding='0', cellspacing='4')
+			tr
+				td(align='center') (A= Salesperson. B= Customer.)
+			tr.letra
+				td  
+			tr
+				td A: Can I help you?
+			tr
+				td
+					| B: Yes,
+					sub 1
+					span.grey-fill
+					//
+						<sub>1</sub><img src="img/ln.jpg" width=100 height=1>
+					| like one of those sweatshirts in the window.
+		table(cellpadding='0', cellspacing='4')
+			tr
+				td(width='30')
+				td.letra
+					input(type='radio', name='q2a', value='1', checked='checked')
+					| I'd
+				td(width='60')
+				td.letra
+					input(type='radio', name='q2a', value='2')
+					| Can I try it on
+				td.letra(width='60')
+				td.letra
+					input(type='radio', name='q2a', value='3')
+					| fits
+		table(cellpadding='0', cellspacing='4')
+			tr
+				td.letra
+					| A: What
+					sub 2
+					span.grey-fill
+					//
+						<sub>2</sub><img src="img/ln.jpg" width=100 height=1>
+					| ?
+		table(cellpadding='0', cellspacing='4')
+			tr
+				td(width='30')
+				td.letra
+					input(type='radio', name='q2b', value='1', checked='checked')
+					| Can I try it on
+				td.letra(width='60')
+				td
+					input(type='radio', name='q2b', value='2')
+					| size
+				td.letra(width='60')
+				td
+					input(type='radio', name='q2b', value='3')
+					| I'd
+		table(cellpadding='0', cellspacing='4')
+			tr
+				td
+					| B: Small.
+					sub 3
+					span.grey-fill
+					//
+						<sub>3</sub><img src="img/ln.jpg" width=100 height=1>
+					| ?
+		table(cellpadding='0', cellspacing='4')
+			tr
+				td(width='30')
+				td
+					input(type='radio', name='q2c', value='1', checked='checked')
+					| Can I try it on
+				td(width='60')
+				td
+					input(type='radio', name='q2c', value='2')
+					| I'll take it
+				td(width='60')
+				td
+					input(type='radio', name='q2c', value='3')
+					| size
+		table(cellpadding='0', cellspacing='4')
+			tr
+				td A: Of course.
+			tr
+				td  
+			tr
+				td
+					| A: I don't think it
+					sub 4
+					span.grey-fill
+					//
+						<sub>4</sub><img src="img/ln.jpg" width=100 height=1>
+					| .
+		table(cellpadding='0', cellspacing='4')
+			tr
+				td(width='30')
+				td
+					input(type='radio', name='q2d', value='1', checked='checked')
+					| I'd
+				td(width='60')
+				td
+					input(type='radio', name='q2d', value='2')
+					| Can I try it on
+				td(width='60')
+				td
+					input(type='radio', name='q2d', value='3')
+					| fits
+		table(cellpadding='0', cellspacing='4')
+			tr
+				td B: It's fine. like my sweatshirts to be tight.
+			tr
+				td A: Oh, OK.
+		table(cellpadding='0', cellspacing='4')
+			tr
+				td
+					| B:
+					sub 5
+					span.grey-fill
+					//
+						<sub>5</sub><img src="img/ln.jpg" width=100 height=1></td></tr>
+		table(cellpadding='0', cellspacing='4')
+			tr
+				td(width='30')
+				td
+					input(type='radio', name='q2e', value='1', checked='checked')
+					| I'll take it
+				td(width='60')
+				td
+					input(type='radio', name='q2e', value='2')
+					| fits
+				td(width='60')
+				td
+					input(type='radio', name='q2e', value='3')
+					| size
+		p
+			center
+				button.eval(data-target='t2', data-draw='z2') Check answers
+	form#t3
+		p
+			b.intrucciones
+				| 3. Without reading dialog 2 again, see if you can choose the missing expressions.
+		p
+			center.letra (A= Salesperson. B= Customer.)
+		table.letra(cellpadding='0', cellspacing='4')
+			tr
+				td A: Can I help you?
+				tr
+		table.letra(cellpadding='0', cellspacing='4')
+			tr
+				td
+					| B: Yes please
+				td
+				td
+					sub 1
+					select(name='q3a')
+						option(value='0')
+							| Choose Answer
+							option(value='1')
+								| Can I try them on
+								option(value='2')
+									| Do you have a smaller size
+									option(value='3')
+										| I'd like
+				td
+					| to buy a pair of faded blue jeans.
+		table.letra(cellpadding='0', cellspacing='4')
+			tr
+				td A: What about these Levis?
+				tr
+		table.letra(cellpadding='0', cellspacing='4')
+			tr
+				td
+					| B: OK.
+				td
+				td
+					sub 2
+					select(name='q3b')
+						option(value='0')
+							| Choose Answer
+							option(value='1')
+								| Can I try them on
+								option(value='2')
+									| I'll take them
+									option(value='3')
+										| Can I pay by credit card
+				td
+					| ?
+		table.letra(cellpadding='0', cellspacing='4')
+			tr
+				td A:  Of course
+				tr
+					tr
+						td &#160
+						tr
+		table.letra(cellpadding='0', cellspacing='4')
+			tr
+				td
+					| A: They look great.
+				td
+				td
+					sub 3
+					select(name='q3c')
+						option(value='0')
+							| Choose Answer
+							option(value='1')
+								| I'll take them
+								option(value='2')
+									| They really suit you
+									option(value='3')
+										| Can I try them on
+				td
+					| .
+		table.letra(cellpadding='0', cellspacing='4')
+			tr
+				td
+					| B: Yes, but they're a little baggy.
+				td
+				td
+					sub 4
+					select(name='q3d')
+						option(value='0')
+							| Choose Answer
+							option(value='1')
+								| I'd like
+								option(value='2')
+									| I'll take them
+									option(value='3')
+										| Do you have a smaller size
+				td
+					| ?
+		table.letra(cellpadding='0', cellspacing='4')
+			tr
+				td A: No, sorry.
+				tr
+		table.letra(cellpadding='0', cellspacing='4')
+			tr
+				td
+					| B: Oh. OK, well,
+				td
+				td
+					sub 5
+					select(name='q3e')
+						option(value='0')
+							| Choose Answer
+							option(value='1')
+								| Can I pay by credit card
+								option(value='2')
+									| I'll take them
+									option(value='3')
+										| They really suit you
+				td
+					| .
+				td
+					sub 6
+					select(name='q3f')
+						option(value='0')
+							| Choose Answer
+							option(value='1')
+								| I'll take them
+								option(value='2')
+									| They really suit you
+									option(value='3')
+										| Can I pay by credit card
+					| ?
+		table.letra(cellpadding='0', cellspacing='4')
+			tr
+				td A: Sure
+				tr
+		p
+			center
+				button.eval(data-target='t3', data-draw='z3') Check answers
+	form#t4
+		p
+			b.instrucciones 4. Shopping Language 
+		p
+			b.letra What do we say when...
+		p
+			table.letra(cellpadding='0', cellspacing='0')
+				tr
+					td ...we want to buy something?
+					td(width='15')
+					td
+						select(name='q4a')
+							option(value='0')
+								| Select
+								option(value='1')
+									| 1
+									option(value='2')
+										| 2
+										option(value='3')
+											| 3
+											option(value='4')
+												| 4
+												option(value='5')
+													| 5
+													option(value='6')
+														| 6
+														option(value='7') 7
+					td(width='15')
+					td 1. Can i pay by credit card/with cash?
+				tr
+					td ...we want a diferent size?
+					td
+					td
+						select(name='q4b')
+							option(value='0')
+								| Select
+								option(value='1')
+									| 1
+									option(value='2')
+										| 2
+										option(value='3')
+											| 3
+											option(value='4')
+												| 4
+												option(value='5')
+													| 5
+													option(value='6')
+														| 6
+														option(value='7') 7
+					td
+					td 2. It suits me/you.
+				tr
+					td ...we want to put the clothes on to see if we like them?
+					td
+					td
+						select(name='q4c')
+							option(value='0')
+								| Select
+								option(value='1')
+									| 1
+									option(value='2')
+										| 2
+										option(value='3')
+											| 3
+											option(value='4')
+												| 4
+												option(value='5')
+													| 5
+													option(value='6')
+														| 6
+														option(value='7') 7
+					td
+					td 3. It fits.
+				tr
+					td ...we want too saythat it is the right size?
+					td
+					td
+						select(name='q4d')
+							option(value='0')
+								| Select
+								option(value='1')
+									| 1
+									option(value='2')
+										| 2
+										option(value='3')
+											| 3
+											option(value='4')
+												| 4
+												option(value='5')
+													| 5
+													option(value='6')
+														| 6
+														option(value='7') 7
+					td
+					td 4. I'll take it/them.
+				tr
+					td ...we want to say that it looks good?
+					td
+					td
+						select(name='q4e')
+							option(value='0')
+								| Select
+								option(value='1')
+									| 1
+									option(value='2')
+										| 2
+										option(value='3')
+											| 3
+											option(value='4')
+												| 4
+												option(value='5')
+													| 5
+													option(value='6')
+														| 6
+														option(value='7') 7
+					td
+					td 5. I'd like...
+				tr
+					td ...we decide to buy something?
+					td
+					td
+						select(name='q4f')
+							option(value='0')
+								| Select
+								option(value='1')
+									| 1
+									option(value='2')
+										| 2
+										option(value='3')
+											| 3
+											option(value='4')
+												| 4
+												option(value='5')
+													| 5
+													option(value='6')
+														| 6
+														option(value='7') 7
+					td
+					td 6. Can I try it/them on?
+				tr
+					td ...we want to know how to pay?
+					td
+					td
+						select(name='q4g')
+							option(value='0')
+								| Select
+								option(value='1')
+									| 1
+									option(value='2')
+										| 2
+										option(value='3')
+											| 3
+											option(value='4')
+												| 4
+												option(value='5')
+													| 5
+													option(value='6')
+														| 6
+														option(value='7') 7
+					td
+					td 7. Do you have a smaller/larger size?
+		p
+			center
+				button.eval(data-target='t4', data-draw='z4') Check answers
+	form#t5
+		p
+			b.instrucciones 5. Read this dialog and choose the correct phrase.
+		table.letra(cellpadding='0', cellspacing='4')
+			tr
+				td
+					b.letra A:
+				td
+					select(name='q5a')
+						option(value='0')
+							| Select
+							option(value='1')
+								| I d like
+								option(value='2')
+									| I like
+				td to buy a warm-up suit.
+		table.letra(cellpadding='0', cellspacing='4')
+			tr
+				td
+					b B:
+				td Certainly. Here you are.
+		table.letra(cellpadding='0', cellspacing='4')
+			tr
+				td
+					b A:
+				td
+					| Can I try
+					select(name='q5b')
+						option(value='0')
+							| Select
+							option(value='1')
+								| it
+								option(value='2')
+									| them
+				td on, please?
+		table.letra(cellpadding='0', cellspacing='4')
+			tr
+				td  Oh,
+				td
+					select(name='q5c')
+						option(value='0')
+							| Select
+							option(value='1')
+								| it doesn t fits
+								option(value='2')
+									| it doesn t fit
+					| .
+					select(name='q5d')
+						option(value='0')
+							| Select
+							option(value='1')
+								| Have you
+								option(value='2')
+									| Do you have
+					| a smaller size?
+		table.letra(cellpadding='0', cellspacing='4')
+			tr
+				td
+					b B:
+				td
+					| Yes, of course Here you are Yes, that
+					select(name='q5e')
+						option(value='0')
+							| Select
+							option(value='1')
+								| fits
+								option(value='2')
+									| fit
+					| It
+					select(name='q5f')
+						option(value='0')
+							| Select
+							option(value='1')
+								| suit
+								option(value='2')
+									| suits
+					| you too.
+		table.letra(cellpadding='0', cellspacing='4')
+			tr
+				td
+					b A:
+				td
+					| I ll take
+					select(name='q5g')
+						option(value='0')
+							| Select
+							option(value='1')
+								| them
+								option(value='2')
+									| it
+					| . Can I pay
+					select(name='q5h')
+						option(value='0')
+							| Select
+							option(value='1')
+								| by
+								option(value='2')
+									| whith
+					| credit card?
+		table.letra(cellpadding='0', cellspacing='4')
+			tr
+				td
+					b B:
+				td
+					| Fine.
+		button.eval(data-target='t5', data-draw='z5') Check answers
+	#z1
+	#z2
+	#z3
+	#z4
+	#z5

@@ -1,0 +1,130 @@
+<script>
+	v = {
+		q1a:2,
+		q1b:1,
+		q1c:1,
+		q1d:2,
+		q1e:2,
+		q1f:2,
+		q1g:1,
+		q1h:2,
+		q1i:2,
+		q1j:1,
+		q2a:'Teacher',
+		q2b:'Doctor',
+		q2c:'Taxi Driver',
+		q2d:'Salesperson',
+		q2e:'Pilot',
+		q2f:'Waiter'
+	}
+</script>
+<form id="t1">
+<img class="logo1" src="img/t-u2.jpg">
+<p class="titulo"> 
+<span>Jobs and occupations </span>
+</p>
+<b class="instrucciones">1. What are these jobs? Put the letters in order.</b> 
+<p>
+<table class="cuadro" cellpadding=0 cellspacing=4>
+	<tr>
+		<td><img src="img/u2-b1.jpg"></td>
+		<td><img src="img/u2-b2.jpg"></td>
+		<td><img src="img/u2-b3.jpg"></td><td><img src="img/u2-b4.jpg"></td>
+	</tr>
+<tr><td>
+<select name="q1a">
+<option value=0>Choose Answer
+<option value=1>Doctor
+<option value=2>Teacher
+</select>
+</td><td>
+<select name="q1b">
+<option value=0>Choose Answer
+<option value=1>Pilot
+<option value=2>Police officer
+</select>
+</td><td>
+<select name="q1c">
+<option value=0>Choose Answer
+<option value=1>Doctor
+<option value=2>Salesperson
+</select>
+</td><td>
+<select name="q1d">
+<option value=0>Choose Answer
+<option value=1>Doctor
+<option value=2>Secretary
+</select>
+</td><td>
+</td></tr>
+</table>
+</p>
+<table class="cuadro" cellpadding=0 cellspacing=4>
+<tr><td><img src="img/u2-b5.jpg"></td><td><img src="img/u2-b6.jpg"></td><td><img src="img/u2-b7.jpg"></td><td><img src="img/u2-b8.jpg"></td></tr>
+<tr><td>
+<select name="q1e">
+<option value=0>Choose Answer
+<option value=1>Secretary
+<option value=2>Salesperson
+</select>
+</td><td>
+<select name="q1f">
+<option value=0>Choose Answer
+<option value=1>Taxi driver
+<option value=2>Police officer
+</select>
+</td><td>
+<select name="q1g">
+<option value=0>Choose Answer
+<option value=1>Taxi driver
+<option value=2>Businessman
+</select>
+</td><td>
+<select name="q1h">
+<option value=0>Choose Answer
+<option value=1>Doctor
+<option value=2>Astronaut
+</select>
+</td><td>
+</td></tr>
+</table>
+<p>
+<center>
+<table class="cuadro" cellpadding=0 cellspacing=4>
+<tr><td><img src="img/u2-b9.jpg"></td><td><img src="img/u2-b10.jpg"></td></tr>
+<tr><td>
+<select name="q1i">
+<option value=0>Choose Answer
+<option value=1>Astronaut
+<option value=2>Businessman
+</select>
+</td><td>
+<select name="q1j">
+<option value=0>Choose Answer
+<option value=1>Waiter
+<option value=2>Taxi driver
+</select>
+</td><td>
+</td></tr>
+</table>
+</center>
+</p>
+<button class="eval" data-target="t1" data-draw="z1">Check answers</button>
+</form>
+<form id="t2">
+<p>
+<b class="instrucciones">2. Read the description. What is the job?</b>
+</p>
+<table class="cuadro" cellpadding=2 cellspacing=0>
+<tr><td bgcolor="#ffcc99" width=340 align="center"><b>Description</b></td><td bgcolor="#ffcc99" align="center"><b>Your Answer</b></td></tr>
+<tr><td bgcolor="#ffcc99">1. This person works in a school.</td><td bgcolor="#ffcc99" width=130 align="center"><input type="text" name="q2a" size=12></td></tr>
+<tr><td bgcolor="#ffcc99">2. In this job you help people who are ill.</td><td bgcolor="#ffcc99" width=130 align="center"><input type="text" name="q2b" size=12></td></tr>
+<tr><td bgcolor="#ffcc99">3. To do this job you need to have a car.</td><td bgcolor="#ffcc99" width=130 align="center"><input type="text" name="q2c" size=12></td></tr>
+<tr><td bgcolor="#ffcc99">4. In this job you sell things to people.</td><td bgcolor="#ffcc99" width=130 align="center"><input type="text" name="q2d" size=12></td></tr>
+<tr><td bgcolor="#ffcc99">5. If you do this job you spend a lot of time on a plane.</td><td bgcolor="#ffcc99" width=130 align="center"><input type="text" name="q2e" size=12></td></tr>
+<tr><td bgcolor="#ffcc99">6. In this job you work in a cafe or restaurant.</td><td bgcolor="#ffcc99" width=130 align="center"><input type="text" name="q2f" size=12></td></tr>
+</table>
+<button class="eval" data-target="t2" data-draw="z2">Check answers</button>
+</form>
+<div id="z1"></div>
+<div id="z2"></div>

@@ -1,0 +1,24 @@
+- var answers = ['Choose Answer','Who','What','How']
+
+img(src='')
+p Question words
+p(class='boldita') 1. Read the questions and answers. Choose the correct question word to complete the questions.
+section
+	ol
+		li 
+			+choose_answer(answers,"do you do?","I'm a teacher.")
+		li 
+			+choose_answer(answers,"does she live?","In an apartment in San Francisco.")
+		li 
+			+choose_answer(answers,"is your birthday?","It's on June 11th.")
+		li 
+			+choose_answer(answers,"do you go to work?","I go by bus.")
+		li 
+			+choose_answer(answers,"is that man?","I think it's John's brother.")
+		li 
+			+choose_answer(answers,"are you?","Fine, thanks.")
+		li 
+			+choose_answer(answers,"do you live in Chicago?","Because I work there.")
+		li 
+			+choose_answer(answers,"is your name?","Kate.")
+	button Check answers

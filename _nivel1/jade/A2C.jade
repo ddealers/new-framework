@@ -1,0 +1,242 @@
+div#A2C
+	script.
+		unitans.A2C = {
+			q1a:2,
+			q2a:1,
+			q2b:1,
+			q2c:0,
+			q2d:0,
+			q2e:1,
+			q2f:1,
+			q2g:0,
+			q2h:1,
+			q3a:'Get',
+			q3b:'Up',
+			q3c:'Get',
+			q3d:'Up',
+			q3e:'Have',
+			q3f:'Breakfast',
+			q3g:'Go',
+			q3h:'To',
+			q3i:'Work',
+			q3j:'Have',
+			q3k:'Lunch',
+			q3l:'Finish',
+			q3m:'Work',
+			q3n:'Have',
+			q3o:'Dinner',
+			q3p:'Go',
+			q3q:'Home',
+			q3r:'Go',
+			q3s:'To',
+			q3t:'Bed',
+			q3u:'Watch',
+			q3v:'TV'
+		}
+	form#t1
+			img.logo1(src='img/t-u2.jpg')
+			p.titulo
+				span A job description 
+			b.instrucciones 1. What job does the text below describe?
+			p
+				table.cuadro(cellpadding='5', cellspacing='2', border='1')
+					tr.letra
+						td(bgcolor='#ffffcc', width='450')
+							| "I don't get up very early because in my job I often work in the afternoon and evening.
+							| I suppose I usually get up about 9:30 a.m. or sometimes even 10:00 a.m. I have breakfast and get ready for work.
+							| I go to work at about 12:00 and I usually arrive about half an hour later at about 12:30 p.m.
+							| Lunch is freethat's one of the good things about my work!
+							| I have lunch at about 2:00 p.m. with some of the other people who work there.
+							| My work starts in the middle of the afternoon, when it's usually very quiet. The place starts to get busy at about 7:30 a.m.
+							| and that's when I do most of my work. I finish work very lateat about 11:30 p.m. on a normal day.
+							| I'm always hungry then so I have dinner at work. There's always some food that hasn't been sold that we can eat.
+							| I go home at about 12:00 a.m. I don't like to go to bed immediately so I watch TV for half an hour,
+							| so it's usually about 1:00 a.m. before I fall asleep."
+					tr
+						td(bgcolor='#ffffcc', fontfamily='arial', font-size='14', align='center')
+							select(name='q1a')
+								option(value='0')
+									| Choose Answer
+									option(value='1')
+										| salesperson
+										option(value='2')
+											| waiter
+											option(value='3') secretary
+							button.eval(data-target='t1', data-draw='z1') Check answer
+		p
+			b.instrucciones 2. Answers the questions about the person in exercise 1 true or false.
+		form#t2
+			b 1
+			| She doesn't get up very early.
+			br
+			table.cuadro(cellpadding='2', cellspacing='0')
+				tr
+					td(width='20')
+					td
+						input(type='radio', name='q2a', value='1', checked='checked')
+						| true
+					td
+						input(type='radio', name='q2a', value='0')
+						| false
+			b 2
+			| She has breakfast at home.
+			br
+			table.cuadro(cellpadding='2', cellspacing='0')
+				tr
+					td(width='20')
+					td
+						input(type='radio', name='q2b', value='1', checked='checked')
+						| true
+					td
+						input(type='radio', name='q2b', value='0')
+						| false
+			b 3
+			| She has lunch before she goes to work.
+			br
+			table.cuadro(cellpadding='2', cellspacing='0')
+				tr
+					td(width='20')
+					td
+						input(type='radio', name='q2c', value='1', checked='checked')
+						| true
+					td
+						input(type='radio', name='q2c', value='0')
+						| false
+			b 4
+			| She has lunch at about 2:30 p.m.
+			br
+			table.cuadro(cellpadding='2', cellspacing='0')
+				tr
+					td(width='20')
+					td
+						input(type='radio', name='q2d', value='1', checked='checked')
+						| true
+					td
+						input(type='radio', name='q2d', value='0')
+						| false
+			b 5
+			| She has dinner at work.
+			br
+			table.cuadro(cellpadding='2', cellspacing='0')
+				tr
+					td(width='20')
+					td
+						input(type='radio', name='q2e', value='1', checked='checked')
+						| true
+					td
+						input(type='radio', name='q2e', value='0')
+						| false
+			b 6
+			| She goes home after dinner.
+			br
+			table.cuadro(cellpadding='2', cellspacing='0')
+				tr
+					td(width='20')
+					td
+						input(type='radio', name='q2f', value='1', checked='checked')
+						| true
+					td
+						input(type='radio', name='q2f', value='0')
+						| false
+			b 7
+			| She doesn't watch TV when she arrives home.
+			br
+			table.cuadro(cellpadding='2', cellspacing='0')
+				tr
+					td(width='20')
+					td
+						input(type='radio', name='q2g', value='1', checked='checked')
+						| true
+					td
+						input(type='radio', name='q2g', value='0')
+						| false
+			b 8
+			| She goes to bed late.
+			br
+			table.cuadro(cellpadding='2', cellspacing='0')
+				tr
+					td(width='20')
+					td
+						input(type='radio', name='q2h', value='1', checked='checked')
+						| true
+					td
+						input(type='radio', name='q2h', value='0')
+						| false
+		button.eval(data-target='t2', data-draw='z2') Check answers
+		form#t3.letra
+			p
+				b.instrucciones
+					| 3. Here is the text from exercise 1 again. Complete the text with the correct expressions.
+			table.cuadro(cellpadding='5', cellspacing='2', border='1')
+				tr
+					td(bgcolor='#ffffcc', width='500')
+						| "I don't
+						sub 1
+						input(type='text', name='q3a', size='3')
+						sub 2
+						input(type='text', name='q3b', size='2')
+						| (1) very early because in my job I often work in the afternoon and evening.
+						| I suppose I usually
+						sub 3
+						input(type='text', name='q3c', size='3')
+						sub 4
+						input(type='text', name='q3d', size='2')
+						| (2) about 9:30 a.m.
+						| or sometimes even 10:00 a.m.
+						| I
+						sub 5
+						input(type='text', name='q3e', size='4')
+						sub 6
+						input(type='text', name='q3f', size='9')
+						| (3) and get ready for work.
+						| I
+						sub 7
+						input(type='text', name='q3g', size='2')
+						sub 8
+						input(type='text', name='q3h', size='2')
+						sub 9
+						input(type='text', name='q3i', size='4')
+						| (4) at about 12:00 and I usually arrive about half an hour later at about 12:30 p.m.
+						| Lunch is freethat's one of the good things about my work! I
+						sub 10
+						input(type='text', name='q3j', size='4')
+						sub 11
+						input(type='text', name='q3k', size='5')
+						| (5) at about 2:00 p.m. with some of the other people who work there.
+						p.letra
+							| My work starts in the middle of the afternoon, when it's usually very quiet.
+							| The place starts to get busy at about 7:30 a.m. and that's when I do most of my work. I
+							sub 12
+							input(type='text', name='q3l', size='6')
+							sub 13
+							input(type='text', name='q3m', size='4')
+							| (6) very lateat about 11:30 p.m. on a normal day.
+							| I'm always hungry then so I
+							sub 14
+							input(type='text', name='q3n', size='4')
+							sub 15
+							input(type='text', name='q3o', size='6')
+							| (7) at work. There's always some food that hasn't been sold that we can eat.
+							| I
+							sub 16
+							input(type='text', name='q3p', size='2')
+							sub 17
+							input(type='text', name='q3q', size='4')
+							| (8) at about 12:00 a.m.
+							| I don't like to
+							sub 18
+							input(type='text', name='q3r', size='2')
+							sub 19
+							input(type='text', name='q3s', size='2')
+							sub 20
+							input(type='text', name='q3t', size='3')
+							| (9) immediately so I
+							sub 21
+							input(type='text', name='q3u', size='5')
+							sub 22
+							input(type='text', name='q3v', size='2')
+							| (10) half an hour, so it's usually about 1:00 a.m. before I fall asleep."
+			button.eval(data-target='t3', data-draw='z3') Check answers
+		#z1
+		#z2
+		#z3

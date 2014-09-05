@@ -1,0 +1,226 @@
+div#U5B
+	script.
+		unitans.U5B = {
+			q1a:'were',
+			q1b:'was',
+			q1c:'wasn\'t',
+			q1d:'was',
+			q1e:'wasn\'t',
+			q1f:'wasn\'t',
+			q1g:'were',
+			q1h:'were',
+			q1i:'weren\'t',
+			q2a:'was',
+			q2b:'wasn\'t',
+			q2c:'was',
+			q2d:'weren\'t',
+			q2e:'were',
+			q2f:'were',
+			q2g:'weren\'t',
+			q2h:'wasn\'t',
+			q3a:'1',
+			q3b:'2',
+			q3c:'2',
+			q3d:'2',
+			q3e:'2',
+			q3f:'1',
+			q3g:'1',
+			q2h:'1',
+			q3i:'2',
+			q3j:'1'
+		}
+	form#t1
+		img.logo1(src='img/t-u5.jpg')
+		p
+			span.titdorado
+				| Past Simple of
+				i to be
+		p
+			b.instrucciones 1. The verb to be in the past
+		p
+			b.instrucciones Complete the table:
+		p
+			table.cuadro(cellpadding='2', cellspacing='1')
+				tr
+					td(bgcolor='#ffcc99', align='center')
+						b Simple Past: affirmative
+					td(bgcolor='#ffcc99', align='center')
+						b Simple Past: negative
+				tr.letra
+					td(bgcolor='#ffcc99', align='center') I was
+					td(bgcolor='#ffcc99', align='center') I wasn't
+				tr.letra
+					td(bgcolor='#ffcc99', align='center')
+						| you
+						input(type='text', name='q1a', size='8')
+					td(bgcolor='#ffcc99', align='center') you weren't
+				tr.letra
+					td(bgcolor='#ffcc99', align='center')
+						| she
+						input(type='text', name='q1b', size='8')
+					td(bgcolor='#ffcc99', align='center')
+						| she
+						input(type='text', name='q1c', size='8')
+				tr.letra
+					td(bgcolor='#ffcc99', align='center')
+						| he
+						input(type='text', name='q1d', size='8')
+					td(bgcolor='#ffcc99', align='center')
+						| he
+						input(type='text', name='q1e', size='8')
+				tr.letra
+					td(bgcolor='#ffcc99', align='center') it was
+					td(bgcolor='#ffcc99', align='center')
+						| it
+						input(type='text', name='q1f', size='8')
+				tr.letra
+					td(bgcolor='#ffcc99', align='center')
+						| we
+						input(type='text', name='q1g', size='8')
+					td(bgcolor='#ffcc99', align='center') we weren't 
+				tr.letra
+					td(bgcolor='#ffcc99', align='center')
+						| they
+						input(type='text', name='q1h', size='8')
+					td(bgcolor='#ffcc99', align='center')
+						| they
+						input(type='text', name='q1i', size='8')
+		p
+			center
+				button.eval(data-target='t1', data-draw='z1') Check answers
+	form#t2
+		p
+			b.instrucciones
+				| 2. Complete the sentences, choose one option of the list and write in the fields.
+		p
+			table.cuadro(cellpadding='4', cellspacing='0', border='2', bordercolor='#000066')
+				tr
+					td(width='120', align='center')
+						b was
+					td(width='120', align='center')
+						b wasn't
+					td(width='120', align='center')
+						b were
+					td(width='120', align='center')
+						b weren't
+		p.letra
+			| 1. The tennis player Boris Becker
+			input(type='text', name='q2a', size='6')
+			| 17 years old when he first won Wimbledom.
+			br
+			| 2. It
+			input(type='text', name='q2b', size='6')
+			| a good game so we left before the end.
+			br
+			| 3. When I
+			input(type='text', name='q2c', size='6')
+			| a student I played on the college football team.
+			br
+			| 4. The coach is angry because you
+			input(type='text', name='q2d', size='6')
+			| at the practice session yesterday.
+			br
+			| 5. We
+			input(type='text', name='q2e', size='6')
+			| very unhappy when our team lost the game.
+			br
+			| 6. It was a very hot day and the players
+			input(type='text', name='q2f', size='6')
+			| very tired at the end of the match.
+			br
+			| 7. We
+			input(type='text', name='q2g', size='6')
+			| very well prepared. That's why we lost.
+			br
+			| 8. The stadium
+			input(type='text', name='q2h', size='6')
+			| full because it wasn't an important game.
+			br
+		p
+			center
+				button.eval(data-target='t2', data-draw='z2') Check answers
+	form#t3
+		p
+			b.instrucciones
+				| 3. Choose the correct form of
+				i to be
+				| in each box to complete this text.
+		p
+			table.letra(cellpadding='4', cellspacing='0')
+				tr
+					td(bgcolor='#ffffcc')
+						| The Baltimore Orioles
+						select(name='q3a')
+							option(value='0')
+								| Choose Answer
+								option(value='1')
+									| are
+									option(value='2') were
+						| now the first U.S. baseball team to visit Cuba in 40 years. The Orioles played the Cuban national team yesterday and won the game 3-4. But it
+						select(name='q3b')
+							option(value='0')
+								| Choose Answer
+								option(value='1')
+									| was
+									option(value='2') wasn't
+						| an easy victory. The Orioles
+						select(name='q3c')
+							option(value='0')
+								| Choose Answer
+								option(value='1')
+									| are
+									option(value='2') were
+						| 2-0 up after the second inning, but the score
+						select(name='q3d')
+							option(value='0')
+								| Choose Answer
+								option(value='1')
+									| is
+									option(value='2') was
+						| 2-2 when the final inning started. There
+						select(name='q3e')
+							option(value='0')
+								| Choose Answer
+								option(value='1')
+									| was
+									option(value='2') were
+						| 50,000 people at the Estadio Latinoamericano in Havana to watch the game. Fidel Castro
+						select(name='q3f')
+							option(value='0')
+								| Choose Answer
+								option(value='1')
+									| was
+									option(value='2') were
+						| there. Baseball
+						select(name='q3g')
+							option(value='0')
+								| Choose Answer
+								option(value='1')
+									| is
+									option(value='2') was
+						| extremely popular in Cuba, and Castro
+						select(name='q3h')
+							option(value='0')
+								| Choose Answer
+								option(value='1')
+									| is
+									option(value='2') are
+						| Cuba's number one baseball fan. He played baseball for his university when he
+						select(name='q3i')
+							option(value='0')
+								| Choose Answer
+								option(value='1')
+									| is
+									option(value='2') was
+						| a student. The Cubans say they
+						select(name='q3j')
+							option(value='0')
+								| Choose Answer
+								option(value='1')
+									| are
+									option(value='2') were
+						| ready for the return game in the USA in May.
+		button.eval(data-target='t3', data-draw='z3') Check answers
+	#z1
+	#z2
+	#z3

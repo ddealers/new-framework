@@ -1,0 +1,319 @@
+div#A1B 
+  script.
+        unitans.A1B = {
+        q1a:'Australian',
+        q1b:'Brazilian',
+        q1c:'American',
+        q1d:'Europe',
+        q1e:'Canada',
+        q1f:'Italian',
+        q1g:'Korean',
+        q1h:'African',
+        q1i:'Russia',
+        q1j:'British',
+        q1k:'Ireland',
+        q1l:'Scotland',
+        q1m:'Polish',
+        q1n:'Denmark',
+        q1o:'Chinese',
+        q1p:'Vietnam',
+        q1q:'Greek',
+        q1r:'France',
+        q1s:'Germany',
+        q2a:2,
+        q2b:1,
+        q2c:1,
+        q2d:2,
+        q2e:1,
+        q2f:2,
+        q2g:2,
+        q2h:2,
+        q2i:2,
+        q2j:2,
+        q2k:2,
+        q2l:1,
+        q2m:1,
+        q2n:1,
+        q2o:2,
+        q2p:2,
+        q2q:1,
+        q2r:1
+        }
+  form#t1
+    img.logo(src='img/t-u1.jpg')
+    p#lang
+      span Languages /Adjectives of Place
+    p#adje
+      strong 1. Adjectives of Place
+    p#mexican
+      span
+        | Mexican food is on the menu.
+        br
+        | Mexican = from Mexico
+    p#there There are different types of Adjectives of Place;
+    p#ones
+      | ones that end with
+      span.r1
+        | -
+        b an
+        | Mexican (from Mexico)
+      br
+      | ones that end with
+      span.r1
+        | -
+        b ish
+        | Spanish (from Spain)
+      br
+      | ones that end with
+      span.r1
+        | -
+        b ese
+        | Japanese (from Japan)
+      br
+      | irregular
+      span.r1 ones Thai (from Thailand)
+    p#comp
+      | Complete the table of
+      strong Place
+      | and
+      strong Adjective
+      | .
+    p
+      center#place
+        table(cellpadding='3', cellspacing='0', border='0')
+          tr
+            td(bgcolor='#ffcc00', align='center') Place
+            td(bgcolor='#ffcc00', align='center') Adjective
+          tr
+            td(bgcolor='#ffffcc', align='center') Mexico
+            td(bgcolor='#ffffcc', align='center') Mexican
+          tr
+            td(align='center') Australia
+            td
+              sub 1
+              input(type='text', name='q1a', size='12')
+          tr
+            td(align='center') Brazil
+            td
+              sub 2
+              input(type='text', name='q1b', size='12')
+          tr
+            td(align='center') America
+            td
+              sub 3
+              input(type='text', name='q1c', size='12')
+          tr
+            td
+              sub 4
+              input(type='text', name='q1d', size='12')
+            td(align='center') European
+          tr
+            td
+              sub 5
+              input(type='text', name='q1e', size='12')
+            td(align='center') Canadian
+          tr
+            td(align='center') Italy
+            td
+              sub 6
+              input(type='text', name='q1f', size='12')
+          tr
+            td(align='center') Korea
+            td
+              sub 7
+              input(type='text', name='q1g', size='12')
+          tr
+            td(align='center') Africa
+            td
+              sub 8
+              input(type='text', name='q1h', size='12')
+          tr
+            td
+              sub 9
+              input(type='text', name='q1i', size='12')
+            td(align='center') Russian
+          tr
+            td(bgcolor='#ffffcc', align='center') Spain
+            td(bgcolor='#ffffcc', align='center') Spanish
+          tr
+            td(align='center') Britain
+            td
+              sub 10
+              input(type='text', name='q1j', size='12')
+          tr
+            td
+              sub 11
+              input(type='text', name='q1k', size='12')
+            td(align='center') Irish
+          tr
+            td
+              sub 12
+              input(type='text', name='q1l', size='12')
+            td(align='center') Scottish
+          tr
+            td(align='center') Poland
+            td
+              sub 13
+              input(type='text', name='q1m', size='12')
+          tr
+            td
+              sub 14
+              input(type='text', name='q1n', size='12')
+            td(align='center') Danish
+          tr
+            td(bgcolor='#ffffcc', align='center') Japan
+            td(bgcolor='#ffffcc', align='center') Japanese
+          tr
+            td(align='center') China
+            td
+              sub 15
+              input(type='text', name='q1o', size='12')
+          tr
+            td
+              sub 16
+              input(type='text', name='q1p', size='12')
+            td(align='center') Vietnamese
+          tr
+            td(bgcolor='#ffffcc', align='center') Thailand
+            td(bgcolor='#ffffcc', align='center') Thai
+          tr
+            td(align='center') Greece
+            td
+              sub 17
+              input(type='text', name='q1q', size='12')
+          tr
+            td
+              sub 18
+              input(type='text', name='q1r', size='12')
+            td(align='center') French
+          tr
+            td
+              sub 19
+              input(type='text', name='q1s', size='12')
+            td(align='center') German
+    button.eval(data-target='t1', data-draw='z1') Check answers
+  form#t2
+    p
+      strong 2. Now read these words. Are they places or adjectives?
+    p
+      table.cuadro(cellpadding='3', cellspacing='0', border='0')
+        tr
+          td(bgcolor='#ffffcc') 1. Brazilian
+          td(bgcolor='#ffcc99', align='center')
+            | place
+            input(type='radio', name='q2a', value='1', checked='checked')
+            | adjective
+            input(type='radio', name='q2a', value='2')
+          td(bgcolor='#ffffcc') 10. Germany
+          td(bgcolor='#ffcc99', align='center')
+            | place
+            input(type='radio', name='q2b', value='1', checked='checked')
+            | adjective
+            input(type='radio', name='q2b', value='2')
+        tr
+          td(bgcolor='#ffffcc') 2. Italy
+          td(bgcolor='#ffcc99', align='center')
+            | place
+            input(type='radio', name='q2c', value='1', checked='checked')
+            | adjective
+            input(type='radio', name='q2c', value='2')
+          td(bgcolor='#ffffcc') 11. French
+          td(bgcolor='#ffcc99', align='center')
+            | place
+            input(type='radio', name='q2d', value='1', checked='checked')
+            | adjective
+            input(type='radio', name='q2d', value='2')
+        tr
+          td(bgcolor='#ffffcc') 3. Australia
+          td(bgcolor='#ffcc99', align='center')
+            | place
+            input(type='radio', name='q2e', value='1', checked='checked')
+            | adjective
+            input(type='radio', name='q2e', value='2')
+          td(bgcolor='#ffffcc') 12. European
+          td(bgcolor='#ffcc99', align='center')
+            | place
+            input(type='radio', name='q2f', value='1', checked='checked')
+            | adjective
+            input(type='radio', name='q2f', value='2')
+        tr
+          td(bgcolor='#ffffcc') 4. Italian
+          td(bgcolor='#ffcc99', align='center')
+            | place
+            input(type='radio', name='q2g', value='1', checked='checked')
+            | adjective
+            input(type='radio', name='q2g', value='2')
+          td(bgcolor='#ffffcc') 13. British
+          td(bgcolor='#ffcc99', align='center')
+            | place
+            input(type='radio', name='q2h', value='1', checked='checked')
+            | adjective
+            input(type='radio', name='q2h', value='2')
+        tr
+          td(bgcolor='#ffffcc') 5. Irish
+          td(bgcolor='#ffcc99', align='center')
+            | place
+            input(type='radio', name='q2i', value='1', checked='checked')
+            | adjective
+            input(type='radio', name='q2i', value='2')
+          td(bgcolor='#ffffcc') 14. Canadian
+          td(bgcolor='#ffcc99', align='center')
+            | place
+            input(type='radio', name='q2j', value='1', checked='checked')
+            | adjective
+            input(type='radio', name='q2j', value='2')
+        tr
+          td(bgcolor='#ffffcc') 6. Japanese
+          td(bgcolor='#ffcc99', align='center')
+            | place
+            input(type='radio', name='q2k', value='1', checked='checked')
+            | adjective
+            input(type='radio', name='q2k', value='2')
+          td(bgcolor='#ffffcc') 15. China
+          td(bgcolor='#ffcc99', align='center')
+            | place
+            input(type='radio', name='q2l', value='1', checked='checked')
+            | adjective
+            input(type='radio', name='q2l', value='2')
+        tr
+          td(bgcolor='#ffffcc') 7. Scotland
+          td(bgcolor='#ffcc99', align='center')
+            | place
+            input(type='radio', name='q2m', value='1', checked='checked')
+            | adjective
+            input(type='radio', name='q2m', value='2')
+          td(bgcolor='#ffffcc') 16. Greece
+          td(bgcolor='#ffcc99', align='center')
+            | place
+            input(type='radio', name='q2n', value='1', checked='checked')
+            | adjective
+            input(type='radio', name='q2n', value='2')
+        tr
+          td(bgcolor='#ffffcc') 8. German
+          td(bgcolor='#ffcc99', align='center')
+            | place
+            input(type='radio', name='q2o', value='1', checked='checked')
+            | adjective
+            input(type='radio', name='q2o', value='2')
+          td(bgcolor='#ffffcc') 17. Greek
+          td(bgcolor='#ffcc99', align='center')
+            | place
+            input(type='radio', name='q2p', value='1', checked='checked')
+            | adjective
+            input(type='radio', name='q2p', value='2')
+        tr
+          td(bgcolor='#ffffcc') 9. France
+          td(bgcolor='#ffcc99', align='center')
+            | place
+            input(type='radio', name='q2q', value='1', checked='checked')
+            | adjective
+            input(type='radio', name='q2q', value='2')
+          td(bgcolor='#ffffcc') 18. Europe
+          td(bgcolor='#ffcc99', align='center')
+            | place
+            input(type='radio', name='q2r', value='1', checked='checked')
+            | adjective
+            input(type='radio', name='q2r', value='2')
+    button.eval(data-target='t2', data-draw='z2') Check answers
+  #z1
+  #z2

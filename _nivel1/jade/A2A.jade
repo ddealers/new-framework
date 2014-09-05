@@ -1,0 +1,194 @@
+div#A2A
+	script.
+		unitans.A2A = {
+			q1a:'Kennedy',
+			q2a:'Brother',
+			q2b:'Daughter',
+			q2c:'Father',
+			q2d:'Aunt',
+			q2e:'Grandmother',
+			q2f:'Wife',
+			q2g:'Cousin',
+			q2h:'Niece',
+			q2i:'Brother-in-law',
+			q2j:'Father-in-law',
+			q2k:'Great-grandfather',
+			q2l:'Great-granddaughter',
+			q3a:'3',
+			q3b:'3',
+			q3c:'3',
+			q3d:'2',
+			q3e:'3',
+			q3f:'3'
+		}
+	form#t1
+		img(src='img/t-u2.jpg')
+		p
+			span#tit Family members
+		b
+		| 1. Look at part of the family tree of this famous family. Can you guess the family's last name?
+		p
+		img(src='img/u2-a.jpg')
+		| (m = married to)
+		p
+		span#bl Clue 1. It's a famous American family.
+		table(cellpadding='4', cellspacing='0')
+		tr
+			td Family's last name:
+			td
+			input(type='text', name='q1a', size='12')
+			td
+			button.eval(data-target='t1', data-draw='z1') Check answers
+	form#t2
+		p
+		b
+			| 2. Family Relations. Use the information in the family tree in exercise 1 to complete the following sentences.
+		table(cellpadding='0', cellspacing='0', border='2', bordercolor='#009999')
+		tr
+			td(bgcolor='#ffcc99')  
+			td(bgcolor='#ffcc99', align='center')
+			b Your Answer
+		tr
+			td(bgcolor='#ffcc99', width='170') 1 Edward is Robert's
+			td(bgcolor='#ffcc99', width='130', align='center')
+			input(type='text', name='q2a', size='12')
+		tr
+			td(bgcolor='#ffcc99') 2 Tatiana is Caroline's
+			td(bgcolor='#ffcc99', align='center')
+			input(type='text', name='q2b', size='12')
+		tr
+			td(bgcolor='#ffcc99') 3 Joseph is John's
+			td(bgcolor='#ffcc99', align='center')
+			input(type='text', name='q2c', size='12')
+		tr
+			td(bgcolor='#ffcc99') 4 Jacqueline is Kara's
+			td(bgcolor='#ffcc99', align='center')
+			input(type='text', name='q2d', size='12')
+		tr
+			td(bgcolor='#ffcc99') 5 Virginia is Max's
+			td(bgcolor='#ffcc99', align='center')
+			input(type='text', name='q2e', size='12')
+		tr
+			td(bgcolor='#ffcc99') 6 Jacqueline is John's
+			td(bgcolor='#ffcc99', align='center')
+			input(type='text', name='q2f', size='12')
+		tr
+			td(bgcolor='#ffcc99') 7 Grace is Tatiana's
+			td(bgcolor='#ffcc99', align='center')
+			input(type='text', name='q2g', size='12')
+		tr
+			td(bgcolor='#ffcc99') 8 Kara is John's
+			td(bgcolor='#ffcc99', align='center')
+			input(type='text', name='q2h', size='12')
+		tr
+			td(bgcolor='#ffcc99') 9 Robert is Virginia's
+			td(bgcolor='#ffcc99', align='center')
+			input(type='text', name='q2i', size='12')
+		tr
+			td(bgcolor='#ffcc99') 10 Edward is Michael's
+			td(bgcolor='#ffcc99', align='center')
+			input(type='text', name='q2j', size='12')
+		tr
+			td(bgcolor='#ffcc99') 11 Joseph is Max's
+			td(bgcolor='#ffcc99', align='center')
+			input(type='text', name='q2k', size='12')
+		tr
+			td(bgcolor='#ffcc99') 12 Grace is Joseph's
+			td(bgcolor='#ffcc99', align='center')
+			input(type='text', name='q2l', size='12')
+		p
+		center
+			button.eval(data-target='t2', data-draw='z2') Check answers
+	form#t3
+		b
+		| 3. Look at the groups of words below. Which one is different in each question and why?
+		p
+		table(cellpadding='2', cellspacing='0')
+			tr
+			td
+				| 1
+				input(type='radio', name='q3a', value='1', checked='checked')
+				| aunt
+			td
+				input(type='radio', name='q3a', value='2')
+				| sister-in-law
+			td
+				input(type='radio', name='q3a', value='3')
+				| husband
+			td
+				input(type='radio', name='q3a', value='4')
+				| niece
+			tr
+			td
+				| 2
+				input(type='radio', name='q3b', value='1', checked='checked')
+				| grandmother
+			td
+				input(type='radio', name='q3b', value='2')
+				| brother
+			td
+				input(type='radio', name='q3b', value='3')
+				| wife
+			td
+				input(type='radio', name='q3b', value='4')
+				| father
+			tr
+			td
+				| 3
+				input(type='radio', name='q3c', value='1', checked='checked')
+				| uncle
+			td
+				input(type='radio', name='q3c', value='2')
+				| brother
+			td
+				input(type='radio', name='q3c', value='3')
+				| aunt
+			td
+				input(type='radio', name='q3c', value='4')
+				| grandson
+			tr
+			td
+				| 4
+				input(type='radio', name='q3d', value='1', checked='checked')
+				| nephew
+			td
+				input(type='radio', name='q3d', value='2')
+				| cousin
+			td
+				input(type='radio', name='q3d', value='3')
+				| brother
+			td
+				input(type='radio', name='q3d', value='4')
+				| mother
+			tr
+			td
+				| 5
+				input(type='radio', name='q3e', value='1', checked='checked')
+				| father-in-law
+			td
+				input(type='radio', name='q3e', value='2')
+				| stepbrother
+			td
+				input(type='radio', name='q3e', value='3')
+				| father
+			td
+				input(type='radio', name='q3e', value='4')
+				| husband
+			tr
+			td
+				| 6
+				input(type='radio', name='q3f', value='1', checked='checked')
+				| grandfather
+			td
+				input(type='radio', name='q3f', value='2')
+				| son
+			td
+				input(type='radio', name='q3f', value='3')
+				| mother
+			td
+				input(type='radio', name='q3f', value='4')
+				| uncle
+		button.eval(data-target='t3', data-draw='z3') Check answers
+	#z1
+	#z2
+	#z3

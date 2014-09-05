@@ -1,0 +1,146 @@
+div#U6A
+	script.
+		unitans.U6A = {
+			q1a:'1',
+			q2a:'was',
+			q2b:'go',
+			q2c:'went out',
+			q2d:'write',
+			q2e:'read',
+			q2f:'fall',
+			q2g:'come',
+			q2h:'have',
+			q2i:'throw'
+		}
+	form#t1
+		img.logo(src='img/t-u6.jpg')
+		p
+			span.titulo Past Simple
+		p
+			b.instrucciones 1. Past tense, regular and irregular verbs
+		p.letra
+			| For example:
+		p
+			table#verb(cellpadding='4', cellspacing='0')
+				tr.letra
+					td(width='10', align='center')
+						img(src='img/bullet.gif')
+					td
+						span.rojo
+							| I
+							b liked
+							| the movie.
+				tr.letra
+					td
+					td
+						| VERB:
+						span.rojo like
+						| PAST TENSE:
+						span.rojo liked
+						| = Regular verb
+				tr.letra
+					td(align='center')
+						img(src='img/bullet.gif')
+					td
+						span.rojo
+							| I
+							b saw
+							| the movie last night.
+				tr.letra
+					td
+					td
+						| VERB:
+						span.rojo see
+						| PAST TENSE:
+						span.rojo saw
+						| = Irregular verb
+		p
+			b.instrucciones Which story below has only regular past tense verbs in it?
+		p
+			center
+				table.cuadro(cellpadding='2', cellspacing='0')
+					tr.letra
+						td
+							input(type='radio', name='q1a', value='1', checked='checked')
+							| story 1
+					tr.letra
+						td
+							input(type='radio', name='q1a', value='2')
+							| story 2
+		p
+			center
+				button.eval(data-target='t1', data-draw='z1') Check answer
+	form#t2
+		p
+			b.instrucciones story 1
+		p
+			table.cuadro(cellpadding='2', cellspacing='0', border='1', width='430')
+				tr
+					td
+						| This happened a long time ago. We were playing in a field near my house. We were cooking a pumpkin over a candle. My friend accidentally knocked the candle onto the ground and the grass started to burn. A short time later, the fire department arrived.
+		p
+			b.instrucciones story 3
+		p
+			table.cuadro(cellpadding='2', cellspacing='0', border='1', width='430')
+				tr
+					td
+						| Dear Lucy,
+						p
+							| I like my new job but last week something unexpected happened. I was working at night in my office on the tenth floor, and suddenly the lights went out. The elevator wasn't working. I went to the fire escape door but it was locked. I went to the window. For three hours I was throwing pieces of paper out the window to people in the street. On the pieces of paper I wrote: Help! I can't get out! Call the Police! Finally someone read a piece of paper and phoned the police. I was very tired and angry by then. The next day the people at work .....
+		p
+			b.instrucciones 2. Complete the chart of irregular verbs and their past tenses.
+		p
+			center
+				table.cuadro(cellpadding='2', cellspacing='1')
+					tr.letra
+						td(bgcolor='#cc9966', align='center')
+							b verb
+						td(bgcolor='#cc9966', align='center')
+							b past tense
+					tr.letra
+						td(bgcolor='#ffcc99', align='center') (be) am/is
+						td(bgcolor='#ffcc99', align='center')
+							input(type='text', name='q2a', size='8')
+					tr.letra
+						td(bgcolor='#ffcc99', align='center') (be) are
+						td(bgcolor='#ffcc99', align='center') were
+					tr.letra
+						td(bgcolor='#ffcc99', align='center')
+							input(type='text', name='q2b', size='8')
+						td(bgcolor='#ffcc99', align='center') went
+					tr.letra
+						td(bgcolor='#ffcc99', align='center') go out
+						td(bgcolor='#ffcc99', align='center')
+							input(type='text', name='q2c', size='8')
+					tr.letra
+						td(bgcolor='#ffcc99', align='center')
+							input(type='text', name='q2d', size='8')
+						td(bgcolor='#ffcc99', align='center') wrote
+					tr.letra
+						td(bgcolor='#ffcc99', align='center') read
+						td(bgcolor='#ffcc99', align='center')
+							input(type='text', name='q2e', size='8')
+					tr.letra
+						td(bgcolor='#ffcc99', align='center')
+							input(type='text', name='q2f', size='8')
+						td(bgcolor='#ffcc99', align='center') fell
+					tr.letra
+						td(bgcolor='#ffcc99', align='center') feel
+						td(bgcolor='#ffcc99', align='center') felt
+					tr.letra
+						td(bgcolor='#ffcc99', align='center')
+							input(type='text', name='q2g', size='8')
+						td(bgcolor='#ffcc99', align='center') came
+					tr.letra
+						td(bgcolor='#ffcc99', align='center')
+							input(type='text', name='q2h', size='8')
+						td(bgcolor='#ffcc99', align='center') had
+					tr.letra
+						td(bgcolor='#ffcc99', align='center')
+							input(type='text', name='q2i', size='8')
+						td(bgcolor='#ffcc99', align='center') threw
+		p
+			center
+				button.eval(data-target='t2', data-draw='z2') Check answer
+	#z1
+	#z2
