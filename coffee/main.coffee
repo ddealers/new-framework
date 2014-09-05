@@ -1,7 +1,6 @@
 load = (url) ->
 	cont = $('#cont')
 	cont.empty()
-	###
 	url = url.replace './templates/', ''
 	url = url.replace '.html', ''
 	src = $('#'+url).html()
@@ -52,7 +51,8 @@ load = (url) ->
 				evaluateFromZero form, draw
 			else
 				evaluate form, draw
-evaluateScore = (form, draw) ->
+	###
+evaluateScore = (form, draw, v) ->
 	score = 0
 	draw = '.alert-box > div'
 	answers = $('#'+form).serializeArray()
@@ -62,21 +62,21 @@ evaluateScore = (form, draw) ->
 	$(draw).append '<a href="#" class="close">x</a>'
 	$(draw).append "<p>Score: #{score}</p>"
 	$('.alert-box').fadeIn 500
-evaluateGeneric =  (form, draw) ->
+evaluateGeneric =  (form, draw, v) ->
 	draw = '.alert-box > div'
 	$(draw).empty()
 	$(draw).append '<a href="#" class="close">x</a>'
 	console.log $('#'+form).data('generic')
 	$(draw).html $('#'+form).data('generic')
 	$('.alert-box').fadeIn 500
-evaluateQuiz = (form, draw) ->
+evaluateQuiz = (form, draw, v) ->
 	draw = '.alert-box > div'
 	$(draw).empty()
 	$(draw).append '<a href="#" class="close">x</a>'
 	$(draw).html 'If you answered 5 A\'s or more you are a Middle Youth-er. <br>If you answered 5 B\'s or more you are a Yuppie. <br>If you answered 5 C\'s or more you are a Yubbie. <br>If you answered 5 D\'s or more you are a home-loving family person. <br>If you answered less than 5 in any of A-D you are a unique individual who is impossible to label.'
 	$('.alert-box').fadeIn 500
 
-evaluateList = (form, draw) ->
+evaluateList = (form, draw, v) ->
 	draw = '.alert-box > div'
 	response = '<p>1. Correct</p>'
 	list = v[$('#'+form).data('list')];
@@ -88,7 +88,7 @@ evaluateList = (form, draw) ->
 	$(draw).append '<a href="#" class="close">x</a>'
 	$(draw).append response
 	$('.alert-box').fadeIn 500
-evaluateFromZero = (form, draw) ->
+evaluateFromZero = (form, draw, v) ->
 	draw = '.alert-box > div'
 	answers = $('#'+form).serializeArray()
 	console.log answers
@@ -115,7 +115,7 @@ evaluateFromZero = (form, draw) ->
 				$(draw).append '<p>' + index + '. Incorrect</p>'
 		$('.alert-box').fadeIn 500
 
-evaluate = (form, draw) ->
+evaluate = (form, draw, v) ->
 	#draw = '#'+draw
 	draw = '.alert-box > div'
 	answers = $('#'+form).serializeArray()

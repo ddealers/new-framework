@@ -1,0 +1,14 @@
+{
+	"jade":{
+		"src":"/main.jade",
+		"dest":"/"
+	},
+	"stylus":{
+		"src":"./stylus/style.styl",
+		"dest":"/css/"
+	},
+	"coffee":{
+		"src":"./coffee/main.coffee",
+		"dest":"/js/"
+	}
+}
