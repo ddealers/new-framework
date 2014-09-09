@@ -1,0 +1,10 @@
+{
+	"name": "naf-l3",
+	"main": "index.html",
+	"window": {
+		"title":"New American Framework Level 3",
+		"toolbar": false,
+		"width": 960,
+		"height": 720
+	}
+}

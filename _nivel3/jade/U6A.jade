@@ -1,0 +1,674 @@
+div#U6A
+	script.
+		unitans.U6A = {
+			q1a:'1',
+			q1b:'0',
+			q1c:'1',
+			q1d:'1',
+			q1e:'1',
+			q1f:'0',
+			q1g:'0',
+			q1h:'0',
+			q2a:'1',
+			q2b:'0',
+			q2c:'0',
+			q2d:'1',
+			q2e:'0',
+			q2f:'0',
+			q2g:'1',
+			q2h:'0',
+			q2i:'0',
+			q2j:'1',
+			q3a:'1',
+			q3b:'1',
+			q3c:'1',
+			q4a:'1',
+			q4b:'0',
+			q4c:'1',
+			q4d:'0',
+			q4e:'1',
+			q4f:'0',
+			q4g:'1',
+			q4h:'0',
+			q4i:'1',
+			q4j:'0',
+			q6a:'1',
+			q6b:'0',
+			q6c:'1',
+			q6d:'1',
+			q6e:'1',
+			q6f:'1',
+			q7a:'was',
+			q7b:'written',
+			q7c:'by',
+			q7d:'discovered',
+			q7e:'It',
+			q7f:'was',
+			q7g:'directed',
+			q7h:'by',
+			q7i:'It',
+			q7j:'was',
+			q7k:'built',
+			q7l:'by',
+			q7m:'climbed',
+			q7n:'was',
+			q7o:'discovered',
+			q7p:'is',
+			q7q:'used',
+			q8a:'was',
+			q8b:'was',
+			q8c:'was given',
+			q8d:'decided',
+			q8e:'was controlled',
+			q8f:'tried',
+			q8g:'was found',
+			q8h:'wanted',
+			q8i:'traveled',
+			q8j:'arrived',
+			q8k:'saw',
+			q8l:'spent',
+			q8m:'was told',
+			q8n:'wrote',
+			q8o:'were written'
+		}
+			//z5.innerHTML="2. America was discovered in 1492.<br>4. <i>Citizen Kane</i> was directed by Orson Welles.<br>or Orson Welles directed <i>Citizen Kane</i>.<br>6. Honda motorbikes are made in Japan.<br>8. <i>The Sunflowers</i> was painted by Van Gogh.<br>or Van Gogh painted <i>The Sunflowers</i>.<br>10.Gustave Eiffel built the Eiffel Tower.<br>or The Eiffel Tower was built by Gustave Eiffel.<br>"
+	#t0
+		b.u3tit Screen Test
+		p
+			b.u3 Past Passive
+			br
+	p
+		form#t1
+			b
+				| 1. Look at these sentences and the pictures. Choose the sentence which represents the picture.
+	p
+		table(cellspacing='5', cellpadding='0', width='600')
+			tr
+				td
+					| 1.- 
+					input(type='radio', name='q1a', value='1', checked='')
+					|  a. The man was hit by the bus.
+					br
+					input(type='radio', name='q1a', value='0')
+					| b. The man hit the bus.
+				td
+					img(src='img/u6a.jpg')
+			tr
+				td
+					| 2.- 
+					input(type='radio', name='q1b', value='1', checked='')
+					| a. The man was hit by the bus.
+					br
+					input(type='radio', name='q1b', value='0')
+					| b. The man hit the bus.
+				td
+					img(src='img/u6b.jpg')
+			tr
+				td
+					| 3.- 
+					input(type='radio', name='q1c', value='1', checked='')
+					| a. The woman kissed the child.
+					br
+					input(type='radio', name='q1c', value='0')
+					| b. The woman was kissed by the child.
+				td
+					img(src='img/u6c.jpg')
+			tr
+				td
+					| 4.- 
+					input(type='radio', name='q1d', value='1', checked='')
+					| a. A man was bitten by a dog.
+					br
+					input(type='radio', name='q1d', value='0')
+					| b. A man bit a dog.
+				td
+					img(src='img/u6d.jpg')
+			tr
+				td
+					| 5.- 
+					input(type='radio', name='q1e', value='1', checked='')
+					| a. The girl ate the fish.
+					br
+					input(type='radio', name='q1e', value='0')
+					| b. The girl was eaten by the fish.
+				td
+					img(src='img/u6e.jpg')
+			tr
+				td
+					| 6.- 
+					input(type='radio', name='q1f', value='1', checked='')
+					| a. The Queen was driven to the airport.
+					br
+					input(type='radio', name='q1f', value='0')
+					| b. The Queen drove to the airport.
+				td
+					img(src='img/u6f.jpg')
+			tr
+				td
+					| 7.-  
+					input(type='radio', name='q1g', value='1', checked='')
+					|  a. We gave them a book.
+					br
+					input(type='radio', name='q1g', value='0')
+					|  b. We were given a book.
+				td
+					img(src='img/u6g.jpg')
+			tr
+				td
+					| 8.-  
+					input(type='radio', name='q1h', value='1', checked='')
+					| a. She followed the man down the street.
+					br
+					input(type='radio', name='q1h', value='0')
+					|  b. She was followed down the street.
+				td
+					img(src='img/u6h.jpg')
+	p
+		center
+			button.eval(data-target='t1') Check answers
+	form#t2
+		p
+			b 2. Look at the sentences below. Decide if they are Active or Passive.
+		p
+			ol
+				li
+					| She used the money to travel to Tibet.
+					br
+					input(type='radio', name='q2a', value='1', checked='')
+					| Active 
+					input(type='radio', name='q2a', value='0')
+					| Passive
+		p
+			li
+				| At that time Tibet was controlled by the Chinese.
+				br
+				input(type='radio', name='q2b', value='1', checked='')
+				| Active 
+				input(type='radio', name='q2b', value='0')
+				| Passive
+		p
+			li
+				| She was sent to school in Atlanta.
+				br
+				input(type='radio', name='q2c', value='1', checked='')
+				| Active 
+				input(type='radio', name='q2c', value='0')
+				|  Passive
+		p
+			li
+				| We traveled to San Francisco by car.
+				br
+				input(type='radio', name='q2d', value='1', checked='')
+				| Active 
+				input(type='radio', name='q2d', value='0')
+				|  Passive
+		p
+			li
+				| Volkswagen cars are made in Germany.
+				br
+				input(type='radio', name='q2e', value='1', checked='')
+				| Active 
+				input(type='radio', name='q2e', value='0')
+				| Passive
+		p
+			li
+				| The book was written in 1986.
+				br
+				input(type='radio', name='q2f', value='1', checked='')
+				| Active 
+				input(type='radio', name='q2f', value='0')
+				|  Passive
+		p
+			li
+				| He was living in Madrid in the summer.
+				br
+				input(type='radio', name='q2g', value='1', checked='')
+				| Active 
+				input(type='radio', name='q2g', value='0')
+				|  Passive
+		p
+			li
+				| We were told to sit down.
+				br
+				input(type='radio', name='q2h', value='1', checked='')
+				| Active 
+				input(type='radio', name='q2h', value='0')
+				|  Passive
+		p
+			li
+				| Jaws was directed by Steven Spielberg.
+				br
+				input(type='radio', name='q2i', value='1', checked='')
+				| Active 
+				input(type='radio', name='q2i', value='0')
+				|  Passive
+		p
+			li
+				| We had been waiting for an hour.
+				br
+				input(type='radio', name='q2j', value='1', checked='')
+				| Active 
+				input(type='radio', name='q2j', value='0')
+				|  Passive
+		p
+			center
+				button.eval(data-target='t2') Check answers
+	form#t3
+		p
+			b 3. Now look at these sentences:
+		p
+			span#m1
+				| She was given some money as part of an inheritance.
+				br
+				| Each time she was discovered and sent back.
+		p
+			| Choose the correct answer to the questions.
+		p
+			ol
+				li
+					| What is the most important topic of the text?
+					br
+					input(type='radio', name='q3a', value='1', checked='')
+					| Tibet
+					br
+					input(type='radio', name='q3a', value='0')
+					| Alexandra David-Neel
+		p
+			li
+				| Who gave David-Neel the money?
+				br
+				input(type='radio', name='q3b', value='1', checked='')
+				| Not known
+				br
+				input(type='radio', name='q3b', value='0')
+				| Her mother
+		p
+			li
+				| Who discovered David-Neel?&#x9;
+				br
+				input(type='radio', name='q3c', value='1', checked='')
+				| The Chinese Police 
+				br
+				input(type='radio', name='q3c', value='0')
+				| Not known
+		p
+			center
+				button.eval(data-target='t3') Check answers
+	form#t4
+		p
+			| We use the Passive voice (was given/was discovered) when:
+		p
+			| a we are more interested in the object of a sentence 
+			br
+			| b the person who does the action isn&apos;t known or is unimportant (see examples 2 and 3 above).
+		p
+			b 4. Spot the errors. Which sentences are grammatically incorrect? 
+		p
+			ol
+				li
+					| Livingstone traveled in Africa.
+					br
+					input(type='radio', name='q4a', value='1', checked='')
+					|  Correct
+					br
+					input(type='radio', name='q4a', value='0')
+					|  Incorrect
+					p
+						li
+							| America discovered in 1492.
+							br
+					input(type='radio', name='q4b', value='1', checked='')
+					|  Correct
+					br
+					input(type='radio', name='q4b', value='0')
+					|  Incorrect
+					p
+						li
+							| Leo Tolstoy wrote the novel 
+							i War and Peace
+							| .
+							br
+					input(type='radio', name='q4c', value='1', checked='')
+					|  Correct
+					br
+					input(type='radio', name='q4c', value='0')
+					|  Incorrect
+					p
+						li
+							i Citizen Kane
+							|  was direct by Orson Welles.
+							br
+					input(type='radio', name='q4d', value='1', checked='')
+					|  Correct
+					br
+					input(type='radio', name='q4d', value='0')
+					|  Incorrect
+					p
+						li
+							i Romeo and Juliet
+							|  was written by Shakespeare.
+							br
+					input(type='radio', name='q4e', value='1', checked='')
+					|  Correct
+					br
+					input(type='radio', name='q4e', value='0')
+					|  Incorrect
+					p
+						li
+							| Honda motorcycles are make in Japan.
+							br
+					input(type='radio', name='q4f', value='1', checked='')
+					|  Correct
+					br
+					input(type='radio', name='q4f', value='0')
+					|  Incorrect
+					p
+						li
+							| India was controlled by the British until 1945.
+							br
+					input(type='radio', name='q4g', value='1', checked='')
+					|  Correct
+					br
+					input(type='radio', name='q4g', value='0')
+					|  Incorrect
+					p
+						li
+							i The Sunflowers
+							|  was painting by Van Gogh
+							br
+					input(type='radio', name='q4h', value='1', checked='')
+					|  Correct
+					br
+					input(type='radio', name='q4h', value='0')
+					|  Incorrect
+					p
+						li
+							| Marco Polo traveled along the Silk Route in 1271.
+							br
+					input(type='radio', name='q4i', value='1', checked='')
+					|  Correct
+					br
+					input(type='radio', name='q4i', value='0')
+					|  Incorrect
+					p
+						li
+							| Gustave Eiffel was built the Eiffel Tower.
+							br
+					input(type='radio', name='q4j', value='1', checked='')
+					|  Correct
+					br
+					input(type='radio', name='q4j', value='0')
+					|  Incorrect
+					p
+		p
+		p
+			center
+				button.eval(data-target='t4') see answers
+	form#t5.generic(data-generic='2. America was discovered in 1492.<br>4. <i>Citizen Kane</i> was directed by Orson Welles.<br>or Orson Welles directed <i>Citizen Kane</i>.<br>6. Honda motorbikes are made in Japan.<br>8. <i>The Sunflowers</i> was painted by Van Gogh.<br>or Van Gogh painted <i>The Sunflowers</i>.<br>10.Gustave Eiffel built the Eiffel Tower.<br>or The Eiffel Tower was built by Gustave Eiffel.<br>')
+		p
+			b 5. Now correct the sentences from exercise 4 and write down your answers.
+		p
+			input(size='50')
+			br
+			input(size='50')
+			br
+			input(size='50')
+			br
+			input(size='50')
+			br
+			input(size='50')
+			br
+			input(size='50')
+			br
+			input(size='50')
+			br
+			input(size='50')
+			br
+			input(size='50')
+			br
+			input(size='50')
+		p
+			center
+				button.eval(data-target='t5') see answers
+	form#t6
+		p
+			b 6. Sentence topic passive
+		p
+			| Look at these sentences:
+		p
+			span#m1
+				| Neel and Yongden spent two months in Lhasa.
+				br
+				| They visited the Potala Palace.
+		p
+			| The subject of the first sentence 
+			span#m1 (Neel and Yongden)
+			|  is also the subject of the second sentence (they).
+		p
+			span#m1
+				| Four times Neel tried to make the journey. 
+				br
+				| Each time she was discovered and sent back.
+		p
+			| In the second example, Neel is the subject of the first sentence. And she is also the subject of the second sentence. The passive 
+			span#m1 (was discovered)
+			|  is used in the second sentence to continue talking about Neel.
+		p
+			| Read the sentences below and choose the best sentence to continue it.
+		p
+			ol
+				li
+					i War and Peace
+					|  is a famous Russian novel.
+					br
+					input(type='radio', name='q6a', value='1', checked='')
+					| a. It was written by Leo Tolstoy.
+					br
+					input(type='radio', name='q6a', value='0')
+					| b. Leo Tolstoy wrote it.
+		p
+			li
+				| Livingstone traveled for many years in Africa.
+				br
+				input(type='radio', name='q6b', value='1', checked='')
+				| a. The source of the Zambezi river was discovered by him.
+				br
+				input(type='radio', name='q6b', value='0')
+				| b. He discovered the source of the Zambezi river.
+		p
+			li
+				| The movie Titanic is one of the most expensive ever made.
+				br
+				input(type='radio', name='q6c', value='1', checked='')
+				| a. It was directed by James Cameron.
+				br
+				input(type='radio', name='q6c', value='0')
+				| b. James Cameron directed it.
+		p
+			li
+				| Buckingham Palace was opened in 1703.
+				br
+				input(type='radio', name='q6d', value='1', checked='')
+				| a. It was built by John Sheffield.
+				br
+				input(type='radio', name='q6d', value='0')
+				| b. John Sheffield built it.
+		p
+			li
+				| Edmund Hillary is a New Zealand climber.
+				br
+				input(type='radio', name='q6e', value='1', checked='')
+				| a. He climbed Mount Everest.
+				br
+				input(type='radio', name='q6e', value='0')
+				| b. Mount Everest was climbed by him.
+		p
+			li
+				| Penicillin was discovered in 1928 by Alexander Fleming.
+				br
+				input(type='radio', name='q6f', value='1', checked='')
+				| a. Lots of different illnesses are cured by it.
+				br
+				input(type='radio', name='q6f', value='0')
+				| b. It is used to cure lots of different diseases.
+		p
+			center
+				button.eval(data-target='t6') Check answers
+	form#t7
+		p
+			b 7. How good is your memory? Complete the sentences from exercise 6.
+		p
+			ol
+				li
+					| War and Peace is a famous Russian novel. It 
+					sub w
+					input(size='6', name='q7a')
+					sub w
+					input(size='6', name='q7b')
+					sub b
+					input(size='6', name='q7c')
+					|      Leo Tolstoy.
+		p
+			li
+				| Livingstone traveled for many years in Africa. He 
+				sub d
+				input(size='6', name='q7d')
+				|   the source of the Zamezi River.
+		p
+			li
+				| The movie Titanic is one of the most expensive ever made.
+				br
+				sub I
+				input(size='6', name='q7e')
+				sub w
+				input(size='6', name='q7f')
+				sub d
+				input(size='6', name='q7g')
+				sub b
+				input(size='6', name='q7h')
+				| James Cameron.
+		p
+			li
+				| Buckingham Palace was opened in 1703. 
+				sub I
+				input(size='6', name='q7i')
+				sub w
+				input(size='6', name='q7j')
+				sub b
+				input(size='6', name='q7k')
+				nobr
+					sub b
+					input(size='6', name='q7l')
+				| John Sheffield.
+		p
+			li
+				| Edmund Hillary is a New Zealand climber. He 
+				sub c
+				input(size='6', name='q7m')
+				|   Mount Everest.
+		p
+			li
+				| Penicillin 
+				sub w
+				input(size='6', name='q7n')
+				sub d
+				input(size='6', name='q7o')
+				|    in 1928 by Alexander Fleming. It 
+				sub i
+				input(size='6', name='q7p')
+				sub u
+				input(size='6', name='q7q')
+				|    to cure lots of different diseases. &#x9;?
+		p
+			center
+				button.eval(data-target='t7') Check answers
+	form#t8
+		p
+			b
+				| 8. Retell the story of Alexandra David-Neel&apos;s journey to Tibet. Put the verbs in parentheses in the simple past active or passive. The first one has been done for you.
+		p
+			ol
+				li
+					| Alexandra David-Neel(was)
+					input(size='9', name='q8a')
+					|   born in Paris.
+		p
+			li
+				| She (be)
+				input(size='9', name='q8b')
+				|   very interested in travel.
+		p
+			li
+				| She (give)
+				input(size='9', name='q8c')
+				|   some money.
+		p
+			li
+				| She (decide)
+				input(size='9', name='q8d')
+				|   to use it to travel to Tibet.
+		p
+			li
+				| At that time Tibet (control)
+				input(size='9', name='q8e')
+				|   by the Chinese
+		p
+			li
+				| She (try)
+				input(size='9', name='q8f')
+				|   to travel to Tibet four times.
+		p
+			li
+				| But she (find)
+				input(size='9', name='q8g')
+				|   every time and sent back.
+		p
+			li
+				| In 1924, she (want)
+				input(size='9', name='q8h')
+				|   to try again.
+		p
+			li
+				| Her adopted Tibetan son, Yongden (travel)
+				input(size='9', name='q8i')
+				|   with her.
+		p
+			li
+				| They (arrive)
+				input(size='9', name='q8j')
+				|   in Lhasa four months later.
+		p
+			li
+				| Thanks to a sandstorm, no one (see)
+				input(size='9', name='q8k')
+				|   them when they entered the city.
+		p
+			li
+				| They (spend)
+				input(size='9', name='q8l')
+				|   two months in Lhasa.
+		p
+			li
+				| No one (tell)
+				input(size='9', name='q8m')
+				|   their true identities.
+		p
+			li
+				| David-Neel (write)
+				input(size='9', name='q8n')
+				|   many books about her adventures.
+		p
+			li
+				| Lots of books (write)
+				input(size='9', name='q8o')
+				|   about her also.
+		center
+			button.eval(data-target='t8') Check answers
+	#z1
+	#z2
+	#z3
+	#z4
+	#z5
+	#z6
+	#z7
+	#z8

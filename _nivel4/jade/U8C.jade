@@ -1,0 +1,153 @@
+div#U8C
+	script.
+		unitans.U8C = {
+			q1a:'c',
+			q1b:'a',
+			q1c:'b',
+			q2a:'That\'s a nice shirt you\'re wearing',
+			q2b:'I like the way all the houses have balconies',
+			q2c:'You\'ve done the design very well',
+			q2d:'This idea of having plants on the balcony is nice',
+			q2e:'I particularly like how you express your ideas',
+			q3a:'What a nice',
+			q3b:'You\'ve done very well with',
+			q3c:'Those are lovely',
+			q3d:'I particulary like',
+			q3e:'This is a nice idea',
+			q4a:'2',
+			q4b:'1',
+			q4c:'2',
+			q4d:'1'
+		}
+	form#t0
+		img.logo4(src='img/u8.jpg')
+		p
+			b.u4tit  Giving compliments  
+			br
+	form#t1
+		b
+			| 1. Match a box in the first column with the box in the second column to make compliments about someone's home.
+		p
+			center
+				table(cellspacing='3', cellpadding='3', width='600')
+					tr
+						td
+							| a) I like the way...
+							br
+							| I particularly like how...
+						td
+							| 1.
+							input(size='1', maxlength='1', name='q1a')
+							| ...putting the table next to the window.
+					tr
+						td
+							| b) That's a lovely...
+							br
+							| What a nice...
+						td
+							| 2.
+							input(size='1', maxlength='1', name='q1b')
+							| ...strong colors have been used.
+							br
+							| ...you've decorated the living room
+					tr
+						td c) This is a nice idea,...
+						td
+							| 3.
+							input(size='1', maxlength='1', name='q1c')
+							| ...color
+							br
+							| ...room.
+				p
+					button.eval(data-target='t1') Check answers
+	form#t2
+		p
+			b 2. Unscramble these words to make more compliments.
+			p
+				ol
+					li
+						| shirt a That's you're nice wearing
+						br
+						input(size='45', name='q2a')
+						| .
+						p
+							li
+								| way I houses balconies the have the all like
+								br
+								input(size='45', name='q2b')
+								| .
+								p
+									li
+										| very done You've well design the
+										br
+										input(size='45', name='q2c')
+										| .
+										p
+											li
+												| plants This having nice balcony is of on idea the
+												br
+												input(size='45', name='q2d')
+												| .
+												p
+													li
+														| express I you particularly your ideas like how
+														br
+														input(size='45', name='q2e')
+														| .
+														p
+															p
+																center
+																	button.eval(data-target='t2') Check answers
+	form#t3
+		p
+			b
+				| 3. Use these phrases to complete what Max says about Wendy's apartment. Click and drag the words in the box into the blanks.
+			p
+				center
+					table(cellpadding='3', cellspacing='3', width='100%', bgcolor='#ffff90')
+						tr
+							td
+								nobr This is a nice idea
+							td Those are lovely
+							td I particulary like
+						tr
+							td What a nice
+							td You've done very well with
+							td
+							td
+				p
+					p
+						| "
+						sub 1
+						input(size='20', name='q3a')
+						| room! So bright and sunny.
+						sub 2
+						input(size='20', name='q3b')
+						| the color
+						br
+						br
+						| scheme.
+						nobr
+							sub 3
+							input(size='20', name='q3c')
+						| curtains.
+						sub 4
+						input(size='20', name='q3d')
+						| how they contrast with the
+						br
+						br
+						| orange walls.
+						nobr
+							sub 5
+							input(size='20', name='q3e')
+						| , too, having a light here, so you can sit and read. Great
+						br
+						br
+						| apartment Wendy, you've done a fantastic job."
+						p
+							center
+								button.eval(data-target='t3') Check answers
+	#z1
+	#z2
+	#z3
+	#z4

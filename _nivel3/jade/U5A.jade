@@ -1,0 +1,221 @@
+div#U5A
+	script.
+		unitans.U5A = {
+			q1a:'5',
+			q2a:'5',
+			q3a:'has been playing golf for two hours',
+			q3b:'have been playing music for four hours',
+			q3c:'have been working here for six months',
+			q3d:'has been studying Chinese for two years',
+			q3e:'has been doing his homework for three hours',
+			q3f:'have been living together for fifteen years',
+			q3g:'have been watching TV for four hours',
+			q3h:'have been reading this book for five weeks',
+			q4a:'has',
+			q4b:'been',
+			q4c:'How long have',
+			q4d:'been playing',
+			q4e:'How long have',
+			q4f:'been',
+			q4g:'How long has',
+			q4h:'been studying',
+			q4i:'How long has',
+			q4j:'been doing',
+			q4k:'How long have',
+			q4l:'been living',
+			q4m:'How long have',
+			q4n:'been watching',
+			q4o:'How long have you been reading'
+		}
+	#t0
+		b.u3tit Best Days of Your Life
+		p
+			b.u3
+				| Present Perfect Continuous + 
+				i for
+	p
+		form#t1
+			b
+				| 1. Look at this story and decide which is the best sentence to complete the speech bubble.
+	p
+		center
+			img(src='img/u5a.jpg')
+			br
+			select(name='q1a')
+				option(value='x')
+					| Choose Correct
+				option(value='1')
+					| How long do you wait?
+				option(value='2')
+					| How long are you waiting?
+				option(value='3')
+					| How long did you wait?
+				option(value='4')
+					| How long were you waiting?
+				option(value='5')
+					| How long have you been waiting?
+				option(value='6')
+					| How long have you waited?
+			button.eval(data-target='t1') Check answers
+	form#t2
+		p
+			b 2. What is the woman&apos;s answer?
+		p
+			center
+				img(src='img/u5b.jpg')
+				br
+				select(name='q2a')
+					option(value='x')
+						| Choose Correct
+					option(value='1')
+						| I wait for half an hour.
+					option(value='2')
+						| I am waiting for half an hour.
+					option(value='3')
+						| I waited for half an hour.
+					option(value='4')
+						| I was waiting for half an hour.
+					option(value='5')
+						| I have been waiting for half an hour
+					option(value='6')
+						| I have waited for half an hour.
+				button.eval(data-target='t2') Check answers
+	form#t3
+		p
+			b 3. Write sentences for these situations.
+		p
+			span#m1
+				| e.g., Jack started working at 9:00. It is now 12:00.
+				br
+				|  &#x9;Jack has been working for three hours.
+		p
+			ol
+				li
+					| Helen started playing golf at 5:00. She is still playing golf. It is 7:00.&#x9; 
+					nobr
+						| Helen 
+						input(size='95', name='q3a')
+						|  .
+		p
+			li
+				| Alan and Joe started playing music four hours ago. They are still playing.&#x9; 
+				nobr
+					| They 
+					input(size='95', name='q3b')
+					|  .
+		p
+			li
+				| I started working here six months ago. I am still working here.&#x9; 
+				nobr
+					| I  
+					input(size='95', name='q3c')
+					| .
+		p
+			li
+				| Jackie started studying Chinese two years ago. She is still studying Chinese.&#x9;  
+				nobr
+					| Jackie 
+					input(size='95', name='q3d')
+				| .
+		p
+			li
+				| Ed started doing his homework at 8:00. It is now 11:00. He is still doing his homework. &#x9;  
+				nobr
+					| Ed 
+					input(size='95', name='q3e')
+				| .
+		p
+			li
+				| We started living together fifteen years ago. We are still living together.&#x9; 
+				nobr
+					| We 
+					input(size='95', name='q3f')
+				| .
+		p
+			li
+				| You started watching TV at 6:00. It is now 10:00. You are still watching TV.&#x9; 
+				nobr
+					| You  
+					input(size='95', name='q3g')
+				| .
+		p
+			li
+				| I started reading this book five weeks ago. I am still reading it.&#x9; 
+				nobr
+					| I  
+					input(size='95', name='q3h')
+				| .
+		p
+			center
+				button.eval(data-target='t3') Check answers
+	form#t4
+		p
+			b
+				| 4. Here are the time periods for the sentences in the last exercise. Can you write the questions?
+		p
+			span#m1
+				| e.g.,&#x9;For three hours.
+				br
+				| &#x9;How long has Jack been working?
+		p
+			ol
+				li
+					| For two hours.
+					| How long 
+					input(size='25', name='q4a')
+					|   Helen 
+					input(size='25', name='q4b')
+					|   playing golf?
+				li
+					| For four hours.
+					br
+					input(size='25', name='q4c')
+					|   Alan and Joe 
+					input(size='25', name='q4d')
+					|   music?
+				li
+					| For six months.
+					br
+					input(size='25', name='q4e')
+					|   you 
+					input(size='25', name='q4f')
+					|   working here?
+				li
+					| For two years.
+					br
+					input(size='25', name='q4g')
+					|   Jackie 
+					input(size='25', name='q4h')
+					|    Chinese.
+				li
+					| For three hours.
+					br
+					input(size='25', name='q4i')
+					|   Ed 
+					input(size='25', name='q4j')
+					|     homework?
+				li
+					| For fifteen years.
+					br
+					input(size='25', name='q4k')
+					|   you
+					input(size='25', name='q4l')
+					|    together?
+				li
+					| For four hours.
+					br
+					input(size='25', name='q4m')
+					|  we 
+					input(size='25', name='q4n')
+					|    TV?
+				li
+					| For five weeks.
+					br
+					input(size='50', name='q4o')
+					| this book?
+		center
+			button.eval(data-target='t4') Check answers
+	#z1
+	#z2
+	#z3
+	#z4

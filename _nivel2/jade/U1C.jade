@@ -1,0 +1,103 @@
+div#U1C
+	script.
+		unitans.U1C = {
+			q1a:'Where are you from',
+			q1b:'Where in Australia',
+			q1c:'Do you know where that is',
+			q1d:'Is it near Sydney',
+			q1e:'What\'s it like',
+			q2a:'c',
+			q2b:'d',
+			q2c:'b',
+			q2d:'e',
+			q2e:'a'
+		}
+	#t0
+		b.u2tit 1. The Concrete Jungle
+		p
+			b.u2  Describing where places are 
+			p
+	form#t1
+		b.inst2 1.  Select and drag the questions into the boxes.
+		p.tablau2
+			p.letra
+				| A: Hi, my name's Jim.
+				br
+				| B:Hello. I'm Karl.
+				| A:
+				input(size='20', name='q1a')
+				| ?
+				br
+				| B: I'm from Australia.
+				| A: Oh really?
+				input(size='20', name='q1b')
+				| ?
+				br
+				| B A place called Brisbane.
+				input(size='20', name='q1c')
+				| ?
+				br
+				| A: No. I only know where Sydney is, more or less.
+				input(size='20', name='q1d')
+				| ?
+				br
+				| B: No, it isn't. It's in the north of Australia. It's on the east coast, at the bottom of the state of Queensland. It's the capital, in fact.
+				br
+				| A: Oh, I see. Is it a nice place?
+				input(size='20', name='q1e')
+				| ?
+				| B: It is nice. It's a fairly big city, built on a river. It's nearly in the tropics so it's very hot in summer.
+				p
+					table.cuadro(cellpadding='5', cellspacing='5', bgcolor='#ffbc90')
+						tr
+							td.letra What's it like
+							td.letra Where are you from
+						tr
+							td.letra Where in Australia
+							td.letra Is it near Sydney
+						tr
+							td.letra Do you know where that is
+							td
+			p
+				center
+					button.eval(data-target='t1') Check answers
+	form#t2
+		p.instrucciones
+			| 2. Match the questions to the answers
+			//
+				<b class="instrucciones">2. Match the questions to the answers.</b>
+		p
+			table.cuadro(cellpadding='5', cellspacing='5')
+				tr.letra
+					td a) Where are you from?
+					td
+						| 1.
+						input(size='1', name='q2a', maxlength='1')
+						| No, I don't
+				tr.letra
+					td b) Whereabouts in Spain?
+					td
+						| 2.
+						input(size='1', name='q2b', maxlength='1')
+						| No, it isn't. It's near Barcelona
+				tr.letra
+					td c) Do you know where that is?
+					td
+						| 3.
+						input(size='1', name='q2c', maxlength='1')
+						| A place called Sitges.
+				tr.letra
+					td d) Is it near Madrid? 
+					td
+						| 4.
+						input(size='1', name='q2d', maxlength='1')
+						| It's a nice town on the coast.
+				tr.letra
+					td e) What is it like?
+					td
+						| 5.
+						input(size='1', name='q2e', maxlength='1')
+						| I'm from Spain.
+		button.eval(data-target='t2') Check answers
+	#z1
+	#z2

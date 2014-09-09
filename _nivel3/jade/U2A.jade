@@ -1,0 +1,600 @@
+div#U2A
+	script.
+		unitans.U2A = {
+			q1a:'1',
+			q1b:'0',
+			q1c:'0',
+			q1d:'1',
+			q1e:'0',
+			q1f:'1',
+			q1g:'1',
+			q1h:'0',
+			q1i:'0',
+			q1j:'1',
+			q2a:'5',
+			q2b:'8',
+			q2c:'7',
+			q2d:'3',
+			q2e:'1',
+			q2f:'9',
+			q2g:'10',
+			q2h:'4',
+			q2i:'6',
+			q2j:'2',
+			q3a:'was',
+			q3b:'did',
+			q3c:'she',
+			q3d:'finish',
+			q3e:'was',
+			q3f:'was',
+			q3g:'did',
+			q3h:'she',
+			q3i:'start',
+			q3j:'did',
+			q3k:'she',
+			q3l:'work',
+			q3m:'has',
+			q3n:'she',
+			q3o:'been',
+			q3p:'working',
+			q3q:'did',
+			q3r:'she',
+			q3s:'start',
+			q3t:'Has',
+			q3v:'she',
+			q3w:'taken',
+			q3x:'Did',
+			q3y:'she',
+			q3z:'take',
+			q4a:'2',
+			q4b:'3',
+			q4c:'2',
+			q4d:'3',
+			q4e:'3',
+			q4f:'2',
+			q4g:'2',
+			q4h:'3'
+		}
+	#t0
+		b.u3tit Home Alone
+		p
+			b.u3 Present Perfect vs Past Simple
+	form#t1
+		b 1. Look at this chart of Jenny&apos;s life. 
+		p
+			center
+				img.margin-bottom(src='img/u2a.jpg')
+		p
+			| Use the information in the chart to decide if these sentences are true or false.
+		p
+			table(cellspacing='0', cellpadding='0')
+				tr
+					td
+						| 1 Jenny was born in 1970.
+						br
+						input(type='radio', name='q1a', value='1', checked='')
+						| true 
+						input(type='radio', name='q1a', value='0')
+						|  false
+		p
+			tr
+				td
+					| 2 She started school in 1987.
+					br
+					input(type='radio', name='q1b', value='1', checked='')
+					| true  
+					input(type='radio', name='q1b', value='0')
+					| false
+		p
+			tr
+				td
+					| 3 She has studied computer science for four years.
+					br
+					input(type='radio', name='q1c', value='1', checked='')
+					| true 
+					input(type='radio', name='q1c', value='0')
+					| false
+		p
+			tr
+				td
+					| 4 She graduated when she was 21.
+					br
+					input(type='radio', name='q1d', value='1', checked='')
+					| true  
+					input(type='radio', name='q1d', value='0')
+					| false
+		p
+			tr
+				td
+					| 5 She has worked for Acme Software since 1991.
+					br
+					input(type='radio', name='q1e', value='1', checked='')
+					| true  
+					input(type='radio', name='q1e', value='0')
+					| false
+		p
+			tr
+				td
+					| 6 She has been working for Software Solutions since 1994.
+					br
+					input(type='radio', name='q1f', value='1', checked='')
+					| true 
+					input(type='radio', name='q1f', value='0')
+					|  false
+		p
+			tr
+				td
+					| 7 Since graduating, she has taken a course in JavaScript.
+					br
+					input(type='radio', name='q1g', value='1', checked='')
+					| true  
+					input(type='radio', name='q1g', value='0')
+					| false
+		p
+			tr
+				td
+					| 8 She has been doing the JavaScript course since 1997.
+					br
+					input(type='radio', name='q1h', value='1', checked='')
+					| true  
+					input(type='radio', name='q1h', value='0')
+					| false
+		p
+			tr
+				td
+					| 9 She has learned Portuguese.
+					br
+					input(type='radio', name='q1i', value='1', checked='')
+					| true 
+					input(type='radio', name='q1i', value='0')
+					| false
+		p
+			tr
+				td
+					| 10 She works for Software Solutions.
+					br
+					input(type='radio', name='q1j', value='1', checked='')
+					| true  
+					input(type='radio', name='q1j', value='0')
+					| false
+		p
+			center
+				button.eval(data-target='t1') Check answers
+	form#t2
+		p
+		p
+			b 2. How good is your memory? Match the question with the answer.
+		p
+			| 1.When was she born?
+			select(name='q2a')
+				option(value='x')
+					| Choose Answer
+				option(value='1')
+					| In 1991.
+				option(value='2')
+					| Yes, she did
+				option(value='3')
+					| 21.
+				option(value='4')
+					| In 1994.
+				option(value='5')
+					| In 1970.
+				option(value='6')
+					| Yes, she has.
+				option(value='7')
+					| From 1987 to 1991.
+				option(value='8')
+					| In 1987
+				option(value='9')
+					| For two years.
+				option(value='10')
+					| Since 1994.
+		p
+			| 2.When did she finish  school?
+			select(name='q2b')
+				option(value='x')
+					| Choose Answer
+				option(value='1')
+					| In 1991.
+				option(value='2')
+					| Yes, she did
+				option(value='3')
+					| 21.
+				option(value='4')
+					| In 1994.
+				option(value='5')
+					| In 1970.
+				option(value='6')
+					| Yes, she has.
+				option(value='7')
+					| From 1987 to 1991.
+				option(value='8')
+					| In 1987
+				option(value='9')
+					| For two years.
+				option(value='10')
+					| Since 1994.
+		p
+			| 3.When was she in college?
+			select(name='q2c')
+				option(value='x')
+					| Choose Answer
+				option(value='1')
+					| In 1991.
+				option(value='2')
+					| Yes, she did
+				option(value='3')
+					| 21.
+				option(value='4')
+					| In 1994.
+				option(value='5')
+					| In 1970.
+				option(value='6')
+					| Yes, she has.
+				option(value='7')
+					| From 1987 to 1991.
+				option(value='8')
+					| In 1987
+				option(value='9')
+					| For two years.
+				option(value='10')
+					| Since 1994.
+		p
+			| 4.How old was she when she graduated?
+			select(name='q2d')
+				option(value='x')
+					| Choose Answer
+				option(value='1')
+					| In 1991.
+				option(value='2')
+					| Yes, she did
+				option(value='3')
+					| 21.
+				option(value='4')
+					| In 1994.
+				option(value='5')
+					| In 1970.
+				option(value='6')
+					| Yes, she has.
+				option(value='7')
+					| From 1987 to 1991.
+				option(value='8')
+					| In 1987
+				option(value='9')
+					| For two years.
+				option(value='10')
+					| Since 1994.
+		p
+			| 5.When did she start to work for Acme Software?
+			select(name='q2e')
+				option(value='x')
+					| Choose Answer
+				option(value='1')
+					| In 1991.
+				option(value='2')
+					| Yes, she did
+				option(value='3')
+					| 21.
+				option(value='4')
+					| In 1994.
+				option(value='5')
+					| In 1970.
+				option(value='6')
+					| Yes, she has.
+				option(value='7')
+					| From 1987 to 1991.
+				option(value='8')
+					| In 1987
+				option(value='9')
+					| For two years.
+				option(value='10')
+					| Since 1994.
+		p
+			| 6.How long did she work for Acme Software?
+			select(name='q2f')
+				option(value='x')
+					| Choose Answer
+				option(value='1')
+					| In 1991.
+				option(value='2')
+					| Yes, she did
+				option(value='3')
+					| 21.
+				option(value='4')
+					| In 1994.
+				option(value='5')
+					| In 1970.
+				option(value='6')
+					| Yes, she has.
+				option(value='7')
+					| From 1987 to 1991.
+				option(value='8')
+					| In 1987
+				option(value='9')
+					| For two years.
+				option(value='10')
+					| Since 1994.
+		p
+			| 7.How long has she been working for Software Solutions ?
+			select(name='q2g')
+				option(value='x')
+					| Choose Answer
+				option(value='1')
+					| In 1991.
+				option(value='2')
+					| Yes, she did
+				option(value='3')
+					| 21.
+				option(value='4')
+					| In 1994.
+				option(value='5')
+					| In 1970.
+				option(value='6')
+					| Yes, she has.
+				option(value='7')
+					| From 1987 to 1991.
+				option(value='8')
+					| In 1987
+				option(value='9')
+					| For two years.
+				option(value='10')
+					| Since 1994.
+		p
+			| 8.When did she start work for Software Solutions?
+			select(name='q2h')
+				option(value='x')
+					| Choose Answer
+				option(value='1')
+					| In 1991.
+				option(value='2')
+					| Yes, she did
+				option(value='3')
+					| 21.
+				option(value='4')
+					| In 1994.
+				option(value='5')
+					| In 1970.
+				option(value='6')
+					| Yes, she has.
+				option(value='7')
+					| From 1987 to 1991.
+				option(value='8')
+					| In 1987
+				option(value='9')
+					| For two years.
+				option(value='10')
+					| Since 1994.
+		p
+			| 9.Has she taken a course in JavaScript?
+			select(name='q2i')
+				option(value='x')
+					| Choose Answer
+				option(value='1')
+					| In 1991.
+				option(value='2')
+					| Yes, she did
+				option(value='3')
+					| 21.
+				option(value='4')
+					| In 1994.
+				option(value='5')
+					| In 1970.
+				option(value='6')
+					| Yes, she has.
+				option(value='7')
+					| From 1987 to 1991.
+				option(value='8')
+					| In 1987
+				option(value='9')
+					| For two years.
+				option(value='10')
+					| Since 1994.
+		p
+			| 10.Did she take the JavaScript course in 1997?
+			select(name='q2j')
+				option(value='x')
+					| Choose Answer
+				option(value='1')
+					| In 1991.
+				option(value='2')
+					| Yes, she did
+				option(value='3')
+					| 21.
+				option(value='4')
+					| In 1994.
+				option(value='5')
+					| In 1970.
+				option(value='6')
+					| Yes, she has.
+				option(value='7')
+					| From 1987 to 1991.
+				option(value='8')
+					| In 1987
+				option(value='9')
+					| For two years.
+				option(value='10')
+					| Since 1994.
+		p
+			center
+				button.eval(data-target='t2') Check answers
+	form#t3
+		p
+			b 3. Complete the questions, using the correct tense.
+		p
+			| 1. When 
+			sub (w)
+			input(size='8', name='q3a')
+			| she born? In 1970.
+		p
+			| 2. When 
+			sub (d)
+			input(size='8', name='q3b')
+			sub (s)
+			input(size='8', name='q3c')
+			sub (f)
+			input(size='8', name='q3d')
+			|  at school? In 1987.
+		p
+			| 3. When 
+			sub (w)
+			input(size='8', name='q3e')
+			|  she in college? From 1987 to 1991.
+		p
+			| 4. How old 
+			sub (w)
+			input(size='8', name='q3f')
+			|  she when she graduated? 21.
+		p
+			| 5. When 
+			sub (d)
+			input(size='8', name='q3g')
+			sub (s)
+			input(size='8', name='q3h')
+			sub (s)
+			input(size='8', name='q3i')
+			|  to work with Acme Software? In 1991.
+		p
+			| 6. How long 
+			sub (d)
+			input(size='8', name='q3j')
+			sub (s)
+			input(size='8', name='q3k')
+			sub (w)
+			input(size='8', name='q3l')
+			|  for Acme Software? For two years.
+		p
+			| 7. How long 
+			sub (h)
+			input(size='8', name='q3m')
+			sub (s)
+			input(size='8', name='q3n')
+			sub (b)
+			input(size='8', name='q3o')
+			sub (w)
+			input(size='8', name='q3p')
+			|  for Software Solutions? Since 1994. ?
+		p
+			| 8. When 
+			sub (d)
+			input(size='8', name='q3q')
+			sub (s)
+			input(size='8', name='q3r')
+			sub (s)
+			input(size='8', name='q3s')
+			|  work for Software Solutions? In 1994.
+		p
+			| 9. 
+			sub (h)
+			input(size='8', name='q3t')
+			sub (s)
+			input(size='8', name='q3v')
+			sub (t)
+			input(size='8', name='q3w')
+			|  a course in Javascript? Yes she has.
+		p
+			| 10. 
+			sub (d)
+			input(size='8', name='q3x')
+			sub (s)
+			input(size='8', name='q3y')
+			sub (t)
+			input(size='8', name='q3z')
+			|  the Javascript course in 1997? Yes, she did.
+		p
+			center
+				button.eval(data-target='t3') Check answers
+	form#t4
+		p
+			b
+				| 4. Here is a letter Jenny wrote. Complete it by choosing the best form of the verb.
+		p
+			table(cellpadding='5', bgcolor='#ffbc90')
+				tr
+					td
+						| I am writing on the recommendation of your colleague Jose Sabater, whom I 
+						nobr
+							select(name='q4a')
+								option(value='1')
+									| Choose Answer
+								option(value='2')
+									| met
+								option(value='3')
+									| have meat
+							| (1)
+						|  at a conference in Peru last year. I am a 31 year-old Australian and I 
+						nobr
+							select(name='q4b')
+								option(value='1', selected='')
+									| Choose Answer
+								option(value='2')
+									| was working
+								option(value='3')
+									| have been working
+							| (2)
+						|  for Software Solutions, where I am involved in product development. I 
+						nobr
+							select(name='q4c')
+								option(value='1')
+									| Choose Answer
+								option(value='2')
+									| have worked
+								option(value='3')
+									| worked
+							| (3)
+						|  for this company since 1994. Prior to that I 
+						nobr
+							select(name='q4d')
+								option(value='1')
+									| Choose Answer
+								option(value='2')
+									| have worked
+								option(value='3')
+									| worked
+							| (4)
+						|  as a data processing analyst for Acme Software. So, in fact, I 
+						nobr
+							select(name='q4e')
+								option(value='1', selected='')
+									| Choose Answer
+								option(value='2')
+									| am working
+								option(value='3')
+									| have been working
+							| (5)
+						|  in computer-related fields since 1991, when I 
+						nobr
+							select(name='q4f')
+								option(value='1')
+									| Choose Answer
+								option(value='2')
+									| graduated
+								option(value='3')
+									| have graduated
+							| (6)
+						|  from the Abel Tasman University with a degree in computer science. Since graduating, I 
+						nobr
+							select(name='q4g')
+								option(value='1')
+									| Choose Answer
+								option(value='2')
+									| have taken
+								option(value='3')
+									| took
+							| (7)
+						|  a course in JavaScript programming. At the moment I
+						nobr
+							select(name='q4h')
+								option(value='1')
+									| Choose Answer
+								option(value='2')
+									| take
+								option(value='3')
+									| am taking
+							| (8)
+						|  a course in spoken Portuguese, as I am very interested in living and working in Brazil.
+		center
+			button.eval(data-target='t4') Check answers
+	#z1
+	#z2
+	#z3
+	#z4

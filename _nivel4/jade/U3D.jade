@@ -1,0 +1,387 @@
+div#U3D
+	script.
+		unitans.U3D = {
+			q1a:'f',
+			q1b:'e',
+			q1c:'a',
+			q1d:'g',
+			q1e:'b',
+			q1f:'d',
+			q1g:'c',
+			q2a:'pilgrimage',
+			q2b:'travel',
+			q2c:'trip',
+			q2d:'tour',
+			q2e:'flight',
+			q2f:'excursion',
+			q2g:'voyage',
+			q3a:'1',
+			q3b:'2',
+			q3c:'1',
+			q3d:'3',
+			q3e:'3',
+			q3f:'2',
+			q4a:'1',
+			q4b:'2',
+			q4c:'2',
+			q4d:'1',
+			q4e:'1',
+			q4f:'2',
+			q4g:'1',
+			q4h:'1',
+			q4i:'1',
+			q4j:'1',
+			q4k:'1',
+			q4l:'2',
+			q4m:'1',
+			q4n:'2',
+			q4o:'2',
+		}
+	#t0
+		img.logo4(src='img/u3.jpg')
+		p
+			b.u4tit Travel nouns, verbs & prepositions 
+			p
+	form#t1
+		b 1. Match the words with the definitions. 
+		p
+			table(cellpading='0', cellspacing='2')
+				tr
+					td a) a trip on a plane
+					td
+						| 1.
+						input(size='1', maxlength='1', name='q1a')
+						| travel
+				tr
+					td b) a trip organized for a group to visit an interesting place
+					td
+						| 2.
+						input(size='1', maxlength='1', name='q1b')
+						| trip
+				tr
+					td c) a trip made for religious reasons
+					td
+						| 3.
+						input(size='1', maxlength='1', name='q1c')
+						| flight
+				tr
+					td d) a planned outing to many places in a particular area, especially for pleasure
+					td
+						| 4.
+						input(size='1', maxlength='1', name='q1d')
+						| voyage
+				tr
+					td e) going from one place to another, usually long distance (countable)
+					td
+						| 5.
+						input(size='1', maxlength='1', name='q1e')
+						| tour
+				tr
+					td f) the act of going to place and coming back and either for pleasure or business
+					td
+						| 6.
+						input(size='1', maxlength='1', name='q1f')
+						| excursion
+				tr
+					td g) a long trip made on a ship
+					td
+						| 7.
+						input(size='1', maxlength='1', name='q1g')
+						| pilgrimage
+			p
+				center
+					button.eval(data-target='t1') Check answers
+	form#t2
+		p
+			b 2. Use the words from exercise 1 to complete these sentences. 
+			p
+				ol
+					li
+						| The
+						input(size='8', name='q2a')
+						| to Mecca attracts millions of Muslims each year.
+						li
+							| They say that
+							input(size='8', name='q2b')
+							| broadens the mind but I don't agree.
+							li
+								| I met my boyfriend during a business
+								input(size='8', name='q2c')
+								| to Manchester.
+								li
+									| Next year we are planning a
+									input(size='8', name='q2d')
+									| of the north of India.
+									li
+										| I couldn't sleep on the
+										input(size='8', name='q2e')
+										| to Miami because the plane was full of noisy vacationers.
+										li
+											| While I was studying English in Brighton we went on an
+											input(size='8', name='q2f')
+											| to Hastings for a day.
+											li
+												| A hundred years ago, the
+												input(size='8', name='q2g')
+												| to Australia used to take 6 weeks.
+				p
+					center
+						table(cellpadding='3', cellspacing='2', width='400', bgcolor='#ffbc90')
+							tr
+								td travel
+								td trip
+								td flight
+								td voyage
+							tr
+								td tour
+								td excursion
+								td pilgrimage
+								td
+					p
+						center
+							button.eval(data-target='t2') Check answers
+	form#t3
+		p
+			b 3. Choose the best verb to complete these sentences. 
+			p
+				ol
+					li
+						| The cyclists planned to get up early so they could
+						select(name='q3a')
+							option(value='x')
+								| Choose Verb
+								option(value='1')
+									| set off
+									option(value='2')
+										| take off
+										option(value='3')
+											| reach
+						| before it got too hot.
+						li
+							| The return trip takes three hours by car so I imagine we will
+							select(name='q3b')
+								option(value='x')
+									| Choose Verb
+									option(value='1')
+										| end up
+										option(value='2')
+											| get back
+											option(value='3')
+												| land
+							| at about 7 o'clock.
+							li
+								| The plane
+								select(name='q3c')
+									option(value='x')
+										| Choose Verb
+										option(value='1')
+											| took off
+											option(value='2')
+												| landed
+												option(value='3')
+													| set off
+								| late but the captain said we would make up the lost time.
+								li
+									| We arrived in Delhi but our luggage
+									select(name='q3d')
+										option(value='x')
+											| Choose Verb
+											option(value='1')
+												| reached
+												option(value='2')
+													| landed
+													option(value='3')
+														| ended up
+									| in Bombay.
+									li
+										| What time does this train
+										select(name='q3e')
+											option(value='x')
+												| Choose Verb
+												option(value='1')
+													| get back
+													option(value='2')
+														| set out
+														option(value='3')
+															| get
+										| to Hastings?
+										li
+											| After a long and difficult trip across the desert they eventually
+											br
+											select(name='q3f')
+												option(value='x')
+													| Choose Verb
+													option(value='1')
+														| got home
+														option(value='2')
+															| reached
+															option(value='3')
+																| got to
+											| civilization.
+				p
+					center
+						button.eval(data-target='t3') Check answers
+	form#t4
+		p
+			b
+				| 4. Prepositions
+				p
+					| Decide if the sentences are correct or incorrect. Pay attention to the prepositions.
+			p
+				| 1  We arrived to Reading at ten o'clock in the evening.
+				br
+				select(name='q4a')
+					option(value='x')
+						| Choose Answer
+						option(value='1')
+							| Right
+							option(value='2')
+								| Wrong
+				p
+					| 2  They continued their trip on train.
+					br
+					select(name='q4b')
+						option(value='x')
+							| Choose Answer
+							option(value='1')
+								| Right
+								option(value='2')
+									| Wrong
+					p
+						| 3  After the movie, she got to home at midnight.
+						br
+						select(name='q4c')
+							option(value='x')
+								| Choose Answer
+								option(value='1')
+									| Right
+									option(value='2')
+										| Wrong
+						p
+							| 4  She ended up in Torquay.
+							br
+							select(name='q4d')
+								option(value='x')
+									| Choose Answer
+									option(value='1')
+										| Right
+										option(value='2')
+											| Wrong
+							p
+								| 5  Then we went by train to Chicago.
+								br
+								select(name='q4e')
+									option(value='x')
+										| Choose Answer
+										option(value='1')
+											| Right
+											option(value='2')
+												| Wrong
+								p
+									| 6 The plane landed on Luton Airport at 2:30.
+									br
+									select(name='q4f')
+										option(value='x')
+											| Choose Answer
+											option(value='1')
+												| Right
+												option(value='2')
+													| Wrong
+									p
+										| 7 The climbers set off for the summit before sunrise.
+										br
+										select(name='q4g')
+											option(value='x')
+												| Choose Answer
+												option(value='1')
+													| Right
+													option(value='2')
+														| Wrong
+										p
+											| 8 Dick and Barbara arrived in Atlanta after driving all night.
+											br
+											select(name='q4h')
+												option(value='x')
+													| Choose Answer
+													option(value='1')
+														| Right
+														option(value='2')
+															| Wrong
+											p
+												| 9 By plane the trip takes 30 minutes but by ship it is longer.
+												br
+												select(name='q4i')
+													option(value='x')
+														| Choose Answer
+														option(value='1')
+															| Right
+															option(value='2')
+																| Wrong
+												p
+													| 10 Clark drove all the way from Dallas to Houston.
+													br
+													select(name='q4j')
+														option(value='x')
+															| Choose Answer
+															option(value='1')
+																| Right
+																option(value='2')
+																	| Wrong
+													p
+														| 11  What time does the train leave for Cambridge?
+														br
+														select(name='q4k')
+															option(value='x')
+																| Choose Answer
+																option(value='1')
+																	| Right
+																	option(value='2')
+																		| Wrong
+														p
+															| 12  She thought she had gone in the Channel tunnel.
+															br
+															select(name='q4l')
+																option(value='x')
+																	| Choose Answer
+																	option(value='1')
+																		| Right
+																		option(value='2')
+																			| Wrong
+															p
+																| 13  We did a tour of the Lake District by bus.
+																br
+																select(name='q4m')
+																	option(value='x')
+																		| Choose Answer
+																		option(value='1')
+																			| Right
+																			option(value='2')
+																				| Wrong
+																p
+																	| 14  The plane gets in Madrid at nine.
+																	br
+																	select(name='q4n')
+																		option(value='x')
+																			| Choose Answer
+																			option(value='1')
+																				| Right
+																				option(value='2')
+																					| Wrong
+																	p
+																		| 15  She was trying to get to Turkey but she ended up to Torquay.
+																		br
+																		select(name='q4o')
+																			option(value='x')
+																				| Choose Answer
+																				option(value='1')
+																					| Right
+																					option(value='2')
+																						| Wrong
+																		p
+																			center
+																				button.eval(data-target='t4') Check answers
+																				p
+	#z1
+	#z2
+	#z3
+	#z4

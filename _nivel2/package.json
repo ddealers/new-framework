@@ -1,0 +1,10 @@
+{
+	"name": "naf-l2",
+	"main": "index.html",
+	"window": {
+		"title":"New American Framework Level 2",
+		"toolbar": false,
+		"width": 960,
+		"height": 720
+	}
+}

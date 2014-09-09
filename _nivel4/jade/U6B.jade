@@ -1,0 +1,211 @@
+div#U6B
+	script.
+		unitans.U6B = {
+			q1:{
+				q1a:false,
+				q1b:false,
+				q1c:true,
+				q1d:false,
+				q1e:true,
+				q1f:false,
+				q1g:false,
+				q1h:false,
+				q1i:false,
+				q1j:false
+			},
+			q2a:'c',
+			q2b:'a',
+			q2c:'g',
+			q2d:'e',
+			q2e:'b',
+			q2f:'d',
+			q2g:'f',
+			q3a:'It may have been a fox',
+			q3b:'Could it have been a badger',
+			q3c:'It might have been a dog',
+			q3d:'it can\'t be a wolf',
+			q3e:'You must have imagined it',
+			q3f:'It couldn\'t have been a wolf',
+		}
+	#t0
+		img.logo4(src='img/u6.jpg')
+		p
+			b.u4tit Modals of deduction in the present and past   
+			br
+	p
+		form#t1.list(data-list='q1')
+			b
+				| 1. What other words can you substitute for
+				span#m1 may
+				| in this sentence, so that the meaning is more or less the same?
+			p
+				span#m1
+					| The sasquatch could be a surviving form of giant apes that may have crossed from Asia to America.
+				p
+					//
+						center
+					table(cellpading='2', cellspacing='1', width='90', bgcolor='#ffbc90')
+						tr
+							td
+								input(type='checkbox', name='q1a')
+							td can 
+						tr
+							td
+								input(type='checkbox', name='q1b')
+							td did 
+						tr
+							td
+								input(type='checkbox', name='q1c')
+							td could 
+						tr
+							td
+								input(type='checkbox', name='q1d')
+							td should
+						tr
+							td
+								input(type='checkbox', name='q1e')
+							td might 
+						tr
+							td
+								input(type='checkbox', name='q1f')
+							td would 
+						tr
+							td
+								input(type='checkbox', name='q1g')
+							td must 
+						tr
+							td
+								input(type='checkbox', name='q1h')
+							td will
+						tr
+							td
+								input(type='checkbox', name='q1i')
+							td had 
+						tr
+							td
+								input(type='checkbox', name='q1j')
+							td ought to
+					p
+						button.eval(data-target='t1') Check answers
+		form#t2
+			p
+				b 2. Match the sentences on the left with the sentences that mean the same:
+				p
+					table(cellpadding='3', cellspacing='3')
+						tr
+							td a) It may have been a dinosaur. 
+							td
+								| 1.
+								input(size='1', maxlength='1', name='q2a')
+								| It's possible it is a dinosaur
+						tr
+							td b) It must have been a dinosaur. 
+							td
+								| 2.
+								input(size='1', maxlength='1', name='q2b')
+								| It is possible it was a dinosaur
+						tr
+							td c) It might be a dinosaur. 
+							td
+								| 3.
+								input(size='1', maxlength='1', name='q2c')
+								| There is no possibility it is a dinosaur
+						tr
+							td d) It can't have been a dinosaur. 
+							td
+								| 4.
+								input(size='1', maxlength='1', name='q2d')
+								| It is definitely a dinosaur
+						tr
+							td e) It must be a dinosaur. 
+							td
+								| 5.
+								input(size='1', maxlength='1', name='q2e')
+								| It was definitely a dinosaur
+						tr
+							td f) It may not have been a dinosaur. 
+							td
+								| 6.
+								input(size='1', maxlength='1', name='q2f')
+								| There is no possibility it was a dinosaur
+						tr
+							td g) It couldn't be a dinosaur. 
+							td
+								| 7.
+								input(size='1', maxlength='1', name='q2g')
+								| It is possible it wasn't a dinosaur
+					p
+						center
+							button.eval(data-target='t2') Check answers
+		form#t3
+			p
+				b
+					| 3. Complete the dialog by re-writing B's sentences using the verb in parentheses:
+				p
+					table(cellpadding='3', cellspacing='2', width='500', bgcolor='#ffbc90')
+						tr
+							td
+								| For example:
+								br
+								span#m1
+									| Perhaps it was a dinosaur.
+									b
+										| (may)
+										br
+										| It may have been a dinosaur.
+								p
+									ol
+										| A:  I saw this amazing dog-like animal in the forest yesterday.
+										p
+											| B: It was probably a fox.
+											b (may)
+											br
+											li
+												input(size='25', name='q3a')
+												| .
+												p
+													| A: No, it was bigger than a fox.
+													| B:  Was it possibly a badger?
+													b (could)
+													br
+													li
+														input(size='25', name='q3b')
+														| ?
+														p
+															| A: It was nothing like a badger.
+															| B: Perhaps it was a dog.
+															b (might)
+															br
+															li
+																input(size='25', name='q3c')
+																| .
+																p
+																	| A:  No, it is definitely a wild animal.
+																	| B:  Well, it definitely isn't a wolf.
+																	b (can't)
+																	li
+																		| Well,
+																		input(size='25', name='q3d')
+																		| .
+																		p
+																			| A:  I'm not so sure. It looked like a wolf.
+																			| B: You probably imagined it.
+																			b (must)
+																			br
+																			li
+																				input(size='25', name='q3e')
+																				| .
+																				p
+																					| A: I tell you, it was a wolf.
+																					| B: There are no wolves in our forest. It certainly wasn't a wolf.
+																					b (couldn't)
+																					br
+																					li
+																						input(size='25', name='q3f')
+																						| .
+					p
+						center
+							button.eval(data-target='t3') Check answers
+		#z1
+		#z2
+		#z3

@@ -1,0 +1,249 @@
+div#U3C
+	script.
+		unitans.U3C = {
+			q1a:'b',
+			q1b:'b',
+			q1c:'c',
+			q1d:'c',
+			q1e:'a',
+			q2a:'c',
+			q2b:'c',
+			q2c:'b',
+			q2d:'a',
+			q2e:'a',
+			q3a:'1',
+			q3b:'1',
+			q3c:'1',
+			q3d:'2',
+			q3e:'1',
+			q3f:'2',
+			q3g:'1',
+			q3h:'2',
+			q3i:'2',
+			q3j:'2'
+		}
+	#t0
+		b.u2tit 3. Work it Out
+		p
+			b.u2 What are their jobs? 
+			p
+	form#t1
+		b.inst2 1. Listen to three people talking about the work that they do.
+		p
+			center.speaker
+				a(href='snd/u3s1.mp3', target='_blank')
+					| Speaker 1
+					img(border='0', src='img/listen.jpg')
+				br
+				a(href='snd/u3s2.mp3', target='_blank')
+					| Speaker 2
+					img(border='0', src='img/listen.jpg')
+				br
+				a(href='snd/u3s3.mp3', target='_blank')
+					| Speaker 3
+					img(border='0', src='img/listen.jpg')
+		p
+			b Now match each person below with the place where they do their work.
+		p
+			center
+				table(cellpadding='5', cellspacing='5', width='300')
+					tr
+						td.letra
+							p
+								| a) speaker 1
+								p
+									| b) speaker 2
+									p
+										| c) speaker 3
+										p
+						td.letra
+							sub 1
+							input(size='1', maxlength='1', name='q1a')
+							| in a school
+							br
+							sub 2
+							input(size='1', maxlength='1', name='q1b')
+							| in a bank
+							br
+							sub 3
+							input(size='1', maxlength='1', name='q1c')
+							| in a hospital
+							br
+							sub 4
+							input(size='1', maxlength='1', name='q1d')
+							| at home
+							br
+							sub 5
+							input(size='1', maxlength='1', name='q1e')
+							| in a shop
+							br
+		p
+			center
+				button.eval(data-target='t1') Check answers
+	form#t2
+		p
+			b.instrucciones 2. What are their jobs?
+		p
+			center
+				a(href='snd/u3s1.mp3', target='_blank')
+					| Speaker 1
+					img(border='0', src='img/listen.jpg')
+				br
+				a(href='snd/u3s2.mp3', target='_blank')
+					| Speaker 2
+					img(border='0', src='img/listen.jpg')
+				br
+				a(href='snd/u3s3.mp3', target='_blank')
+					| Speaker 3
+					img(border='0', src='img/listen.jpg')
+		p
+			center
+				table(cellpadding='5', cellspacing='1', width='350')
+					tr
+						td.letra
+							p
+								| a) speaker 1
+								p
+									| b) speaker 2
+									p
+										| c) speaker 3
+						td.letra
+							sub 1
+							input(size='1', name='q2a')
+							| nurse
+							br
+							sub 2
+							input(size='1', name='q2b')
+							| student
+							br
+							sub 3
+							input(size='1', name='q2c')
+							| teacher
+							br
+							sub 4
+							input(size='1', name='q2d')
+							| waiter
+							br
+							sub 5
+							input(size='1', name='q2e')
+							| salesperson
+							br
+		p
+			center
+				button.eval(data-target='t2') Check answers
+	form#t3
+		p
+			b 3. Listen again to speakers 1 and 2. Choose the correct answers.
+		p
+			a(href='snd/u3s1.mp3', target='_blank')
+				| Speaker 1
+				img(border='0', src='img/listen.jpg')
+			br
+		p
+			ol
+				li
+					| He gets up at
+					select(name='q3a')
+						option(value='x')
+							| Choose Answer
+							option(value='1')
+								| 7:00
+								option(value='2')
+									| 7:30
+					li
+						| He
+						select(name='q3b')
+							option(value='x')
+								| Choose Answer
+								option(value='1')
+									| doesn't have
+									option(value='2')
+										| has
+						| breakfast.
+						li
+							| He
+							select(name='q3c')
+								option(value='x')
+									| Choose Answer
+									option(value='1')
+										| likes
+										option(value='2')
+											| doesn't like
+							| his job.
+							li
+								| He finishes work at
+								select(name='q3d')
+									option(value='x')
+										| Choose Answer
+										option(value='1')
+											| 5:00
+											option(value='2')
+												| 5:30
+								li
+									| In the evening he
+									select(name='q3e')
+										option(value='x')
+											| Choose Answer
+											option(value='1')
+												| usually watches TV.
+												option(value='2')
+													| usually listens to music
+		p
+			a(href='snd/u3s2.mp3')
+				| Speaker 2
+				img(border='0', src='img/listen.jpg')
+			br
+		p
+			ol
+				li
+					| She gets up at
+					select(name='q3f')
+						option(value='x')
+							| Choose Answer
+							option(value='1')
+								| 8:00
+								option(value='2')
+									| 8:15
+					li
+						| She
+						select(name='q3g')
+							option(value='x')
+								| Choose Answer
+								option(value='1')
+									| likes
+									option(value='2')
+										| doesn't like
+						| her job.
+						li
+							| She
+							select(name='q3h')
+								option(value='x')
+									| Choose Answer
+									option(value='1')
+										| goes home
+										option(value='2')
+											| finishes work
+							| at 2:30
+							li
+								| She often
+								select(name='q3i')
+									option(value='x')
+										| Choose Answer
+										option(value='1')
+											| watches TV.
+											option(value='2')
+												| goes to a restaurant
+								| in the evening.
+								li
+									| She goes to bed at about
+									select(name='q3j')
+										option(value='x')
+											| Choose Answer
+											option(value='1')
+												| 12:00
+												option(value='2')
+													| 12:30
+		button.eval(data-target='t3') Check answers
+	#z1
+	#z2
+	#z3

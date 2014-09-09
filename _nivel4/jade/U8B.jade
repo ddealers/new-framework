@@ -1,0 +1,156 @@
+div#U8B
+	script.
+		unitans.U8B = {
+			q1a:'2',
+			q2a:'1',
+			q2b:'2',
+			q2c:'1',
+			q2d:'2',
+			q2e:'2',
+			q2f:'1',
+			q3a:'3',
+			q3b:'1',
+			q4a:'2',
+			q4b:'1',
+			q4c:'1',
+			q4d:'2',
+			q4e:'2',
+			q4f:'1',
+			q4g:'2',
+			q4h:'1',
+			q4i:'1',
+			q4j:'2'
+		}
+	form#t0
+		img.logo4(src='img/u8.jpg')
+		p
+			b.u4tit Radio problem talk show 
+			br
+	form#t1
+		b 1. Radio talk show
+		p
+			center
+				img(src='img/u8b1.jpg')
+			p
+				b
+					| Read the transcript of a radio talk show where people ask for advice for their problems.
+				p
+					p
+						b Transcript for "Problem Page"
+						p
+							| Yes, well, um... the problem concerns my partner, the person I live with. Normally we gets along really well together, I mean, we have a good relationship, but recently he's been very busy at work and usually comes home really tired. And all he wants to do is sit on the sofa and watch televsion, or go to bed and fall asleep reading a book. I mean, this is fine, but, but not every day. I work too, but I also like to go out sometimes, you know, to the movies or with friends. When we do go out, which is not very often, he is never very happy, you know, he sits in a corner, looking at his watch, always asking when we can go home. I like talking to people and dancing and having fun, but I'm finding it more and more difficult these days, and I think I would feel guilty if I went out without him. I think he should come out with me and enjoy himself. I don't know. What do think I should do?
+							p
+								| Choose the best summary of the woman's problem.
+								p
+									input.space-right(type='radio', name='q1a', value='1', checked='checked')
+									| She works too much and doesn't have time to go out with her partner.
+									p
+										input.space-right(type='radio', name='q1a', value='2', checked='checked')
+										| Her partner doesn't want to go out with her.
+										p
+											input.space-right(type='radio', name='q1a', value='3', checked='checked')
+											| She wants to go out without her partner but he won't let her do this.
+											p
+												center
+													button.eval(data-target='t1') Check answers
+	form#t2
+		b 2. Are these statements true or false?
+		p
+			ol
+				li
+					| The couple gets along well together.
+					br
+					select(name='q2a')
+						option(value='x')
+							| Choose Answer
+							option(value='1')
+								| true
+								option(value='2')
+									| false
+					p
+						li
+							| The speaker wants to watch television but her partner wants to read.
+							br
+							select(name='q2b')
+								option(value='x')
+									| Choose Answer
+									option(value='1')
+										| true
+										option(value='2')
+											| false
+							p
+								li
+									| The speaker and her partner both work.
+									br
+									select(name='q2c')
+										option(value='x')
+											| Choose Answer
+											option(value='1')
+												| true
+												option(value='2')
+													| false
+									p
+										li
+											| The couple never goes out together.
+											br
+											select(name='q2d')
+												option(value='x')
+													| Choose Answer
+													option(value='1')
+														| true
+														option(value='2')
+															| false
+											p
+												li
+													| Sometimes the speaker goes out without her partner.
+													br
+													select(name='q2e')
+														option(value='x')
+															| Choose Answer
+															option(value='1')
+																| true
+																option(value='2')
+																	| false
+													p
+														li
+															| The speaker thinks it is better if she and her partner go out together.
+															br
+															select(name='q2f')
+																option(value='x')
+																	| Choose Answer
+																	option(value='1')
+																		| true
+																		option(value='2')
+																			| false
+			p
+				center
+					button.eval(data-target='t2') Check answers
+	form#t3
+		b 3. What advice could you give her? 
+		p
+			p
+				input.space-right(type='radio', name='q3a', value='1', checked='checked')
+				| Talk to him and tell him to do less work.
+				p
+					input.space-right(type='radio', name='q3a', value='2', checked='checked')
+					| Tell him that you want to go out without him.
+					p
+						input.space-right(type='radio', name='q3a', value='3', checked='checked')
+						| Talk to him about the problem and wait to see if the situation improves.
+						p
+							input.space-right(type='radio', name='q3a', value='4', checked='checked')
+							| Accept the situation and do what you want to do.
+							p
+								input.space-right(type='radio', name='q3a', value='5', checked='checked')
+								| Do what he wants to do.
+								p
+									input.space-right(type='radio', name='q3a', value='&', checked='checked')
+									| Tell him that you have a lot of fun when you go out without him.
+									p
+										p
+											center
+												button.eval(data-target='t3') Check answers
+	p
+		#z1
+		#z2
+		#z3

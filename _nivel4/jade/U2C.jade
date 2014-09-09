@@ -1,0 +1,202 @@
+div#U2C
+	script.
+		unitans.U2C = {
+			q1a:'c',
+			q1b:'d',
+			q1c:'b',
+			q1d:'a',
+			q2a:'A funny thing happened to me',
+			q2b:'Really, what happened',
+			q2c:'Oh no, what did you do',
+			q2d:'Anyway',
+			q2e:'It was hilarious',
+			q2f:'How amazing',
+			q2g:'The funny thing was',
+			q2h:'Finally',
+			q3a:'Have',
+			q3b:'I',
+			q3c:'told',
+			q3d:'you',
+			q3e:'about',
+			q3f:'funny',
+			q3g:'thing',
+			q3h:'happened',
+			q3i:'The',
+			q3j:'funny',
+			q3k:'thing',
+			q3l:'was',
+			q3m:'hilarious',
+		}
+	#t0
+		img.logo4(src='img/u2.jpg')
+		p
+			b.u4tit  Telling anecdotes 
+			p
+	form#t1
+		b 1. Match the two parts to make sentences about funny situations.
+		p
+			table(cellpadding='0', cellspacing='0')
+				tr
+					td a) Have  I told you about the time I...
+					td
+						| 1.
+						input(size='1', maxlength='1', name='q1a')
+						| I was on the wrong train.
+				tr
+					td b) A funny thing happened to me...
+					td
+						| 2.
+						input(size='1', maxlength='1', name='q1b')
+						| stop laughing.
+				tr
+					td c) The funny things was, ...
+					td
+						| 3.
+						input(size='1', maxlength='1', name='q1c')
+						| on the bus yesterday.
+				tr
+					td d) It was hilarious. We couldn't ...
+					td
+						| 4.
+						input(size='1', maxlength='1', name='q1d')
+						| locked  myself out of my apartment.
+			p
+				center
+					button.eval(data-target='t1') Check answers
+	form#t2
+		p
+			b 2. Select and drag the phrases and responses to complete the dialog. 
+			p
+				p
+					center.box-yellow
+						table(cellpadding='0', cellspacing='5', bgcolor='#ffff90', border='1')
+							tr
+								td(valign='top')
+									b Phrases
+									br
+									| Anyway
+									br
+									| It was hilarious
+									br
+									| A funny thing happened to me
+									br
+									| finally
+									br
+									| the funny thing was
+								td(valign='top')
+									b Responses
+									br
+									| How amazing
+									br
+									| Really, what happened
+									br
+									| Oh no, what did you do
+					p
+						| Tom:
+						sub 1
+						input(size='20', name='q2a')
+						| on the way to work yesterday.
+						br
+						br
+						| Sally:
+						sub 2
+						input(size='20', name='q2b')
+						| ?
+						br
+						br
+						| Tom: Well, I got on the bus and I started reading the paper. Then suddenly I looked up and didn't know where I was. I mean,
+						| I thought I had passed my stop.
+						br
+						br
+						| Sally:
+						sub 3
+						input(size='20', name='q2c')
+						| ?
+						br
+						br
+						| Tom: I tired to get off the bus, but somehow my bag got caught on an elderly
+						| woman's shopping bag. I was half out the door, pulling my bag and the woman was
+						| pulling hers. We couldn't separate them. Some people on the bus got up to help and the driver
+						| got out of this seat to see what was going on.
+						sub 4
+						input(size='20', name='q2d')
+						| , we eventually got the bags
+						| apart.
+						sub 5
+						input(size='20', name='q2e')
+						| .
+						br
+						br
+						| Sally:
+						sub 6
+						input(size='20', name='q2f')
+						| !
+						br
+						br
+						| Tom: Yes, but
+						sub 7
+						input(size='20', name='q2g')
+						| , when I
+						sub 8
+						input(size='20', name='q2h')
+						| got off the bus I looked up and saw that it
+						| wasn't even my bus. I had taken the wrong bus and I wasn't anywhere near my office.
+						p
+							center
+								button.eval(data-target='t2') Check answers
+	form#t3
+		p
+			| 3. Do you remember the sentences from exercise 1?
+			p
+				ol
+					li
+						sub H
+						input(size='8', name='q3a')
+						sub I
+						input(size='8', name='q3b')
+						sub t
+						input(size='8', name='q3c')
+						sub y
+						input(size='8', name='q3d')
+						sub a
+						input(size='8', name='q3e')
+						| the time I locked myself out of my apartment?
+						br
+						br
+						li
+							| A
+							sub f
+							input(size='8', name='q3f')
+							sub t
+							input(size='8', name='q3g')
+							sub h
+							input(size='8', name='q3h')
+							| to me on the bus yesterday.
+							br
+							br
+							li
+								sub T
+								input(size='8', name='q3i')
+								sub f
+								input(size='8', name='q3j')
+								sub t
+								input(size='8', name='q3k')
+								| was, I was on the wrong train.
+								br
+								br
+								li
+									| It
+									sub w
+									input(size='8', name='q3l')
+									sub h
+									input(size='8', name='q3m')
+									| . We couldn't stop laughing.
+									br
+									br
+				p
+					center
+						button.eval(data-target='t3') Check answers
+	p
+		#z1
+		#z2
+		#z3

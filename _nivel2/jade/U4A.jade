@@ -1,0 +1,176 @@
+div#U4A
+	script.
+		unitans.U4A = {
+			q1a:'baseball player',
+			q1b:'baseball bat',
+			q1c:'baseball cap',
+			q1d:'soccer player',
+			q1e:'soccer ball',
+			q1f:'soccer cleats',
+			q1g:'tennis player',
+			q1h:'tennis ball',
+			q1i:'tennis racket',
+			q1j:'sneakers',
+			q1k:'golfer',
+			q1l:'golf club',
+			q1m:'golf ball',
+			q1n:'golf shoes',
+			q2a:'1',
+			q2b:'2',
+			q2c:'4',
+			q2d:'3'
+		}
+	#t0
+		b.u2tit 4. Sportsmania
+		p.u2
+			| Sports and sports equipment
+			p
+	form#t1
+		b.inst2 1. Select and drag the words from the box to label the pictures.
+		center
+			p
+				img.imdep(src='img/u4a.jpg')
+			p
+				table(cellpadding='5', cellspacing='5', width='500')
+					tr
+						td
+							| 1.
+							input(size='16', name='q1a')
+							br
+							| 2.
+							input(size='16', name='q1b')
+							br
+							| 3.
+							input(size='16', name='q1c')
+							br
+							| 4.
+							input(size='16', name='q1d')
+							br
+							| 5.
+							input(size='16', name='q1e')
+							br
+							| 6.
+							input(size='16', name='q1f')
+							br
+							| 7.
+							input(size='16', name='q1g')
+							br
+						td
+							| 8.
+							input(size='16', name='q1h')
+							br
+							| 9.
+							input(size='16', name='q1i')
+							br
+							| 10.
+							input(size='16', name='q1j')
+							br
+							| 11.
+							input(size='16', name='q1k')
+							br
+							| 12.
+							input(size='16', name='q1l')
+							br
+							| 13.
+							input(size='16', name='q1m')
+							br
+							| 14.
+							input(size='16', name='q1n')
+							br
+		p
+			button.eval(data-target='t1') Check answers
+	form#t2
+		p
+			table(cellpadding='5', cellspacing='5', width='550', bgcolor='#ffbc90')
+				tr
+					td tennis player
+					td golf club
+					td soccer ball
+				tr
+					td baseball player
+					td baseball cap
+					td golf shoes
+				tr
+					td golfer
+					td soccer cleats
+					td tennis ball
+				tr
+					td soccer player
+					td tennis racket
+					td golf ball
+				tr
+					td sneakers
+					td baseball bat
+					td
+		p
+			b 2. Read the descriptions of four ball games and click on the name of the sport.
+		p
+			ol
+				li
+					| This game is played on a field with a goal at each end. There are two teams, and each team has 11 players. To score a goal you have to kick the ball into the other team's goal. The team with the most goals at the end wins the game.
+					br
+					center
+						select(name='q2a')
+							option(value='x')
+								| Choose Answer
+								option(value='1')
+									| soccer
+									option(value='2')
+										| tennis
+										option(value='3')
+											| golf
+											option(value='4')
+												| baseball
+		p
+			li
+				| This game is played on a court with a net in the middle. Two players hit a ball over the net with a racket. The ball can only bounce once in each half of the court. If one player can't return the ball, the other player wins a point.
+				br
+				center
+					select(name='q2b')
+						option(value='x')
+							| Choose Answer
+							option(value='1')
+								| soccer
+								option(value='2')
+									| tennis
+									option(value='3')
+										| golf
+										option(value='4')
+											| baseball
+		p
+			li
+				| This game is played on a field with 4 bases. The batter stands on the home base and the pitcher throws a ball at him.
+				| The batter has to hit the ball and run around the bases. If he gets back to home base he scores a run.
+				| A game has 9 parts called innings.
+				br
+				center
+					select(name='q2c')
+						option(value='x')
+							| Choose Answer
+							option(value='1')
+								| soccer
+								option(value='2')
+									| tennis
+									option(value='3')
+										| golf
+										option(value='4')
+											| baseball
+		p
+			li
+				| This game is played on a course with 18 holes. Players hit a ball with a club and have to put the ball into a hole. Every time you hit your ball it is one stroke. The winner is the one with the least strokes.
+				br
+				center
+					select(name='q2d')
+						option(value='x')
+							| Choose Answer
+							option(value='1')
+								| soccer
+								option(value='2')
+									| tennis
+									option(value='3')
+										| golf
+										option(value='4')
+											| baseball
+		button.eval(data-target='t2') Check answers
+	#z1
+	#z2

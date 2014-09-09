@@ -1,0 +1,459 @@
+div#U4C
+	script.
+		unitans.U4C = {
+			q1a:'2',
+			q1b:'1',
+			q1c:'4',
+			q1d:'5',
+			q1e:'3',
+			q2a:'6',
+			q2b:'3',
+			q2c:'1',
+			q2d:'4',
+			q2e:'5',
+			q2f:'2',
+			q3a:'5',
+			q3b:'3',
+			q3c:'1',
+			q3d:'4',
+			q3e:'6',
+			q3f:'2',
+			q4a:'3',
+			q4b:'1',
+			q4c:'4',
+			q5a:'What do you like about it',
+			q5b:'This one\'s nice, isn\'t it',
+			q5c:'What do you think it represents',
+			q5d:'Where do you think it was painted',
+			q5e:'What do you make of this one',
+			q6a:'b',
+			q6b:'g',
+			q6c:'a',
+			q6d:'d',
+			q6e:'e',
+			q6f:'f',
+			q6g:'c',
+			q7a:'2',
+			q7b:'3',
+			q7c:'3',
+			q7d:'1',
+			q7e:'3',
+			q7f:'2',
+			q7g:'3',
+			q7h:'2',
+			q8a:'isn\'t it',
+			q8b:'What I like about it',
+			q8c:'I find',
+			q8d:'It looks',
+			q8e:'it\'s symbolic',
+			q8f:'It gives me',
+			q8g:'for my liking',
+		}
+	#t0
+		img.logo4(src='img/u4.jpg')
+		p
+			b.u4tit Circles, dots & wavy lines - giving opinions   
+			p
+	form#t1
+		b
+			| 1. The following are three short dialogs of people describing paintings.
+			p
+				| Put the sentences in the correct order (1,2,3,4,5).
+				p
+					| Dialog 1:
+		p
+			ol
+				li
+					input(size='1', maxlength='1', name='q1a')
+					| Yes. It's so simple and striking. I find it very relaxing, and the colors are beautiful. What do you think it represents?
+					p
+						li
+							input(size='1', maxlength='1', name='q1b')
+							| This one's nice, isn't it?
+							p
+								li
+									input(size='1', maxlength='1', name='q1c')
+									| Yes, exactly. It gives me a strong feeling of chance. Where do you think it was painted?
+									p
+										li
+											input(size='1', maxlength='1', name='q1d')
+											| It looks English to me.
+											p
+												li
+													input(size='1', maxlength='1', name='q1e')
+													| I'm not sure. Perhaps it's symbolic of the passing of an era.
+			p
+				center
+					button.eval(data-target='t1') Check Answers 
+	form#t2
+		p
+			b Dialog 2 (1,2,3,4,5,6):
+			p
+				ol
+					li
+						input(size='1', maxlength='1', name='q2a')
+						| Yes, I see what you mean, but it's still a little serious for my liking.
+						p
+							li
+								input(size='1', maxlength='1', name='q2b')
+								| Me too. Athough it is kind of engaging.
+								p
+									li
+										input(size='1', maxlength='1', name='q2c')
+										| What do you make of this one?
+										p
+											li
+												input(size='1', maxlength='1', name='q2d')
+												| Engaging? What do you mean?
+												p
+													li
+														input(size='1', maxlength='1', name='q2e')
+														| I mean, it looks like the most important thing is not seen in the picture. You have to imagine what is there.
+														p
+															li
+																input(size='1', maxlength='1', name='q2f')
+																| Well the colors are nice but I find this type of painting a little too symbolic
+				p
+					center
+						button.eval(data-target='t2') Check Answers 
+	form#t3
+		p
+			b Dialog 3 (1,2,3,4,5,6):
+			p
+				ol
+					li
+						input(size='1', maxlength='1', name='q3a')
+						| Yes that's quite effective, isn't it. What do you think of the colors?
+						p
+							li
+								input(size='1', maxlength='1', name='q3b')
+								| What do you like about it?
+								p
+									li
+										input(size='1', maxlength='1', name='q3c')
+										| Do you like this one?
+										p
+											li
+												input(size='1', maxlength='1', name='q3d')
+												| Well, what I like about it is the composition, the way you can see two views at the same time.
+												p
+													li
+														input(size='1', maxlength='1', name='q3e')
+														| They're really nicea balance of soft warm tones and plenty of light.
+														p
+															li
+																input(size='1', maxlength='1', name='q3f')
+																| Yes, I love it.
+				p
+					center
+						button.eval(data-target='t3') Check Answers 
+	form#t4
+		p
+			b
+				| 2. Now read the dialogs and match them to the paintings they describe.
+				| (There are three dialogs but four paintings).
+			p
+				center
+					img(src='img/u4c1.jpg')
+					p
+						ol
+							li
+								| Dialog 1
+								select(name='q4a')
+									option(value='x')
+										| Choose Answer
+										option(value='1')
+											| Picture A
+											option(value='2')
+												| Picture B
+												option(value='3')
+													| Picture C
+													option(value='4')
+														| Picture D
+								p
+									li
+										| Dialog 2
+										select(name='q4b')
+											option(value='x')
+												| Choose Answer
+												option(value='1')
+													| Picture A
+													option(value='2')
+														| Picture B
+														option(value='3')
+															| Picture C
+															option(value='4')
+																| Picture D
+										p
+											li
+												| Dialog 3
+												select(name='q4c')
+													option(value='x')
+														| Choose Answer
+														option(value='1')
+															| Picture A
+															option(value='2')
+																| Picture B
+																option(value='3')
+																	| Picture C
+																	option(value='4')
+																		| Picture D
+				p
+					center
+						button.eval(data-target='t4') Check Answers 
+	form#t5
+		p
+			b 3. Put the words in order to make questions from the dialogs.
+			p
+				ol
+					li
+						| like do it you What about?
+						br
+						input(size='30', name='q5a')
+						| ?
+						p
+							li
+								| nice, it one's isn't This?
+								br
+								input(size='30', name='q5b')
+								| ?
+								p
+									li
+										| What it represents you think do?
+										br
+										input(size='30', name='q5c')
+										| ?
+										p
+											li
+												| it Where painted do think was you?
+												br
+												input(size='30', name='q5d')
+												| ?
+												p
+													li
+														| of make this What you one do?
+														br
+														input(size='30', name='q5e')
+														| ?
+														p
+				center
+					button.eval(data-target='t5') Check Answers 
+	form#t6
+		p
+			b 4. Connect the two parts to complete sentences from the dialogs.
+			p
+				table(cellpadding='2', cellspacing='3', width='650')
+					tr
+						td a) What I like about it...
+						td
+							| 1.
+							input(size='1', maxlength='1', name='q6a')
+							| ...very relaxing.
+					tr
+						td b) I find it...
+						td
+							| 2.
+							input(size='1', maxlength='1', name='q6b')
+							| ...a strong feeling of chance.
+					tr
+						td c) Perhaps it's symbolic...
+						td
+							| 3.
+							input(size='1', maxlength='1', name='q6c')
+							| ...is the composition.
+					tr
+						td d) It looks...
+						td
+							| 4.
+							input(size='1', maxlength='1', name='q6d')
+							| ...English to me.
+					tr
+						td e) It looks like...
+						td
+							| 5.
+							input(size='1', maxlength='1', name='q6e')
+							| ...the most important thing is not seen in the picture.
+							tr
+								td f) It's a little serious...
+								td
+									| 6.
+									input(size='1', maxlength='1', name='q6f')
+									| ...for my liking.
+							tr
+								td g) It gives me...
+								td
+									| 7.
+									input(size='1', maxlength='1', name='q6g')
+									| ...of the passing of an area.
+				p
+					center
+						button.eval(data-target='t6') Check Answers 
+	form#t7
+		p
+			b 5. Choose the correct option to complete the sentences from the dialogs.
+			p
+				ol
+					li
+						| What I like about it ...
+						br
+						input(type='radio', name='q7a', value='1', checked='checked')
+						| you can see the mountains
+						br
+						input(type='radio', name='q7a', value='2')
+						| is the way you can see the mountains
+						br
+						input(type='radio', name='q7a', value='3')
+						| you see the mountains
+						li
+							| She looks ...
+							br
+							input(type='radio', name='q7b', value='1', checked='checked')
+							| a sad woman
+							br
+							input(type='radio', name='q7b', value='2')
+							| as a sad woman
+							br
+							input(type='radio', name='q7b', value='3')
+							| sad
+							li
+								| It looks like ...
+								br
+								input(type='radio', name='q7c', value='1', checked='checked')
+								| European
+								br
+								input(type='radio', name='q7c', value='2')
+								| very relaxing
+								br
+								input(type='radio', name='q7c', value='3')
+								| a place in Europe
+								li
+									| It's so ...
+									br
+									input(type='radio', name='q7d', value='1', checked='checked')
+									| beautiful
+									br
+									input(type='radio', name='q7d', value='2')
+									| a beautiful picture
+									br
+									input(type='radio', name='q7d', value='3')
+									| much beautiful
+									li
+										| What do you think ___ this one?
+										br
+										input(type='radio', name='q7e', value='1', checked='checked')
+										| in
+										br
+										input(type='radio', name='q7e', value='2')
+										| from
+										br
+										input(type='radio', name='q7e', value='3')
+										| of
+										li
+											| What do you like ___ it?
+											br
+											input(type='radio', name='q7f', value='1', checked='checked')
+											| of
+											br
+											input(type='radio', name='q7f', value='2')
+											| about
+											br
+											input(type='radio', name='q7f', value='3')
+											| in
+											li
+												| This one's interesting, ____ ?
+												br
+												input(type='radio', name='q7g', value='1', checked='checked')
+												| no
+												br
+												input(type='radio', name='q7g', value='2')
+												| doesn't it
+												br
+												input(type='radio', name='q7g', value='3')
+												| isn't it
+												li
+													| It gives me ...
+													br
+													input(type='radio', name='q7h', value='1', checked='checked')
+													| sadness
+													br
+													input(type='radio', name='q7h', value='2')
+													| a feeling of sadness
+													br
+													input(type='radio', name='q7h', value='3')
+													| sad
+				p
+					center
+						button.eval(data-target='t7') Check Answers 
+	form#t8
+		p
+			b
+				| 6. Now choose the correct word or phrase to complete the dialog about this painting.
+			p
+				center
+					img(src='img/u4c2.jpg')
+				p
+					| A: This one's nice,
+					sub 1
+					input(size='10', name='q8a')
+					| ?
+					br
+					br
+					| B: Oh yes, I like the soft tones and ochre colors.
+					br
+					br
+					| A:
+					sub 2
+					input(size='15', name='q8b')
+					| is the simplicity.
+					sub 3
+					input(size='15', name='q8c')
+					| the shapes very relaxing.
+					br
+					br
+					| B: Relaxing!
+					sub 4
+					input(size='15', name='q8d')
+					| a little sharp and violent to me. Perhaps
+					sub 5
+					input(size='15', name='q8e')
+					| of the artist's life
+					br
+					br
+					| A: I'm not sure I agree with you Errol.
+					sub 6
+					input(size='15', name='q8f')
+					| a strong feeling of passion for life, but not violence.
+					br
+					br
+					| B: Yeah, maybe. It's too simple
+					sub 7
+					input(size='15', name='q8g')
+					| . There's not enough detail. Who painted it anyway?
+					br
+					br
+					| A: Oh Errol! Van Gogh, of course! Let's go and have a coffee. My feet are killing me.
+					br
+					br
+					p
+						table(cellpadding='1', cellspacing='7', width='600', bgcolor='#ffbc90', border='1', bordercolor='#ffffff')
+							tr
+								td It gives me 
+								td  it's symbolic
+								td  What I like about it
+								td isn't it
+							tr
+								td I find
+								td for my liking
+								td 	It looks
+						p
+							center
+								button.eval(data-target='t8') Check Answers 
+							p
+	#z1
+	#z1b
+	#z1c
+	#z2
+	#z3
+	#z4
+	#z5
+	#z6

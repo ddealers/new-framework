@@ -1,0 +1,114 @@
+div#U3C
+	script.
+		unitans.U3C = {
+			q1a:'flu',
+			q1b:'colds',
+			q1c:'healthy',
+			q1d:'ailments',
+			q1e:'infections',
+			q1f:'defenses',
+			q1g:'immune system',
+			q2a:'infection',
+			q2b:'body',
+			q2c:'sick',
+			q2d:'immune system',
+			q2e:'cold',
+			q2f:'flu',
+			q2g:'ailments',
+			q2h:'defenses',
+			q2i:'healthy'
+		}
+	#t0
+		b.u3tit Body Matters
+		p
+			b.u3 Health and illness
+	p
+		form#t1
+			b 1. Put the letters in order to make HEALTH words from the article in READING.
+	p
+		ol
+			li
+				| luf 
+				input(size='3', name='q1a')
+			li
+				| clods 
+				input(size='5', name='q1b')
+			li
+				| thehaly 
+				input(size='7', name='q1c')
+			li
+				| stailmen 
+				input(size='8', name='q1d')
+			li
+				| snotinefic 
+				input(size='10', name='q1e')
+			li
+				| nesfedes 
+				input(size='8', name='q1f')
+			li
+				| menumi metyss 
+				input(size='14', name='q1g')
+	p
+		center
+			button.eval(data-target='t1') Check answers
+	form#t2
+		p
+		p
+			b 2. Write the words to complete the text about HEALTH and ILLNESS.
+		p
+			| An 
+			sub 1
+			input(size='6', name='q2a')
+			|  is caused by a germ or bacteria that enters your 
+			sub 2
+			input(size='6', name='q2b')
+			|  and makes you
+			br
+			br
+			nobr
+				sub 3
+				input(size='6', name='q2c')
+			| . Luckily our body has an 
+			sub 4
+			input(size='6', name='q2d')
+			|  that protects us against these attacks.
+			| Often in winter people get common 
+			sub 5
+			input(size='6', name='q2e')
+			|  or the 
+			sub 6
+			input(size='6', name='q2f')
+			| .
+			| These are not very serious. But we can also get other 
+			nobr
+				sub 7
+				input(size='6', name='q2g')
+			|  that can be more serious and are
+			| often accompanied by fever and headaches. Luckily our 
+			nobr
+				sub 8
+				input(size='6', name='q2h')
+			| soon control and eliminate the infection, making us 
+			sub 9
+			input(size='6', name='q2i')
+			|  again.
+		p
+			center
+				table(cellpadding='5', cellspacing='5', bgcolor='#ffbc90')
+					tr
+						td defenses
+						td cold
+						td sick
+					tr
+						td infection
+						td flu
+						td body
+					tr
+						td ailments
+						td healthy
+						td immune system
+		p
+			center
+				button.eval(data-target='t2') Check answers
+	#z1
+	#z2

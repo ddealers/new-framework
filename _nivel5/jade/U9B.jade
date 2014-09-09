@@ -1,0 +1,300 @@
+div#U9B
+		script.
+				unitans.U9B = {
+					q1a:'2',
+					q1b:'2',
+					q1c:'1',
+					q1d:'3',
+					q1e:'2',
+					q1f:'1',
+					q1g:'2',
+					q1h:'3',
+					q1i:'2',
+					q1j:'3',
+					q1k:'3',
+					q1l:'1',
+					q2a:'idea',
+					q2b:'Search',
+					q2c:'ask',
+					q2d:'clue',
+					q2e:'faintest',
+					q2f:'dark',
+					q2g:'give',
+					q2h:'beats',
+					q3a:'in',
+					q3b:'the',
+					q3c:'dark',
+					q3d:'haven\'t',
+					q3e:'the',
+					q3f:'faintest',
+					q3g:'beats',
+					q3h:'ask',
+					q3i:'me',
+					q3j:'clue'
+				}
+		form#t1
+			b.inst5 Saying "I don t know"
+			p
+				b.tablau2 1. Complete these sentences by choosing the best word. 
+				p
+					table(cellpadding='0', cellspacing='10')
+						tr
+							td
+								| 1. The police haven't found any
+								select(name='q1a')
+									option(value='0')
+										| Choose answer
+										option(value='1')
+											| proof
+											option(value='2')
+												| evidence
+												option(value='3') clue
+								| of violence.
+						tr
+							td
+								| 2. The woman disappeared without a
+								select(name='q1b')
+									option(value='0')
+										| Choose answer
+										option(value='1')
+											| clue
+											option(value='2')
+												| trace
+												option(value='3') sign
+								| .
+						tr
+							td
+								| 3. We haven't a
+								select(name='q1c')
+									option(value='0')
+										| Choose answer
+										option(value='1')
+											| clue
+											option(value='2')
+												| sign
+												option(value='3') proof
+								| where she has gone.
+						tr
+							td
+								| 4. There is no
+								select(name='q1d')
+									option(value='0')
+										| Choose answer
+										option(value='1')
+											| clue
+											option(value='2')
+												| sign
+												option(value='3') proof
+								| that her husband was involved.
+						tr
+							td
+								| 5. There is no
+								select(name='q1e')
+									option(value='0')
+										| Choose answer
+										option(value='1')
+											| trace
+											option(value='2')
+												| evidence
+												option(value='3') sign
+								| that her husband was involved.
+						tr
+							td
+								| 6. There were
+								select(name='q1f')
+									option(value='0')
+										| Choose answer
+										option(value='1')
+											| traces
+											option(value='2')
+												| indications
+												option(value='3') clues
+								| of blood on the knife.
+						tr
+							td
+								| 7. Were there any
+								select(name='q1g')
+									option(value='0')
+										| Choose answer
+										option(value='1')
+											| traces
+											option(value='2')
+												| signs
+												option(value='3') proofs
+								| of violence?
+						tr
+							td
+								| 8. Were there any
+								select(name='q1h')
+									option(value='0')
+										| Choose answer
+										option(value='1')
+											| clues
+											option(value='2')
+												| evidences
+												option(value='3') indications
+								| of violence?
+						tr
+							td
+								| 9. The husband was released because of lack of
+								select(name='q1i')
+									option(value='0')
+										| Choose answer
+										option(value='1')
+											| clues
+											option(value='2')
+												| proof
+												option(value='3') proofs
+								| .
+						tr
+							td
+								| 10. The letter to her husband was an important piece of
+								select(name='q1j')
+									option(value='0')
+										| Choose answer
+										option(value='1')
+											| clue
+											option(value='2')
+												| proof
+												option(value='3') evidence
+								| .
+						tr
+							td
+								| 11. The police searched for a
+								select(name='q1k')
+									option(value='0')
+										| Choose answer
+										option(value='1')
+											| proof
+											option(value='2')
+												| sign
+												option(value='3') clue
+								| in her bedroom.
+						tr
+							td
+								| 12. It has all the
+								select(name='q1l')
+									option(value='0')
+										| Choose answer
+										option(value='1')
+											| signs
+											option(value='2')
+												| clues
+												option(value='3') proofs
+								| of a kidnapping.
+					p
+						center
+							button.eval(data-target='t1') Check answers
+		form#t2
+			p
+				b
+					| 2. Ways of saying you don t know. Complete each sentence by using a word in the box.
+				p
+					center
+						table(cellpadding='0', cellspacing='3', border='1', bordercolor='#000000')
+							tr
+								td(width='80', align='center') Search
+								td(width='80', align='center') 	clue
+								td(width='80', align='center') dark
+								td(width='80', align='center') faintest
+							tr
+								td(align='center') give
+								td(align='center') ask
+								td(align='center') idea
+								td(align='center') beats
+					p
+						table(cellpadding='0', cellspacing='10')
+							tr
+								td 1. What´s the capital of Peru?
+								td(width='30')
+								td
+									| I have no
+									input(type='text', name='q2a', size='20')
+									| .
+							tr
+								td 2. Who discovered radium?
+								td
+								td
+									| Radium?
+									input(type='text', name='q2b', size='20')
+									| me.
+							tr
+								td 3. What's the square root of 64?
+								td
+								td
+									| Don't
+									input(type='text', name='q2c', size='20')
+									| me.
+							tr
+								td 4. When was Kennedy assassinated?
+								td
+								td
+									| I haven't a
+									input(type='text', name='q2d', size='20')
+									| .
+							tr
+								td 5. Who were the Huguenots?
+								td
+								td
+									| I haven't the
+									input(type='text', name='q2e', size='20')
+									| idea.
+							tr
+								td 6. What are you getting for your birthday?
+								td
+								td
+									| I'm completely in the
+									input(type='text', name='q2f', size='20')
+									| .
+							tr
+								td
+									| 7. Who wrote
+									i Crime and Punishment
+									| ?
+								td
+								td
+									| I
+									input(type='text', name='q2g', size='20')
+									| up.
+							tr
+								td 8. Why are the trains on strike?
+								td
+								td
+									| It
+									input(type='text', name='q2h', size='20')
+									| me.
+						p
+							center
+								button.eval(data-target='t2') Check answers
+		form#t3
+			p
+				b 3. Complete the text using words and expressions from exercise 2.
+				p
+					table(cellpadding='0', cellspacing='10')
+						tr
+							td
+								| Since an American tourist went missing last weekend, police are completely
+								input(type='text', name='q3a', size='20')
+								input(type='text', name='q3b', size='20')
+								input(type='text', name='q3c', size='20')
+								| . "We
+								input(type='text', name='q3d', size='20')
+								input(type='text', name='q3e', size='20')
+								input(type='text', name='q3f', size='20')
+								| idea where she could be," admits Chief Inspector Wells. Her husband is equally perplexed. "It
+								input(type='text', name='q3g', size='20')
+								| me," he said. When she failed to come home from work on Saturday, he phoned her
+								| office. "Don't
+								input(type='text', name='q3h', size='20')
+								input(type='text', name='q3i', size='20')
+								| ," said her boss. "She left here
+								| at noon. I haven't a
+								input(type='text', name='q3j', size='20')
+								| where she is."
+					p
+						center
+							button.eval(data-target='t3') Check answers
+		p
+			#z1
+			#z2
+			#z3

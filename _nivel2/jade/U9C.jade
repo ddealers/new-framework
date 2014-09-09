@@ -1,0 +1,292 @@
+div#U9C
+	script.
+		unitans.U9C = {
+			q1a:'1',
+			q1b:'0',
+			q2a:'1',
+			q2b:'2',
+			q2c:'2',
+			q2d:'2',
+			q2e:'1',
+			q2f:'1',
+			q2g:'1',
+			q2h:'2',
+			q3a:'would',
+			q3b:'If',
+			q3c:'will',
+			q3d:'won\'t',
+			q3e:'were',
+			q3f:'would',
+			q3g:'does',
+			q3h:'not',
+			q4a:'If I had more money, I would buy a new car',
+			q4b:'If you studied more, your English would improve',
+			q4c:'If they have time, they will study more',
+			q4d:'If they lived in the country, they would have a garden',
+			q4e:'If you relax more, you will be happier',
+			q4f:'If it is cold, I will take a jacket',
+			q4g:'If I were you, I would write a letter',
+			q4h:'If we won the lottery, we would not work any more'
+		}
+	#t0
+		b.u2tit 9. Hi-Tech
+		p
+			b.u2  Conditional sentences 
+			p
+	form#t1
+		.co1
+			b
+				| 1. Conditional sentences
+				p
+					| Compare these sentences.
+			p
+				span.rojo
+					li
+						| If I drop out of medical school, Dad will be disappointed in me.
+						li If I were you, I would forget him. 
+			p
+				b Which sentence is about an imaginary situation?  
+				br
+				input(type='radio', name='q1a', value='1', checked='checked')
+				| If I drop out of medical school, Dad will be disappointed in me.
+				br
+				input(type='radio', name='q1a', value='0')
+				| If I were you, I would forget him.
+			p
+				b Which sentence is about a real possibility?  
+				br
+				input(type='radio', name='q1b', value='1', checked='checked')
+				| If I drop out of medical school, Dad will be disappointed in me.
+				br
+				input(type='radio', name='q1b', value='0')
+				| If I were you, I would forget him.
+		p
+			center
+				button.eval(data-target='t1') Check answers
+	form#t2
+		p
+			span#m1
+				li
+					| If I
+					b drop
+					| out of medical school, Dad
+					b will be
+					| disappointed in me.
+			br
+			span#m1
+				b If
+			| + present tense / subject +
+			span#m1
+				b will (not)
+			| + verb (first conditional sentence)
+		p
+			span#m1
+				li
+					| If I
+					b were
+					| you, I
+					b would forget
+					| him.
+					br
+			span#m1
+				b If
+			| + past tense / subject +
+			span#m1
+				b would (not)
+			| + verb (second conditional sentence)
+		p
+			span#m1 (Note: The expression "If I were you" is often used when giving advice).
+		p
+			| Look at the different ways we can say this sentence.
+		p
+			span#m1
+				| If I were you, I would forget him.
+				br
+				| If I were you, I'd forget him.
+				br
+				| I'd forget him, if I were you.
+		p
+			b 2. Are these sentences about real possibilities or imaginary situations?
+		p
+			ol
+				li
+					| If you have time, I will phone you.
+					br
+					select(name='q2a')
+						option(value='x')
+							| Choose Answer
+							option(value='1')
+								| real possibility
+								option(value='2')
+									| imaginary situation
+		p
+			li
+				| If you loved me, you would tell me.
+				br
+				select(name='q2b')
+					option(value='x')
+						| Choose Answer
+						option(value='1')
+							| real possibility
+							option(value='2')
+								| imaginary situation
+		p
+			li
+				| If I had time, I would study more.
+				br
+				select(name='q2c')
+					option(value='x')
+						| Choose Answer
+						option(value='1')
+							| real possibility
+							option(value='2')
+								| imaginary situation
+		p
+			li
+				| If I were rich, I wouldn't work.
+				br
+				select(name='q2d')
+					option(value='x')
+						| Choose Answer
+						option(value='1')
+							| real possibility
+							option(value='2')
+								| imaginary situation
+		p
+			li
+				| If it rains, I won't go to the country.
+				br
+				select(name='q2e')
+					option(value='x')
+						| Choose Answer
+						option(value='1')
+							| real possibility
+							option(value='2')
+								| imaginary situation
+		p
+			li
+				| If he loves you, you will know it.
+				br
+				select(name='q2f')
+					option(value='x')
+						| Choose Answer
+						option(value='1')
+							| real possibility
+							option(value='2')
+								| imaginary situation
+		p
+			li
+				| If I see him, I will tell him.
+				br
+				select(name='q2g')
+					option(value='x')
+						| Choose Answer
+						option(value='1')
+							| real possibility
+							option(value='2')
+								| imaginary situation
+		p
+			li
+				| If he came to the party, I would die!
+				br
+				select(name='q2h')
+					option(value='x')
+						| Choose Answer
+						option(value='1')
+							| real possibility
+							option(value='2')
+								| imaginary situation
+		p
+			center
+				button.eval(data-target='t2') Check answers
+	form#t3
+		p
+			b 3. Type in the missing words to complete the sentences.
+		p
+			ol
+				li
+					| If I had time, I
+					input(size='7', name='q3a')
+					| go to the movies.
+					li
+						input(size='7', name='q3b')
+						| I was rich, I wouldnt' work.
+						li
+							| If I see him, I
+							input(size='7', name='q3c')
+							| tell him.
+							li
+								| If it rains, I
+								input(size='7', name='q3d')
+								| play tennis. .
+								li
+									| If I
+									input(size='7', name='q3e')
+									| you, I'd buy a new computer.
+									li
+										| If I had a car, I
+										input(size='7', name='q3f')
+										| not walk.
+										li
+											| If he
+											input(size='7', name='q3g')
+											| not phone, I will be worried.
+											li
+												| If I was
+												input(size='7', name='q3h')
+												| so busy, I would help you.
+		p
+			center
+				button.eval(data-target='t3') Check answers
+	form#t4
+		p
+			b 4. Use the words to write sentences.
+		p
+			| e.g., (I) have time / do the shopping (real possibility)
+			br
+			span#m1 If I have time, I will do the shopping.    
+			ol
+				li
+					| (I) have more money / buy new car (imaginary situation)
+					br
+					input(size='45', name='q4a')
+					| .
+					li
+						| (you) study more  / your English improve (imaginary situation)
+						br
+						input(size='45', name='q4b')
+						| .
+						li
+							| (they) have time / study more (real possiblity)
+							br
+							input(size='45', name='q4c')
+							| .
+							li
+								| (they) live in the country / have a garden (imaginary situation)
+								br
+								input(size='45', name='q4d')
+								| .
+								li
+									| (you) relax more / be happier (real possiblity)
+									br
+									input(size='45', name='q4e')
+									| .
+									li
+										| (it) be cold / (I) take a jacket (real possibility)
+										br
+										input(size='45', name='q4f')
+										| .
+										li
+											| (I) be you / write a letter (imaginary situation)
+											br
+											input(size='45', name='q4g')
+											| .
+											li
+												| (we) win the lottery / not work any more (imaginary situation)
+												br
+												input(size='45', name='q4h')
+		button.eval(data-target='t4') Check answers
+	#z1
+	#z2
+	#z3
+	#z4

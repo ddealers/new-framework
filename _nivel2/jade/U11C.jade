@@ -1,0 +1,382 @@
+div#U11C
+	script.
+		unitans.U11C = {
+			q1a:'0',
+			q1b:'1',
+			q2a:'I\'d like',
+			q2b:'size',
+			q2c:'Can I try it on',
+			q2d:'it fits',
+			q2e:'I\'ll take it',
+			q3a:'I\'d like',
+			q3b:'Can I try them on',
+			q3c:'They really suit you',
+			q3d:'Do you have a smaller size',
+			q3e:'I\'ll take them',
+			q3f:'Can I pay by credit card',
+			q4a:'g',
+			q4b:'e',
+			q4c:'d',
+			q4d:'f',
+			q4e:'a',
+			q4f:'c',
+			q4g:'b',
+			q5a:'1',
+			q5b:'1',
+			q5c:'2',
+			q5d:'2',
+			q5e:'1',
+			q5f:'2',
+			q5g:'2',
+			q5h:'1'
+		}
+	#t0
+		b.u2tit 11. Street Styles
+		p
+			b.u2 Going shopping  
+			p
+	form#t1
+		.co1
+			b 1. Read each dialog then answer the question below. 
+			p
+				b dialog 1 
+			p
+				b A:
+				| Can I help you?
+				br
+				b B:
+				| Yes, I'd like one of those sweatshirts in the window.
+				br
+				b A:
+				| What size?
+				br
+				b B:
+				| Small.
+			p
+				b A:
+				| I don't think it fits.
+				br
+				b B:
+				| It's fine. I like my sweatshirts to be tight.
+				br
+				b A:
+				| Oh, OK.
+				br
+				b B:
+				| I'll take it.
+			p
+				| The salesperson (
+				b A
+				| ) thinks the sweatshirt is
+		p
+			input(type='radio', name='q1a', value='1', checked='checked')
+			| too big
+			input(type='radio', name='q1a', value='0')
+			| too small
+		p
+			b dialog 2
+		p
+			b A:
+			| Can I help you?
+			br
+			b B:
+			| Yes please. I'd like to buy a pair of faded blue jeans.
+			br
+			b A:
+			| What about these Levi's?
+			br
+			b B:
+			| OK. Can I try them on?
+			br
+			b A:
+			| Of course.
+		p
+			b A:
+			| They look great. They really suit you.
+			br
+			b B:
+			| Yes, but they're a little baggy. Do you have a smaller size?
+			br
+			b A:
+			| No, sorry.
+			br
+			b B:
+			| Oh. OK, well, I'll take them. Can I pay by credit card?
+			br
+			b A:
+			| Sure.
+			br
+		p
+			| The customer (
+			b B
+			| ) thinks the jeans are
+		p
+			input(type='radio', name='q1b', value='1', checked='checked')
+			| too big
+			input(type='radio', name='q1b', value='0')
+			| too small
+		p
+			center
+				button.eval(data-target='t1') Check Answers
+	form#t2
+		p
+			b
+				| 2. Without reading dialog 1 again, see if you can drag in the missing expressions.
+		p
+			| (A = Salesperson  B = Customer.)
+		p
+			| A: Can I help you?
+			br
+			| B: Yes,
+			sub 1
+			input(size='9', name='q2a')
+			| one of those sweatshirts in the window.
+			br
+			| A: What
+			sub 2
+			input(size='9', name='q2b')
+			| ?
+			br
+			| B: Small.
+			sub 3
+			input(size='9', name='q2c')
+			| ?
+			br
+			| A: Of course.
+		p
+			| ......
+		p
+			| A: I don't think
+			sub 4
+			input(size='9', name='q2d')
+			br
+			| B: It's fine. I like my sweatshirts to be tight.
+			br
+			| A: Oh, OK.
+			br
+			| B:
+			sub 5
+			input(size='9', name='q2e')
+		p
+			center
+				table(cellpadding='5', cellspacing='5', width='650', bgcolor='#ffbc90')
+					tr
+						td it fits
+						td  I'd like
+						td  I'll take it
+						td size
+						td Can I try it on
+		p
+			center
+				button.eval(data-target='t2') Check Answers
+			b
+	form#t3
+		p
+			| Now do the same for dialog 2.
+		p
+			| A: Can I help you?
+			br
+			| C: Yes please.
+			sub 1
+			input(size='15', name='q3a')
+			| to buy a pair of faded blue jeans.
+			br
+			| A: What about these Levi's?
+			br
+			| C: OK.
+			sub 2
+			input(size='15', name='q3b')
+			| ?
+			br
+			| A: Of course.
+		p
+			| ......
+		p
+			| A: They look great.
+			sub 3
+			input(size='25', name='q3c')
+			| .
+			br
+			| C: Yes, but they're a little baggy.
+			sub 4
+			input(size='25', name='q3d')
+			| ?
+			br
+			| A: No, sorry.
+			br
+			| C: Oh. OK,well,
+			sub 5
+			input(size='25', name='q3e')
+			| .
+			sub 6
+			input(size='20', name='q3f')
+			| ?
+			br
+			| A: Sure.
+		p
+			table(cellpadding='5', cellspacing='5', width='650', bgcolor='#ffbc90')
+				tr
+					td Can I pay by credit card
+					td Do you have a smaller size
+					td I'd like
+				tr
+					td Can I try them on
+					td They really suit you
+					td I'll take them
+		p
+			center
+				button.eval(data-target='t3') Check Answers
+	form#t4
+		p
+			b
+				| 3. Shopping Language
+		p
+			| What do we say when
+		p
+			table(cellpadding='5', cellspacing='5', width='600')
+				tr
+					td a. ...we want to buy something?
+					td
+						| 1.
+						input(size='1', maxlength='1', name='q4a')
+						| Can I pay by credit card/with cash?
+				tr
+					td b. ...we want a different size?
+					td
+						| 2.
+						input(size='1', maxlength='1', name='q4b')
+						| It suits me/you
+				tr
+					td c. ...we want to put the clothes on to see if we like them?
+					td
+						| 3.
+						input(size='1', maxlength='1', name='q4c')
+						| It fits.
+				tr
+					td d. ...we want to say that it is the right size?
+					td
+						| 4.
+						input(size='1', maxlength='1', name='q4d')
+						| I'll take it/them.
+				tr
+					td e. ...we want to say that it looks good?
+					td
+						| 5.
+						input(size='1', maxlength='1', name='q4e')
+						| I'd like...
+				tr
+					td f. ...we decide to buy something?
+					td
+						| 6.
+						input(size='1', maxlength='1', name='q4f')
+						| Can I try it/them on?
+				tr
+					td g. ...we want to know how to pay?
+					td
+						| 7.
+						input(size='1', maxlength='1', name='q4g')
+						| Do you have a smaller/larger size?
+		p
+			center
+				button.eval(data-target='t4') Check Answers
+	form#t5
+		p
+			| 4. Read this dialog and choose the correct phrase.
+		p
+			ol
+				b A:
+				sub.ro 1
+				select(name='q5a')
+					option(value='x')
+						| Choose Answer
+						option(value='1')
+							| I'd like
+							option(value='2')
+								| I like
+				| to buy a warm-up suit.
+				br
+				b B:
+				| Certainly. Here you are.
+				br
+				b A:
+				| Can I try
+				sub.ro 2
+				select(name='q5b')
+					option(value='x')
+						| Choose Answer
+						option(value='1')
+							| it
+							option(value='2')
+								| them
+				| on, please?
+				br
+				| Oh,
+				sub.ro 3
+				select(name='q5c')
+					option(value='x')
+						| Choose Answer
+						option(value='1')
+							| it doesn't fits
+							option(value='2')
+								| it doesn't fit
+				| .
+				sub.ro 4
+				select(name='q5d')
+					option(value='x')
+						| Choose Answer
+						option(value='1')
+							| Have you
+							option(value='2')
+								| Do you have
+				| a smaller size?
+				br
+				b B:
+				| Yes, of course Here you are Yes, that
+				sub.ro 5
+				select(name='q5e')
+					option(value='x')
+						| Choose Answer
+						option(value='1')
+							| fits
+							option(value='2')
+								| fit
+				| . It
+				sub.ro 6
+				select(name='q5f')
+					option(value='x')
+						| Choose Answer
+						option(value='1')
+							| suit
+							option(value='2')
+								| suits
+				| you too.
+				br
+				b A:
+				| I ll take
+				sub.ro 7
+				select(name='q5g')
+					option(value='x')
+						| Choose Answer
+						option(value='1')
+							| them
+							option(value='2')
+								| it
+				| . Can I pay
+				sub.ro 8
+				select(name='q5h')
+					option(value='x')
+						| Choose Answer
+						option(value='1')
+							| by
+							option(value='2')
+								| with
+				| credit card?
+				br
+				b B:
+				| Fine.
+		button.eval(data-target='t5') Check Answers
+	#z1
+	#z2
+	#z2b
+	#z3
+	#z4

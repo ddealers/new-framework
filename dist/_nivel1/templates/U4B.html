@@ -1,0 +1,121 @@
+<script>
+	v = {
+		q1a:1,
+		q1b:1,
+		q1c:0,
+		q1d:0,
+		q2a:'c',
+		q2b:'a',
+		q2c:'d',
+		q2d:'b',
+		q3a:'At the table',//'They are sitting at the table',
+		q3b:'Writing a letter',//'He\'s writing a letter',
+		q3c:'Yes',//['He\'s writing a letter','he\'s smoking a cigarette'],
+		q3d:'Reading a book',//'She\'s reading a book',
+		q3e:'No',//No, she isn\'t',
+		q4a:'Where is the woman sitting?',
+		q4b:'What is the man wearing?',
+		q4c:'What is the man doing?',
+		q4d:'What is the woman wearing?',
+		q4e:'What is the woman doing?'
+	}
+</script>
+
+<form id="t1">
+<img class="logo1" src="img/t-u4.jpg">
+<p class="titulo">
+<span>Present Continuous</span>
+</p>
+<p>
+<b class="instrucciones">1. Look at the picture below. Choose the correct sentences to describe the picture.</b>
+</p>
+<p>
+<center>
+<img src="img/u4-b1.jpg">
+</center>
+</p>
+<p>
+<table class="cuadro" cellpadding=0 cellspacing=4>
+<tr class="letra"><td width=15><b>1</b></td><td><input type="radio" name="q1a" value=1> A boy is eating an ice cream.</td><td width=30></td><td><input type="radio" name="q1a" value=0> A boy eats an ice cream.</td></tr>
+<tr class="letra"><td><b>2</b></td><td><input type="radio" name="q1b" value=1> A girl is running along the beach.</td><td></td><td> <input type="radio" name="q1b" value=0> A girl runs along the beach.</td></tr>
+<tr class="letra"><td><b>3</b></td><td><input type="radio" name="q1c" value=1> Two men windsurf.</td><td></td><td> <input type="radio" name="q1c" value=0> Two men are windsurfing.</td></tr>
+<tr class="letra"><td><b>4</b></td><td><input type="radio" name="q1d" value=1> A woman swims in the ocean.</td><td></td><td> <input type="radio" name="q1d" value=0> A woman is swimming in the ocean.</td></tr>
+</table>
+</p>
+<p>
+<center>
+<button class="eval" data-target="t1" data-draw="z1">Check answers</button>
+</center>
+</p>
+</form>
+<form id="t2">
+<p>
+<b class="instrucciones">2. Match the descriptions to the correct picture.</b>
+</p>
+<p>
+<table class="cuadro" cellpadding=2 cellspacing=0>
+<tr><td></td><td width=40></td><td></td><td width=40></td><td rowspan=5><img src="img/u4-b2.jpg"></td></tr>
+<tr><td><img src="img/u4-bt1.jpg"></td><td></td><td><input type="text" name="q2a" size=3></td><td></td></tr>
+<tr><td><img src="img/u4-bt2.jpg"></td><td></td><td><input type="text" name="q2b" size=3></td><td></td></tr>
+<tr><td><img src="img/u4-bt3.jpg"></td><td></td><td><input type="text" name="q2c" size=3></td><td></td></tr>
+<tr><td><img src="img/u4-bt4.jpg"></td><td></td><td><input type="text" name="q2d" size=3></td><td></td></tr>
+</table>
+</p>
+<p>
+<center>
+<button class="eval" data-target="t2" data-draw="z2">Check answers</button>
+</center>
+</p>
+</form>
+<form id="t3">
+<p>
+<b class="instrucciones">3. Look at the third picture in exercise 2. Match the questions and answers below.</b>
+</p>
+<p>
+<table class="cuadro" cellpadding=2 cellspacing=0>
+<tr class="letra"><td>Where are they sitting?</td><td></td><td><input type="text" name="q3a" size=30>.</td></tr>
+<tr class="letra"><td>What is the man doing?</td><td></td><td><input type="text" name="q3b" size=30>.</td></tr>
+<tr class="letra"><td>Is he wearing a blue T-shirt?</td><td></td><td><input type="text" name="q3c" size=30>.</td></tr>
+<tr class="letra"><td>What is the woman doing?</td><td></td><td><input type="text" name="q3d" size=30>.</td></tr>
+<tr class="letra"><td>Is she wearing a dress?</td><td></td><td><input type="text" name="q3e" size=30>.</td></tr>
+</table>
+</p>
+<p>
+<center>
+<button class="eval" data-target="t3" data-draw="z3">Check answers</button>
+</center>
+</p>
+</form>
+<form id="t4">
+<p>
+<b class="instrucciones">4. Now look at this picture from exercise 2. Write questions for these answers.</b>
+</p>
+<p>
+<table class="cuadro" cellpadding=0 cellspacing=4>
+<tr><td>Use the verbs in the first column. The first one has been done for you as an example.</td><td><img src="img/u4-b3.jpg"></td></tr>
+</table>
+</p>
+<p>
+<table class="cuadro" cellpadding=0 cellspacing=0>
+<tr class="letra"><td bgcolor="#ffcc99">&#160;</td><td width=20 bgcolor="#ffcc99"></td><td align="center" bgcolor="#ffcc99">&#160;</td><td width=20 bgcolor="#ffcc99"></td><td align="center" bgcolor="#ffcc99">&#160;</td></tr>
+<tr class="letra"><td bgcolor="#ffcc99"><b>use verb</b></td><td width=20 bgcolor="#ffcc99"></td><td align="center" bgcolor="#ffcc99"><b>Question</b></td><td width=20 bgcolor="#ffcc99"></td><td align="center" bgcolor="#ffcc99"><b>Reply</b></td></tr>
+<tr class="letra"><td bgcolor="#ffcc99" align="center">stand</td><td bgcolor="#ffcc99"></td><td bgcolor="#ffcc99">Where is the man standing?</td><td bgcolor="#ffcc99"></td><td bgcolor="#ffcc99">Next to the table.</td bgcolor="#ffcc99"></tr>
+<tr class="letra"><td bgcolor="#ffcc99"><b>1</b> sit</td><td bgcolor="#ffcc99"></td><td align="center" bgcolor="#ffcc99"><input type="text" name="q4a" size=12></td><td bgcolor="#ffcc99"></td><td bgcolor="#ffcc99">On a chair.</td></tr>
+<tr class="letra"><td bgcolor="#ffcc99"><b>2</b> wear</td><td bgcolor="#ffcc99"></td><td align="center" bgcolor="#ffcc99"><input type="text" name="q4b" size=12></td><td bgcolor="#ffcc99"></td><td bgcolor="#ffcc99">A white T-shirt.</td></tr>
+<tr class="letra"><td bgcolor="#ffcc99"><b>3</b> do</td><td bgcolor="#ffcc99"></td><td align="center" bgcolor="#ffcc99"><input type="text" name="q4c" size=12></td><td bgcolor="#ffcc99"></td><td bgcolor="#ffcc99">He's reading a newspaper.</td></tr>
+<tr class="letra"><td bgcolor="#ffcc99"><b>4</b> wear</td><td bgcolor="#ffcc99"></td><td align="center" bgcolor="#ffcc99"><input type="text" name="q4d" size=12></td><td bgcolor="#ffcc99"></td><td bgcolor="#ffcc99">A red dress.</td></tr>
+<tr class="letra"><td bgcolor="#ffcc99"><b>5</b> do</td><td bgcolor="#ffcc99"></td><td align="center" bgcolor="#ffcc99"><input type="text" name="q4e" size=12></td><td bgcolor="#ffcc99"></td><td bgcolor="#ffcc99">She's smoking.</td></tr>
+<tr class="letra"><td bgcolor="#ffcc99">&#160;</td><td width=20 bgcolor="#ffcc99"></td><td align="center" bgcolor="#ffcc99">&#160;</td><td width=20 bgcolor="#ffcc99"></td><td align="center" bgcolor="#ffcc99">&#160;</td></tr>
+</table>
+</p>
+<button class="eval" data-target="t4" data-draw="z4">Check answers</button>
+</form>
+
+<div id="z1">
+</div>
+<div id="z2">
+</div>
+<div id="z3">
+</div>
+<div id="z4">
+</div>

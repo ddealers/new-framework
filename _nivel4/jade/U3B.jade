@@ -1,0 +1,182 @@
+div#U3B
+	script.
+		unitans.U3B = {
+			q1a:'2',
+			q1b:'2',
+			q1c:'1',
+			q2a:'3',
+			q2b:'1',
+			q2c:'3',
+			q2d:'2',
+			q2e:'2',
+			q2f:'1',
+			q3a:'was',
+			q3b:'did',
+			q3e:'was',
+			q3f:'was',
+			q3g:'did',
+			q3j:'did',
+			q3m:'has',
+			q3q:'did',
+			q3t:'Has',
+			q3x:'Did'
+		}
+	#t0
+		img.logo4(src='img/u3.jpg')
+		p
+			b.u4tit Going on vacation to the moon  
+			p
+	form#t1
+		b
+			| 1. Read about three people talking about the possibility of going on a vacation to the Moon.
+		p
+			center
+				b "Fly Me To The Moon"
+			b Speaker one 
+			p
+				| "I imagine that the moon is not a very nice place. Erm, I imagine the climate would be very cold and also it would be boring.
+				| A big problem  would be you can't leave when you want to.
+				| So I think going to the moon for me is definitely not my ideal vacation."
+				p
+					b Speaker two 
+					p
+						| "Erm, I always find flying a little traumatic, and I think flying in a rocket would be even more traumatic since.
+						| Erm, I guess once you're there on the moon it could be interesting, interesting views, but for me I think I'd find them a little, a little dull, maybe kinf of depressing. Erm, I like to walk in nature, you know. I like to hear waves breaking on the beach, birds singing and see the sun setting and all that. I don't think that's what I would get if I went to the moon."
+						p
+							b Speaker three 
+							p
+								| "Yes, I'd go to the moon on a vacation. The views of the earth would be amazing. I'd like to leave the earth and get away from the effects of gravity, to be able to jump incredibly high. I think I'd find the journey there very frightening, but all in all it would be a great experience."
+								p
+									| For each person click on the answer to the question below.
+									p
+										//
+											<center>
+										| "Would you go on a vacation to the Moon?"
+										p
+											ol.izquierda
+												li
+													| speaker one
+													br
+													select(name='q1a')
+														option(value='x')
+															| Choose Answer
+															option(value='1')
+																| yes
+																option(value='2')
+																	| no
+													p
+														li
+															| speaker two
+															br
+															select(name='q1b')
+																option(value='x')
+																	| Choose Answer
+																	option(value='1')
+																		| yes
+																		option(value='2')
+																			| no
+															p
+																li
+																	| speaker three
+																	br
+																	select(name='q1c')
+																		option(value='x')
+																			| Choose Answer
+																			option(value='1')
+																				| yes
+																				option(value='2')
+																					| no
+											p
+												button.eval(data-target='t1') Check answers
+	form#t2
+		p
+			b
+				| 2. Read what the three speakers say again.
+				p
+					| Which of them mention the following ideas about Moon vacations?
+			p
+				| 1 you could do things that you can't do on earth
+				br
+				select(name='q2a')
+					option(value='x')
+						| Choose Answer
+						option(value='1')
+							| speaker one
+							option(value='2')
+								| speaker two
+								option(value='3')
+									| speaker three
+				p
+					| 2 it would be very cold
+					br
+					select(name='q2b')
+						option(value='x')
+							| Choose Answer
+							option(value='1')
+								| speaker one
+								option(value='2')
+									| speaker two
+									option(value='3')
+										| speaker three
+					p
+						| 3 there would be great views of the earth
+						br
+						select(name='q2c')
+							option(value='x')
+								| Choose Answer
+								option(value='1')
+									| speaker one
+									option(value='2')
+										| speaker two
+										option(value='3')
+											| speaker three
+						p
+							| 4 contact with nature is more interesting than a moon vacation
+							br
+							select(name='q2d')
+								option(value='x')
+									| Choose Answer
+									option(value='1')
+										| speaker one
+										option(value='2')
+											| speaker two
+											option(value='3')
+												| speaker three
+							p
+								| 5 the views would be boring
+								br
+								select(name='q2e')
+									option(value='x')
+										| Choose Answer
+										option(value='1')
+											| speaker one
+											option(value='2')
+												| speaker two
+												option(value='3')
+													| speaker three
+								p
+									| 6 you can't go home when you want to
+									br
+									select(name='q2f')
+										option(value='x')
+											| Choose Answer
+											option(value='1')
+												| speaker one
+												option(value='2')
+													| speaker two
+													option(value='3')
+														| speaker three
+									p
+										center
+											button.eval(data-target='t2') Check answers
+	form#t3
+		p
+			b 3. Write down a list of all the adjectives used by the three speakers.
+			p
+				//
+					button class="eval"data-target="t3">see answers</button
+				p
+	#z1
+	#z2
+	#z3
+	#z4

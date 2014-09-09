@@ -1,0 +1,151 @@
+div#U10A
+	script.
+		unitans.U10A = {
+			q1a:'1',
+			q1b:'1',
+			q1c:'0',
+			q1d:'1',
+			q1e:'1',
+			q2a:'I really hate violent computer games',
+			q2b:'I don\'t like driving very much',
+			q2c:'She doesn\'t like studying at all',
+			q2d:'I am not enjoying my university course very much',
+			q2e:'My mother really loves detective novels'
+		}
+	#t0
+		b.u2tit 10. Global Chat
+		p
+			b.u2 Adverbs of frequency  
+			p
+	form#t1
+		.co1
+			b 1. Adverbs of degree.
+			p
+				span.rojo
+					li I am enjoying the unit very much.
+			p
+				| Sentences with
+				span.rojo enjoy, like, don't like + adverb
+				| follow a particular order:
+			p
+				span.rojo
+					li
+						| I am
+						b enjoying
+						| the unit very much
+			p
+				| subject + verb + object + adverb
+			p
+				| You can also use
+				span.rojo really
+				| for emphasis.
+			p
+				span.rojo Really
+				| goes before the main verb:
+			p
+				span.rojo
+					li
+						| I am
+						b really
+						| enjoying the unit.
+						br
+						li
+							| I don't
+							b really
+							| like the Rolling Stones.
+			p
+				b Choose the correct sentence in each pair by clicking on the button. 
+			p
+				center
+					table(cellpadding='5', cellspacing='5', width='550', border='1')
+						tr
+							td
+								span.rojo
+									| I
+									b really
+									| hate slow Internet connections (this is correct)
+							td
+								span.rojo
+									| I hate slow Internet connections
+									b really.
+						tr
+							td
+								| 1
+								input(type='radio', name='q1a', value='1', checked='checked')
+								| I like listening to the Beatles a lot.
+							td
+								input(type='radio', name='q1a', value='0')
+								| I like a lot listening to the Beatles.
+						tr
+							td
+								| 2
+								input(type='radio', name='q1b', value='1', checked='checked')
+								| She doesn t really like her job.
+							td
+								input(type='radio', name='q1b', value='0')
+								| She doesnt like really her job.
+						tr
+							td
+								| 3
+								input(type='radio', name='q1c', value='1', checked='checked')
+								| I like very much playing tennis.
+							td
+								input(type='radio', name='q1c', value='0')
+								| I like playing tennis very much.
+						tr
+							td
+								| 4
+								input(type='radio', name='q1d', value='1', checked='checked')
+								| I don t like classical music at all.
+							td
+								input(type='radio', name='q1d', value='0')
+								| I don t like at all classical music.
+						tr
+							td
+								| 5
+								input(type='radio', name='q1e', value='1', checked='checked')
+								| Jack really enjoys cooking a lot.
+							td
+								input(type='radio', name='q1e', value='0')
+								| Jack enjoys really cooking a lot.
+		p
+			center
+				button.eval(data-target='t1') Check Answers
+	form#t2
+		p
+			b 2. Put the words in order to make sentences.
+		p
+			ol
+				li
+					| hate really violent computer games I.
+					br
+					input(size='50', name='q2a')
+					| .
+					p
+						li
+							| I very much don't like driving.
+							br
+							input(size='50', name='q2b')
+							| .
+							p
+								li
+									| at all studying doesn't like She.
+									br
+									input(size='50', name='q2c')
+									| .
+									p
+										li
+											| much I my university course very am not enjoying.
+											br
+											input(size='50', name='q2d')
+											| .
+											p
+												li
+													| detective novels loves really My mother.
+													br
+													input(size='50', name='q2e')
+													| .
+													p
+													button.eval(data-target='t2') Check Answers
+	#z1
+	#z2

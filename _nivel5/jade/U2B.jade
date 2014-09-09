@@ -1,0 +1,245 @@
+div#U2B
+		script.
+				unitans.U2B = {
+					q2a:'fits',
+					q2b:'tight',
+					q2c:'suits',
+					q2d:'take up',
+					q2e:'go with',
+					q2f:'match',
+					q2g:'clash',
+					q2h:'in a larger size',
+					q2i:'in a smaller size',
+					q2j:'the next size down',
+					q2k:'fits',
+					q2l:'loose',
+					q2m:'taken up',
+					q2n:'don\'t go very well together',
+					q2o:'clash',
+					q2p:'altered',
+					q3a:'tight',
+					q3b:'next size',
+					q3c:'next size down',
+					q3d:'fit',
+					q3e:'down',
+					q3f:'taken up',
+					q3g:'taken out',
+					q3h:'match',
+					q3i:'next',
+					q3j:'go',
+					q3k:'suits',
+					q3l:'clash',
+					q4a:'match',
+					q4b:'clash',
+					q4c:'go',
+					q4d:'with',
+					q4e:'loose',
+					q4f:'size',
+					q4g:'down',
+					q4h:'fits',
+					q4i:'alterations',
+					q4j:'let',
+					q4k:'down'
+				}
+		form#t1
+			b.inst5 Takeout English Buying clothes
+			p
+				b.tablau2
+					| 1. Listen to two dialogs in a clothing store and write down the answers to these questions. (Free answers)
+				p
+					center
+						a(href='snd/u2b-1.mp3', target='_blank')
+							img(src='img/ob/s-1.jpg', border='0')
+					p
+						table(cellpadding='0', cellspacing='10')
+							tr
+								td
+								td
+									img(src='img/ob/b1.jpg')
+								td What is the person buying?
+						table(cellpadding='0', cellspacing='10')
+							tr
+								td
+									input(type='text', name='q1a', size='80')
+						table(cellpadding='0', cellspacing='10')
+							tr
+								td
+								td
+									img(src='img/ob/b1.jpg')
+								td
+									| What doubts does the customer have about the
+									a(href='#', onclick='window.open(\'templates/TU2B1.html\',\'_blank\',\'width=275,height=140\');') garment
+									| ?
+						table(cellpadding='0', cellspacing='10')
+							tr
+								td
+									input(type='text', name='q1b', size='80')
+						p
+							b 2. Write down the missing words and expressions. Then read and check.
+							p
+								center
+									a(href='snd/u2b-1.mp3', target='_blank')
+										img(src='img/ob/s-1.jpg', border='0')
+								p
+									b Dialog 1
+									p
+										table(cellpadding='0', cellspacing='10')
+											tr
+												td A: Can I help you?
+											tr
+												td
+													| B: Yes, it's this blouse. I'm not sure if it
+													input(type='text', name='q2a', size='15')
+													sub (1)
+													| properly. It feels
+													input(type='text', name='q2b', size='15')
+													sub (2)
+													| , but the sleeves are too long.
+											tr
+												td
+													| A: That's the style. And it
+													input(type='text', name='q2c', size='15')
+													sub (3)
+													| you. You've got the right shape for it. We could always
+													input(type='text', name='q2d', size='15')
+													sub (4)
+													| the sleeves for you.
+											tr
+												td
+													| B: What about the color? I want it to
+													input(type='text', name='q2e', size='15')
+													sub (5)
+													| these trousers.
+											tr
+												td
+													| A: To be honest, I'm not sure the colors
+													input(type='text', name='q2f', size='15')
+													sub (6)
+													| . Pink and gray tend to
+													input(type='text', name='q2g', size='15')
+													sub (7)
+													| . Why don't you try the navy blue one?
+											tr
+												td
+													| B: OK. And could I try it on
+													input(type='text', name='q2h', size='15')
+													sub (8)
+													| ?
+										p
+											b Dialog 2
+											p
+												table(cellpadding='0', cellspacing='10')
+													tr
+														td A: Can I help you?
+													tr
+														td
+															| B: Yes, have you got this jacket
+															input(type='text', name='q2i', size='15')
+															sub (9)
+															| ?
+													tr
+														td
+															| A: I'm afraid we haven't. We sold out of
+															input(type='text', name='q2j', size='15')
+															sub (10)
+															| .
+													tr
+														td
+															| B: Well do you think it
+															input(type='text', name='q2k', size='15')
+															sub (11)
+															| , or does it look too big?
+													tr
+														td
+															| A: A little
+															input(type='text', name='q2l', size='15')
+															sub (12)
+															| around the shoulders, but it'll be OK in the winter if you wear a jumper under it. And we could have the sleeves
+															input(type='text', name='q2m', size='15')
+															sub (13)
+															| a bit if they feel long. Are you going to wear it with those trousers?
+													tr
+														td B: Why do you ask?
+													tr
+														td
+															| A: Well, brown and blue
+															input(type='text', name='q2n', size='15')
+															sub (14)
+															| . They
+															input(type='text', name='q2o', size='15')
+															sub (15)
+															| .
+													tr
+														td
+															| B: Do you think so? Well, I'll take it anyway, as long as the sleeves could be
+															input(type='text', name='q2p', size='15')
+															sub (16)
+															| .
+												center
+													button.eval(data-target='t1') Check answers
+		form#t2
+			p
+				b 3. Complete this dialog. Write one word only for each blank.
+				p
+					| Repetition language.
+					p
+						table(cellpadding='0', cellspacing='10')
+							tr
+								td A: Could I help you?
+							tr
+								td
+									| B: (1) Yes, I'm looking for a jacket to
+									input(type='text', name='q4a', size='15')
+									| these trousers. Something navy.
+							tr
+								td
+									| A: (2) You'd be better off with gray. Navy tends to
+									input(type='text', name='q4b', size='15')
+									| with brown. Why don't you try on this one?
+							tr
+								td
+									| B: (3) OK (pause). Yes, the color does
+									input(type='text', name='q4c', size='15')
+									| well
+									input(type='text', name='q4d', size='15')
+									| the trousers, as you said.
+							tr
+								td A: Does it feel comfortable?
+							tr
+								td
+									| B: (4) I think it's too big. It feels a bit
+									input(type='text', name='q4e', size='15')
+									| around the chest.
+							tr
+								td
+									| A: (5) Lift up your arms a moment Yes, you probably need the next
+									input(type='text', name='q4f', size='15')
+									input(type='text', name='q4g', size='15')
+									| . Here, try this. (pause) How's that?
+							tr
+								td
+									| B: (6) Yes. That
+									input(type='text', name='q4h', size='15')
+									| pretty well. The sleeves are a bit short, though. Do you do
+									input(type='text', name='q4i', size='15')
+									| ?
+							tr
+								td
+									| A: (7) Let's have a look. Yes, I'm sure we could
+									input(type='text', name='q4j', size='15')
+									| them
+									input(type='text', name='q4k', size='15')
+									| a little.
+						p
+							center
+								button.eval(data-target='t2') Check answers
+							p
+								b Listen and check your answers.
+								p
+									center
+										a(href='snd/u2b-2.mp3', target='_blank')
+											img(src='img/ob/s-1.jpg', border='0')
+									p
+		#z2
+		#z3
+		#z4

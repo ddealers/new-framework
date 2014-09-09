@@ -1,0 +1,292 @@
+div#U6A
+	script.
+		unitans.U6A = {
+			q1a:'g',
+			q1b:'c',
+			q1c:'h',
+			q1d:'f',
+			q1e:'a',
+			q1f:'i',
+			q1g:'e',
+			q1h:'b',
+			q1i:'j',
+			q1j:'d',
+			q2a:'2',
+			q3a:'1',
+			q3b:'1',
+			q3c:'2',
+			q3d:'2',
+			q3e:'1',
+			q3f:'2',
+			q4a:'short-tempered',
+			q4b:'talkative',
+			q4c:'sarcastic',
+			q4d:'sensitive',
+			q4e:'moody',
+			q4f:'calm'
+		}
+	#t0
+		img.logo4(src='img/u6.jpg')
+		p
+			b.u4tit Interview with a personologist   
+			br
+	p
+		form#t1
+			b 1. Choose an adjective for each description.
+			p
+				table(cellpadding='2', cellspacing='2')
+					tr
+						td a) cheerful
+						td
+							| 1.
+							input(size='1', maxlength='1', name='q1a')
+							| You never know mood he's going to be in, but he's often irritable and gets angry for no reason.
+					tr
+						td b) short-tempered
+						td
+							| 2.
+							input(size='1', maxlength='1', name='q1b')
+							| If she says "That's a lovely dress", you can tell from her voice that she's laughing at you.
+					tr
+						td c) sarcastic
+						td
+							| 3.
+							input(size='1', maxlength='1', name='q1c')
+							| He always has something to say.
+					tr
+						td d) sensitive
+						td
+							| 4.
+							input(size='1', maxlength='1', name='q1d')
+							| You never see her get nervous or stressed about anything.
+					tr
+						td e) shy
+						td
+							| 5.
+							input(size='1', maxlength='1', name='q1e')
+							| He always has a smile on his face. You never see him in a bad mood.
+					tr
+						td f) calm
+						td
+							| 6.
+							input(size='1', maxlength='1', name='q1f')
+							| She always stops to consider the practical consequences before making a decision.
+					tr
+						td g) moody
+						td
+							| 7.
+							input(size='1', maxlength='1', name='q1g')
+							| He's uncomfortable with people he doesn't know.
+					tr
+						td h) talkative
+						td
+							| 8.
+							input(size='1', maxlength='1', name='q1h')
+							| She gets angry very quickly, so you have to be careful what you say to her.
+					tr
+						td i) sensible
+						td
+							| 9.
+							input(size='1', maxlength='1', name='q1i')
+							| He only thinks about himself and what he wants.
+					tr
+						td j) selfish
+						td
+							| 10.
+							input(size='1', maxlength='1', name='q1j')
+							| I told her that I didn't like her new haircut and she started crying!
+				p
+					center
+						button.eval(data-target='t1') Check answers
+		form#t2
+			p
+				b 2. Read an interview with a personologist. 
+				p
+					center
+						| "Face Facts"
+					p
+						b A:
+						| Our first guest today is Sandra Myers, who's come to tell us about her work as a personologist. Sandra, good afternoon.
+						p
+							b B:
+							| Hi.
+							p
+								b A:
+								| Sandra, I'm sure many of our listeners are asking themselves the same question: What exactly IS personology?
+								p
+									b B:
+									| Well, personology is what some people refer to as face reading. The idea is that from looking at a person's facial features you can find out a lot about the type of person they are. Very few people in Britain have heard of personology, but in the United States it's taken very seriously and is now recognized as a science.
+									p
+										b A:
+										| Could you tell us how it works?
+										p
+											b B:
+											| OK. Well, the idea is that the shape of a person's facial features, and the dimensions of their face, are directly related to their personality. For example, if a person's eyes are close together, they are probably short tempered. People with thick lips are usually talkative, and people with long upper lips tend to be sarcastic. Someone's hair can also tell you a lot about them. Senstive people tend to have fine hair, whereas those with thick hair tend to be less emotional.
+											p
+												b A:
+												| Fascinating. So what type of problems do you deal with?
+												p
+													b B:
+													| A lot of people come to me because they are unhappy at work. By examining their face I can determine what their strengths and weaknesses are and recommend jobs that would match their personalities better. And lots of my clients come to me for advice about their relationships.
+													p
+														b A:
+														| And what can you tell from looking at my face?
+														p
+															b B:
+															| Well, one thing stands out, and that is that the two sides of your face are very similar. The right-hand side of your face represents your father's features, whereas the left-hand side of your face reflects your mother's traits. If there is a big difference between the two sides, a person tends to be moody. But because your face is very balanced, that suggests that you are quite the opposite. You're a calm, cheerful person.
+															p
+																| How can personologists tell what type of person you are? What do you think? Choose one option.
+																p
+																	center
+																		img(src='img/u6a1.jpg')
+																		br
+																		br
+																		input(type='radio', name='q2a', value='1', checked='checked')
+																		| by looking in your eyes
+																		br
+																		input(type='radio', name='q2a', value='2')
+																		| by looking at your face
+																		br
+																		input(type='radio', name='q2a', value='3')
+																		| by studying your feet
+																		br
+																		input(type='radio', name='q2a', value='4')
+																		| by using hypnosis
+																	p
+																		center
+																			button.eval(data-target='t2') Check answers
+		form#t3
+			p
+				b 3. Are these questions true or false?
+				p
+					ol
+						table(cellpadding='3', cellspacing='2', width='550', bgcolor='#ffbc90')
+							tr
+								td
+									ol
+										li
+											| Sandra Myers is a professional personologist.
+											br
+											select(name='q3a')
+												option(value='x')
+													| Choose Answer
+													option(value='1')
+														| true
+														option(value='2')
+															| false
+											p
+												li
+													| Face reading is another name for personology.
+													br
+													select(name='q3b')
+														option(value='x')
+															| Choose Answer
+															option(value='1')
+																| true
+																option(value='2')
+																	| false
+													p
+														li
+															| Personology is popular in Britain.
+															br
+															select(name='q3c')
+																option(value='x')
+																	| Choose Answer
+																	option(value='1')
+																		| true
+																		option(value='2')
+																			| false
+															p
+																li
+																	| A personologist looks only at a person's eyes and mouth.
+																	br
+																	select(name='q3d')
+																		option(value='x')
+																			| Choose Answer
+																			option(value='1')
+																				| true
+																				option(value='2')
+																					| false
+																	p
+																		li
+																			| Sandra helps people find the right job for their personality.
+																			br
+																			select(name='q3e')
+																				option(value='x')
+																					| Choose Answer
+																					option(value='1')
+																						| true
+																						option(value='2')
+																							| false
+																			p
+																				li
+																					| The two sides of the interviewer's face are very different.
+																					br
+																					select(name='q3f')
+																						option(value='x')
+																							| Choose Answer
+																							option(value='1')
+																								| true
+																								option(value='2')
+																									| false
+						p
+							center
+								button.eval(data-target='t3') Check answers
+		form#t4
+			b 4. Read and complete the table with the personality adjectives.
+			p
+				table(cellpadding='3', cellspacing='2', width='500', bgcolor='#ffbc90')
+					tr
+						td sarcastic
+						td  moody
+						td sensitive
+					tr
+						td calm
+						td talkative
+						td short-tempered
+				p
+					center
+						table(width='550')
+							tr
+								td
+									b Characteristic
+								td
+									b Personality
+							tr
+								td eyes close together
+								td
+									| 1.
+									input(size='14', name='q4a')
+							tr
+								td thick lips
+								td
+									| 2.
+									input(size='14', name='q4b')
+							tr
+								td long upper lips
+								td
+									| 3.
+									input(size='14', name='q4c')
+							tr
+								td fine hair
+								td
+									| 4.
+									input(size='14', name='q4d')
+							tr
+								td two sides of face different
+								td
+									| 5.
+									input(size='14', name='q4e')
+							tr
+								td two sides of face similar
+								td
+									| 6.
+									input(size='14', name='q4f')
+						p
+							center
+								button.eval(data-target='t4') Check answers
+		p
+			#z1
+			#z2
+			#z3
+			#z4

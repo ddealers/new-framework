@@ -1,0 +1,359 @@
+div#U9A
+		script.
+				unitans.U9A = {
+					q1a:'1',
+					q2a:'Amsterdam',
+					q2b:'ferry',
+					q2c:'Amsterdam',
+					q2d:'Milan',
+					q2e:'bus',
+					q2f:'Milan',
+					q2g:'Venice',
+					q2h:'train',
+					q2i:'Venice',
+					q2j:'Alexandria',
+					q2k:'ferry',
+					q3a:'3',
+					q3b:'2',
+					q3c:'1',
+					q3d:'3',
+					q3e:'3',
+					q3f:'1',
+					q4a:'3',
+					q4b:'3',
+					q4c:'3',
+					q4d:'2',
+					q4e:'0',
+					q4f:'3',
+					q4g:'0',
+					q4h:'2',
+					q4i:'0',
+					q4j:'2',
+					q4k:'0',
+					q4l:'3'
+				}
+		form#t1
+			b.inst5 Listening: A disastrous trip
+			p
+				b.tablau2
+					| 1. Listen to someone talking about a disastrous journey and choose the map of their route.
+				p
+					center
+						a(href='snd/u9a-1.mp3', target='_blank')
+							img(src='img/ob/s-1.jpg', border='0')
+					p
+						center
+							table(cellpadding='0', cellspacing='10')
+								tr
+									td
+										img(src='img/u9a-1.jpg')
+						center
+							table(cellpadding='0', cellspacing='10')
+								tr
+									td(width='90')
+									td
+										input(type='radio', name='q1a', value='1', checked='checked')
+									td(width='190')
+									td
+										input(type='radio', name='q1b', value='0')
+						p
+							center
+								button.eval(data-target='t1') Check answers
+		form#t2
+			p
+				b 2. Listen again and complete the table with some of the words from the box.
+				p
+					center
+						a(href='snd/u9a-1.mp3', target='_blank')
+							img(src='img/ob/s-1.jpg', border='0')
+					p
+						center
+							table(cellpadding='0', cellspacing='0', border='1', bordercolor='#000000')
+								tr
+									td(width='100', align='center') Alexandria
+									td(width='100', align='center') Athens
+									td(width='100', align='center') Crete
+									td(width='100', align='center') Venice
+									td(width='100', align='center') ferry
+								tr
+									td(align='center') Amsterdam
+									td(align='center') Luxemburg
+									td(align='center') Lugano
+									td(align='center') bus
+									td(align='center') train
+								tr
+									td(align='center') Antwerp
+									td(align='center') Switzerland
+									td(align='center') Milan
+									td(align='center') car
+									td(align='center') plane
+						p
+							table(cellpadding='0', cellspacing='10', width='700')
+								tr
+									td
+									td(align='center')
+										b From...
+									td(align='center')
+										b to...
+									td(align='center')
+										b by...
+								tr
+									td
+										b Stage 1
+									td 1. London
+									td 2. Dover
+									td 3. train
+								tr
+									td
+										b Stage 2
+									td 4. Dover
+									td
+										| 5.
+										input(type='text', name='q2a', size='20')
+									td
+										| 6.
+										input(type='text', name='q2b', size='20')
+								tr
+									td
+										b Stage 3
+									td
+										| 7.
+										input(type='text', name='q2c', size='20')
+									td
+										| 8.
+										input(type='text', name='q2d', size='20')
+									td
+										| 9.
+										input(type='text', name='q2e', size='20')
+								tr
+									td
+										b Stage 4
+									td
+										| 10.
+										input(type='text', name='q2f', size='20')
+									td
+										| 11.
+										input(type='text', name='q2g', size='20')
+									td
+										| 12.
+										input(type='text', name='q2h', size='20')
+								tr
+									td
+										b Stage 5
+									td
+										| 13.
+										input(type='text', name='q2i', size='20')
+									td
+										| 14.
+										input(type='text', name='q2j', size='20')
+									td
+										| 15.
+										input(type='text', name='q2k', size='20')
+							p
+								center
+									button.eval(data-target='t2') Check answers
+		form#t3
+			p
+				b 3. Listen again and choose the best options below.
+				p
+					center
+						a(href='snd/u9a-1.mp3', target='_blank')
+							img(src='img/ob/s-1.jpg', border='0')
+					p
+						table(cellpadding='0', cellspacing='10')
+							tr
+								td 1 The speaker wanted to get to Egypt ...
+							tr
+								td
+									select(name='q3a')
+										option(value='0')
+											| Choose answer
+											option(value='1')
+												| ... quickly.
+												option(value='2')
+													| ... and visit a lot of places on the way.
+													option(value='3') ... cheaply.
+							tr
+								td 2 The morning the speaker was going to get the bus in Amsterdam ...
+							tr
+								td
+									select(name='q3b')
+										option(value='0')
+											| Choose answer
+											option(value='1')
+												| ... the bus was 20 minutes late.
+												option(value='2')
+													| ... he got up late.
+													option(value='3') ... the bus had already left.
+							tr
+								td 3 A day was lost on the way from Amsterdam to Milan because ...
+							tr
+								td
+									select(name='q3c')
+										option(value='0')
+											| Choose answer
+											option(value='1')
+												| ... the bus had to wait for two passengers.
+												option(value='2')
+													| ... there was some trouble with football hooligans.
+													option(value='3') ... the bus broke down.
+							tr
+								td 4 The speaker spent two days in Venice because ...
+							tr
+								td
+									select(name='q3d')
+										option(value='0')
+											| Choose answer
+											option(value='1')
+												| ... he didn't have any money.
+												option(value='2')
+													| ... the bus arrived too late for him to catch the ferry.
+													option(value='3') ... the ferry to Alexandria had been cancelled.
+							tr
+								td 5 The ferry to Alexandria ...
+							tr
+								td
+									select(name='q3e')
+										option(value='0')
+											| Choose answer
+											option(value='1')
+												| ... had to pass through a zone where a military operation was happening.
+												option(value='2')
+													| ... broke down.
+													option(value='3') ... took longer than it normally does.
+							tr
+								td 6 He arrived in Alexandria ...
+							tr
+								td
+									select(name='q3f')
+										option(value='0')
+											| Choose answer
+											option(value='1')
+												| ... feeling tired and hungry.
+												option(value='2')
+													| ... with little money left.
+													option(value='3') ... feeling refreshed after the voyage.
+						p
+							center
+								button.eval(data-target='t3') Check answers
+		form#t4
+			p
+				b
+					| 4. Look at part of the transcript and decide which use of had (A, B or C) is being used in each case.
+				p
+					b A
+					| past or past participle of
+					span#rd have (got)
+					br
+					b B
+					| past of
+					span#rd have to
+					| to talk about obligation
+					br
+					b C
+					| past perfect to talk about the "past before past" in a narrative
+					p
+						table(cellpadding='0', cellspacing='10')
+							tr
+								td
+									| The morning the bus left I overslept and arrived at the bus station 20 minutes late. Fortunately, the bus hadn't left
+									select(name='q4a')
+										option(value='0')
+											| A
+											option(value='2')
+												| B
+												option(value='3') C
+									| , so we continued through Europe and got to Switzerland, spent the night ... slept in the bus outside some
+									| town, set off again in the morning only to discover that we'd left
+									select(name='q4b')
+										option(value='0')
+											| A
+											option(value='2')
+												| B
+												option(value='3') C
+									| two of the passengers behind who had decided
+									select(name='q4c')
+										option(value='0')
+											| A
+											option(value='2')
+												| B
+												option(value='3') C
+									| to sleep outside the bus. Anyway, so we had to wait
+									select(name='q4d')
+										option(value='0')
+											| A
+											option(value='2')
+												| B
+												option(value='3') C
+									| for them - that was another day lost. I left the bus
+									| at Milan and took a train to Venice because I had a ticket
+									select(name='q4e')
+										option(value='0')
+											| A
+											option(value='2')
+												| B
+												option(value='3') C
+									| on a ferry going from Venice to Alexandria. Anyway, I
+									| got to Venice, and discovered that the ferry had been cancelled
+									select(name='q4f')
+										option(value='0')
+											| A
+											option(value='2')
+												| B
+												option(value='3') C
+									| . I had no money
+									select(name='q4g')
+										option(value='0')
+											| A
+											option(value='2')
+												| B
+												option(value='3') C
+									| , but there was
+									| another ferry leaving in a couple of days, so I had to live
+									select(name='q4h')
+										option(value='0')
+											| A
+											option(value='2')
+												| B
+												option(value='3') C
+									| on bread and cheese for two days. The ferry eventually
+									| left, but it was going very slowly and we discovered that it only had one engine
+									select(name='q4i')
+										option(value='0')
+											| A
+											option(value='2')
+												| B
+												option(value='3') C
+									| ... or the engine wasn't working
+									| properly, and going very very slowly, and we took much longer than expected, and this wasn't helped because we had to make
+									select(name='q4j')
+										option(value='0')
+											| A
+											option(value='2')
+												| B
+												option(value='3') C
+									| a big detour around Crete because there was some military operation happening there. It took a week to get from Venice
+									| to Alexandria, by which time I had no food
+									select(name='q4k')
+										option(value='0')
+											| A
+											option(value='2')
+												| B
+												option(value='3') C
+									| , no money and had slept
+									select(name='q4l')
+										option(value='0')
+											| A
+											option(value='2')
+												| B
+												option(value='3') C
+									| very badly. I've never been so pleased
+									| to stand on dry land again.
+						p
+							center
+								button.eval(data-target='t4') Check answers
+		p
+			#z1
+			#z2
+			#z3
+			#z4

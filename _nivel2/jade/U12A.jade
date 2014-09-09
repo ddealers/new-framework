@@ -1,0 +1,278 @@
+div#U12A
+	script.
+		unitans.U12A = {
+			q1a:'4',
+			q2a:'b',
+			q2b:'d',
+			q2c:'a',
+			q2d:'c',
+			q2e:'e',
+			q3a:'2',
+			q3b:'1',
+			q3c:'1',
+			q3d:'1',
+			q3e:'1',
+			q3f:'1',
+			q3g:'1',
+			q3h:'1',
+			q3i:'1',
+			q3j:'2',
+			q4a:'have been hit today',
+			q4b:'in recent years',
+			q4c:'has affected',
+			q4d:'have been cancelled',
+			q4e:'are advising people',
+			q4f:'are expected to drop',
+			q4g:'were injured',
+			q4h:'when it was turning',
+			q4i:'smashed into',
+			q4j:'was taken to hospital',
+			q4k:'were treated'
+		}
+	#t0
+		b.u2tit 12. Street Styles
+		p
+			b.u2 News stories
+			p
+	form#t1
+		b
+			| 1. Listen to a radio news program. How many different news stories are mentioned?
+			p
+				a(href='snd/u12r1.mp3', target='_blank')
+					img(src='img/listen.jpg')
+		p
+			input(type='radio', name='q1a', value='1', checked='checked')
+			| 2
+			input(type='radio', name='q1a', value='2')
+			| 3
+			input(type='radio', name='q1a', value='3')
+			| 4
+			input(type='radio', name='q1a', value='4')
+			| 5
+			input(type='radio', name='q1a', value='5')
+			| 6
+		p
+			center
+				button.eval(data-target='t1') Check Answers
+	form#t2
+		p
+			b 2. Listen again. Choose the best news story for each foto.
+			a(href='snd/u12r1.mp3')
+				img(src='img/listen.jpg')
+		p
+			center
+				table(cellpadding='2', cellspacing='2', width='450')
+					tr
+						td
+							| Story 1
+							input(size='1', maxlength='1', name='q2a')
+						td(rowspan='5')
+							img(src='img/u12a.jpg')
+					tr
+						td
+							| Story 2
+							input(size='1', maxlength='1', name='q2b')
+					tr
+						td
+							| Story 3
+							input(size='1', maxlength='1', name='q2c')
+					tr
+						td
+							| Story 4
+							input(size='1', maxlength='1', name='q2d')
+					tr
+						td
+							| Story 5
+							input(size='1', maxlength='1', name='q2e')
+		p
+			center
+				button.eval(data-target='t2') Check Answers
+	form#t3
+		p
+			b
+				| 3. Listen again.
+				a(href='snd/u12r1.mp3', target='_blank')
+					img(src='img/listen.jpg')
+				| Are these statements true or false?
+		p
+			ol
+				b First story 
+				li
+					| There have been snowstorms in all parts of the country.
+					br
+					select(name='q3a')
+						option(value='x')
+							| Choose Answer
+							option(value='1')
+								| true
+								option(value='2')
+									| false
+		p
+			li
+				| Police are advising people not to drive this evening.
+				br
+				select(name='q3b')
+					option(value='x')
+						| Choose Answer
+						option(value='1')
+							| true
+							option(value='2')
+								| false
+		p
+			b Second story 
+			li
+				| The bus driver received the worst injuries.
+				br
+				select(name='q3c')
+					option(value='x')
+						| Choose Answer
+						option(value='1')
+							| true
+							option(value='2')
+								| false
+		p
+			b Third story 
+			li
+				| Natalie Redwood was recognized by a neighbor.
+				br
+				select(name='q3d')
+					option(value='x')
+						| Choose Answer
+						option(value='1')
+							| true
+							option(value='2')
+								| false
+		p
+			li
+				| Natalie had an argument with her parents about a tattoo.
+				br
+				select(name='q3e')
+					option(value='x')
+						| Choose Answer
+						option(value='1')
+							| true
+							option(value='2')
+								| false
+		p
+			b Fourth story 
+			li
+				| Jason Clifford has a well-known father.
+				br
+				select(name='q3f')
+					option(value='x')
+						| Choose Answer
+						option(value='1')
+							| true
+							option(value='2')
+								| false
+		p
+			li
+				| Jason has been sent to prison for six years.
+				br
+				select(name='q3g')
+					option(value='x')
+						| Choose Answer
+						option(value='1')
+							| true
+							option(value='2')
+								| false
+		p
+			li
+				| A security guard was shot during the robbery.
+				br
+				select(name='q3h')
+					option(value='x')
+						| Choose Answer
+						option(value='1')
+							| true
+							option(value='2')
+								| false
+		p
+			b Fifth story 
+			li
+				| The Southampton Open finished today.
+				br
+				select(name='q3i')
+					option(value='x')
+						| Choose Answer
+						option(value='1')
+							| true
+							option(value='2')
+								| false
+		p
+			li
+				| Troy Crowhurst has won four tournaments this year.
+				br
+				select(name='q3j')
+					option(value='x')
+						| Choose Answer
+						option(value='1')
+							| true
+							option(value='2')
+								| false
+		p
+			center
+				button.eval(data-target='t3') Check Answers
+	form#t4
+		p
+			b
+				| 4. Here are the first two news stories.
+				p
+					a(href='snd/u12r2.mp3', target='_blank')
+						img(src='img/listen.jpg')
+					br
+					br
+					| Listen and write in the missing phrases.
+		p
+			center
+				table(cellpadding='2', cellspacing='2', width='600', bgcolor='#ffbc90')
+					tr
+						td
+							| Many areas of the southeast
+							input(size='15', name='q4a')
+							| (1) by some of the
+							br
+							| heaviest snowstorms.
+							input(size='15', name='q4b')
+							| (2) The severe weather
+							br
+							input(size='15', name='q4c')
+							| (3) 75% of all bus and train services in the area, and all
+							br
+							| flights in and out of London.
+							input(size='15', name='q4d')
+							| (4) Police
+							input(size='15', name='q4e')
+							| (5)
+							br
+							| to leave their cars at home as temperatures
+							input(size='15', name='q4f')
+							| (6)
+							br
+							| below freezing this evening.
+		p
+			| Three people
+			input(size='15', name='q4g')
+			| (7) this morning when a bus crashed into
+			br
+			| the front of a shop in Farnham High Street. Eye witnesses say that the
+			br
+			| bus skidded out of control on ice
+			input(size='15', name='q4h')
+			| (8) into High Street
+			br
+			| and
+			input(size='15', name='q4i')
+			| (9) the shop window. The driver of the bus
+			br
+			input(size='15', name='q4j')
+			| (10) with head injuries, and two people in the shop
+			br
+			input(size='15', name='q4k')
+			| (11) for cuts caused by flying glass.
+			br
+		button.eval(data-target='t4') Check Answers
+	#z1
+	#z2
+	#z3
+	#z4

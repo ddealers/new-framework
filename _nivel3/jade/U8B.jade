@@ -1,0 +1,292 @@
+div#U8B
+	script.
+		unitans.U8B = {
+		  //q1a.checked&q1c.checked&q1f.checked&q1g.checked&q1i.checked){s1="Correct<br>"}
+			q2a:'It would be very exciting',
+			q2b:'Only people who were rich would be able to go',
+			q2c:'People who are afraid of flying probably wouldn\'t go',
+			q2d:'Leaving the Earth would be a strange experience',
+			q2e:'It would probably take a long time',
+			q2f:'Rich couples would go on an unusual honeymoon',
+			q2g:'The view would be absolutely incredible',
+			q2h:'Adventurous people would go because it would be new',
+			q3a:'1',
+			q3b:'0',
+			q3c:'0',
+			q3d:'1',
+			q3e:'1',
+			q3f:'0',
+			q3g:'1',
+			q3h:'0',
+			q4a:'The view of the Earth would be fantastic',
+			q4b:'A guide would explain lots of things about the Moon',
+			q4c:'You would wear a special spacesuit',
+			q4d:'You would visit the Apollo landing site',
+			q4e:'You would get off the bus and walk around the Moon',
+			q4f:'You would drive through incredible valleys',
+			q5a:'The view of the Earth would be fantastic',
+			q5b:'A guide would explain lots of things about the Moon',
+			q5c:'You would wear a special spacesuit',
+			q5d:'You would visit the Apollo landing site',
+			q5e:'You would get off the bus and walk around the Moon',
+			q5f:'You would drive through incredible valleys'
+		}
+	#t0
+		b.u3tit In the Hot Seat
+		p
+			b.u3 Would for hypothesis
+			br
+	p
+		form#t1
+			b 1. How good&apos;s your memory? 
+	p
+		| Can you remember four things about the hotel that the Hilton wants to build?
+	p
+		| There&apos;s a prompt for you in each of the questions. The first one has been done for you as an example.
+	p
+		ol
+			li
+				| rooms: The hotel would have five thousand rooms.
+				br
+			li
+				| food: 
+				input(size='50', name='q1a')
+				| .
+				br
+			li
+				| church: 
+				input(size='50', name='q1b')
+				| .
+				br
+			li
+				| solar panels: 
+				input(size='50', name='q1c')
+				| .
+				br
+			li
+				| beach: 
+				input(size='50', name='q1d')
+				| .
+	p
+		b Now compare your sentences with those from the text.
+	p
+		center
+			| Reading for &quot;Fly Me To The Moon&quot;
+	p
+		| How about a honeymoon on the Moon? This may one day be possible: Hilton International, the international hotel company, has announced plans to build the first hotel on the Moon.
+	p
+		| The announcement follows the recent discovery of water, which has greatly increased the possibility of colonizing the Moon.
+	p
+		| The Lunar Hilton would have five thousand rooms, restaurants, a church and even a beach. Food would come from farms on the Moon&apos;s surface and the ice discovered at the Moon&apos;s poles could be used for water. The hotel would be powered by solar panels.
+	p
+		| Two Japanese companies have also expressed interest in this development in the space race.
+	p
+		| Shimuzu is planning an orbiting 64-room space hotel by 2020 and a hotel on the Moon&apos;s surface. Nishimatu Construction Company also has plans for a Moon resort, called Escargot City a reference to the shape of the ten towers they plan to build.
+	p
+		| So what does the Moon offer tourists who would like to experience a lunar vacation? After completing the vacation, guests could enjoy a variety of activities from golf and tennis to excursions on special moon buses. They would first have to get used to wearing special boots because of the lack of gravity on the Moon.
+	p
+		| The Hilton has already been in contact with NASA about transportation of passengers and building materials but scientists have reacted with surprise and disbelief. They have mentioned both the incredible expense and the dangers of space travel.
+	p
+		| However, tourists looking for a room with a really special view would love it. Also, honeymoon couples wanting to give a new meaning to the word might find the Moon a perfect destination.
+	p
+		b 2. Put these words in order to make sentences about moon travel. 
+	p
+		ol
+			li
+				| would It  be exciting very.
+				br
+				input(size='50', name='q2a')
+				| .
+				p
+					li
+						| Only people were would be able to who rich go.
+						br
+						input(size='50', name='q2b')
+						| .
+						p
+							li
+								| People afraid flying probably wouldn&apos;t who were of go.
+								br
+								input(size='58', name='q2c')
+								| .
+								p
+									li
+										| be a strange Leaving would the Earth experience.
+										br
+										input(size='50', name='q2d')
+										| .
+										p
+											li
+												| would It take probably a long time .
+												br
+												input(size='50', name='q2e')
+												| .
+												p
+													li
+														| would couples Rich an go on honeymoon unusual.
+														br
+														input(size='50', name='q2f')
+														| .
+														p
+															li
+																| view be incredible  The would absolutely.
+																br
+																input(size='50', name='q2g')
+																| .
+																p
+																	li
+																		| Adventurous people go because would be new it would .
+																		br
+																		input(size='58', name='q2h')
+																		| .
+																		p
+	p
+		center
+			button.eval(data-target='t1') Check answers
+	form#t2
+		p
+			b 3. Here are two more questions about vacations on the Moon.
+		p
+			| A - What would the trip to the Moon be like? 
+			br
+			| B - Who would go?
+		p
+			| Look at the eight sentences in the exercise above and decide if they refer 
+			br
+			| to the trip ( A ) or who would go ( B ):
+		p
+			table(cellspacing='3', cellpadding='0', width='500')
+				tr
+					td sentence...
+					td 1
+					td 2
+					td 3
+					td 4
+					td 5
+					td 6
+					td 7
+					td 8
+				tr
+					td A - The trip
+					td
+						input(type='radio', name='q3a', value='1', checked='')
+					td
+						input(type='radio', name='q3b', value='1', checked='')
+					td
+						input(type='radio', name='q3c', value='1', checked='')
+					td
+						input(type='radio', name='q3d', value='1', checked='')
+					td
+						input(type='radio', name='q3e', value='1', checked='')
+					td
+						input(type='radio', name='q3f', value='1', checked='')
+					td
+						input(type='radio', name='q3g', value='1', checked='')
+					td
+						input(type='radio', name='q3h', value='1', checked='')
+				tr
+					td B - Who would go
+					td
+						input(type='radio', name='q3a', value='0')
+					td
+						input(type='radio', name='q3b', value='0')
+					td
+						input(type='radio', name='q3c', value='0')
+					td
+						input(type='radio', name='q3d', value='0')
+					td
+						input(type='radio', name='q3e', value='0')
+					td
+						input(type='radio', name='q3f', value='0')
+					td
+						input(type='radio', name='q3g', value='0')
+					td
+						input(type='radio', name='q3h', value='0')
+		p
+			center
+				button.eval(data-target='t2') Check answers
+	form#t3
+		p
+			b 4. Put the words in order to make sentences.
+		p
+			ol
+				li
+					| of be would the The Earth fantastic view
+					br
+					input(size='50', name='q4a')
+					| .
+		p
+			li
+				| explain lots A the things Moon would of guide about
+				br
+				input(size='50', name='q4b')
+				| .
+		p
+			li
+				| spacesuit would You special a wear
+				br
+				input(size='50', name='q4c')
+				| .
+		p
+			li
+				| would Apollo You visit the site landing
+				br
+				input(size='50', name='q4d')
+				| .
+		p
+			li
+				| walk would the You off get bus Moon around and the
+				br
+				input(size='50', name='q4e')
+				| .
+		p
+			li
+				| through incredible would drive valleys You
+				br
+				input(size='50', name='q4f')
+				| .
+		p
+			center
+				button.eval(data-target='t3') Check answers
+	form#t4
+		p
+			b 5. An excursion on the moon bus - what would it be like?
+		p
+			| Write the sentences from exercise 4 in each box. Use the pictures to help you.
+		p
+			img(src='img/u8b.jpg')
+		p
+			ol
+				li
+					| view of the Earth 
+					input(size='40')
+					br
+				li
+					| explain  
+					input(size='40', name='q5a')
+					br
+				li
+					| wear  
+					input(size='40', name='q5b')
+					br
+				li
+					| visit  
+					input(size='40', name='q5c')
+					br
+				li
+					| get off  
+					input(size='40', name='q5d')
+					br
+				li
+					| drive  
+					input(size='40', name='q5e')
+		p
+			| Click on the button below to look at the answers and compare them with yours.
+		p
+			center
+				button.eval(data-target='t4') Check answers
+	#z1
+	#z2
+	#z3
+	#z4
+	#z5

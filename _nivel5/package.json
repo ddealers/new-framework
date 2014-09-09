@@ -1,0 +1,10 @@
+{
+	"name": "naf-l5",
+	"main": "index.html",
+	"window": {
+		"title":"New American Framework Level 5",
+		"toolbar": false,
+		"width": 960,
+		"height": 720
+	}
+}

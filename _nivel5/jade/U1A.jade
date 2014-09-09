@@ -1,0 +1,549 @@
+div#U1A
+		script.
+				unitans.U1A = {
+					q1a:'2',
+					q1b:'1',
+					q1c:'3',
+					q1d:'3',
+					q1e:'1',
+					q1f:'2',
+					q1g:'3',
+					q1h:'3',
+					q1i:'3',
+					q2a:'1',
+					q2b:'0',
+					q2c:'1',
+					q2d:'0',
+					q2e:'1',
+					q2f:'0',
+					q2g:'0',
+					q2h:'1',
+					q2i:'0',
+					q2j:'1',
+					q3a:'2',
+					q3b:'2',
+					q3c:'1',
+					q3d:'3',
+					q3e:'2',
+					q3f:'1',
+					q3g:'2',
+					q3h:'3',
+					q3i:'2',
+					q3j:'3',
+					q3k:'3',
+					q3l:'1',
+					q4a:'2',
+					q4b:'2',
+					q4c:'3',
+					q4d:'1',
+					q4e:'2',
+					q4f:'2',
+					q4g:'3',
+					q4h:'1',
+					q4i:'3',
+					q4j:'1'
+				}
+		form#t1
+			b.inst5 Words with multiple meanings
+			p
+				b.tablau2 1. Words about purpose.
+				p
+					| Example:
+					span.rojo
+						| Scientists can't agree on what
+						b purpose
+						| dreams serve.
+					p
+						b Choose the correct word to complete the sentences.
+						p
+							table(cellpadding='0', cellspacing='10')
+								tr
+									td
+										| 1 The
+										select(name='q1a')
+											option(value='0')
+												| Choose Answer
+												option(value='1')
+													| goal
+													option(value='2')
+														| purpose
+														option(value='3') target
+										| of the director's trip to Canada is to attend a conference.
+								tr
+									td
+										| 2 In this game the
+										select(name='q1b')
+											option(value='0')
+												| Choose Answer
+												option(value='1')
+													| object
+													option(value='2')
+														| purpose
+														option(value='3') objective
+										| is to score as many points as possible.
+								tr
+									td
+										| 3 The
+										select(name='q1c')
+											option(value='0')
+												| Choose Answer
+												option(value='1')
+													| end
+													option(value='2')
+														| target
+														option(value='3') aim
+										| of the course is to improve students' communicative skills.
+								tr
+									td
+										| 4 What's the
+										select(name='q1d')
+											option(value='0')
+												| Choose Answer
+												option(value='1')
+													| idea
+													option(value='2')
+														| purpose
+														option(value='3') point
+										| of keeping all these toys now that the children have grown up?
+								tr
+									td
+										| 5 The
+										select(name='q1e')
+											option(value='0')
+												| Choose Answer
+												option(value='1')
+													| idea
+													option(value='2')
+														| aim
+														option(value='3') purpose
+										| was to surprise her, but in fact she was shocked.
+								tr
+									td
+										| 6 The main
+										select(name='q1f')
+											option(value='0')
+												| Choose Answer
+												option(value='1')
+													| object
+													option(value='2')
+														| objective
+														option(value='3') end
+										| of the advertising campaign is to increase sales.
+								tr
+									td
+										| 7 My
+										select(name='q1g')
+											option(value='0')
+												| Choose Answer
+												option(value='1')
+													| target
+													option(value='2')
+														| objective
+														option(value='3') goal
+										| is to retire when I am 50.
+								tr
+									td
+										| 8 The
+										select(name='q1h')
+											option(value='0')
+												| Choose Answer
+												option(value='1')
+													| end
+													option(value='2')
+														| goal
+														option(value='3') target
+										| for the appeal is $50,000 and it's all going to charity.
+								tr
+									td
+										| 9 She was being very nice to the family but with her own selfish
+										select(name='q1i')
+											option(value='0')
+												| Choose Answer
+												option(value='1')
+													| aim
+													option(value='2')
+														| goal
+														option(value='3') end
+										| in view.
+							p
+								center
+									button.eval(data-target='t1') Check Answers
+		form#t2
+			p
+				b 2. Decide if the purpose words in these sentences are correct.
+				p
+					table(cellpadding='0', cellspacing='10')
+						tr
+							td 1 The point of these shows is to raise money for charity.
+						tr
+							td
+								input(type='radio', name='q2a', value='1', checked='checked')
+								img(src='img/ob/bien.jpg')
+								input(type='radio', name='q2a', value='0')
+								img(src='img/ob/mal.jpg')
+						tr
+							td 2 The company is continually achieving its idea.
+						tr
+							td
+								input(type='radio', name='q2b', value='1', checked='checked')
+								img(src='img/ob/bien.jpg')
+								input(type='radio', name='q2b', value='0')
+								img(src='img/ob/mal.jpg')
+						tr
+							td
+								| 3 The government is hoping to reach its target of 5% unemployment by the year 2010.
+						tr
+							td
+								input(type='radio', name='q2c', value='1', checked='checked')
+								img(src='img/ob/bien.jpg')
+								input(type='radio', name='q2c', value='0')
+								img(src='img/ob/mal.jpg')
+						tr
+							td 4 The target of his studies was to get a better job.
+						tr
+							td
+								input(type='radio', name='q2d', value='1', checked='checked')
+								img(src='img/ob/bien.jpg')
+								input(type='radio', name='q2d', value='0')
+								img(src='img/ob/mal.jpg')
+						tr
+							td
+								| 5 The author's purpose in writing the article was to draw attention to the dangers of hunting.
+						tr
+							td
+								input(type='radio', name='q2e', value='1', checked='checked')
+								img(src='img/ob/bien.jpg')
+								input(type='radio', name='q2e', value='0')
+								img(src='img/ob/mal.jpg')
+						tr
+							td
+								| 6 The politician used his position for his own corrupt and
+								a(href='#', onclick='window.open(\'templates/TU1A1.html\',\'_blank\',\'width=275,height=140\');') selfish
+								| objectives.
+						tr
+							td
+								input(type='radio', name='q2f', value='1', checked='checked')
+								img(src='img/ob/bien.jpg')
+								input(type='radio', name='q2f', value='0')
+								img(src='img/ob/mal.jpg')
+						tr
+							td 7 The company's goal is to be a leader in the market.
+						tr
+							td
+								input(type='radio', name='q2g', value='1', checked='checked')
+								img(src='img/ob/bien.jpg')
+								input(type='radio', name='q2g', value='0')
+								img(src='img/ob/mal.jpg')
+						tr
+							td
+								| 8 People will study at home using their computers and the Internet. Well, that's the object.
+						tr
+							td
+								input(type='radio', name='q2h', value='1', checked='checked')
+								img(src='img/ob/bien.jpg')
+								input(type='radio', name='q2h', value='0')
+								img(src='img/ob/mal.jpg')
+						tr
+							td 9 The government's point was to improve the standard of living.
+						tr
+							td
+								input(type='radio', name='q2i', value='1', checked='checked')
+								img(src='img/ob/bien.jpg')
+								input(type='radio', name='q2i', value='0')
+								img(src='img/ob/mal.jpg')
+						tr
+							td 10 What's the point of phoning him now? He won't be home.
+						tr
+							td
+								input(type='radio', name='q2j', value='1', checked='checked')
+								img(src='img/ob/bien.jpg')
+								input(type='radio', name='q2j', value='0')
+								img(src='img/ob/mal.jpg')
+					p
+						center
+							button.eval(data-target='t2') Check Answers
+		form#t3
+			p
+				b 3. Complete these sentences by choosing the best word. 
+				p
+					table(cellpadding='0', cellspacing='10')
+						tr
+							td
+								| 1. The police haven't found any
+								select(name='q3a')
+									option(value='0')
+										| Choose Answer
+										option(value='1')
+											| proof
+											option(value='2')
+												| evidence
+												option(value='3') clue
+								| of violence.
+						tr
+							td
+								| 2. The woman disappeared without a
+								select(name='q3b')
+									option(value='0')
+										| Choose Answer
+										option(value='1')
+											| clue
+											option(value='2')
+												| trace
+												option(value='3') sign
+								| .
+						tr
+							td
+								| 3. We haven't a
+								select(name='q3c')
+									option(value='0')
+										| Choose Answer
+										option(value='1')
+											| clue
+											option(value='2')
+												| sign
+												option(value='3') proof
+								| where she has gone.
+						tr
+							td
+								| 4. There is no
+								select(name='q3d')
+									option(value='0')
+										| Choose Answer
+										option(value='1')
+											| clue
+											option(value='2')
+												| sign
+												option(value='3') proof
+								| that her husband was involved.
+						tr
+							td
+								| 5. There is no
+								select(name='q3e')
+									option(value='0')
+										| Choose Answer
+										option(value='1')
+											| trace
+											option(value='2')
+												| evidence
+												option(value='3') sign
+								| that her husband was involved.
+						tr
+							td
+								| 6. There were
+								select(name='q3f')
+									option(value='0')
+										| Choose Answer
+										option(value='1')
+											| traces
+											option(value='2')
+												| indications
+												option(value='3') clues
+								| of blood on the knife.
+						tr
+							td
+								| 7. Were there any
+								select(name='q3g')
+									option(value='0')
+										| Choose Answer
+										option(value='1')
+											| traces
+											option(value='2')
+												| signs
+												option(value='3') proofs
+								| of violence?
+						tr
+							td
+								| 8. Were there any
+								select(name='q3h')
+									option(value='0')
+										| Choose Answer
+										option(value='1')
+											| clues
+											option(value='2')
+												| evidences
+												option(value='3') indications
+								| of violence?
+						tr
+							td
+								| 9. The husband was released because of lack of
+								select(name='q3i')
+									option(value='0')
+										| Choose Answer
+										option(value='1')
+											| clues
+											option(value='2')
+												| proof
+												option(value='3') proofs
+								| .
+						tr
+							td
+								| 10. The letter to her husband was an important piece of
+								select(name='q3j')
+									option(value='0')
+										| Choose Answer
+										option(value='1')
+											| clue
+											option(value='2')
+												| proof
+												option(value='3') evidence
+								| .
+						tr
+							td
+								| 11. The police searched for a
+								select(name='q3k')
+									option(value='0')
+										| Choose Answer
+										option(value='1')
+											| proof
+											option(value='2')
+												| sign
+												option(value='3') clue
+								| in her bedroom.
+						tr
+							td
+								| 12. It has all the
+								select(name='q3l')
+									option(value='0')
+										| Choose Answer
+										option(value='1')
+											| signs
+											option(value='2')
+												| clues
+												option(value='3') proofs
+								| of a kidnapping.
+					p
+						center
+							button.eval(data-target='t3') Check answers
+		form#t4
+			p
+				b 4. Choose the word that does NOT fit the context.
+				p
+					table(cellpadding='0', cellspacing='10')
+						tr
+							td Police are _________ about the woman's disappearance.
+						tr
+							td
+								input(type='radio', name='q4a', value='1', checked='checked')
+								| concerned
+								input(type='radio', name='q4a', value='2')
+								| worried
+								input(type='radio', name='q4a', value='3')
+								| afraid
+								input(type='radio', name='q4a', value='4')
+								| anxious
+						tr
+							td They are _________ that she may have been kidnapped.
+						tr
+							td
+								input(type='radio', name='q4b', value='1', checked='checked')
+								| worried
+								input(type='radio', name='q4b', value='2')
+								| afraid
+								input(type='radio', name='q4b', value='3')
+								| anxious
+								input(type='radio', name='q4b', value='4')
+								| concerned
+						tr
+							td The police say that there is no cause __________.
+						tr
+							td
+								input(type='radio', name='q4c', value='1', checked='checked')
+								| for fear
+								input(type='radio', name='q4c', value='2')
+								| for alarm
+								input(type='radio', name='q4c', value='3')
+								| for concern
+								input(type='radio', name='q4c', value='4')
+								| to worry
+						tr
+							td The police kept the story secret so as not to _________ the neighbors.
+						tr
+							td
+								input(type='radio', name='q4d', value='1', checked='checked')
+								| frighten
+								input(type='radio', name='q4d', value='2')
+								| alarm
+								input(type='radio', name='q4d', value='3')
+								| fear
+								input(type='radio', name='q4d', value='4')
+								| worry
+						tr
+							td Her husband ________ her safety.
+						tr
+							td
+								input(type='radio', name='q4e', value='1', checked='checked')
+								| is worred about
+								input(type='radio', name='q4e', value='2')
+								| fears for
+								input(type='radio', name='q4e', value='3')
+								| is frightened of
+								input(type='radio', name='q4e', value='4')
+								| is concerned for
+						tr
+							td I am __________ of the dark.
+						tr
+							td
+								input(type='radio', name='q4f', value='1', checked='checked')
+								| frightened
+								input(type='radio', name='q4f', value='2')
+								| afraid
+								input(type='radio', name='q4f', value='3')
+								| scared
+								input(type='radio', name='q4f', value='4')
+								| anxious
+						tr
+							td Before your first parachute jump it's natural to feel a little __________.
+						tr
+							td
+								input(type='radio', name='q4g', value='1', checked='checked')
+								| anxious
+								input(type='radio', name='q4g', value='2')
+								| preoccupied
+								input(type='radio', name='q4g', value='3')
+								| apprehensive
+								input(type='radio', name='q4g', value='4')
+								| nervous
+						tr
+							td The sight of blood doesn't ________ me at all.
+						tr
+							td
+								input(type='radio', name='q4h', value='1', checked='checked')
+								| bother
+								input(type='radio', name='q4h', value='2')
+								| worry
+								input(type='radio', name='q4h', value='3')
+								| preoccupy
+								input(type='radio', name='q4h', value='4')
+								| concern
+						tr
+							td The fact that children are starving ________ me a lot.
+						tr
+							td
+								input(type='radio', name='q4i', value='1', checked='checked')
+								| preoccupies
+								input(type='radio', name='q4i', value='2')
+								| worries
+								input(type='radio', name='q4i', value='3')
+								| troubles
+								input(type='radio', name='q4i', value='4')
+								| frightens
+						tr
+							td Sorry to _______ you, but is your husband at home?
+						tr
+							td
+								input(type='radio', name='q4j', value='1', checked='checked')
+								| bother
+								input(type='radio', name='q4j', value='2')
+								| concern
+								input(type='radio', name='q4j', value='3')
+								| trouble
+								input(type='radio', name='q4j', value='4')
+								| disturb
+					p
+						center
+							button.eval(data-target='t4') Check answers
+						p
+		#z1
+		#z2
+		#z3
+		#z4

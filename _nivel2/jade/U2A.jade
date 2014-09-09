@@ -1,0 +1,413 @@
+div#U2A
+	script.
+		unitans.U2A = {
+			q1a:'2',
+			q1b:'3',
+			q1c:'1',
+			q1d:'3',
+			q1e:'1',
+			q1f:'2',
+			q2a:'3',
+			q2b:'1',
+			q2c:'4',
+			q2d:'2',
+			q2e:'5',
+			q2f:'4',
+			q2g:'2',
+			q2h:'6',
+			q2i:'3',
+			q2j:'1',
+			q2k:'2',
+			q2l:'6',
+			q2m:'5',
+			q2n:'3',
+			q2o:'4',
+			q2p:'1',
+			q3a:'c',
+			q3b:'d',
+			q3c:'f',
+			q3d:'a',
+			q3e:'g',
+			q3f:'b',
+			q3g:'h',
+			q3h:'i',
+			q3i:'e',
+			q4a:'home',
+			q4b:'sixth',
+			q4c:'phone',
+			q4d:'open',
+			q4e:'seven',
+			q4f:'wood',
+			q4g:'Ambulance',
+			q4h:'happy',
+			q5a:'office',
+			q5b:'tenth',
+			q5c:'elevator',
+			q5d:'locked',
+			q5e:'three',
+			q5f:'paper',
+			q5g:'police',
+			q5h:'angry'
+		}
+	#t0
+		b.u2tit 2. Lives and Loves
+		p
+			b.u2 Memorable situations  
+			p
+	form#t1
+		b.inst2
+			| 1. Memorable situations (things that happened to you in the past, things that you always remember)
+		br
+		br
+		b.instrucciones
+			| Read the three stories about memorable situations. Then answer the questions below.
+		br
+		br
+		p
+			b.instrucciones story 1
+		p.letra
+			| A: I remember when I first met you Andy.
+			br
+			| B: Really! When was that?
+			br
+			| A: When I was a child.
+			br
+			| B: What were we doing?
+			br
+			| A: We were in a field near my house. It was summer and the grass was very dry. We were cooking a large pumpkin with a candle.
+			br
+			| B: I don't remember that. What happened?
+			br
+			| A: Well, unfortunately the candle fell over and the grass started to burn. The fire department came. I remember we felt very embarrassed.
+			p
+				br
+			p
+				center
+					b.instrucciones story 2
+					center
+			p
+				center
+					table.cuadro(cellpadding='5', cellspacing='5', bgcolor='#ffcda0', width='300')
+						tr
+							td.letra
+								b.letra ... and here is this week's "EXCITING MOMENTS" letter from Spain.
+			p.letra
+				| My son Harry was born two weeks early. Jean, my wife, suddenly had stomach pains.
+				| We went in the car to the hospital.
+				| We were driving through the downtown and Jean called out;
+				| "The baby is coming!" I stopped the car and helped my wife. I was very nervous and worried.
+				| I was holding the baby when the ambulance arrived. Fortunately the baby and my wife were fine.
+			p
+			center
+				b.instrucciones story 3
+		p
+			center
+				table.letra(cellpadding='5', cellspacing='5', width='350')
+					tr
+						td
+							| Dear Lucy,
+							p
+								| I like my new job but last week something unexpected happened.
+								| I was working at night in my office on the tenth floor and suddenly the lights went out. The elevator wasn't working.
+								| I went to the fire escape door but it was locked. I went to the window.
+								| For three hours I was throwing pieces of paper out the window to people in the street.
+								| On the pieces of paper I wrote: Help! I can't get out! Call the police!
+								| Finally someone read a piece of paper and phoned the police. I was very tired and angry by then.
+								| The next day the people at work .....
+		p
+			ol.izq
+				li.letra
+					| Which story is from a magazine?
+					select(name='q1a')
+						option(value='x')
+							| Choose Answer
+							option(value='1')
+								| Story 1
+								option(value='2')
+									| Story 2
+									option(value='3')
+										| Story 3
+		p
+			li.letra
+				| Which story is an e-mail or letter?
+				select(name='q1b')
+					option(value='x')
+						| Choose Answer
+						option(value='1')
+							| Story 1
+							option(value='2')
+								| Story 2
+								option(value='3')
+									| Story 3
+		p
+			li.letra
+				| Which story is in a conversation?
+				select(name='q1c')
+					option(value='x')
+						| Choose Answer
+						option(value='1')
+							| Story 1
+							option(value='2')
+								| Story 2
+								option(value='3')
+									| Story 3
+		p
+			li.letra
+				| Which story is about work?
+				select(name='q1d')
+					option(value='x')
+						| Choose Answer
+						option(value='1')
+							| Story 1
+							option(value='2')
+								| Story 2
+								option(value='3')
+									| Story 3
+		p
+			li.letra
+				| Which story happened when the speaker was a child?
+				select(name='q1e')
+					option(value='x')
+						| Choose Answer
+						option(value='1')
+							| Story 1
+							option(value='2')
+								| Story 2
+								option(value='3')
+									| Story 3
+		p
+			li.letra
+				| Which story is about a baby?
+				select(name='q1f')
+					option(value='x')
+						| Choose Answer
+						option(value='1')
+							| Story 1
+							option(value='2')
+								| Story 2
+								option(value='3')
+									| Story 3
+		p
+			center
+				button.eval(data-target='t1') Check answers
+	form#t2
+		p
+			b.instrucciones
+				| 2. Read the stories from exercise 1 again and put the pictures in order (1,2,3,4).
+		p.instrucciones
+			| Story 1
+		p
+			center
+				img(src='img/u2a.jpg')
+				br
+				table(cellpadding='5', cellspacing='2', width='400')
+					tr
+						td
+							input(size='1', name='q2a')
+						td
+							input(size='1', name='q2b')
+						td
+							input(size='1', name='q2c')
+						td
+							input(size='1', name='q2d')
+		p
+			b Story 2
+		p
+			center
+				img(src='img/u2b.jpg')
+				table(cellpadding='5', cellspacing='2', width='300')
+					tr
+						td
+							input(size='1', name='q2e')
+						td
+							input(size='1', name='q2f')
+						td
+							input(size='1', name='q2g')
+				br
+				img(src='img/u2ba.jpg')
+				table(cellpadding='5', cellspacing='2', width='300')
+					tr
+						td
+							input(size='1', name='q2h')
+						td
+							input(size='1', name='q2i')
+						td
+							input(size='1', name='q2j')
+		p
+			b.letra Story 3
+		p
+			center
+				img(src='img/u2c.jpg')
+				table(cellpadding='5', cellspacing='2', width='300')
+					tr
+						td
+							input(size='1', name='q2k')
+						td
+							input(size='1', name='q2l')
+						td
+							input(size='1', name='q2m')
+				br
+				img(src='img/u2ca.jpg')
+				table(cellpadding='5', cellspacing='2', width='300')
+					tr
+						td
+							input(size='1', name='q2n')
+						td
+							input(size='1', name='q2o')
+						td
+							input(size='1', name='q2p')
+		p
+			center
+				button.eval(data-target='t2') Check answers
+	form#t3
+		p
+			b.instrucciones 3. Can you remember? Match the questions to the answers.
+		p
+			table.letra(cellpadding='5', cellspacing='5', width='600')
+				tr
+					td a) What was Andy doing?
+					td
+						| 1.
+						input(size='1', name='q3a', maxlength='1')
+						| He felt embarrassed.
+				tr
+					td b) What happened?
+					td
+						| 2.
+						input(size='1', name='q3b', maxlength='1')
+						| Harry.
+				tr
+					td c) How did he feel?
+					td
+						| 3.
+						input(size='1', name='q3c', maxlength='1')
+						| The baby's father
+				tr
+					td d) Who was born two weeks early?
+					td
+						| 4.
+						input(size='1', name='q3d', maxlength='1')
+						| He was playing with a pumpkin and a candle.
+				tr
+					td e) Who is the baby's mother?
+					td
+						| 5.
+						input(size='1', name='q3e', maxlength='1')
+						| She was working.
+				tr
+					td f) Who was holding the baby when the ambulance arrived?
+					td
+						| 6.
+						input(size='1', name='q3f', maxlength='1')
+						| The candle fell over
+				tr
+					td g) What was she doing?
+					td
+						| 7.
+						input(size='1', name='q3g', maxlength='1')
+						| The lights went out.
+				tr
+					td h) What happened?
+					td
+						| 8.
+						input(size='1', name='q3h', maxlength='1')
+						| She felt tired and angry.
+				tr
+					td i) How did she feel?
+					td
+						| 9.
+						input(size='1', name='q3i', maxlength='1')
+						| Jean.
+		p
+			center
+				button.eval(data-target='t3') Check answers
+	form#t4
+		p
+			b.instrucciones
+				| 4. How much can you remember?
+		p.instrucciones
+			| Here is story 3 again, but some of the information is incorrect. Write the incorrect words. (There are 8.)
+		p
+			table(cellpadding='0', cellspacing='2', width='600')
+				tr
+					td.letra
+						| I was working at night in my home on the sixth floor and
+						| suddenly the lights went out. The phone wasn't working. I
+						| went to the fire escape door but it was open. I went to the
+						| window. For seven hours I was throwing pieces of wood out
+						| the window to people in the street. On the pieces of paper
+						| I wrote: Help! I can't get out! Call the Ambulance! Finally
+						| someone read a piece of paper and phoned the police. I was
+						| very tired and happy by then.
+					td
+						ol
+							li.letra
+								input(size='7', name='q4a')
+								br
+								li.letra
+									input(size='7', name='q4b')
+									br
+									li.letra
+										input(size='7', name='q4c')
+										br
+										li.letra
+											input(size='7', name='q4d')
+											br
+											li.letra
+												input(size='7', name='q4e')
+												br
+												li.letra
+													input(size='7', name='q4f')
+													br
+													li.letra
+														input(size='7', name='q4g')
+														br
+														li.letra
+															input(size='7', name='q4h')
+															br
+		p
+			center
+				button.eval(data-target='t4') Check answers
+	form#t5
+		p
+			b.instrucciones 5. Now correct the text. Write in the correct words.
+		p
+			table(cellpadding='5', cellspacing='5', width='600', bgcolor='#ffbc90')
+				tr
+					td.letra
+						| I was working at night in my
+						sub.num 1
+						input(size='7', name='q5a')
+						| on the
+						sub.num 2
+						input(size='7', name='q5b')
+						| floor and suddenly
+						| the lights went out. The
+						sub.num 3
+						input(size='7', name='q5c')
+						| wasn't working. I went to the fire
+						| escape door but it was
+						sub.num 4
+						input(size='7', name='q5d')
+						| . I went to the window. For
+						sub.num 5
+						input(size='7', name='q5e')
+						| hours I was throwing pieces of
+						sub.num 6
+						input(size='7', name='q5f')
+						| out the window to people in the
+						| street. On the pieces of paper I wrote: Help! I can't get out! Call the
+						sub.num 7
+						input(size='7', name='q5g')
+						| ! Finally someone read a piece of paper and phoned the police. I
+						| was very tired and
+						nobr
+							sub.num 8
+							input(size='7', name='q5h')
+						| by then.
+		button.eval(data-target='t5') Check answers
+	#z1
+	#z2
+	#z3
+	#z4
+	#z5

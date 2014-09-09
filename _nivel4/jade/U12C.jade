@@ -1,0 +1,328 @@
+div#U12C
+	script.
+		unitans.U12C = {
+			q1a:'4',
+			q1b:'1',
+			q1c:'3',
+			q1d:'3',
+			q1e:'2',
+			q1f:'1',
+			q1g:'3',
+			q1h:'2',
+			q2a:'1',
+			q2b:'1',
+			q2c:'2',
+			q2d:'2',
+			q2e:'2',
+			q2f:'3',
+			q2g:'1',
+			q2h:'1',
+			q3a:'cardigan',
+			q3b:'vest',
+			q3c:'beret',
+			q3d:'warm-up suits',
+			q3e:'forelock',
+			q3f:'sideburns',
+			q3g:'goatee',
+			q3h:'Mohawk',
+			q4a:'2',
+			q4b:'3',
+			q4c:'2',
+			q4d:'3',
+			q4e:'3',
+			q4f:'2',
+			q4g:'2',
+			q4h:'3',
+		}
+	form#t0
+		img.logo4(src='img/u12.jpg')
+		p
+			b.u4tit  Describing fashions 
+			p
+	form#t1
+		b 1. Which word does not go with the noun on the right? 
+		p
+			ol
+				li
+					| jacket
+					select(name='q1a')
+						option(value='x')
+							| Choose Answer
+							option(value='1')
+								| denim
+								option(value='2')
+									| sports
+									option(value='3')
+										| dinner
+										option(value='4')
+											| cropped
+					p
+						li
+							| sweater
+							select(name='q1b')
+								option(value='x')
+									| Choose Answer
+									option(value='1')
+										| denim
+										option(value='2')
+											| polo-neck
+											option(value='3')
+												| baggy
+												option(value='4')
+													| v-neck
+							p
+								li
+									| shoes
+									select(name='q1c')
+										option(value='x')
+											| Choose Answer
+											option(value='1')
+												| slip-on
+												option(value='2')
+													| lace-up
+													option(value='3')
+														| ankle-length
+														option(value='4')
+															| suede
+									p
+										li
+											| dress
+											select(name='q1d')
+												option(value='x')
+													| Choose Answer
+													option(value='1')
+														| low cut
+														option(value='2')
+															| sleeveless
+															option(value='3')
+																| flared
+																option(value='4')
+																	| high-necked
+											p
+												li
+													| pants
+													select(name='q1e')
+														option(value='x')
+															| Choose Answer
+															option(value='1')
+																| baggy
+																option(value='2')
+																	| dinner
+																	option(value='3')
+																		| flared
+																		option(value='4')
+																			| leather
+													p
+														li
+															| shirt
+															select(name='q1f')
+																option(value='x')
+																	| Choose Answer
+																	option(value='1')
+																		| low cut
+																		option(value='2')
+																			| flowery
+																			option(value='3')
+																				| checked
+																				option(value='4')
+																					| striped
+															p
+																li
+																	| coat
+																	select(name='q1g')
+																		option(value='x')
+																			| Choose Answer
+																			option(value='1')
+																				| waterproof
+																				option(value='2')
+																					| winter
+																					option(value='3')
+																						| dinner
+																						option(value='4')
+																							| fur
+																	p
+																		li
+																			| skirt
+																			select(name='q1h')
+																				option(value='x')
+																					| Choose Answer
+																					option(value='1')
+																						| leather
+																						option(value='2')
+																							| sleeveless
+																							option(value='3')
+																								| ankle length
+																								option(value='4')
+																									| mini
+																			p
+			center
+				button.eval(data-target='t1') Check answers
+	form#t2
+		p
+			b 2. Choose the best label for each picture. 
+			p
+				center
+					img(src='img/u12c1.jpg')
+				p
+					table(cellpadding='o', cellspacing='2', width='600')
+						tr
+							td
+								| 1.
+								input(type='radio', name='q2a', value='1', checked='checked')
+								| flared jeans
+							td
+								input(type='radio', name='q2a', value='2')
+								| torn jeans
+							td
+								input(type='radio', name='q2a', value='3')
+								| baggy jeans
+						tr
+							td
+								| 2.
+								input(type='radio', name='q2b', value='1', checked='checked')
+								| platform shoes
+							td
+								input(type='radio', name='q2b', value='2')
+								| high-heeled shoes
+							td
+								input(type='radio', name='q2b', value='3')
+								| ankle-length boots
+						tr
+							td
+								| 3.
+								input(type='radio', name='q2c', value='1', checked='checked')
+								| sports jacket
+							td
+								input(type='radio', name='q2c', value='2')
+								| denim jacket
+							td
+								input(type='radio', name='q2c', value='3')
+								| leather jacket
+						tr
+							td
+								| 4.
+								input(type='radio', name='q2d', value='1', checked='checked')
+								| spiky hair
+							td
+								input(type='radio', name='q2d', value='2')
+								| cropped hair
+							td
+								input(type='radio', name='q2d', value='3')
+								| dyed hair
+						tr
+							td
+								| 5.
+								input(type='radio', name='q2e', value='1', checked='checked')
+								| flared jeans
+							td
+								input(type='radio', name='q2e', value='2')
+								| torn jeans
+							td
+								input(type='radio', name='q2e', value='3')
+								| baggy jeans
+						tr
+							td
+								| 6.
+								input(type='radio', name='q2f', value='1', checked='checked')
+								| sports jacket
+							td
+								input(type='radio', name='q2f', value='2')
+								| denim jacket
+							td
+								input(type='radio', name='q2f', value='3')
+								| leather jacket
+						tr
+							td
+								| 7.
+								input(type='radio', name='q2g', value='1', checked='checked')
+								| platform shoes
+							td
+								input(type='radio', name='q2g', value='2')
+								| high-heeled boots
+							td
+								input(type='radio', name='q2g', value='3')
+								| ankle-length boots
+						tr
+							td
+								| 8.
+								input(type='radio', name='q2h', value='1', checked='checked')
+								| spiky hair
+							td
+								input(type='radio', name='q2h', value='2')
+								| cropped hair
+							td
+								input(type='radio', name='q2h', value='3')
+								| dyed hair
+					p
+						center
+							button.eval(data-target='t2') Check answers
+	form#t3
+		p
+			b
+				| 3. Put the letters in order to make a word that matches the definition. Type the answer in the box.
+			p
+				ol
+					li
+						| A sweater with buttons down the front is called a
+						b ganidrac
+						sub c
+						input(size='15', name='q3a')
+						li
+							| A three-piece suit consists of a jacket, pants and a
+							b estv
+							sub v
+							input(size='15', name='q3b')
+							li
+								| A
+								b treeb
+								sub b
+								input(size='15', name='q3c')
+								| is a flat black hat which was given its name by the French.
+								li
+									| The jacket and pants soccer players wear before they start playing is a
+									br
+									b mawr-pu uits
+									sub w
+									input(size='15', name='q3d')
+				p
+					b Put the letters in order to make words to label the three pictures. 
+					p
+						table(cellpadding='2', cellspacing='2', width='550')
+							tr
+								td
+									| 5.  a
+									b orlefcok
+									sub q
+									input(size='15', name='q3e')
+									br
+									p
+										| 6.
+										b birdsnuse
+										sub s
+										input(size='15', name='q3f')
+										br
+										p
+											| 7.  a
+											b teaego
+											sub g
+											input(size='15', name='q3g')
+											br
+											p
+												| 8.  a
+												b Mhaokw
+												sub m
+												input(size='15', name='q3h')
+												br
+												p
+								td
+									img(src='img/u12c2.jpg')
+						p
+							center
+								button.eval(data-target='t3') Check answers
+	#z1
+	#z2
+	#z3
+	#z4
+	#z5
+	#z6
+	#z7

@@ -1,0 +1,374 @@
+div#U10A
+	script.
+		unitans.U10A = {
+			q1a:'a valley',
+			q1b:'an ocean',
+			q1c:'a sea',
+			q1d:'islands',
+			q1e:'a desert',
+			q1f:'a river',
+			q1g:'a mountain',
+			q2a:'0',
+			q2b:'1',
+			q2c:'1',
+			q2d:'0',
+			q2e:'0',
+			q2f:'1',
+			q2g:'0',
+			q2h:'1',
+			q3a:'1',
+			q3b:'1',
+			q3c:'1',
+			q3d:'1',
+			q3e:'1',
+			q3f:'1',
+			q3g:'1',
+			q3h:'1',
+			q3i:'2',
+			q3j:'1',
+			q3k:'2',
+			q3l:'1',
+			q3m:'2',
+			q3n:'1',
+			q4a:'The',
+			q4b:'The',
+			q4c:'The',
+			q4d:'the',
+			q4e:'The',
+			q4f:'the',
+			q4g:'-',
+			q4h:'-',
+			q4i:'The'
+		}
+	#t0
+		b.u3tit Cultural Shock
+		p
+			b.u3 Geographical features + the definite article
+			br
+	p
+		form#t1
+			b
+				| 1. Geographical features. Look at the world map below and then write the following geographical words in the table.
+	p
+		br
+		| a desert
+		br
+		| a river
+		br
+		| a sea
+		br
+		| an ocean
+		br
+		| a mountain
+		br
+		| a valley
+		br
+		| islands
+	p
+		table(cellpadding='5', cellspacing='5')
+			tr
+				td
+					ol
+						li
+							input(size='15', name='q1a')
+						li
+							input(size='15', name='q1b')
+						li
+							input(size='15', name='q1c')
+						li
+							input(size='15', name='q1d')
+						li
+							input(size='15', name='q1e')
+						li
+							input(size='15', name='q1f')
+						li
+							input(size='15', name='q1g')
+				td
+					img(src='img/u10a.jpg')
+	p
+		center
+			button.eval(data-target='t1') Check answers
+	form#t2
+		p
+			b 2. Test your geography. True or false?
+		p
+			ol
+				li
+					| The Amazon is the longest river in the world.
+					br
+					input(type='radio', name='q2a', value='1', checked='')
+					| true  
+					input(type='radio', name='q2a', value='0')
+					| false
+					p
+						li
+							| The Philippines consists of a group of islands.
+							br
+							input(type='radio', name='q2b', value='1', checked='')
+							| true  
+							input(type='radio', name='q2b', value='0')
+							| false
+							p
+								li
+									| The Dead Sea in Israel has more salt than a normal sea.
+									br
+									input(type='radio', name='q2c', value='1', checked='')
+									| true  
+									input(type='radio', name='q2c', value='0')
+									| false
+									p
+										li
+											| Nobody lives in the Kalahari Desert.
+											br
+											input(type='radio', name='q2d', value='1', checked='')
+											| true  
+											input(type='radio', name='q2d', value='0')
+											| false
+											p
+												li
+													| The Indian Ocean is bigger than the Pacific Ocean.
+													br
+													input(type='radio', name='q2e', value='1', checked='')
+													| true  
+													input(type='radio', name='q2e', value='0')
+													| false
+													p
+														li
+															| The highest mountain in Europe is in France.
+															br
+															input(type='radio', name='q2f', value='1', checked='')
+															| true  
+															input(type='radio', name='q2g', value='0')
+															| false
+															p
+																li
+																	| Everest is in Thailand.
+																	br
+																	input(type='radio', name='q2h', value='1', checked='')
+																	| true  
+																	input(type='radio', name='q2h', value='0')
+																	| false
+																	p
+																		li
+																			| The Valley of Flowers is in India.
+																			br
+																			input(type='radio', name='q2i', value='1', checked='')
+																			| true  
+																			input(type='radio', name='q2i', value='0')
+																			| false
+		p
+			center
+				button.eval(data-target='t2') Check answers
+	form#t3
+		p
+			b
+				| 3. For each of these geographical features, decide if the definite article the is used.
+		p
+			| Answers:
+		p
+			table(cellspacing='4', cellpadding='0', width='600')
+				tr
+					td
+						sub a)
+						select(name='q3a')
+							option(value='x')
+								| Choose Answer
+							option(value='1')
+								| The
+							option(value='2')
+								| -
+						|  Sahara Desert
+					td
+						sub b)
+						select(name='q3b')
+							option(value='x')
+								| Choose Answer
+							option(value='1')
+								| The
+							option(value='2')
+								| -
+						|  Kalahari Desert
+				tr
+					td
+						sub c)
+						select(name='q3c')
+							option(value='x')
+								| Choose Answer
+							option(value='1')
+								| The
+							option(value='2')
+								| -
+						|  Nile
+					td
+						sub d)
+						select(name='q3d')
+							option(value='x')
+								| Choose Answer
+							option(value='1')
+								| The
+							option(value='2')
+								| -
+						|  Amazon
+				tr
+					td
+						sub e)
+						select(name='q3e')
+							option(value='x')
+								| Choose Answer
+							option(value='1')
+								| The
+							option(value='2')
+								| -
+						|  Mediterranean Sea
+					td
+						sub f)
+						select(name='q3f')
+							option(value='x')
+								| Choose Answer
+							option(value='1')
+								| The
+							option(value='2')
+								| -
+						|  Black Sea
+				tr
+					td
+						sub g)
+						select(name='q3g')
+							option(value='x')
+								| Choose Answer
+							option(value='1')
+								| The
+							option(value='2')
+								| -
+						|  Atlantic Ocean
+					td
+						sub h)
+						select(name='q3h')
+							option(value='x')
+								| Choose Answer
+							option(value='1')
+								| The
+							option(value='2')
+								| -
+						|  Pacific Ocean
+				tr
+					td
+						sub i)
+						select(name='q3i')
+							option(value='x')
+								| Choose Answer
+							option(value='1')
+								| The
+							option(value='2')
+								| -
+						|  Everest
+					td
+						sub j)
+						select(name='q3j')
+							option(value='x')
+								| Choose Answer
+							option(value='1')
+								| The
+							option(value='2')
+								| -
+						|  Rockies
+				tr
+					td
+						sub k)
+						select(name='q3k')
+							option(value='x')
+								| Choose Answer
+							option(value='1')
+								| The
+							option(value='2')
+								| -
+						|  Death Valley
+					td
+						sub l)
+						select(name='q3l')
+							option(value='x')
+								| Choose Answer
+							option(value='1')
+								| The
+							option(value='2')
+								| -
+						|  Valley of Flowers
+				tr
+					td
+						sub m)
+						select(name='q3m')
+							option(value='x')
+								| Choose Answer
+							option(value='1')
+								| The
+							option(value='2')
+								| -
+						|  Pitcairn Island
+					td
+						sub n)
+						select(name='q3n')
+							option(value='x')
+								| Choose Answer
+							option(value='1')
+								| The
+							option(value='2')
+								| -
+						|  Philippines
+				tr
+					td
+		p
+			center
+				button.eval(data-target='t3') Check answers
+	form#t4
+		p
+			b
+				| 4. Type 
+				span#m1 the
+				|  or 
+				span#m1 -
+				|  in each of the following sentences.
+		p
+			ol
+				li
+					input(size='2', name='q4a')
+					|  Nile is the longest river in the world.
+					br
+				li
+					input(size='2', name='q4b')
+					|  Philippines has about 7000 islands. 
+					br
+				li
+					input(size='2', name='q4c')
+					|  Dead Sea has six times as much salt as the ocean,
+					br
+				li
+					| The San people live in  
+					input(size='2', name='q4d')
+					|  Kalahari Desert. 
+					br
+				li
+					input(size='2', name='q4e')
+					|  Pacific is bigger than  
+					input(size='2', name='q4f')
+					|  Indian Ocean. 
+					br
+				li
+					| The highest mountain in Europe is  
+					input(size='2', name='q4g')
+					|  Mont Blanc, on the border of France and Italy.
+					br
+				li
+					input(size='2', name='q4h')
+					|  Everest is on the border of Nepal and India. 
+					br
+				li
+					input(size='2', name='q4i')
+					|  Valley of Flowers is a valley in the North of India.
+					br
+		p
+			center
+				button.eval(data-target='t4') Check answers
+	#z1
+	#z2
+	#z3
+	#z4

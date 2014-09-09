@@ -1,0 +1,327 @@
+div#U4B
+	script.
+		unitans.U4B = {
+			q1a:'passed',
+			q1b:'decided',
+			q1c:'had',
+			q1d:'gotten',
+			q1e:'stopped',
+			q1f:'crashed',
+			q1g:'gone',
+			q1h:'told',
+			q1i:'broken down',
+			q1j:'been',
+			q1k:'bought',
+			q1l:'given',
+			q2a:'What have you done today',
+			q2b:'Have we received any e-mails recently',
+			q2c:'Have you seen any good movies lately',
+			q2d:'Where have you put my glasses',
+			q2e:'Have you been to the gym this week',
+			q2f:'Which car has she decided to buy',
+			q2g:'Have they repaired the car yet',
+			q2h:'Has John found a job since we last spoke',
+			q3a:'b',
+			q3b:'f',
+			q3c:'a',
+			q3d:'e',
+			q3e:'g',
+			q3f:'d',
+			q3g:'h',
+			q3h:'c',
+			q4a:'played',
+			q4b:'hasn\'t',
+			q4c:'hasn\'t read',
+			q4d:'haven\'t',
+			q4e:'hasn\'t sent',
+			q4f:'hasn\'t sold',
+			q4g:'haven\'t checked',
+			q4h:'haven\'t seen'
+		}
+	div
+		b.u3tit Controversy
+		p
+			b.u3tit Past Simple
+	form#t1
+		p
+			b 1. Introducing recent events
+		p
+			| You use the Present Perfect to introduce recent events:
+		p
+			span#m1
+				| In the past two weeks, their car 
+				b has broken down
+				| , their dog 
+				b has run away
+				| , their frozen food 
+				b has melted
+				| , Graham 
+				b has lost
+				|  his job and his mosquito bites 
+				b have become infected.
+		p
+			| The form of the Present Perfect Simple is 
+			span#m1
+				b have/has
+			|  + past participle.
+		p
+			| Write the past participle of the verb in parentheses to complete the sentences.
+		p
+			ol
+				li
+					| I have some good news! Sam has  
+					input(size='9', name='q1a')
+					| [pass] all his exams except for one.
+		p
+			li
+				| He&apos;s  
+				input(size='9', name='q1b')
+				| [decide] that he wants to study psychology in college.
+		p
+			li
+				| Your father&apos;s getting too old to drive. He&apos;s  
+				input(size='9', name='q1c')
+				| [have] three accident in the past few weeks!
+		p
+			li
+				| Things have  
+				input(size='9', name='q1d')
+				| [get] worse since we last spoke.
+		p
+			li
+				| We&apos;ll have to call a plumber. The water heater has 
+				input(size='9', name='q1e')
+				| [stop] working.
+		p
+			li
+				| I&apos;m afraid I have some bad news. I&apos;ve  
+				input(size='9', name='q1f')
+				| [crash] the car.
+		p
+			li
+				| House prices have  
+				input(size='9', name='q1g')
+				| [go] up 10% in recent months.
+		p
+			li
+				| I hope you haven&apos;t  
+				input(size='9', name='q1h')
+				| [tell] Sarah about the party. It&apos;s a surprise.
+		p
+			li
+				| The elevator has  
+				input(size='9', name='q1i')
+				| [break down]. We&apos;ll have to walk up.
+		p
+			li
+				| -I haven&apos;t seen you in class lately.
+				br
+				| -I know. I&apos;ve  
+				input(size='9', name='q1j')
+				| [be] sick.
+		p
+			li
+				| Frank hasn&apos;t  
+				input(size='9', name='q1k')
+				| [buy] any milk, but I can offer you a cup of coffee.
+		p
+			li
+				| I haven&apos;t needed to take many sleeping pills recently. Maybe it&apos;s because I&apos;ve  
+				input(size='9', name='q1l')
+				| [give] up drinking coffee.
+		p
+			center
+				button.eval(data-target='t1') Check answers
+	form#t2
+		p
+			b 2.Put the words in the correct order to make questions:
+			ol
+				li
+					| What today done you have?
+					br
+					input(size='40', name='q2a')
+					| ?
+					p
+						li
+							| e-mails we recently Have any received?
+							br
+							input(size='40', name='q2b')
+							| ?
+							p
+								li
+									| Have good lately any seen movies you?
+									br
+									input(size='40', name='q2c')
+									| ?
+									p
+										li
+											| have my put glasses Where you?
+											br
+											input(size='40', name='q2d')
+											| ?
+											p
+												li
+													| Have gym to been week this you the?
+													br
+													input(size='40', name='q2e')
+													| ?
+													p
+														li
+															| to has car she buy Which decided?
+															br
+															input(size='40', name='q2f')
+															| ?
+															p
+																li
+																	| they car Have the yet repaired?
+																	br
+																	input(size='40', name='q2g')
+																	| ?
+																	p
+																		li
+																			| John job we since found spoke Has a last?
+																			br
+																			input(size='40', name='q2h')
+																			| ?
+																			p
+		p
+			center
+				button.eval(data-target='t2') Check answers
+	form#t3
+		p
+			b 3. Match the questions from exercise 2 with the correct answers.
+			table(cellpadding='5', cellspacing='5')
+				tr
+					td
+						| 1.What have you done today?
+						br
+						input(size='1', name='q3a')
+					td a) I haven&apos;t. Do you have any recommendations?
+				tr
+					td
+						| 2.Have we received any e-mails recently 
+						br
+						input(size='1', name='q3b')
+					td b) Nothing special. I&apos;ve been working all day.
+				tr
+					td
+						| 3.Have you seen any good movies lately? 
+						br
+						input(size='1', name='q3c')
+					td c) No  he hasn&apos;t. But he has a few interviews.
+				tr
+					td
+						| 4.Where have you put my glasses? 
+						br
+						input(size='1', name='q3d')
+					td d) He still hasn&apos;t decided.
+				tr
+					td
+						| 5.Have you been to the gym this week? 
+						br
+						input(size='1', name='q3e')
+					td e) They&apos;re next to the phone.
+				tr
+					td
+						| 6.Which car has he decided to buy? 
+						br
+						input(size='1', name='q3f')
+					td f) Yes. We received two this morning.
+				tr
+					td
+						| 7.Have they repaired the car yet? 
+						br
+						input(size='1', name='q3g')
+					td g) No I haven&apos;t. I haven&apos;t been for ages.
+				tr
+					td
+						| 8.Has John found a job since we last spoke? 
+						br
+						input(size='1', name='q3h')
+					td h) They haven&apos;t. It won&apos;t be ready till next week.
+		p
+			center
+				button.eval(data-target='t3') Check answers
+	form#t4
+		p
+			b 4. Recent time
+		p
+			| With expressions of recent time, you typically use the Present Perfect.
+		p
+			span#m1
+				li
+					| I
+					b &apos;ve had
+					|  a lot of work 
+					b lately.
+					br
+				li
+					| She
+					b &apos;s been
+					|  very busy 
+					b this week.
+		p
+			| But if the time is finished, use the Simple Past:
+		p
+			span#m1
+				li
+					| I 
+					b had
+					|  a lot of work 
+					b yesterday.
+					br
+				li
+					| She 
+					b was
+					|  very busy 
+					b last week.
+		p
+			| Complete these sentences.
+		p
+			ol
+				li
+					| I played a lot of tennis last summer, but I haven&apos;t 
+					input(size='11', name='q4a')
+					|  much in the past few weeks.
+		p
+			li
+				| He wrote every week when he first moved to Australia, but he 
+				input(size='11', name='q4b')
+				|  written recently.
+		p
+			li
+				| She read a lot of German books when she was in college, but she 
+				input(size='11', name='q4c')
+				|  many lately.
+		p
+			li
+				| They went to the movies once a week last year, but this year they 
+				input(size='11', name='q4d')
+				|  been very much.
+		p
+			li
+				| He sent me a lot of e-mails last month, but this month he 
+				input(size='11', name='q4e')
+				|  any.
+		p
+			li
+				| He used to sell a lot of paintings when he was studying art, but he 
+				input(size='11', name='q4f')
+				|  many lately.
+		p
+			li
+				| I checked my e-mail yesterday morning, but I 
+				input(size='11', name='q4g')
+				|  it today.
+		p
+			li
+				| We used to see her a lot before she had her baby, but we 
+				input(size='11', name='q4h')
+				|  her since I last spoke to you.
+		p
+			center
+				button.eval(data-target='t4') Check answers
+	#z1
+	#z2
+	#z3
+	#z4

@@ -1,0 +1,162 @@
+div#U11C
+	script.
+		unitans.U11C = {
+			q1a:'OK Computer, Radiohead',
+			q1b:'Revolver, The Beatles',
+			q1c:'Automatic for the People, REM',
+			q1d:'The Stone Roses, The Stone Roses',
+			q1e:'Sgt. Peppers Lonely Heart\'s Club Band, The Beatles',
+			q1f:'The Fat of the Land, The Prodigy',
+			q2a:'1',
+			q2b:'1',
+			q2c:'1',
+			q2d:'1',
+			q2e:'1',
+			q2f:'1',
+			q2g:'1',
+			q2h:'1'
+		}
+	#t0
+		b.u3tit Icons
+		p
+			b.u3 All-time top 10 albums
+			br
+	p
+		form#t1
+			b
+				| 1. 
+				a(href='snd/fave1.mp3', target='_blank') Listen to two people talking
+				| , a list of the ten best albums of all time that appeared in a music magazine and complete the list below.
+	p
+		ol
+			li
+				input(size='60', name='q1a')
+			li
+				input(size='60', name='q1b')
+			li
+				input(size='60', name='q1c')
+			li
+				input(size='60', name='q1d')
+			li
+				i Exile on Main Street
+				| , The Rolling Stone
+			li
+				i The Bends
+				| , Radiohead
+			li
+				input(size='60', name='q1e')
+			li
+				i (What&apos;s the Story) Morning Glory?
+				| , Oasis
+			li
+				input(size='60', name='q1f')
+			li
+				i Dark Side of the Moon
+				| , Pink Floyd
+	p
+		table(cellpadding='5', cellspacing='5', bgcolor='#ffbc90', width='400')
+			tr
+				td
+					i Sgt. Peppers Lonely Heart&apos;s Club Band
+					| , The Beatles
+					br
+					i Automatic for the People
+					| , REM
+					br
+					i The Fat of the Land
+					| , The Prodigy
+					br
+					i The Stone Roses
+					| , The Stone Roses
+					br
+					i OK Computer
+					| , Radiohead
+					br
+					i Revolver
+					| , The Beatles
+					br
+	p
+		center
+			button.eval(data-target='t1') Check answers
+	form#t2
+		p
+			b
+				| 2. 
+				a(href='snd/fave1.mp3', target='_blank') Listen again
+				|  and decide if these statements are true or false.
+		p
+			ol
+				li
+					| Both speakers think 
+					i Sergeant Pepper&apos;s
+					|  is the best Beatles album.
+					br
+					input(type='radio', name='q2a', value='1', checked='')
+					|  true 
+					input(type='radio', name='q2a', value='0')
+					|  false
+		p
+			li
+				| All the groups in the list are British except one.
+				br
+				input(type='radio', name='q2b', value='1', checked='')
+				|  true 
+				input(type='radio', name='q2b', value='0')
+				|  false
+		p
+			li
+				| &quot;Q&quot; is a British magazine.
+				br
+				input(type='radio', name='q2c', value='1', checked='')
+				|  true 
+				input(type='radio', name='q2c', value='0')
+				|  false
+		p
+			li
+				| All the groups in the list are from the 1960s or the 1990s.
+				br
+				input(type='radio', name='q2d', value='1', checked='')
+				|  true 
+				input(type='radio', name='q2d', value='0')
+				|  false
+		p
+			li
+				| Neither of the speakers think Oasis will still be a top ten album in ten years&apos; time.
+				br
+				input(type='radio', name='q2e', value='1', checked='')
+				|  true 
+				input(type='radio', name='q2e', value='0')
+				|  false
+		p
+			li
+				| One of the speakers hasn&apos;t listened to the The Stone Roses since the summer it came out.
+				br
+				input(type='radio', name='q2f', value='1', checked='')
+				|  true 
+				input(type='radio', name='q2f', value='0')
+				|  false
+		p
+			li
+				| One of the speakers has never heard Pink Floyd&apos;s 
+				i The Dark Side of the Moon
+				| .
+				br
+				input(type='radio', name='q2g', value='1', checked='')
+				|  true 
+				input(type='radio', name='q2g', value='0')
+				|  false
+		p
+			li
+				| Neither speaker has heard The Prodigy&apos;s album.
+				br
+				input(type='radio', name='q2h', value='1', checked='')
+				|  true 
+				input(type='radio', name='q2h', value='0')
+				|  false
+		p
+			center
+				button.eval(data-target='t2') Check answers
+	#z1
+	#z2
+	#z3
+	#z4

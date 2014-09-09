@@ -1,0 +1,222 @@
+div#U1B
+	script.
+		unitans.U1B = {
+			q1a:'1',
+			q1b:'0',
+			q2a:'1',
+			q2b:'0',
+			q2c:'0',
+			q2d:'1',
+			q2e:'0',
+			q2f:'1',
+			q3a:'1',
+			q3b:'0',
+			q3c:'1',
+			q3d:'1',
+			q3e:'0',
+			q3f:'0',
+			q4a:'There aren\'t many tall buildings',
+			q4b:'The downtown is quite nice and there are more parks than there are here ',
+			q4c:'Though transportation is a problem in Belfast',
+			q4d:'There isn\'t a subway and the bus service isn\'t very good',
+			q4e:'Transportation is much better in Barcelona'
+		}
+	#t0
+		b.u2tit 1. The Concrete Jungle
+		p
+			b.u2 Comparing two cities 
+			p
+	form#t1
+		b.inst2 1. Read this conversation then answer the questions. 
+		p.tablau2
+			p.letra
+				| Amaya: Where are you from Andy?
+				br
+				| Andy: I'm from Belfast.
+				br
+				| Amaya: And you live in Barcelona now?
+				br
+				| Andy: Yes, that's right.
+				br
+				| Amaya: So, what's Belfast like? Is it very different from Barcelona?
+				br
+				| Andy: Yes, very. It rains a lot in Belfast. And Barcelona is much hotter. In Belfast the maximum in summer is usually about 22 degrees and in winter the minimum is about minus 2 or 3.
+				br
+				| Amaya: Really! The climate is better here then.
+				br
+				| Andy: Yeah, I think so.
+				br
+				| Amaya: And is Belfast a big city like Barcelona?
+				br
+				| Andy: No, it's smaller than Barcelona. There aren't many tall buildings. The downtown is quite nice and there are more parks than there are here. Though transportation is a problem in Belfast.
+				| There isn't a subway and the bus service isn't very good. Transportation is much better in Barcelona.
+				br
+				| Amaya: What about prices and the cost of living? Is it cheaper in Belfast?
+				br
+				| Andy: Um, houses are cheaper. Food is about the same, but it's more expensive to eat in restaurants in Belfast. But beer is definitely cheaper in Barcelona.
+				br
+				| Amaya: Uh huh. And is Belfast on the coast?
+				br
+				| Andy: Yes, it's on the coast and on a river, the river Lagan. It has a big port too, like Barcelona has, but the port in Belfast is smaller than the one here in Barcelona.
+				br
+				| Amaya: Belfast sounds like a nice place. So why are you living here in Barcelona?
+				br
+				| Andy: Well, I like it here, and .... this is where my girlfriend lives.
+				br
+				| Amaya: Oh, right. That's a good reason.
+				br
+				| Andy: Yeah. I think so.
+		p.cuadro
+			| Where is Andy from?
+			input(type='radio', name='q1a', value='1', checked='checked')
+			| Belfast
+			input(type='radio', name='q1a', value='0')
+			| Barcelona
+			br
+			| Where does Andy live?
+			input(type='radio', name='q1b', value='1', checked='checked')
+			| Belfast
+			input(type='radio', name='q1b', value='0')
+			| Barcelona
+		p
+			center
+				button.eval(data-target='t1', data-draw='z1') Check answers
+	form#t2
+		p
+			b.instrucciones 2. Read again. Are these sentences true or false? 
+		p
+			ol
+				li.letra
+					| Barcelona is hotter than Belfast.
+					br
+					input(type='radio', name='q2a', value='1', checked='checked')
+					| true
+					input(type='radio', name='q2a', value='0')
+					| false
+					p
+						li.letra
+							| Barcelona is smaller than Belfast.
+							br
+							input(type='radio', name='q2b', value='1', checked='checked')
+							| true
+							input(type='radio', name='q2b', value='0')
+							| false
+							p
+								li.letra
+									| Transportation is better in Belfast.
+									br
+									input(type='radio', name='q2c', value='1', checked='checked')
+									| true
+									input(type='radio', name='q2c', value='0')
+									| false
+									p
+										li.letra
+											| It's more expensive to eat in restaurants in Belfast.
+											br
+											input(type='radio', name='q2d', value='1', checked='checked')
+											| true
+											input(type='radio', name='q2d', value='0')
+											| false
+											p
+												li.letra
+													| Beer is cheaper in Belfast.
+													br
+													input(type='radio', name='q2e', value='1', checked='checked')
+													| true
+													input(type='radio', name='q2e', value='0')
+													| false
+													p
+														li.letra
+															| Andy likes living in Barcelona.
+															br
+															input(type='radio', name='q2f', value='1', checked='checked')
+															| true
+															input(type='radio', name='q2f', value='0')
+															| false
+															p
+		p
+			center
+				button.eval(data-target='t2') Check answers
+	form#t3
+		p
+			b.instrucciones 3. Read again. Which city do the sentences refer to? 
+			ol
+				li.letra
+					| It rains a lot.
+					input(type='radio', name='q3a', value='1', checked='checked')
+					| Belfast
+					input(type='radio', name='q3a', value='0')
+					| Barcelona
+					li.letra
+						| It has a hot climate.
+						input(type='radio', name='q3b', value='1', checked='checked')
+						| Belfast
+						input(type='radio', name='q3b', value='0')
+						| Barcelona
+						li.letra
+							| There aren't many tall buildings.
+							input(type='radio', name='q3c', value='1', checked='checked')
+							| Belfast
+							input(type='radio', name='q3c', value='0')
+							| Barcelona
+							li.letra
+								| There isn't a subway.
+								input(type='radio', name='q3d', value='1', checked='checked')
+								| Belfast
+								input(type='radio', name='q3d', value='0')
+								| Barcelona
+								li.letra
+									| It has a bigger port.
+									input(type='radio', name='q3e', value='1', checked='checked')
+									| Belfast
+									input(type='radio', name='q3e', value='0')
+									| Barcelona
+									li.letra
+										| Andy's girlfriend lives there.
+										input(type='radio', name='q3f', value='1', checked='checked')
+										| Belfast
+										input(type='radio', name='q3f', value='0')
+										| Barcelona
+		p
+			center
+				button.eval(data-target='t3') Check answers
+	form#t4
+		p
+			b.instrucciones 4. Put the words in order to make the sentences.
+		p
+			ol
+				li.letra
+					| tall aren't There buildings many.
+					br
+					input(size='40', name='q4a')
+					| .
+					p
+						li.letra
+							| downtown quite there is nice are and are The more parks than  here there.
+							br
+							input(size='75', name='q4b')
+							| .
+							p
+								li.letra
+									| problem transportation Belfast is a Though in.
+									br
+									input(size='40', name='q4c')
+									| .
+									p
+										li.letra
+											| the very isn`t a good subway and bus There service isn't.
+											br
+											input(size='70', name='q4d')
+											| .
+											p
+												li.letra
+													| is in much Barcelona better Transportation.
+													br
+													input(size='40', name='q4e')
+													| .
+													p
+		button.eval(data-target='t4') Check answers
+	#z1
+	#z2
+	#z3
+	#z4

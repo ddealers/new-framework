@@ -1,0 +1,199 @@
+div#U2D
+	script.
+		unitans.U2D = {
+			q1a:'e',
+			q1b:'c',
+			q1c:'f',
+			q1d:'a',
+			q1e:'g',
+			q1f:'d',
+			q1g:'b',
+			q2a:'or are you studying',
+			q2b:'do you do',
+			q2c:'Are you married',
+			q2d:'mind children',
+			q2e:'do you like doing in your free time',
+			q2f:'Do you smoke',
+			q2g:'do you have any pets',
+			q4a:'Do you smoke',
+			q4b:'Do you work or are you studying',
+			q4c:'Are you married',
+			q4d:'Do you have any pets',
+			q4e:'Do you mind children',
+			q4f:'What do you like doing in your free time'
+		}
+	#t0
+		b.u3tit Home Alone
+		p
+			b.u3 Renting a room
+	p
+		form#t1
+			b
+				| 1. Andy wants to share a room in an apartment. He is being interviewed by the tenants, Sabina and Lawrence. Match the questions with the answers.
+	p
+		table(cellpadding='5', cellspacing='5')
+			tr
+				td
+					| 1.Do you work or are you studying?
+					br
+					input(size='1', name='q1a')
+				td
+					| a) Not at all. I have two of my own.
+			tr
+				td
+					| 2.What do you do, exactly?
+					br
+					input(size='1', name='q1b')
+				td
+					| b) No. In fact, I am allergic to cats.
+			tr
+				td
+					| 3.Are you married?
+					br
+					input(size='1', name='q1c')
+				td
+					| c) I&apos;m a computer programmer.
+			tr
+				td
+					| 4.Do you mind children?
+					br
+					input(size='1', name='q1d')
+				td
+					| d) No, I don&apos;t. I gave up years ago.
+			tr
+				td
+					| 5.What do you like doing in your free time?
+					br
+					input(size='1', name='q1e')
+				td
+					| e) Well, as a matter of fact, I&apos;m between jobs at the moment.
+			tr
+				td
+					| 6.We&apos;re all nonsmokers.
+					br
+					| Do you smoke?
+					br
+					input(size='1', name='q1f')
+				td
+					| f) I was, but i&apos;m on my own now.
+			tr
+				td
+					| 7.And do you have any pets?
+					br
+					input(size='1', name='q1g')
+				td
+					| g) Nothing much. I listen to music, watch TV.
+	p
+		center
+			button.eval(data-target='t1') Check answers
+	form#t2
+		p
+			b 2. Try and complete the dialog.
+		p
+			| Sabina: So, Andy, do you like the room?
+		p
+			| Andy: Yes, it&apos;s exactly what I&apos;m looking for.
+		p
+			| Sabina: Just a few questions, if you don&apos;t mind.
+		p
+			| Andy: Not at all.
+		p
+			| Sabina: Do you work 
+			input(size='20', name='q2a')
+			| ?
+		p
+			| Andy: Well, as a matter of fact, I&apos;m between jobs at the moment.
+		p
+			| Sabina: What 
+			input(size='9', name='q2b')
+			| , exactly?
+		p
+			| Andy: I&apos;m a computer programmer.
+		p
+			| Sabina: 
+			input(size='20', name='q2c')
+			| ?
+		p
+			| Andy: I was, but I&apos;m on my own now.
+		p
+			| Lawrence: Do you 
+			input(size='15', name='q2d')
+			| ?
+		p
+			| Andy: Not at all. I have two of my own.
+		p
+			| Lawrence: What 
+			input(size='25', name='q2e')
+			| ?
+		p
+			| Andy: Nothing much. I listen to music, watch TV.
+		p
+			| Sabina: We&apos;re all nonsmokers. 
+			input(size='15', name='q2f')
+			| ?
+		p
+			| Andy: No, I don&apos;t. I gave it up years ago.
+		p
+			| Sabina: And 
+			input(size='20', name='q2g')
+			| ?
+		p
+			| Andy: No. In fact, I am allergic to cats.
+		p
+			center
+				button.eval(data-target='t2') Check answers
+	form#t3
+		p
+			b
+				| 3. Sabina and Lawrence are interviewing another possible roommate. Use questions from the interview with Andy to complete the conversation.
+		p
+			| Sabina:&#x9;So, Lisa, do you like the room?
+		p
+			| Lisa: Yes, I do. It&apos;s very nice.
+		p
+			| Sabina: Do you mind if we ask you a few questions?
+		p
+			| Lisa: Not at all.
+		p
+			| Lawrence: 
+			input(size='35', name='q4a')
+			| ?
+		p
+			| Lisa: Yes, I do. But only one or two in the evening.
+		p
+			| Lawrence: 
+			input(size='35', name='q4b')
+			| ?
+		p
+			| Lisa: I&apos;m studying law.
+		p
+			| Sabina: 
+			input(size='35', name='q4c')
+			| ?
+		p
+			| Lisa: Yes, I am. But we&apos;re separated.
+		p
+			| Sabina: 
+			input(size='35', name='q4d')
+			| ?
+		p
+			| Lisa: Only a goldfish.
+		p
+			| Lawrence: 
+			input(size='35', name='q4e')
+			| ?
+		p
+			| Lisa: Not at all. I&apos;m very fond of them.
+		p
+			| Lawrence: 
+			input(size='35', name='q4f')
+			| ?
+		p
+			| Lisa: Going to the movies, swimming, going out with friends.
+		p
+			center
+				button.eval(data-target='t3') Check answers
+	#z1
+	#z2
+	#z3
+	#z4

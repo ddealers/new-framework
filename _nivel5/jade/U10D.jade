@@ -1,0 +1,89 @@
+div#U10D
+		script.
+				unitans.U10D = {
+					q1a:'I\'m looking for',
+					q1b:'What sort of',
+					q1c:'I can\'t remember what it\'s called',
+					q1d:'that\'s the one',
+					q1e:'Have you got it in stock',
+					q1f:'is there anything else you\'d recommend',
+					q1g:'I\'ll take'
+				}
+		form#t1
+			b.inst5
+				| Buying a video/DVD
+				p
+					b.tablau2
+						| 1. Complete this dialog in a video store by typing the missing phrases in the boxes.
+					p
+						center
+							a(href='snd/u10d-1.mp3')
+								img(src='img/ob/s-1.jpg', border='0')
+						p
+							table(cellpadding='0', cellspacing='10')
+								tr
+									td A: Hello. Do you need any help?
+								tr
+									td
+										| B. Yes.
+										input(type='text', name='q1a', size='20')
+										| something to get my nephew for Christmas.
+								tr
+									td A: How old is he?
+								tr
+									td B: He's 18.
+								tr
+									td
+										| A: And
+										input(type='text', name='q1b', size='20')
+										| films does he like?
+								tr
+									td
+										| B: Last time I saw him he was going on about this film with John Travolta in it.
+										input(type='text', name='q1c', size='33')
+										| exactly . Something "fiction".
+								tr
+									td
+										| A:
+										i Pulp Fiction
+										| ?
+								tr
+									td
+										| B: Yes,
+										input(type='text', name='q1d', size='20')
+										| . Who's it directed by?
+								tr
+									td A: Quentin Tarantino.
+								tr
+									td
+										| B: Ah, yes, now I remember.
+										input(type='text', name='q1e', size='25')
+										| ?
+								tr
+									td A: No, I'm afraid we haven't. We've sold out.
+								tr
+									td
+										| B: Damn! Well,
+										input(type='text', name='q1f', size='38')
+										| ?
+								tr
+									td
+										| A: Well, if he likes Tarantino, he'd probably enjoy this.
+										i Fargo
+										| . It's by the Cohen brothers.
+								tr
+									td
+										| B: Never heard of them, but
+										input(type='text', name='q1g', size='20')
+										| it. I'm sure he'll like it if you say so.
+							p
+								b Now listen to the dialog and then check your answers.
+								p
+									center
+										a(href='snd/u10d-1.mp3')
+											img(src='img/ob/s-1.jpg', border='0')
+									p
+										center
+											button.eval(data-target='t1') Check answers
+										p
+		#z1

@@ -1,0 +1,148 @@
+div#U2D
+	script.
+		unitans.U2D = {
+			q1a:'1',
+			q1b:'2',
+			q1c:'1',
+			q1d:'3',
+			q1e:'1',
+			q1f:'1',
+			q1g:'2',
+			q1h:'2',
+			q1i:'1',
+			q1j:'3'
+		}
+	#t0
+		img(src='img/u2.jpg')
+		p
+			b
+				i Speak, talk, say, pronounce
+			p
+	form#t1
+		b 1. Choose the best word to complete each sentence.
+		p
+			ol
+				li
+					| Can you
+					select(name='q1a')
+						option(value='x')
+							| Choose Answer
+							option(value='1')
+								| speak
+								option(value='2')
+									| talk
+									option(value='3')
+										| pronounce
+					| Spanish? "Yes, but not very well."
+					li
+						| How do you
+						select(name='q1b')
+							option(value='x')
+								| Choose Answer
+								option(value='1')
+									| say
+									option(value='2')
+										| pronounce
+										option(value='3')
+											| speak
+						| this word?
+						li
+							| Parrots can't really
+							select(name='q1c')
+								option(value='x')
+									| Choose Answer
+									option(value='1')
+										| talk
+										option(value='2')
+											| speak
+											option(value='3')
+												| say
+							| they just imitate people.
+							li
+								| Can you come to the party? Please
+								select(name='q1d')
+									option(value='x')
+										| Choose Answer
+										option(value='1')
+											| speak
+											option(value='2')
+												| talk
+												option(value='3')
+													| say
+								| "Yes"!
+								li
+									| The first word a baby
+									select(name='q1e')
+										option(value='x')
+											| Choose Answer
+											option(value='1')
+												| says
+												option(value='2')
+													| utters
+													option(value='3')
+														| speaks
+									| is usually "Mama."
+									li
+										| I was
+										select(name='q1f')
+											option(value='x')
+												| Choose Answer
+												option(value='1')
+													| speaking
+													option(value='2')
+														| seeing
+														option(value='3')
+															| saying
+										| to Ben yesterday about his new job.
+										li
+											| The problem with our relationship is that we don't
+											select(name='q1g')
+												option(value='x')
+													| Choose Answer
+													option(value='1')
+														| speaks
+														option(value='2')
+															| talk
+															option(value='3')
+																| say
+											| anymore.
+											li
+												| Can you
+												select(name='q1h')
+													option(value='x')
+														| Choose Answer
+														option(value='1')
+															| say
+															option(value='2')
+																| tell
+																option(value='3')
+																	| speak
+												| me the time, please?
+												li
+													| "I can't come to the party," he
+													select(name='q1i')
+														option(value='x')
+															| Choose Answer
+															option(value='1')
+																| said
+																option(value='2')
+																	| told
+																	option(value='3')
+																		| spoke
+													| .
+													li
+														| In "castle" the "t" is not
+														select(name='q1j')
+															option(value='x')
+																| Choose Answer
+																option(value='1')
+																	| said
+																	option(value='2')
+																		| spoken
+																		option(value='3')
+																			| pronunced
+														| .
+			p
+				center
+					button.eval(data-target='t1') Check answers
+	#z1

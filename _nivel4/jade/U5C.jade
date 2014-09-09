@@ -1,0 +1,105 @@
+div#U5C
+	script.
+		unitans.U5C = {
+			q2a:'This bruise was caused by the fall',
+			q2b:'Because she had an operation she needs crutches',
+			q2c:'A fall down the stairs led to a sprained ankle',
+			q2d:'Her spinal problems are due to a car accident many years ago',
+			q2e:'Third degree burns can cause death',
+			q2f:'Since he was bitten by a dog, he had to have a rabies injection',
+			q2g:'Wearing too tight shoes resulted in a blister',
+			q2h:'Because of walking on some broken glass, the child cut his foot badly'
+		}
+	#t0
+		img.logo4(src='img/u5.jpg')
+		p
+			b.u4tit Expressing cause & result  
+			br
+	p
+		form#t1
+			p
+				b
+					| 1. Re-write these sentences to make new sentences that are similar in meaning. Use the word(s) in bold. The first one has been done for you as an example.
+				p
+					span#m1
+						| The infection was caused by a sting. (
+						b due to
+						| )
+						br
+						b  The infection was due to a sting. 
+					p
+						ol
+							li
+								| The fall resulted in this bruise. (
+								b caused by
+								| )
+								br
+								input(size='60', name='q2a')
+								| .
+								p
+									li
+										| Because of the operation she needs
+										| crutches. (
+										b Because she
+										| )
+										br
+										input(size='60', name='q2b')
+										| .
+										p
+											li
+												| Due to a fall down the stairs, she sprained
+												| her ankle. (
+												b led to
+												| )
+												br
+												input(size='60', name='q2c')
+												| .
+												p
+													li
+														| Her spinal problems were caused by a car
+														| accident many years ago. (
+														b Due to
+														| )
+														br
+														input(size='60', name='q2d')
+														| .
+														p
+															li
+																| Third degree burns can lead to death. (
+																b cause
+																| )
+																br
+																input(size='60', name='q2e')
+																| .
+																p
+																	li
+																		| Because of a dog bite, he had to have a rabies
+																		| injection. (
+																		b Since
+																		| )
+																		br
+																		input(size='60', name='q2f')
+																		| .
+																		p
+																			li
+																				| The blister was caused by wearing too tight
+																				| shoes. (
+																				b resulted in
+																				| )
+																				br
+																				input(size='60', name='q2g')
+																				| .
+																				p
+																					li
+																						| The child cut his foot badly because he walked
+																						| on some broken glass. (
+																						b because of
+																						| )
+																						br
+																						input(size='60', name='q2h')
+																						| .
+																						p
+						p
+							center
+								button.eval(data-target='t1') Check answers
+		#z1

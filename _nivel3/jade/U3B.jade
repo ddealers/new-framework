@@ -1,0 +1,197 @@
+div#U3B
+	script.
+		unitans.U3B = {
+			q1a:'3',
+			q1b:['1','3'],
+			q2a:'2',
+			q3a:'0',
+			q3b:'0',
+			q3c:'1',
+			q3d:'1',
+			q3e:'1',
+			q3f:'0',
+			q4a:'think',
+			q4b:'fell',
+			q4c:'forgotten',
+			q4d:'thought',
+			q4e:'felt',
+			q4f:'seen',
+			q4g:'taught'
+		}
+	#t0
+		b.u3tit Body Matters
+		p
+			b.u3tit Problem page from health magazine
+	form#t1
+		p
+			b
+				| 1. You are going to read part of the problem page from a health magazine called &quot;Healthy Life, Happy Life&quot;. First look at the four questions below.
+		p
+			table(cellpadding='5', border='1')
+				tr
+					td
+						b Question A
+						br
+						| When I use my computer I often get aches and pains in my neck and back. Can you give me some advice?
+		p
+			b Question B
+			br
+			| My daughter spends lots of time working at the computer and she also spends time playing computer games. I&apos;m worried that this might not be very good for her. What should I do?
+		p
+			b Question C
+			br
+			| For my job I do a lot of work at the computer and I also spend time at home surfing the Internet. Recently, I&apos;ve started to get pain in my wrist when I use the computer. A friend thinks I could have RSI. What is it? Do I have RSI?
+		p
+			b Question D
+			br
+			| Could you suggest any exercises for people like myself who spend a lot of time at the computer?
+		p
+			b
+				| Now read the text and then decide which of the questions (A, B,C, or D ) are answered.
+		p
+			table(cellpadding='5', bgcolor='#ffbc90')
+				tr
+					td
+						| Your problems - answered!
+		p
+			b Answer 1
+			br
+			| Yes, there are lots of things you can do. Here is one for the neck and another for the shoulders and back.
+		p
+			| For the first one, stand or sit with your arms by your sides and look straight ahead. Slowly bend your head to the left towards your shoulder. Go as far as you can and hold the position for five seconds. Do this exercise five times on both sides.
+		p
+			| For the arms and shoulders, bend your left arm and hold your left elbow with your right arm. Gently push your left arm over your right shoulder. This stretches the shoulder and muscles of the back. Repeat five times with each arm.
+		p
+			| Do these exercises a few times every day. You can also find lots of books and websites which have exercises that are great for people who work with computers.
+		p
+			b Answer 2
+			br
+			| Not necessarily. RSIrepetitive strain injurycan occur through repeating the same physical movements time after time. It can be a problem for musicians, people who play sports and those who use computers a lot, for example. You could be experiencing the first symptoms. Here are a few tips.
+		p
+			| You should always keep your wrists straight and flatnever bend them in any direction. Move the hands from the arms, not from the wrists. Are your wrists flat when you type? This is best. You can adjust your chair and keyboard to do this. Also remember to take lots of breaks to give your body a chance to rest.
+		p
+			| Using the mouse can also cause problems. Alternate hands sometimes with the mouse and learn how to use more of the keyboard controls instead of the mouse. If the symptoms persist you should see a doctor.
+		p
+			table(cellspacing='5', cellpadding='5', border='1')
+				tr
+					td Answer 1 
+					td
+						input(type='radio', name='q1a', value='1', checked='')
+						| Question A
+					td
+						input(type='radio', name='q1a', value='2', checked='')
+						| Question B
+					td
+						input(type='radio', name='q1a', value='3', checked='')
+						| Question C
+					td
+						input(type='radio', name='q1a', value='4', checked='')
+						| Question D
+				tr
+					td Answer 2
+					td
+						input(type='radio', name='q1b', value='1', checked='')
+						| Question A
+					td
+						input(type='radio', name='q1b', value='2', checked='')
+						| Question B
+					td
+						input(type='radio', name='q1b', value='3', checked='')
+						| Question C
+					td
+						input(type='radio', name='q1b', value='4', checked='')
+						| Question D
+		p
+			center
+				button.eval(data-target='t1') Check answers
+	form#t2
+		p
+			b
+				| 2. Choose the pictures which best represent the two exercises described in answer 1 in the text.
+		p
+			center
+				img(src='img/u3a.jpg')
+				p
+					table(cellspacing='5', cellpadding='5')
+						tr
+							td
+								| The two pictures which best
+								| represent the two exercises are:
+						tr
+							td
+								input(type='radio', name='q2a', value='1', checked='')
+								| A &amp; B 
+								input(type='radio', name='q2a', value='2')
+								| A &amp; C
+						tr
+							td
+								input(type='radio', name='q2a', value='3')
+								| A &amp; D 
+								input(type='radio', name='q2a', value='4')
+								| B &amp; C
+						tr
+							td
+								input(type='radio', name='q2a', value='5')
+								| B &amp; D 
+								input(type='radio', name='q2a', value='6')
+								| C &amp; D
+					button.eval(data-target='t2') Check answers
+	form#t3
+		p
+			b 3. Answer the following questions True or False.
+		p
+			ol
+				li
+					| RSI means Repeated Strain Injury.
+					br
+					input(type='radio', name='q3a', value='1', checked='')
+					| true  
+					input(type='radio', name='q3a', value='0')
+					| false
+		p
+			li
+				| RSI is caused by doing too much heavy, physical work.
+				br
+				input(type='radio', name='q3b', value='1', checked='')
+				| true  
+				input(type='radio', name='q3b', value='0')
+				| false
+		p
+			li
+				| RSI isn&apos;t only a problem for people who work with computers.
+				br
+				input(type='radio', name='q3c', value='1', checked='')
+				| true  
+				input(type='radio', name='q3c', value='0')
+				| false
+		p
+			li
+				| It&apos;s bad to bend your wrists when you type.
+				br
+				input(type='radio', name='q3d', value='1', checked='')
+				| true  
+				input(type='radio', name='q3d', value='0')
+				| fals
+		p
+			li
+				| It&apos;s a good idea to change hands occasionally when using the mouse.
+				br
+				input(type='radio', name='q3e', value='1', checked='')
+				| true  
+				input(type='radio', name='q3e', value='0')
+				| false
+		p
+			li
+				| The writer suggests going to see a doctor immediately.
+				br
+				input(type='radio', name='q3f', value='1', checked='')
+				| true  
+				input(type='radio', name='q3f', value='0')
+				| false
+		p
+			center
+				button.eval(data-target='t3') Check answers
+	#z1
+	#z2
+	#z3
+	#z4

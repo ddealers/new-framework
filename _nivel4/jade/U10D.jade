@@ -1,0 +1,494 @@
+div#U10D
+	script.
+		unitans.U10D = {
+			q1a:'8',
+			q1b:'5',
+			q1c:'2',
+			q1d:'7',
+			q1e:'3',
+			q1f:'4',
+			q1g:'6',
+			q1h:'1',
+			q2a:'Turn your head to the left',
+			q2b:'Touch your right shoulder with your left arm',
+			q2c:'Raise your arms above your head',
+			q2d:'Stretch your arms and bend your wrists up and down',
+			q2e:'Bend from the hip and touch your toes',
+			q2f:'Lower your head and look at your feet',
+			q2g:'Hold your left elbow with your right hand',
+			q2h:'Stretch your arms behind your back',
+			q3a:'1',
+			q3b:'2',
+			q3c:'1',
+			q3d:'1',
+			q4a:'1',
+			q4b:'1',
+			q4c:'2',
+			q4d:'1',
+			q4e:'1',
+			q4f:'2',
+			q4g:'1',
+			q4h:'2',
+			q5a:'2',
+			q5b:'3'
+		}
+	form#t0
+		img.logo4(src='img/u10.jpg')
+		p
+			b.u4tit
+				i Are you sitting comfortably?
+			br
+	form#t1
+		b 1. Match the pictures below to the correct instructions.
+		p
+			center
+				img(src='img/u10d1.jpg')
+			p
+				ol
+					li
+						| Turn your head to the left.
+						br
+						select(name='q1a')
+							option(value='x')
+								| Choose Answer
+								option(value='1')
+									| A
+									option(value='2')
+										| B
+										option(value='3')
+											| C
+											option(value='4')
+												| D
+												option(value='5')
+													| E
+													option(value='6')
+														| F
+														option(value='7')
+															| G
+															option(value='8')
+																| H
+						p
+							li
+								| Touch your right shoulder with your left arm.
+								br
+								select(name='q1b')
+									option(value='x')
+										| Choose Answer
+										option(value='1')
+											| A
+											option(value='2')
+												| B
+												option(value='3')
+													| C
+													option(value='4')
+														| D
+														option(value='5')
+															| E
+															option(value='6')
+																| F
+																option(value='7')
+																	| G
+																	option(value='8')
+																		| H
+								p
+									li
+										| Raise your arms above your head.
+										br
+										select(name='q1c')
+											option(value='x')
+												| Choose Answer
+												option(value='1')
+													| A
+													option(value='2')
+														| B
+														option(value='3')
+															| C
+															option(value='4')
+																| D
+																option(value='5')
+																	| E
+																	option(value='6')
+																		| F
+																		option(value='7')
+																			| G
+																			option(value='8')
+																				| H
+										p
+											li
+												| Stretch your arms and bend your wrists up and down.
+												br
+												select(name='q1d')
+													option(value='x')
+														| Choose Answer
+														option(value='1')
+															| A
+															option(value='2')
+																| B
+																option(value='3')
+																	| C
+																	option(value='4')
+																		| D
+																		option(value='5')
+																			| E
+																			option(value='6')
+																				| F
+																				option(value='7')
+																					| G
+																					option(value='8')
+																						| H
+												p
+													li
+														| Bend from the hip and touch your toes
+														br
+														select(name='q1e')
+															option(value='x')
+																| Choose Answer
+																option(value='1')
+																	| A
+																	option(value='2')
+																		| B
+																		option(value='3')
+																			| C
+																			option(value='4')
+																				| D
+																				option(value='5')
+																					| E
+																					option(value='6')
+																						| F
+																						option(value='7')
+																							| G
+																							option(value='8')
+																								| H
+														p
+															li
+																| Lower your head and look at your feet
+																br
+																select(name='q1f')
+																	option(value='x')
+																		| Choose Answer
+																		option(value='1')
+																			| A
+																			option(value='2')
+																				| B
+																				option(value='3')
+																					| C
+																					option(value='4')
+																						| D
+																						option(value='5')
+																							| E
+																							option(value='6')
+																								| F
+																								option(value='7')
+																									| G
+																									option(value='8')
+																										| H
+																p
+																	li
+																		| Hold your left elbow with your right hand
+																		br
+																		select(name='q1g')
+																			option(value='x')
+																				| Choose Answer
+																				option(value='1')
+																					| A
+																					option(value='2')
+																						| B
+																						option(value='3')
+																							| C
+																							option(value='4')
+																								| D
+																								option(value='5')
+																									| E
+																									option(value='6')
+																										| F
+																										option(value='7')
+																											| G
+																											option(value='8')
+																												| H
+																		p
+																			li
+																				| Stretch your arms behind your back
+																				br
+																				select(name='q1h')
+																					option(value='x')
+																						| Choose Answer
+																						option(value='1')
+																							| A
+																							option(value='2')
+																								| B
+																								option(value='3')
+																									| C
+																									option(value='4')
+																										| D
+																										option(value='5')
+																											| E
+																											option(value='6')
+																												| F
+																												option(value='7')
+																													| G
+																													option(value='8')
+																														| H
+																				p
+																					center
+																						button.eval(data-target='t1') Check answers
+	p
+		form#t2
+			p
+				b
+					| 2. Now look at the pictures again. Put the words below each picture in order to complete the sentences.
+				p
+					ol
+						li
+							| your left head Turn the to
+							br
+							input(size='40', name='q2a')
+							| .
+							p
+								li
+									| arm with your Touch your right left shoulder
+									br
+									input(size='40', name='q2b')
+									| .
+									p
+										li
+											| arms Raise head obove your your
+											br
+											input(size='40', name='q2c')
+											| .
+											p
+												li
+													| up your arms Stretch bend wrists down and your and
+													br
+													input(size='40', name='q2d')
+													| .
+													p
+														li
+															| toes touch hip the from Bend your and
+															br
+															input(size='40', name='q2e')
+															| .
+															p
+																li
+																	| feet at head look Lower your and your
+																	br
+																	input(size='40', name='q2f')
+																	| .
+																	p
+																		li
+																			| hand elbow with your Hold right left your
+																			br
+																			input(size='40', name='q2g')
+																			| .
+																			p
+																				li
+																					| behind your back Stretch arms your
+																					br
+																					input(size='40', name='q2h')
+																					| .
+																					p
+					p
+						center
+							button.eval(data-target='t2') Check answers
+		form#t3
+			p
+				b
+					| 3. Using adverbs with instructions
+					p
+						| Usually, the word order for instructions like those in exercise 1 is;
+						p
+							li
+								| verb + object + prepositional phrase
+								li
+									span#m1 Turn + your head + to the left. 
+									p
+										| Look at the four sentences below. Which ones are grammatically correct?
+				p
+					ol
+						li
+							| Slowly turn your head to the left.
+							br
+							select(name='q3a')
+								option(value='x')
+									| Choose Answer
+									option(value='1')
+										| correct
+										option(value='2')
+											| incorrect
+							p
+								li
+									| Turn slowly your head to the left.
+									br
+									select(name='q3b')
+										option(value='x')
+											| Choose Answer
+											option(value='1')
+												| correct
+												option(value='2')
+													| incorrect
+									p
+										li
+											| Turn your head slowly to the left.
+											br
+											select(name='q3c')
+												option(value='x')
+													| Choose Answer
+													option(value='1')
+														| correct
+														option(value='2')
+															| incorrect
+											p
+												li
+													| Turn your head to the left slowly.
+													br
+													select(name='q3d')
+														option(value='x')
+															| Choose Answer
+															option(value='1')
+																| correct
+																option(value='2')
+																	| incorrect
+													p
+					center
+						button.eval(data-target='t3') Check answers
+		form#t4
+			p
+				b
+					| 4. Look at the instructions below and decide if the adverb is in the correct place.
+				p
+					ol
+						li
+							| Slowly bend your head to the left.
+							br
+							select(name='q4a')
+								option(value='x')
+									| Choose Answer
+									option(value='1')
+										| correct
+										option(value='2')
+											| incorrect
+							p
+								li
+									| Stretch your arms carefully behind your back.
+									br
+									select(name='q4b')
+										option(value='x')
+											| Choose Answer
+											option(value='1')
+												| correct
+												option(value='2')
+													| incorrect
+									p
+										li
+											| Turn gently your foot to the left.
+											br
+											select(name='q4c')
+												option(value='x')
+													| Choose Answer
+													option(value='1')
+														| correct
+														option(value='2')
+															| incorrect
+											p
+												li
+													| Raise your shoulders quickly towards the ceiling.
+													br
+													select(name='q4d')
+														option(value='x')
+															| Choose Answer
+															option(value='1')
+																| correct
+																option(value='2')
+																	| incorrect
+													p
+														li
+															| Bend your left arm across your chest quickly.
+															br
+															select(name='q4e')
+																option(value='x')
+																	| Choose Answer
+																	option(value='1')
+																		| correct
+																		option(value='2')
+																			| incorrect
+															p
+																li
+																	| Stretch carefully your arms in front of you.
+																	br
+																	select(name='q4f')
+																		option(value='x')
+																			| Choose Answer
+																			option(value='1')
+																				| correct
+																				option(value='2')
+																					| incorrect
+																	p
+																		li
+																			| Carefully hold your left elbow with your right hand.
+																			br
+																			select(name='q4g')
+																				option(value='x')
+																					| Choose Answer
+																					option(value='1')
+																						| correct
+																						option(value='2')
+																							| incorrect
+																			p
+																				li
+																					| Bend gently your wrists up and down.
+																					br
+																					select(name='q4h')
+																						option(value='x')
+																							| Choose Answer
+																							option(value='1')
+																								| correct
+																								option(value='2')
+																									| incorrect
+																					p
+					center
+						button.eval(data-target='t4') Check answers
+		form#t5
+			p
+				b
+					| 5. Exercises for tired computer workers
+					p
+						| Look at the two exercises below designed for people who work a lot on the computer. Match them to the correct picture.
+				p
+					b Exercise 1
+					| Stand up straight and relaxed with your feet about shoulder width apart. Raise your left arm and then slowly bend it behind your head so that it touches the back of your neck. Now take hold of your left elbow with your right hand and gently push the elbow so that your hand moves down between your shoulders. Stretch as far as you can comfortably go and hold this position for about five seconds. This exercise is designed to stretch the arm, shoulder and upper-back. Repeat twice with each arm.
+					p
+						center
+							table(cellpadding='2', cellspacing='2', width='400')
+								tr
+									td(colspan='3')
+										img(src='img/u10d5.jpg')
+								tr
+									td
+										input(type='radio', name='q5a', value='1', checked='checked')
+									td
+										input(type='radio', name='q5a', value='2')
+									td
+										input(type='radio', name='q5a', value='3')
+						p
+							b Exercise 2
+							| You can do this exercise sitting or standing. Put your arms straight out in front of you at about shoulder height. Relax. Now gently bend your wrists and raise your hands. Carefully stretch the hands back as far as they will go. Make sure you keep your fingers straight and relaxed. Hold this position for a couple of seconds and then stretch back a little bit more. Now lower your hands again bringing them back to a flat position. Repeat the exercise three times and relax.
+							p
+								center
+									table(cellpadding='2', cellspacing='2', width='400')
+										tr
+											td(colspan='3')
+												img(src='img/u10d6.jpg')
+										tr
+											td
+												input(type='radio', name='q5b', value='1', checked='checked')
+											td
+												input(type='radio', name='q5b', value='2')
+											td
+												input(type='radio', name='q5b', value='3')
+								p
+									center
+										button.eval(data-target='t5') Check answers
+		#z1
+		#z2
+		#z3
+		#z4
+		#z5

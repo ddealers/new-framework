@@ -1,0 +1,392 @@
+div#U2B
+	script.
+		unitans.U2B = {
+			q1a:'3',
+			q2a:'a',
+			q2b:'d',
+			q2c:'b',
+			q2d:'c',
+			q3a:'2',
+			q3b:'1',
+			q3c:'2',
+			q3d:'1',
+			q3e:'1',
+			q3f:'2',
+			q3g:'2',
+			q3h:'1',
+			q3i:'2',
+			q3j:'1',
+			q3k:'2',
+			q3l:'1',
+			q3m:'2',
+			q3n:'1',
+			q3o:'1',
+			q3p:'2',
+			q4a:'happened',
+			q4b:'was',
+			q4c:'working',
+			q4d:'went',
+			q4e:'out',
+			q4f:'wasn\'t',
+			q4g:'working',
+			q4h:'went',
+			q4i:'went',
+			q4j:'was',
+			q4k:'throwing',
+			q4l:'wrote',
+			q4m:'read',
+			q4n:'phoned',
+			q5a:'d',
+			q5b:'b',
+			q5c:'e',
+			q5d:'a',
+			q5e:'f',
+			q5f:'c'
+		}
+	#t0
+		b.u2tit 2. Lives and Loves
+		p
+			b.u2 Past Simple and Past Continuous  
+			p
+	form#t1
+		b.inst2 1. Past Simple and Past Continuous verb forms
+		br
+		br
+		p.instrucciones
+			| For example:
+		br
+		p.letra
+			li.letra
+				span.rojo
+					| I worked on the weekend. =
+					b worked
+				| is a Past Simple form
+				li.letra
+					span.rojo
+						| I was working and the lights went out. =
+						b  was working
+					| is a Past Continuous form
+		p
+			b.instrucciones How many Past Continuous forms can you find in this story?
+		p
+			center
+				input.letra(type='radio', name='q1a', value='1')
+				| one
+				input.letra(type='radio', name='q1a', value='2')
+				| two
+				input.letra(type='radio', name='q1a', value='3')
+				| three
+				input.letra(type='radio', name='q1a', value='4')
+				| four
+				input.letra(type='radio', name='q1a', value='5')
+				| five
+		p
+			table(cellpadding='5', cellspacing='5', width='350')
+				tr
+					td.letra
+						| Dear Lucy,
+						p.letra
+							| I like my new job but last week something unexpected happened.
+							| I was working at night in my office on the tenth floor and suddenly the lights went out.
+							| The elevator wasn't working. I went to the fire escape door but it was locked. I went to the window. For three hours I was throwing pieces of paper out the window to people in the street. On the pieces of paper I wrote: Help! I can't get out! Call the police! Finally someone read a piece of paper and phoned the police. I was very tired and angry by then. The next day the people at work .....
+		p
+			center
+				button.eval(data-target='t1') Check answers
+	form#t2
+		p
+			b.instrucciones 2. Complete the rule.
+		p.letra
+			center
+				| 1. We use the Past Simple to describe:
+				br
+				input(size='1', name='q2a', maxlength='1')
+				br
+				input(size='1', name='q2b', maxlength='1')
+		p.letra
+			| 2. We use the Past Continuous to describe:
+			br
+			input(size='1', name='q2c', maxlength='1')
+			br
+			input(size='1', name='q2d', maxlength='1')
+		p
+			table(cellpadding='5', cellspacing='5', width='400', bgcolor='#ffbc90')
+				tr
+					td
+						| a) events or completed actions/what happened
+						br
+						| b) actions in progress/what was happening
+						br
+						| c) the situation/description of the scene
+						br
+						| d) past states
+		p
+			button.eval(data-target='t2') Check answers
+	form#t3
+		p
+			b.instrucciones 3. Choose the correct form of the verb to complete the sentences.
+		p
+			table(cellpadding='5', cellspacing='5', width='650', bgcolor='#ffbc90')
+				tr
+					td.cuadro
+						ol
+							li.letra
+								| I
+								select(name='q3a')
+									option(value='x')
+										| Choose Answer
+										option(value='1')
+											| worked
+											option(value='2')
+												| was working
+								| late and the lights
+								select(name='q3b')
+									option(value='x')
+										| Choose Answer
+										option(value='1')
+											| went out
+											option(value='2')
+												| were going out
+								| .
+								br
+								li.letra
+									| I
+									select(name='q3c')
+										option(value='x')
+											| Choose Answer
+											option(value='1')
+												| ran
+												option(value='2')
+													| was running
+									| for the bus and I
+									select(name='q3d')
+										option(value='x')
+											| Choose Answer
+											option(value='1')
+												| fell down
+												option(value='2')
+													| was falling down
+									| .
+									br
+									li.letra
+										| When the phone
+										select(name='q3e')
+											option(value='x')
+												| Choose Answer
+												option(value='1')
+													| rang
+													option(value='2')
+														| was ringing
+										| I
+										select(name='q3f')
+											option(value='x')
+												| Choose Answer
+												option(value='1')
+													| took
+													option(value='2')
+														| was taking
+										| a shower.
+										br
+										li.letra
+											| They
+											select(name='q3g')
+												option(value='x')
+													| Choose Answer
+													option(value='1')
+														| played
+														option(value='2')
+															| were playing
+											| with a candle and the fire
+											select(name='q3h')
+												option(value='x')
+													| Choose Answer
+													option(value='1')
+														| started
+														option(value='2')
+															| was starting
+											| .
+											br
+											li.letra
+												| He
+												select(name='q3i')
+													option(value='x')
+														| Choose Answer
+														option(value='1')
+															| held
+															option(value='2')
+																| was holding
+												| the baby when the ambulance
+												select(name='q3j')
+													option(value='x')
+														| Choose Answer
+														option(value='1')
+															| arrived
+															option(value='2')
+																| was arriving
+												| .
+												br
+												li.letra
+													| I
+													select(name='q3k')
+														option(value='x')
+															| Choose Answer
+															option(value='1')
+																| worked
+																option(value='2')
+																	| was working
+													| in a store when I
+													select(name='q3l')
+														option(value='x')
+															| Choose Answer
+															option(value='1')
+																| met
+																option(value='2')
+																	| was meeting
+													| my wife.
+													br
+													li.letra
+														| I
+														select(name='q3m')
+															option(value='x')
+																| Choose Answer
+																option(value='1')
+																	| walked
+																	option(value='2')
+																		| was walking
+														| in the park and I
+														select(name='q3n')
+															option(value='x')
+																| Choose Answer
+																option(value='1')
+																	| saw
+																	option(value='2')
+																		| was seeing
+														| an elephant.
+														br
+														li.letra
+															| The computer
+															select(name='q3o')
+																option(value='x')
+																	| Choose Answer
+																	option(value='1')
+																		| crashed
+																		option(value='2')
+																			| was crashing
+															| when I
+															select(name='q3p')
+																option(value='x')
+																	| Choose Answer
+																	option(value='1')
+																		| did
+																		option(value='2')
+																			| was doing
+															| my homework.
+		p
+			center
+				button.eval(data-target='t3') Check answers
+	form#t4
+		p
+			b.instrucciones
+				| 4. Complete the story using the verbs below. Type the correct form of the verbs into the boxes.
+		p
+			table(cellpadding='5', cellspacing='5', width='650')
+				tr.letra
+					td
+						| I like my new job but last week something unexpected
+						input(size='7', name='q4a')
+						| (1) . I
+						input(size='7', name='q4b')
+						input(size='7', name='q4c')
+						| (2) at night in my office on the tenth floor and
+						| suddenly the lights
+						input(size='7', name='q4d')
+						input(size='7', name='q4e')
+						| (3) . The elevator
+						input(size='7', name='q4f')
+						input(size='7', name='q4g')
+						| (4) . I
+						input(size='7', name='q4h')
+						| (5) to the fire escape door but it was
+						| locked. I
+						input(size='7', name='q4i')
+						| (6) to the window. For three hours I
+						input(size='7', name='q4j')
+						input(size='7', name='q4k')
+						| (7) pieces of paper out the window to people in the street.
+						| On the pieces of paper I
+						input(size='7', name='q4l')
+						| (8) : "Help! I can't get out! Call the
+						| police!" Finally someone
+						p.letra
+							input(size='7', name='q4m')
+							| (9) a piece of paper and
+							input(size='7', name='q4n')
+							| (10) the police.
+							| I was very tired and angry by then.
+		p
+			table.cuadro(cellpadding='5', cellspacing='5', width='650', bgcolor='ffbc90')
+				tr.letra
+					td write
+					td  happen
+					td  go
+					td  go
+					td  go out
+				tr.letra
+					td read
+					td  not work
+					td  work
+					td  phone
+					td  throw
+		p
+			center
+				button.eval(data-target='t4') Check answers
+	form#t5
+		p
+			b.instrucciones
+				| 5. Making questions
+		p.letra
+			| Do you remember Story 2 in READING? Match the questions to the answers.
+		br
+		p
+			table(cellpadding='5', cellspacing='5', width='600')
+				tr.letra
+					td a) Who was born in a car?
+					td.letra
+						| 1
+						input(size='1', maxlength='1', name='q5a')
+						| The father stopped the car.
+				tr.letra
+					td b) Who is the baby's mother?
+					td.letra
+						| 2
+						input(size='1', maxlength='1', name='q5b')
+						| Jean is the baby's mother.
+				tr.letra
+					td c) What was the father doing?
+					td.letra
+						| 3
+						input(size='1', maxlength='1', name='q5c')
+						| The father was holding the baby
+				tr.letra
+					td d) Who stopped the car?
+					td.letra
+						| 4
+						input(size='1', maxlength='1', name='q5d')
+						| Harry was born in a car.
+				tr.letra
+					td e) Who was holding the baby when the ambulance arrived?
+					td.letra
+						| 5
+						input(size='1', maxlength='1', name='q5e')
+						| He felt nervous and worried.
+				tr.letra
+					td f) How did the father feel?
+					td.letra
+						| 6
+						input(size='1', maxlength='1', name='q5f')
+						| He was driving through the downtown.
+		button.eval(data-target='t5') Check answers
+	#z1
+	#z2
+	#z3
+	#z4
+	#z5

@@ -1,0 +1,261 @@
+div#U4C
+	script.
+		unitans.U4C = {
+			q1a:'can I use',
+			q1b:'can I bring',
+			q1c:'has to buy',
+			q1d:'what do I have to do',
+			q1e:'have to fill out"',
+			q1f:'can I start',
+			q2a:'can',
+			q2b:'have',
+			q2c:'can',
+			q2d:'has',
+			q2e:'to',
+			q2f:'have',
+			q2g:'to',
+			q2h:'have',
+			q2i:'to',
+			q2j:'can',
+			q3a:'d',
+			q3b:'g',
+			q3c:'a',
+			q3d:'c',
+			q3e:'f',
+			q3f:'b',
+			q3g:'e',
+			q3h:'h'
+		}
+	#t0
+		b.u2tit 4. Sportsmania
+		p
+			b.u2 Joining a sports center 
+			p
+	form#t1
+		b.inst2 1. Complete the dialog below with these expressions.
+		.co1
+			br
+			p
+				| (C= customer, R= receptionist)
+			p.letra
+				| R: Can I help you?
+				br
+				br
+				| C: Yes. I'd like to join the center. But I have one or two questions. For
+				| example,
+				sub 1
+				input(size='13', name='q1a')
+				| the center's facilities all day?
+				br
+				br
+				| R: You can, but you have to be a full member. Our prices and opening hours
+				| are all in this leaflet.
+				br
+				br
+				| C: OK. Thank you. Another thing
+				sub 2
+				input(size='13', name='q1b')
+				| a friend with me?
+				br
+				br
+				| R: Yes, but your friend
+				sub 3
+				input(size='13', name='q1c')
+				| a one-day pass.
+				br
+				br
+				| C: Good. So,
+				sub 4
+				input(size='13', name='q1d')
+				| now to join?
+				br
+				br
+				| R: You
+				sub 5
+				input(size='13', name='q1e')
+				| this application form.
+				br
+				br
+				| C: Great. And when
+				sub 6
+				input(size='13', name='q1f')
+				| ?
+				br
+				br
+				| R: Three working days after you give me the form.
+			p
+				div
+					center
+						table(cellpadding='5', cellspacing='5', width='500', bgcolor='#ffbc90')
+							tr
+								td have to fill out
+								td can I start
+								td has to buy
+							tr
+								td can I bring
+								td can I use
+								td what do I have to do
+			p
+				center
+					button.eval(data-target='t1') Check answers
+	form#t2
+		p
+			b Read the complete dialog.
+		p
+			b  "A Matter of Sports"
+		p
+			| R: Can I help you?
+			br
+			br
+			| C: Yes, I'd like to join the center. But I have one or two questions.
+			br
+			br
+			| For example, can I use the center's facilities all day?
+			br
+			br
+			| R: You can, but you have to be a full member.
+			br
+			br
+			| Our prices and opening hours are all in this leaflet.
+			br
+			br
+			| C: OK. Thank you. Another thingCan I bring a friend with me?
+			br
+			br
+			| R: Yes, but your friend has to buy a one-day pass.
+			br
+			br
+			| C: Good. So, what do I have to do now to join?
+			br
+			br
+			| R: You have to fill out this application form.
+			br
+			br
+			| C: Great. And when can I start?
+			br
+			br
+			| R: Three days after you give me the form.
+		p
+			b 2. Here is the dialog again. Write in the missing words.
+		p.letra
+			b receptionist
+			| Can I help you?
+			br.letra
+			b customer
+			| Yes, I'd like to join the center. But I have one or two questions. For example,
+			nobr
+				sub 1
+				input(size='6', name='q2a')
+			| I use the center's facilities all day?
+			br
+			br
+			b receptionist
+			| You can, but you
+			sub 2
+			input(size='6', name='q2b')
+			| to be a full member. Our prices and opening hours are all in this leaflet.
+			br
+			br
+			b customer
+			| OK. Thank you. Another thing -
+			sub 3
+			input(size='6', name='q2c')
+			| I bring a friend with me?
+			br
+			br
+			b receptionist
+			| Yes, but your friend
+			sub 4
+			input(size='6', name='q2d')
+			sub 5
+			input(size='6', name='q2e')
+			| buy a one-day pass.
+			br
+			br
+			b customer
+			| Good. So, what do I
+			sub 6
+			input(size='6', name='q2f')
+			sub 7
+			input(size='6', name='q2g')
+			| do now to join?
+			br
+			br
+			b receptionist
+			| You
+			sub 8
+			input(size='6', name='q2h')
+			sub 9
+			input(size='6', name='q2i')
+			| fill out this application form.
+			br
+			br
+			b customer
+			| Great. And when
+			sub 10
+			input(size='6', name='q2j')
+			| I start?
+			br
+			br
+			b receptionist
+			| Three days after you give me the application form.
+		p
+			center
+				button.eval(data-target='t2') Check answers
+	form#t3
+		p
+			b 3. Match the first and the second parts of the sentences.
+		p
+			table.letra(cellpadding='0', cellspacing='4')
+				tr
+					td a. Can I join...
+					td
+						| 1.
+						input(size='1', name='q3a')
+						| ...a shower before I start swimming?
+				tr
+					td b. Do I have to bring...
+					td
+						| 2.
+						input(size='1', name='q3b')
+						| ...a cap in the pool?
+				tr
+					td c. Can I use...
+					td
+						| 3.
+						input(size='1', name='q3c')
+						| ...an aerobics class?
+				tr
+					td d. Do I have to take...
+					td
+						| 4.
+						input(size='1', name='q3d')
+						| ...all the excercise machines?
+				tr
+					td e. Can I rent...
+					td
+						| 5.
+						input(size='1', name='q3e')
+						| ...a sauna?
+				tr
+					td f. Can I take...
+					td
+						| 6.
+						input(size='1', name='q3f')
+						| ...my membership card every time?
+				tr
+					td g. Do I have to wear...
+					td
+						| 7.
+						input(size='1', name='q3g')
+						| ...a locker for my things?
+				tr
+					td h. Can I stay...
+					td
+						| 8.
+						input(size='1', name='q3h')
+						| ...in the pool all day?
+		button.eval(data-target='t3') Check answers
+	#z1
+	#z2
+	#z3
