@@ -29,31 +29,31 @@ div#U6B
 			b.u3 Movie related
 			br
 	p
-		form#t1
-			b
+	form#t1
+		b
 				| 1. This is a poster for a recent movie. Read the review quickly and complete the missing parts of the poster.
-	p
+		p
+			center
+				img(src='img/u6b1.jpg')
+				p.contenido
+					| Based on the novel by 
+					input(size='1', name='q1a')
+					br
+					| Directed by 
+					input(size='1', name='q1b')
+					br
+					| Starring 
+					input(size='1', name='q1c')
+					|  as Frank&apos;s father. 
+					br
+					| and 
+					input(size='1', name='q1d')
+					|  as Frank&apos;s mother 
+					br
+					| Music by 
+					input(size='1', name='q1e')
 		center
-			img(src='img/u6b1.jpg')
-			p.contenido
-				| Based on the novel by 
-				input(size='1', name='q1a')
-				br
-				| Directed by 
-				input(size='1', name='q1b')
-				br
-				| Starring 
-				input(size='1', name='q1c')
-				|  as Frank&apos;s father. 
-				br
-				| and 
-				input(size='1', name='q1d')
-				|  as Frank&apos;s mother 
-				br
-				| Music by 
-				input(size='1', name='q1e')
-	center
-		button.eval(data-target='t1') Check answers
+			button.eval(data-target='t1') Check answers
 	form#t2
 		p
 			b Angela&apos;s Ashes

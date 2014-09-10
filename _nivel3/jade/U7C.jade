@@ -68,26 +68,26 @@ div#U7C
 			b.u3 Reporting thoughts
 			br
 	p
-		form#t1
-			| 1. Without looking at the text, decide which sentence is better.
-	p
-		ol
+	form#t1
+		| 1. Without looking at the text, decide which sentence is better.
+		p
+			ol
+				li
+					input(type='radio', name='q1a', value='1', checked='')
+					| When she got to Torquay, she thought she was in Turkey.
+					br
+					input(type='radio', name='q1a', value='0')
+					| When she got to Torquay, she thought she had been in Turkey.
+		p
 			li
-				input(type='radio', name='q1a', value='1', checked='')
-				| When she got to Torquay, she thought she was in Turkey.
+				input(type='radio', name='q1b', value='1', checked='')
+				| She thought she traveled through the Channel Tunnel.
 				br
-				input(type='radio', name='q1a', value='0')
-				| When she got to Torquay, she thought she had been in Turkey.
-	p
-		li
-			input(type='radio', name='q1b', value='1', checked='')
-			| She thought she traveled through the Channel Tunnel.
-			br
-			input(type='radio', name='q1b', value='0')
-			| She thought she had traveled through the Channel Tunnel.
-	p
-		center
-			button.eval(data-target='t1') Check answers
+				input(type='radio', name='q1b', value='0')
+				| She thought she had traveled through the Channel Tunnel.
+		p
+			center
+				button.eval(data-target='t1') Check answers
 	form#t2
 		p
 			| 2. Change these actual thoughts into reported thoughts.

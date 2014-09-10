@@ -26,137 +26,144 @@ div#U2B
 		p
 			b.u3 Houses
 	p
-		form#t1
-			b 1. Collocations
-	p
-		| Complete these sentences using the following words:
-	p
-		ol
-			li
-				| I decided to stop work and  
-				select(name='q1a')
-					option(value='x')
-						| Choose Answer
-					option(value='1')
-						| take
-					option(value='2')
-						| make
-					option(value='3')
-						| do
-				| some coffee.
-	p
-		li
-			| It&apos;s a big job, it will  
-			select(name='q1b')
-				option(value='x')
-					| Choose Answer
-				option(value='1')
-					| take
-				option(value='2')
-					| make
-				option(value='3')
-					| do
-			| them a long time to finish.
-	p
-		li
-			| I never have time to  
-			select(name='q1c')
-				option(value='x')
-					| Choose Answer
-				option(value='1')
-					| take
-				option(value='2')
-					| make
-				option(value='3')
-					| do
-			| the housework.
-	p
-		li
-			| Don&apos;t  
-			select(name='q1d')
-				option(value='x')
-					| Choose Answer
-				option(value='1')
-					| take
-				option(value='2')
-					| make
-				option(value='3')
-					| do
-			| a mess in the kitchen. I&apos;ve just cleaned it.
-	p
-		li
-			| My brother wants to  
-			select(name='q1e')
-				option(value='x')
-					| Choose Answer
-				option(value='1')
-					| take
-				option(value='2')
-					| make
-				option(value='3')
-					| do
-			| the design of our new web page.
-	p
-		li
-			| Excuse me. Can you  
-			select(name='q1f')
-				option(value='x')
-					| Choose Answer
-				option(value='1')
-					| take
-				option(value='2')
-					| make
-				option(value='3')
-					| do
-			| a picture of us in front of this statue?
-	p
-		li
-			| They are going to  
-			select(name='q1g')
-				option(value='x')
-					| Choose Answer
-				option(value='1')
-					| take
-				option(value='2')
-					| make
-				option(value='3')
-					| do
-			| a garden in front of the house.
-	p
-		li
-			| I&apos;d like to  
-			select(name='q1h')
-				option(value='x')
-					| Choose Answer
-				option(value='1')
-					| take
-				option(value='2')
-					| make
-				option(value='3')
-					| do
-			| advantage of the vacations to finish my studies.
-	p
-		center
-			button.eval(data-target='t1') Check answers
-		form#t2
-	p
-		b
-			| 2. Now complete this table by typing the correct verb into the box: do, make, or take.
-	p
-		table(cellpadding='5', bgcolor='#ffbc90')
-			tr
-				td
-					input(size='8', name='q2a')
-					|  time, a picture, advantage of something
-	p
-		input(size='8', name='q2b')
-		|  a cup of coffee, a mess, a garden/a physical object
-	p
-		input(size='8', name='q2c')
-		|  work/housework, the design of something
-	p
-		center
-			button.eval(data-target='t2') Check answers
+	form#t1
+				b 1. Collocations
+		p
+			| Complete these sentences using the following words:
+		p
+			ol
+				li
+					| I decided to stop work and  
+					select(name='q1a')
+						option(value='x')
+							| Choose Answer
+						option(value='1', checked)
+							| take
+						option(value='2')
+							| make
+						option(value='3')
+							| do
+					| some coffee.
+		p
+			ol
+				li
+					| It&apos;s a big job, it will  
+					select(name='q1b')
+						option(value='x')
+							| Choose Answer
+						option(value='1', checked)
+							| take
+						option(value='2')
+							| make
+						option(value='3')
+							| do
+					| them a long time to finish.
+		p
+			ol
+				li
+					| I never have time to  
+					select(name='q1c')
+						option(value='x')
+							| Choose Answer
+						option(value='1', checked)
+							| take
+						option(value='2')
+							| make
+						option(value='3')
+							| do
+					| the housework.
+		p
+			ol
+				li
+					| Don&apos;t  
+					select(name='q1d')
+						option(value='x')
+							| Choose Answer
+						option(value='1', checked)
+							| take
+						option(value='2')
+							| make
+						option(value='3')
+							| do
+					| a mess in the kitchen. I&apos;ve just cleaned it.
+		p
+			ol
+				li
+					| My brother wants to  
+					select(name='q1e')
+						option(value='x')
+							| Choose Answer
+						option(value='1', checked)
+							| take
+						option(value='2')
+							| make
+						option(value='3')
+							| do
+					| the design of our new web page.
+		p
+			ol
+				li
+					| Excuse me. Can you  
+					select(name='q1f')
+						option(value='x')
+							| Choose Answer
+						option(value='1', checked)
+							| take
+						option(value='2')
+							| make
+						option(value='3')
+							| do
+					| a picture of us in front of this statue?
+		p
+			ol
+				li
+					| They are going to  
+					select(name='q1g')
+						option(value='x')
+							| Choose Answer
+						option(value='1', checked)
+							| take
+						option(value='2')
+							| make
+						option(value='3')
+							| do
+					| a garden in front of the house.
+		p
+			ol
+				li
+					| I&apos;d like to  
+					select(name='q1h')
+						option(value='x')
+							| Choose Answer
+						option(value='1', checked)
+							| take
+						option(value='2')
+							| make
+						option(value='3')
+							| do
+					| advantage of the vacations to finish my studies.
+		p
+			center
+				button.eval(data-target='t1') Check answers
+	form#t2
+		p
+			b
+				| 2. Now complete this table by typing the correct verb into the box: do, make, or take.
+		p
+			table(cellpadding='5', bgcolor='#ffbc90')
+				tr
+					td
+						input(size='8', name='q2a')
+						|  time, a picture, advantage of something
+		p
+			input(size='8', name='q2b')
+			|  a cup of coffee, a mess, a garden/a physical object
+		p
+			input(size='8', name='q2c')
+			|  work/housework, the design of something
+		p
+			center
+				button.eval(data-target='t2') Check answers
 	form#t3
 		p
 			b 3. Metaphors related to houses.

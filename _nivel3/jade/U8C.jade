@@ -35,34 +35,34 @@ div#U8C
 				| Conditional sentences
 			br
 	p
-		form#t1
-			b 1. Conditional sentences
-	p
-		| Compare these sentences.
-	p
-		span#m1
+	form#t1
+		b 1. Conditional sentences
+		p
+			| Compare these sentences.
+		p
+			span#m1
+				| If I drop out of medical school, Dad will be disappointed in me.
+				br
+				| If I were you, I would forget him.
+		p
+			b a) Which sentence is about an imaginary situation?
+		p
+			input(type='radio', name='q1a', value='1', checked='')
+			|  If I drop out of medical school, Dad will be disappointed in me.
+			br
+			input(type='radio', name='q1a', value='0')
+			| If I were you, I would forget him.
+		p
+			b b) Which sentence is about a real possibility?
+		p
+			input(type='radio', name='q1b', value='1', checked='')
 			| If I drop out of medical school, Dad will be disappointed in me.
 			br
+			input(type='radio', name='q1b', value='0')
 			| If I were you, I would forget him.
-	p
-		b a) Which sentence is about an imaginary situation?
-	p
-		input(type='radio', name='q1a', value='1', checked='')
-		|  If I drop out of medical school, Dad will be disappointed in me.
-		br
-		input(type='radio', name='q1a', value='0')
-		| If I were you, I would forget him.
-	p
-		b b) Which sentence is about a real possibility?
-	p
-		input(type='radio', name='q1b', value='1', checked='')
-		| If I drop out of medical school, Dad will be disappointed in me.
-		br
-		input(type='radio', name='q1b', value='0')
-		| If I were you, I would forget him.
-	p
-		center
-			button.eval(data-target='t1') Check answers
+		p
+			center
+				button.eval(data-target='t1') Check answers
 	form#t2
 		p
 			span#m1
