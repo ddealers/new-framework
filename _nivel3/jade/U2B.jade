@@ -25,9 +25,9 @@ div#U2B
 		b.u3tit Home Alone
 		p
 			b.u3 Houses
-	p
+		p
 	form#t1
-				b 1. Collocations
+		b 1. Collocations
 		p
 			| Complete these sentences using the following words:
 		p
@@ -44,8 +44,6 @@ div#U2B
 						option(value='3')
 							| do
 					| a cup of tea.
-		p
-			ol
 				li
 					| It&apos;s a big job, it will  
 					select(name='q1b')
@@ -58,8 +56,6 @@ div#U2B
 						option(value='3')
 							| do
 					| them a long time to finish.
-		p
-			ol
 				li
 					| I never have time to  
 					select(name='q1c')
@@ -72,8 +68,6 @@ div#U2B
 						option(value='3')
 							| do
 					| the housework.
-		p
-			ol
 				li
 					| Don&apos;t  
 					select(name='q1d')
@@ -86,8 +80,6 @@ div#U2B
 						option(value='3')
 							| do
 					| a mess in the kitchen. I&apos;ve just cleaned it.
-		p
-			ol
 				li
 					| My brother wants to  
 					select(name='q1e')
@@ -100,8 +92,6 @@ div#U2B
 						option(value='3')
 							| do
 					| the design of our new web page.
-		p
-			ol
 				li
 					| Excuse me. Can you  
 					select(name='q1f')
@@ -114,8 +104,6 @@ div#U2B
 						option(value='3')
 							| do
 					| a photo of us in front of this statue?
-		p
-			ol
 				li
 					| They are going to  
 					select(name='q1g')
@@ -128,8 +116,6 @@ div#U2B
 						option(value='3')
 							| do
 					| a garden in front of the house.
-		p
-			ol
 				li
 					| I&apos;d like to  
 					select(name='q1h')
@@ -155,12 +141,14 @@ div#U2B
 					td
 						input(size='8', name='q2a')
 						|  time, a photo, advantage of something
-		p
-			input(size='8', name='q2b')
-			|  a cup of tea, a mess, a garden/a physical object
-		p
-			input(size='8', name='q2c')
-			|  work/housework, the design of something
+				tr
+					td
+						input(size='8', name='q2b')
+						|  a cup of tea, a mess, a garden/a physical object
+				tr
+					td
+						input(size='8', name='q2c')
+						|  work/housework, the design of something
 		p
 			center
 				button.eval(data-target='t2') Check answers
@@ -175,41 +163,35 @@ div#U2B
 					| Use your previous experience. 
 					input(size='6', name='q3a')
 					|  what you know. It&apos;s easier than starting from the beginning.
-		p
-			li
-				| They started with nothing but have managed to 
-				input(size='6', name='q3b')
-				|  a succesful business.
-		p
-			li
-				| I love working here. I really feel 
-				input(size='6', name='q3c')
-				|  in this job.
-		p
-			li
-				| After the scandal his career was 
-				input(size='6', name='q3d')
-				| .
-		p
-			li
-				| What we have done so far is an excellent 
-				input(size='6', name='q3e')
-				|  to build on in the future.
-		p
-			li
-				| After the economic crisis they expect interest rates to 
-				input(size='6', name='q3f')
-				| .
-		p
-			li
-				| Her reputation will  
-				input(size='6', name='q3g')
-				|  for her. I&apos;m sure she&apos;ll get a job quickly and easily.
-		p
-			li
-				| I asked him for advice and he said that hard work was the 
-				input(size='6', name='q3h')
-				|  to success.
+				
+				li
+					| They started with nothing but have managed to 
+					input(size='6', name='q3b')
+					|  a succesful business.
+				li
+					| I love working here. I really feel 
+					input(size='6', name='q3c')
+					|  in this job.
+				li
+					| After the scandal his career was 
+					input(size='6', name='q3d')
+					| .
+				li
+					| What we have done so far is an excellent 
+					input(size='6', name='q3e')
+					|  to build on in the future.
+				li
+					| After the economic crisis they expect interest rates to 
+					input(size='6', name='q3f')
+					| .
+				li
+					| Her reputation will  
+					input(size='6', name='q3g')
+					|  for her. I&apos;m sure she&apos;ll get a job quickly and easily.
+				li
+					| I asked him for advice and he said that hard work was the 
+					input(size='6', name='q3h')
+					|  to success.
 		p
 			table(cellpadding='5', cellspacing='5', bgcolor='#ffbc90')
 				tr
