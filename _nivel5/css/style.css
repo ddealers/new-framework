@@ -85,6 +85,13 @@ body #index #t2 {
 body #index #t2 img {
   padding: 1em;
 }
+body #index .u1tit {
+  position: relative;
+  font-family: verdana;
+  font-size: 23px;
+  color: #9ac00a;
+  top: 15px;
+}
 body #section1 > img {
   padding: 20px 30px;
 }
@@ -100,7 +107,7 @@ body .grey-fill {
 }
 body #menu {
   overflow-y: scroll;
-  height: 100%;
+  height: 80%;
   color: #fff;
 }
 body #menu ol {
